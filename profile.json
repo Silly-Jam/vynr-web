@@ -1,0 +1,48 @@
+{
+  "base_ref": "f85d587e594583d5210092136733e2a5677207ae",
+  "base_sha": "f85d587e594583d5210092136733e2a5677207ae",
+  "codex_version": "codex-cli 0.166.0",
+  "disabled_features": [
+    "apps",
+    "plugins",
+    "remote_plugin",
+    "plugin_sharing",
+    "skill_search",
+    "skill_mcp_dependency_install",
+    "hooks",
+    "multi_agent",
+    "multi_agent_v2",
+    "browser_use",
+    "browser_use_external",
+    "browser_use_full_cdp_access",
+    "computer_use",
+    "tool_call_mcp_elicitation",
+    "enable_mcp_apps",
+    "standalone_web_search"
+  ],
+  "head_sha": "eec103f023a2745881b697b0f94aac09f6bb72e2",
+  "hermetic_home": true,
+  "isolation_profile_version": "codex-isolated-v3",
+  "mcp_servers": {},
+  "model": "gpt-6-astra",
+  "output_schema_sha256": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+  "payload_sha256": "ee819876391194b9341fd287a40c11509754872ffb99855d22dabdde484c076d",
+  "prompt_sha256": "8d37aa4670c79aa21721af142e56a77b6c694b1b2060e7d0ed6fa908c4b82738",
+  "review_target": "/Users/badday/dev/ios/vynr-app/vynr-web/.worktrees/launch-post-tasting-line",
+  "sandbox": "read-only",
+  "tooling_verification": {
+    "drift": [],
+    "override": false,
+    "root": "/Users/badday/dev/ios/vynr-app/vynr",
+    "status": "verified",
+    "verified": true
+  },
+  "web_search": false,
+  "repo_state": {
+    "head_before": "eec103f023a2745881b697b0f94aac09f6bb72e2",
+    "head_after": "eec103f023a2745881b697b0f94aac09f6bb72e2",
+    "clean_before": true,
+    "clean_after": true,
+    "stable": true
+  }
+}

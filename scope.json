@@ -1,0 +1,10 @@
+{
+  "base_sha": "f85d587e594583d5210092136733e2a5677207ae",
+  "blobs": {
+    "content/blog/now-in-your-hands.md": "fe8b454df6fa38de5791f65e92134c48378b7c1a"
+  },
+  "expected_paths": [
+    "content/blog/now-in-your-hands.md"
+  ],
+  "head_sha": "eec103f023a2745881b697b0f94aac09f6bb72e2"
+}
