@@ -1,0 +1,12 @@
+{
+  "base_sha": "577ece7431f85f11476530bba5b6bb02e1dd25fa",
+  "blobs": {
+    "app/guide/GuideStoryEnhancer.tsx": "456be9867a041d1e0c8e091b4674459dc2631370",
+    "lib/__tests__/guide-pages.test.ts": "250fd70bc30fae51181dc06beffdc80c8fb3c9e4"
+  },
+  "expected_paths": [
+    "app/guide/GuideStoryEnhancer.tsx",
+    "lib/__tests__/guide-pages.test.ts"
+  ],
+  "head_sha": "ce7ef5235050398d0be1a851be08a0a37e963d83"
+}
