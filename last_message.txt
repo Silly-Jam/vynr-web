@@ -1,0 +1,1 @@
+{"findings":[],"reviewed_paths":["content/blog/now-in-your-hands.md"]}
