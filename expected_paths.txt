@@ -1,0 +1,3 @@
+lib/__tests__/atlas-redirects.test.ts
+lib/atlas_v1.json
+next.config.ts
