@@ -1,0 +1,26 @@
+{
+  "base_sha": "e4ff4e75f4a7f74cf16470ab51665e27deb6bcff",
+  "blobs": {
+    "app/globals.css": "88cfe1a3b09eae20abbcb174b702bc82b27f965c",
+    "app/guide/ChapterStory.tsx": "94228fad4f4aa9952872f1a9b5b4e66e365822de",
+    "app/guide/GuideFigure.tsx": null,
+    "app/guide/GuideStoryEnhancer.tsx": "3733e8cb588a24c625601a467c3b2700a25df740",
+    "app/guide/MovementMap.tsx": "141edda7521ec9e8f504800e9852923c8be2fe34",
+    "app/guide/ShotFrame.tsx": "a52114a5d516f669184a720169b8df7628d29360",
+    "app/guide/[chapter]/page.tsx": "748c2e7f3559b0bc33cc3ecd21768080eeaaab12",
+    "app/guide/page.tsx": "6e168ec18eae5192e0330a29e46caf0975324a60",
+    "lib/__tests__/guide-pages.test.ts": "58be9902b2eb5f19a3263fcb3bec3e260356b25e"
+  },
+  "expected_paths": [
+    "app/globals.css",
+    "app/guide/ChapterStory.tsx",
+    "app/guide/GuideFigure.tsx",
+    "app/guide/GuideStoryEnhancer.tsx",
+    "app/guide/MovementMap.tsx",
+    "app/guide/ShotFrame.tsx",
+    "app/guide/[chapter]/page.tsx",
+    "app/guide/page.tsx",
+    "lib/__tests__/guide-pages.test.ts"
+  ],
+  "head_sha": "8e8ceab64854601404a416f41c7287a1ee3931c0"
+}

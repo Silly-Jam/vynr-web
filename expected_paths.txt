@@ -1,0 +1,9 @@
+app/globals.css
+app/guide/ChapterStory.tsx
+app/guide/GuideFigure.tsx
+app/guide/GuideStoryEnhancer.tsx
+app/guide/MovementMap.tsx
+app/guide/ShotFrame.tsx
+app/guide/[chapter]/page.tsx
+app/guide/page.tsx
+lib/__tests__/guide-pages.test.ts
