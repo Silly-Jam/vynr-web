@@ -1,0 +1,18 @@
+{
+  "base_sha": "57e84313f5ddb541ab1bbc57f4036966c25d8c76",
+  "blobs": {
+    "content/blog/now-in-your-hands.md": "04cccbc22e876bdb003b3461c4f376ef473d365e",
+    "public/journal/vynr-launch-atlas.png": "d776c3d1bfa3aa68438bdc1228a50e1a64b02b30",
+    "public/journal/vynr-launch-cellar.png": "2ff313b8607b3985da8d1f9b1bef25078e026dba",
+    "public/journal/vynr-launch-journal.png": "fbb39e785115b11641a95984942b9772fccd4ba6",
+    "public/journal/vynr-launch-time-lens.png": "7500ab71ca908a75f1931ddc0bd7ce67f02ced3c"
+  },
+  "expected_paths": [
+    "content/blog/now-in-your-hands.md",
+    "public/journal/vynr-launch-atlas.png",
+    "public/journal/vynr-launch-cellar.png",
+    "public/journal/vynr-launch-journal.png",
+    "public/journal/vynr-launch-time-lens.png"
+  ],
+  "head_sha": "b8693c97ca7f3020e47af98c86c4f9006e73b39a"
+}

@@ -1,0 +1,5 @@
+content/blog/now-in-your-hands.md
+public/journal/vynr-launch-atlas.png
+public/journal/vynr-launch-cellar.png
+public/journal/vynr-launch-journal.png
+public/journal/vynr-launch-time-lens.png
