@@ -1,0 +1,2 @@
+app/bastard/page.tsx
+app/globals.css

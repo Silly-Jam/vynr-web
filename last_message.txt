@@ -1,0 +1,1 @@
+{"findings":[],"reviewed_paths":["app/bastard/page.tsx","app/globals.css","app/layout.tsx","app/sitemap.xml/route.ts","app/robots.txt/route.ts"]}
