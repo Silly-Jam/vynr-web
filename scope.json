@@ -1,0 +1,20 @@
+{
+  "base_sha": "088d9b4115e6fbc79d4bc5d3a2cdfdb10f9f3f64",
+  "blobs": {
+    "app/api/atlas-version/route.ts": "e4ce19e7723e16b494be58bea383822084e52083",
+    "lib/__tests__/atlas-version.test.ts": "097ed986cc1001c2bd48c7f246b829291d7797d0",
+    "lib/__tests__/publication.test.ts": "2384dac9189c5e98712d074f2767136e43104058",
+    "lib/atlas_v1.json": "dfc57e328e03238b7e24a0111a48bbbf88894721",
+    "lib/publication.ts": "f2a255c359e739d0c9abeef06fcfcc163f28d773",
+    "next.config.ts": "eeeb79957cf250325186bcb55c3332a5915b394e"
+  },
+  "expected_paths": [
+    "app/api/atlas-version/route.ts",
+    "lib/__tests__/atlas-version.test.ts",
+    "lib/__tests__/publication.test.ts",
+    "lib/atlas_v1.json",
+    "lib/publication.ts",
+    "next.config.ts"
+  ],
+  "head_sha": "78433c9b696e4dbba4f4374db421de2d7b519d93"
+}
