@@ -1,0 +1,10 @@
+{
+  "base_sha": "f358a6ceec545428b361ac44c7ad8cf5b34e4eaa",
+  "blobs": {
+    "app/globals.css": "54982850970c5f2f0ac03191112fbd492f0e8564"
+  },
+  "expected_paths": [
+    "app/globals.css"
+  ],
+  "head_sha": "142c3726b56aaddc2258c93410366e68c6e21cb6"
+}
