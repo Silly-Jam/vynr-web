@@ -1,0 +1,10 @@
+{
+  "base_sha": "c2af3d1f27b2e1140f3a2771e7060dbc9b59cf2e",
+  "blobs": {
+    "app/about/page.tsx": "358f5f058e3bade58e2a5ebe818618b38f7b1e3c"
+  },
+  "expected_paths": [
+    "app/about/page.tsx"
+  ],
+  "head_sha": "7aae0fd8b594a0f50ab4b7101b12a5275fb38310"
+}
