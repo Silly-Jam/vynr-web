@@ -1,0 +1,62 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "findings": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ],
+            "type": "string"
+          },
+          "failure_scenario": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          },
+          "line": {
+            "type": "integer"
+          },
+          "severity": {
+            "enum": [
+              "critical",
+              "major",
+              "minor",
+              "nit"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "file",
+          "line",
+          "severity",
+          "claim",
+          "failure_scenario",
+          "confidence"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "reviewed_paths": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "reviewed_paths",
+    "findings"
+  ],
+  "type": "object"
+}
