@@ -1,0 +1,22 @@
+{
+  "base_sha": "088d9b4115e6fbc79d4bc5d3a2cdfdb10f9f3f64",
+  "blobs": {
+    "app/api/atlas-version/route.ts": "fa56acb3efd6b433001497d93d359e4c66c267a9",
+    "lib/__tests__/atlas-redirects.test.ts": "80e3516ef3b1b0e07ad28e376e86248465c9123a",
+    "lib/__tests__/atlas-version.test.ts": "279cfe4c4024ebf4b392d3f24326ef725727af66",
+    "lib/__tests__/publication.test.ts": "003feffd4ff636092c7e43cbe4bfed174ed2b144",
+    "lib/atlas_v1.json": "dfc57e328e03238b7e24a0111a48bbbf88894721",
+    "lib/publication.ts": "b28cb0804cc15a2ef97890741362488c528f7d3f",
+    "next.config.ts": "d27fe8d3d286631570c5fe7154a627acc93bd5c3"
+  },
+  "expected_paths": [
+    "app/api/atlas-version/route.ts",
+    "lib/__tests__/atlas-redirects.test.ts",
+    "lib/__tests__/atlas-version.test.ts",
+    "lib/__tests__/publication.test.ts",
+    "lib/atlas_v1.json",
+    "lib/publication.ts",
+    "next.config.ts"
+  ],
+  "head_sha": "81bc229b2bbc8563fa8e4b147a549778b45f3f64"
+}

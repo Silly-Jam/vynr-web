@@ -1,0 +1,48 @@
+{
+  "base_ref": "088d9b4115e6fbc79d4bc5d3a2cdfdb10f9f3f64",
+  "base_sha": "088d9b4115e6fbc79d4bc5d3a2cdfdb10f9f3f64",
+  "codex_version": "codex-cli 0.161.0",
+  "disabled_features": [
+    "apps",
+    "plugins",
+    "remote_plugin",
+    "plugin_sharing",
+    "skill_search",
+    "skill_mcp_dependency_install",
+    "hooks",
+    "multi_agent",
+    "multi_agent_v2",
+    "browser_use",
+    "browser_use_external",
+    "browser_use_full_cdp_access",
+    "computer_use",
+    "tool_call_mcp_elicitation",
+    "enable_mcp_apps",
+    "standalone_web_search"
+  ],
+  "head_sha": "81bc229b2bbc8563fa8e4b147a549778b45f3f64",
+  "hermetic_home": true,
+  "isolation_profile_version": "codex-isolated-v3",
+  "mcp_servers": {},
+  "model": "gpt-6-astra",
+  "output_schema_sha256": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+  "payload_sha256": "4276e9841045fde6cb2cf595fc0dc44d935f45a27f9ae6ab075b4b6971ef9fa8",
+  "prompt_sha256": "b138347786ab176954528b1c98d2f70f352f3816bcf3bab83b19f2e2b88eb0de",
+  "review_target": "/Users/badday/dev/ios/vynr-app/vynr-web/.worktrees/sjam-886-web-atlas",
+  "sandbox": "read-only",
+  "tooling_verification": {
+    "drift": [],
+    "override": false,
+    "root": "/Users/badday/dev/ios/vynr-app/vynr/.worktrees/sjam-886-web-atlas",
+    "status": "verified",
+    "verified": true
+  },
+  "web_search": false,
+  "repo_state": {
+    "head_before": "81bc229b2bbc8563fa8e4b147a549778b45f3f64",
+    "head_after": "81bc229b2bbc8563fa8e4b147a549778b45f3f64",
+    "clean_before": true,
+    "clean_after": true,
+    "stable": true
+  }
+}

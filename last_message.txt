@@ -1,0 +1,1 @@
+{"findings":[],"reviewed_paths":["app/api/atlas-version/route.ts","lib/__tests__/atlas-redirects.test.ts","lib/__tests__/atlas-version.test.ts","lib/__tests__/publication.test.ts","lib/atlas.ts","lib/atlas_v1.json","lib/publication.ts","lib/revisions.ts","next.config.ts","package.json"]}
