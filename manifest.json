@@ -1,0 +1,24 @@
+{
+  "base_sha": "088d9b4115e6fbc79d4bc5d3a2cdfdb10f9f3f64",
+  "codex_version": "codex-cli 0.161.0",
+  "files": {
+    "expected_paths.txt": "4a9bcfbeac98ef94ec75d22561679bd4c6b7f61a48760e2e959ee14208693c52",
+    "last_message.txt": "c58108e0397e5a0f0a45b47d6591f80a9ed454468ff7991b75b2aeb881641cd7",
+    "payload.json": "4b4147f653c6cbc0c7a1211aca3208d2aef2446f46160b810e3e67753886fc72",
+    "profile.json": "e4ea5932482eeefa30257c105a8879e4fb13f58b297e7cafc6509f32b05eafa9",
+    "prompt.txt": "7a6c4657fda0b6ec81c321e5d1eec023d8fdf828291cf68cd4708573d108dd51",
+    "review_schema.json": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+    "scope.json": "40aab21591e08c0761aee6a8793e6559e4dd2383046591ffe3b7b9235dd29476",
+    "trace.err": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+    "trace.jsonl": "452fc85e897d9ddfd1c10e7a16a598ed07718f2b8232b03a473ce05d4bbc3a59"
+  },
+  "head_sha": "78433c9b696e4dbba4f4374db421de2d7b519d93",
+  "isolation_profile_version": "codex-isolated-v3",
+  "model": "gpt-6-astra",
+  "output_schema_sha256": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+  "payload_sha256": "4b4147f653c6cbc0c7a1211aca3208d2aef2446f46160b810e3e67753886fc72",
+  "pr": 13,
+  "prompt_sha256": "7a6c4657fda0b6ec81c321e5d1eec023d8fdf828291cf68cd4708573d108dd51",
+  "repository": "Silly-Jam/vynr-web",
+  "schema_version": "codex-evidence/1"
+}

@@ -1,0 +1,6 @@
+app/api/atlas-version/route.ts
+lib/__tests__/atlas-version.test.ts
+lib/__tests__/publication.test.ts
+lib/atlas_v1.json
+lib/publication.ts
+next.config.ts
