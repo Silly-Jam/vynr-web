@@ -1,0 +1,18 @@
+{
+  "base_sha": "6d94842e020762de79ecd0903ea5c1e4971cfc96",
+  "blobs": {
+    "design/wine-bastard-tee/README.md": "1878e3052af765f8b26094d97e36bd2248f7abd9",
+    "design/wine-bastard-tee/studies/hand-glass-foot-overlap-2026-11-04.md": "bebbc8e5a9540db9f60274004b5b75cb4105c19e",
+    "design/wine-bastard-tee/studies/hand-glass-foot-overlap-2026-11-04.png": "ab3cfcd68b3db921acec523283b68972d03eb11e",
+    "design/wine-bastard-tee/studies/hand-glass-linocut-draft-2026-11-04.md": "8f570bc2b07e4435b2bdf1efb4370451ce63a483",
+    "design/wine-bastard-tee/studies/hand-glass-linocut-draft-2026-11-04.png": "4402a786257b60494b92666c6cf1b798e11adade"
+  },
+  "expected_paths": [
+    "design/wine-bastard-tee/README.md",
+    "design/wine-bastard-tee/studies/hand-glass-foot-overlap-2026-11-04.md",
+    "design/wine-bastard-tee/studies/hand-glass-foot-overlap-2026-11-04.png",
+    "design/wine-bastard-tee/studies/hand-glass-linocut-draft-2026-11-04.md",
+    "design/wine-bastard-tee/studies/hand-glass-linocut-draft-2026-11-04.png"
+  ],
+  "head_sha": "c50953b89f157960f67ebf8704301238fb35939f"
+}
