@@ -1,0 +1,12 @@
+{
+  "base_sha": "a365d1fc570347f178e07a462656260ad54976f1",
+  "blobs": {
+    "design/wine-bastard-tee/README.md": "3fbe59e258a2ae48596196bac780e00962d2fa39",
+    "design/wine-bastard-tee/studies/block-arm-black.svg": null
+  },
+  "expected_paths": [
+    "design/wine-bastard-tee/README.md",
+    "design/wine-bastard-tee/studies/block-arm-black.svg"
+  ],
+  "head_sha": "76302f193a341bf4ea448dcfe92c2f55849fa81e"
+}

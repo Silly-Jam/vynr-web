@@ -1,0 +1,1 @@
+{"findings":[],"reviewed_paths":["design/wine-bastard-tee/README.md","design/wine-bastard-tee/studies/block-arm-black.svg"]}
