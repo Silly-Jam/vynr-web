@@ -1,0 +1,14 @@
+{
+  "base_sha": "b0346b225d8d61b89549ca26459d096b1c0c4480",
+  "blobs": {
+    "app/bastard/page.tsx": "094c558a82209a865c314d5ec1347260bf4c22d5",
+    "app/globals.css": "2cad130d716583d9424801f228c7cecc74dee509",
+    "public/brand/wine-bastard-stamp.svg": "e223d8a2710f8fd5bfc531c8d54e1574a91f1546"
+  },
+  "expected_paths": [
+    "app/bastard/page.tsx",
+    "app/globals.css",
+    "public/brand/wine-bastard-stamp.svg"
+  ],
+  "head_sha": "7a315f5b05556546b520f6151135c132ba2d8c1c"
+}

@@ -1,0 +1,1 @@
+{"findings":[],"reviewed_paths":["app/bastard/page.tsx","app/globals.css","public/brand/wine-bastard-stamp.svg"]}
