@@ -1,0 +1,12 @@
+{
+  "base_sha": "372a42c4e618848363e8ffaca1bcf8c73f0f36c9",
+  "blobs": {
+    "app/about/page.tsx": "75af3e433df306d214d99e3d964a31afc57f459b",
+    "app/globals.css": "f482e253b761cd095d35a2ca21f5cdf05049b8e9"
+  },
+  "expected_paths": [
+    "app/about/page.tsx",
+    "app/globals.css"
+  ],
+  "head_sha": "5564ee5b2674c943e3de9d50c40b8523540c0a5c"
+}

@@ -1,0 +1,2 @@
+app/about/page.tsx
+app/globals.css

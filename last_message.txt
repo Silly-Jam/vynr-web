@@ -1,0 +1,1 @@
+{"findings":[],"reviewed_paths":["app/about/page.tsx","app/globals.css","lib/app-store.ts"]}
