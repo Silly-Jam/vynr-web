@@ -1,0 +1,14 @@
+{
+  "base_sha": "93662cc31410ecab280b295a5390a273aafa96c5",
+  "blobs": {
+    "design/wine-bastard-tee/README.md": "2a7be9a52ff057941c4672d6db65055b74efbc16",
+    "design/wine-bastard-tee/studies/hand-glass-wide-base-2026-11-04.md": "2bdbaa3055638e2e59d723f56668b5d12fe433c7",
+    "design/wine-bastard-tee/studies/hand-glass-wide-base-2026-11-04.png": "ffe7f37467d28d7ccd22e26d6b5e6f723c4bac48"
+  },
+  "expected_paths": [
+    "design/wine-bastard-tee/README.md",
+    "design/wine-bastard-tee/studies/hand-glass-wide-base-2026-11-04.md",
+    "design/wine-bastard-tee/studies/hand-glass-wide-base-2026-11-04.png"
+  ],
+  "head_sha": "4513f4ff9846760a164cd0709fbf031ce2c24e26"
+}
