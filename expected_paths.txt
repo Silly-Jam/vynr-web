@@ -1,0 +1,7 @@
+design/wine-bastard-tee/vector/README.md
+design/wine-bastard-tee/vector/back-preview.png
+design/wine-bastard-tee/vector/back-review.svg
+design/wine-bastard-tee/vector/front-preview.png
+design/wine-bastard-tee/vector/front-stamp-review.svg
+design/wine-bastard-tee/vector/hand-glass-review.svg
+design/wine-bastard-tee/vector/hand-preview.png

@@ -1,0 +1,22 @@
+{
+  "base_sha": "687645855e9bf898b76923561cf351acc2e2bbbb",
+  "blobs": {
+    "design/wine-bastard-tee/vector/README.md": "78d436a17b4e1adf3be6aab365f7b0691f558ce6",
+    "design/wine-bastard-tee/vector/back-preview.png": "fc9b2d21ac8ea33d35ae78525765adf06167f48e",
+    "design/wine-bastard-tee/vector/back-review.svg": "39fdec71c9ae6105dc3469debcb5313403091223",
+    "design/wine-bastard-tee/vector/front-preview.png": "83ca7fd79064d7a301eb29a1056247965a4a4fe5",
+    "design/wine-bastard-tee/vector/front-stamp-review.svg": "860ed1b722e3703bd10b42bda9855a08da5a6bbb",
+    "design/wine-bastard-tee/vector/hand-glass-review.svg": "e41e01df4bb62bf3ac315d3403f1e41243956b0d",
+    "design/wine-bastard-tee/vector/hand-preview.png": "712f44432de534c0e87bae51e3ae3b979c775667"
+  },
+  "expected_paths": [
+    "design/wine-bastard-tee/vector/README.md",
+    "design/wine-bastard-tee/vector/back-preview.png",
+    "design/wine-bastard-tee/vector/back-review.svg",
+    "design/wine-bastard-tee/vector/front-preview.png",
+    "design/wine-bastard-tee/vector/front-stamp-review.svg",
+    "design/wine-bastard-tee/vector/hand-glass-review.svg",
+    "design/wine-bastard-tee/vector/hand-preview.png"
+  ],
+  "head_sha": "33394fbf7dee6f8508308cc3c1008503d309e854"
+}

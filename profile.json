@@ -1,0 +1,48 @@
+{
+  "base_ref": "687645855e9bf898b76923561cf351acc2e2bbbb",
+  "base_sha": "687645855e9bf898b76923561cf351acc2e2bbbb",
+  "codex_version": "codex-cli 0.166.0",
+  "disabled_features": [
+    "apps",
+    "plugins",
+    "remote_plugin",
+    "plugin_sharing",
+    "skill_search",
+    "skill_mcp_dependency_install",
+    "hooks",
+    "multi_agent",
+    "multi_agent_v2",
+    "browser_use",
+    "browser_use_external",
+    "browser_use_full_cdp_access",
+    "computer_use",
+    "tool_call_mcp_elicitation",
+    "enable_mcp_apps",
+    "standalone_web_search"
+  ],
+  "head_sha": "33394fbf7dee6f8508308cc3c1008503d309e854",
+  "hermetic_home": true,
+  "isolation_profile_version": "codex-isolated-v3",
+  "mcp_servers": {},
+  "model": "gpt-6-astra",
+  "output_schema_sha256": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+  "payload_sha256": "bdab753b4671673b3a87fce40bcc0818cc884a128576f35c3ccbb38b44abbaa4",
+  "prompt_sha256": "55b5e936607b1a02f027f9c4f772cd0390a249839b4c70db89eed49d038346e3",
+  "review_target": "/Users/badday/dev/ios/vynr-app/vynr-web/.worktrees/bastard-vector-1",
+  "sandbox": "read-only",
+  "tooling_verification": {
+    "drift": [],
+    "override": false,
+    "root": "/Users/badday/dev/ios/vynr-app/vynr",
+    "status": "verified",
+    "verified": true
+  },
+  "web_search": false,
+  "repo_state": {
+    "head_before": "33394fbf7dee6f8508308cc3c1008503d309e854",
+    "head_after": "33394fbf7dee6f8508308cc3c1008503d309e854",
+    "clean_before": true,
+    "clean_after": true,
+    "stable": true
+  }
+}
