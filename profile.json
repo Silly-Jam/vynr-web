@@ -1,0 +1,48 @@
+{
+  "base_ref": "82ae1d631d8091d23d9279d0f68b3420d7295357",
+  "base_sha": "82ae1d631d8091d23d9279d0f68b3420d7295357",
+  "codex_version": "codex-cli 0.146.0",
+  "disabled_features": [
+    "apps",
+    "plugins",
+    "remote_plugin",
+    "plugin_sharing",
+    "skill_search",
+    "skill_mcp_dependency_install",
+    "hooks",
+    "multi_agent",
+    "multi_agent_v2",
+    "browser_use",
+    "browser_use_external",
+    "browser_use_full_cdp_access",
+    "computer_use",
+    "tool_call_mcp_elicitation",
+    "enable_mcp_apps",
+    "standalone_web_search"
+  ],
+  "head_sha": "4b0e7e02979d3b7816306609e72b03f150dfefe2",
+  "hermetic_home": true,
+  "isolation_profile_version": "codex-isolated-v3",
+  "mcp_servers": {},
+  "model": "gpt-5.6-sol",
+  "output_schema_sha256": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+  "payload_sha256": "c02e6f75936555ad44b4450ea37c12b2bbc1923612e31a9e022ca3ad53d3bd65",
+  "prompt_sha256": "a7a07192d9399f4e1df30bc315d93afdd86e930f303225ba31899834bb090b7c",
+  "review_target": "/Users/badday/dev/ios/vynr-app/vynr-web/.worktrees/sjam-521-revisions/.worktrees/codex-review-pr4-4b0e7e02",
+  "sandbox": "read-only",
+  "tooling_verification": {
+    "drift": [],
+    "override": false,
+    "root": "/Users/badday/dev/ios/vynr-app/vynr/.worktrees/sjam-521-revisions",
+    "status": "verified",
+    "verified": true
+  },
+  "web_search": false,
+  "repo_state": {
+    "head_before": "4b0e7e02979d3b7816306609e72b03f150dfefe2",
+    "head_after": "4b0e7e02979d3b7816306609e72b03f150dfefe2",
+    "clean_before": true,
+    "clean_after": true,
+    "stable": true
+  }
+}

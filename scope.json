@@ -1,0 +1,26 @@
+{
+  "base_sha": "82ae1d631d8091d23d9279d0f68b3420d7295357",
+  "blobs": {
+    "app/layout.tsx": "d429f0395c834be874db578c20dce0566ee508e2",
+    "app/revisions/[edition]/page.tsx": "aa5277a637d193c36f15722fd8029ad8c0e6d23d",
+    "app/revisions/page.tsx": "e38ecc711107b9d650aa8442990fc93a5de07c6e",
+    "app/sitemap.xml/route.ts": "d1e268aaaef99ea42406a578e17dd3d1e567c79b",
+    "content/revisions/README.md": "f72b65e3538e1ebf43c646525e1c03fc8d37337c",
+    "content/revisions/epoch-953.json": "d55db868645d3cb399337dbb92b28885ddd923bf",
+    "content/revisions/highlights/.gitkeep": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "lib/__tests__/revisions.test.ts": "c907075ba85b21721bbd9f56eafa1c42e35b69c7",
+    "lib/revisions.ts": "c9b4d7973c70f1cd2d8804a82b52188b6e9aac37"
+  },
+  "expected_paths": [
+    "app/layout.tsx",
+    "app/revisions/[edition]/page.tsx",
+    "app/revisions/page.tsx",
+    "app/sitemap.xml/route.ts",
+    "content/revisions/README.md",
+    "content/revisions/epoch-953.json",
+    "content/revisions/highlights/.gitkeep",
+    "lib/__tests__/revisions.test.ts",
+    "lib/revisions.ts"
+  ],
+  "head_sha": "4b0e7e02979d3b7816306609e72b03f150dfefe2"
+}
