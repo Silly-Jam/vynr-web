@@ -1,0 +1,10 @@
+{
+  "base_sha": "3903164d20b0ad8d44bd52d3955f83d54ca31ebe",
+  "blobs": {
+    "content/revisions/highlights/epoch-968.md": "36bd66311ddd3c72d507340345c9a91dbff15cdd"
+  },
+  "expected_paths": [
+    "content/revisions/highlights/epoch-968.md"
+  ],
+  "head_sha": "a18033a04d4d50b2463ec20175fdb72eb564af19"
+}

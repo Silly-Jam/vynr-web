@@ -1,0 +1,36 @@
+{
+  "base_ref": "3903164d20b0ad8d44bd52d3955f83d54ca31ebe",
+  "base_sha": "3903164d20b0ad8d44bd52d3955f83d54ca31ebe",
+  "claude_version": "2.1.330",
+  "head_sha": "a18033a04d4d50b2463ec20175fdb72eb564af19",
+  "inputs_dir": "/Volumes/Disk Pro Media/vynr/evidence/claude-review-web45-a18033a0/inputs",
+  "isolation_profile_version": "claude-isolated-v1",
+  "model": "claude-opus-5-5",
+  "output_schema_sha256": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+  "payload_sha256": "c141fab28b95274b14264807cf4916fdc85c388e6db37568648f9a4c6fe4ff5f",
+  "prompt_sha256": "eaa7d00fe5decde6a83bc3fc9aee8315bc5ce3d62ab75465bf673ea349c2abe5",
+  "provider": "claude",
+  "repo_state": {
+    "clean_after": true,
+    "clean_before": true,
+    "head_after": "a18033a04d4d50b2463ec20175fdb72eb564af19",
+    "head_before": "a18033a04d4d50b2463ec20175fdb72eb564af19",
+    "stable": true
+  },
+  "restricted": true,
+  "review_target": "/Volumes/Disk Pro Media/vynr/worktrees/vynr-web-sjam-1670",
+  "safe_mode": true,
+  "strict_mcp": true,
+  "tooling_verification": {
+    "drift": [],
+    "override": false,
+    "root": "/Volumes/Disk Pro Media/vynr/worktrees/gate-sjam1612-tooling",
+    "status": "verified",
+    "verified": true
+  },
+  "tools": [
+    "Glob",
+    "Grep",
+    "Read"
+  ]
+}

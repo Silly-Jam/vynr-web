@@ -1,0 +1,25 @@
+{
+  "base_sha": "3903164d20b0ad8d44bd52d3955f83d54ca31ebe",
+  "claude_version": "2.1.330",
+  "files": {
+    "diff-0001.patch": "7064d35bb40a1d9cffe6752455726fda67211e460d0ab1e663bdd8e0a3fb93b6",
+    "expected_paths.txt": "f83ed6df01db5af3a832cc9bfe09c88ef67bb15de77bfa78d1625e3d0d4c86df",
+    "inputs-index.json": "f727d561a8050fa3a866a0e6ba5c3eda911c0f5839f102764cad31e10aa8228b",
+    "payload.json": "c141fab28b95274b14264807cf4916fdc85c388e6db37568648f9a4c6fe4ff5f",
+    "profile.json": "42094866bcd56ef66df8c2a2face285314c23cfb827996c0ee4dd609991090eb",
+    "prompt.txt": "eaa7d00fe5decde6a83bc3fc9aee8315bc5ce3d62ab75465bf673ea349c2abe5",
+    "review_schema.json": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+    "scope.json": "c87a457bff7de31682a167661d4f89826a5d7a34858097fa0923861a4b2f7ab3",
+    "trace.err": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "trace.jsonl": "e34f70d4328cb34b7bef1632d073d58c6c17aeff2963e511d435330f0b7edc4f"
+  },
+  "head_sha": "a18033a04d4d50b2463ec20175fdb72eb564af19",
+  "isolation_profile_version": "claude-isolated-v1",
+  "model": "claude-opus-5-5",
+  "output_schema_sha256": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+  "payload_sha256": "c141fab28b95274b14264807cf4916fdc85c388e6db37568648f9a4c6fe4ff5f",
+  "pr": 45,
+  "prompt_sha256": "eaa7d00fe5decde6a83bc3fc9aee8315bc5ce3d62ab75465bf673ea349c2abe5",
+  "repository": "Silly-Jam/vynr-web",
+  "schema_version": "claude-evidence/1"
+}
