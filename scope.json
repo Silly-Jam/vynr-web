@@ -1,0 +1,14 @@
+{
+  "base_sha": "034bf498b4d747053ab1036dfcbc40bd5764b0cb",
+  "blobs": {
+    "content/guide/guide.json": "4258881ab12a987a87866f83682c58e837513cc5",
+    "lib/__tests__/guide-pages.test.ts": "4da1cc346fded7af49565a5ba2a36dc1501c9416",
+    "lib/__tests__/guide.test.ts": "9b9b9d5f037c6eaa60fc88088e3de3711f3d9221"
+  },
+  "expected_paths": [
+    "content/guide/guide.json",
+    "lib/__tests__/guide-pages.test.ts",
+    "lib/__tests__/guide.test.ts"
+  ],
+  "head_sha": "60289839e19b29ac6a7cfe8b327e68cc1a045d39"
+}

@@ -1,0 +1,3 @@
+content/guide/guide.json
+lib/__tests__/guide-pages.test.ts
+lib/__tests__/guide.test.ts

@@ -1,0 +1,48 @@
+{
+  "base_ref": "034bf498b4d747053ab1036dfcbc40bd5764b0cb",
+  "base_sha": "034bf498b4d747053ab1036dfcbc40bd5764b0cb",
+  "codex_version": "codex-cli 0.163.0",
+  "disabled_features": [
+    "apps",
+    "plugins",
+    "remote_plugin",
+    "plugin_sharing",
+    "skill_search",
+    "skill_mcp_dependency_install",
+    "hooks",
+    "multi_agent",
+    "multi_agent_v2",
+    "browser_use",
+    "browser_use_external",
+    "browser_use_full_cdp_access",
+    "computer_use",
+    "tool_call_mcp_elicitation",
+    "enable_mcp_apps",
+    "standalone_web_search"
+  ],
+  "head_sha": "60289839e19b29ac6a7cfe8b327e68cc1a045d39",
+  "hermetic_home": true,
+  "isolation_profile_version": "codex-isolated-v3",
+  "mcp_servers": {},
+  "model": "gpt-6-astra",
+  "output_schema_sha256": "2587b4f69cf438012d4323a8c1d49ab3123ef3f97d39f7d1497faabd9e2e2fe9",
+  "payload_sha256": "e2920b6d37369d3abb38449f46df4548be5fe7bac5a09c3f8d67b0719ad7aa4f",
+  "prompt_sha256": "fcce66742ed39cc0962cb28b48f0793323a7d74893b7bf510c72ceda920337c4",
+  "review_target": "/private/tmp/claude-501/-Users-badday-dev-ios-vynr-app-vynr/c615526f-229d-46ab-a66e-a903905b703b/scratchpad/web17",
+  "sandbox": "read-only",
+  "tooling_verification": {
+    "drift": [],
+    "override": false,
+    "root": "/private/tmp/claude-501/-Users-badday-dev-ios-vynr-app-vynr/c615526f-229d-46ab-a66e-a903905b703b/scratchpad/tooling",
+    "status": "verified",
+    "verified": true
+  },
+  "web_search": false,
+  "repo_state": {
+    "head_before": "60289839e19b29ac6a7cfe8b327e68cc1a045d39",
+    "head_after": "60289839e19b29ac6a7cfe8b327e68cc1a045d39",
+    "clean_before": true,
+    "clean_after": true,
+    "stable": true
+  }
+}
