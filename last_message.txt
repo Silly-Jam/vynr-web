@@ -1,0 +1,1 @@
+{"findings":[],"reviewed_paths":["design/wine-bastard-tee/README.md","design/wine-bastard-tee/reference/ilsa-art-direction-2026-11-04.png","design/wine-bastard-tee/reference/vynr-app-icon-1024.png","design/wine-bastard-tee/studies/block-arm-black.svg","design/wine-bastard-tee/studies/block-arm-cream.svg"]}

@@ -1,0 +1,18 @@
+{
+  "base_sha": "9ffe56d3a5636e2a94b2e287c290b023f0a319da",
+  "blobs": {
+    "design/wine-bastard-tee/README.md": "35dabc61215286a0b23e040e5b9a31bdbfaed1ea",
+    "design/wine-bastard-tee/reference/ilsa-art-direction-2026-11-04.png": "5cb63efbb29cefe93abf180487d2e19b8e48b7c6",
+    "design/wine-bastard-tee/reference/vynr-app-icon-1024.png": "c96ec8c4e81aa831edde3aca7eda692ffc6e43d1",
+    "design/wine-bastard-tee/studies/block-arm-black.svg": "887c1cbc729c3159e13c59d1c86b2b2a00bae411",
+    "design/wine-bastard-tee/studies/block-arm-cream.svg": "b1f9f53294e5310b27b1f61b32094025e41b2a47"
+  },
+  "expected_paths": [
+    "design/wine-bastard-tee/README.md",
+    "design/wine-bastard-tee/reference/ilsa-art-direction-2026-11-04.png",
+    "design/wine-bastard-tee/reference/vynr-app-icon-1024.png",
+    "design/wine-bastard-tee/studies/block-arm-black.svg",
+    "design/wine-bastard-tee/studies/block-arm-cream.svg"
+  ],
+  "head_sha": "50b4881f8deb3b6abb80e396419cd6a096b2d19a"
+}
