@@ -1,0 +1,12 @@
+{
+  "base_sha": "5b79494997cdc5b315ad4f718c4c6d09481d7db6",
+  "blobs": {
+    "app/bastard/WineStains.tsx": "2a59d8ddae37e7aa33808b8fd56e6bb36db01a2e",
+    "app/globals.css": "00a8331bb6263296f6bff815829f109ff7cde943"
+  },
+  "expected_paths": [
+    "app/bastard/WineStains.tsx",
+    "app/globals.css"
+  ],
+  "head_sha": "a2a8489c81987354d76a94b85517c5c85349cda1"
+}

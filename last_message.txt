@@ -1,0 +1,1 @@
+{"findings":[],"reviewed_paths":["app/bastard/WineStains.tsx","app/globals.css","app/bastard/page.tsx"]}
