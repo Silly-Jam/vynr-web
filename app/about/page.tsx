@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About",
@@ -80,7 +81,19 @@ export default function AboutPage() {
           wants their own record, not the internet&rsquo;s opinion.
         </p>
 
-        <h2 id="silly-jam">Who makes it</h2>
+        <h2
+          id="silly-jam"
+          style={{ display: "flex", alignItems: "center", gap: "0.5em" }}
+        >
+          <Image
+            src="/silly-jam-icon.png"
+            alt="Silly Jam Pte. Ltd."
+            width={44}
+            height={44}
+            style={{ flexShrink: 0, transform: "rotate(-4deg)" }}
+          />
+          Who makes it
+        </h2>
         <p>
           Silly Jam Pte. Ltd. is a Singapore software company building
           thoughtful software for enthusiasts and collectors.
