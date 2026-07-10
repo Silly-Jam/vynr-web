@@ -86,8 +86,8 @@ export default function AboutPage() {
           <Image
             src="/silly-jam-icon.png"
             alt="Silly Jam Pte. Ltd."
-            width={28}
-            height={28}
+            width={64}
+            height={64}
             className="sj-inline-jar"
           />
           Silly Jam Pte. Ltd. is a Singapore software company building
