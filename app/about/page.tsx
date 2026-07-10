@@ -80,6 +80,13 @@ export default function AboutPage() {
           wants their own record, not the internet&rsquo;s opinion.
         </p>
 
+        <h2 id="silly-jam">Who makes it</h2>
+        <p>
+          Silly Jam Pte. Ltd. is a Singapore software company building
+          thoughtful software for enthusiasts and collectors.
+        </p>
+        <p>Creator and publisher of vynr.</p>
+
         <hr />
 
         <p><em>Just wine, remembered.</em></p>

@@ -224,7 +224,12 @@ export default function RootLayout({
           </a>
 
           <div className="sj-mark-wrap">
-            <span className="sj-colophon" title="Silly Jam Pte. Ltd. — publisher of Vynr">
+            <Link
+              href="/about#silly-jam"
+              className="sj-colophon"
+              title="Silly Jam Pte. Ltd. — publisher of Vynr"
+              style={{ textDecoration: "none" }}
+            >
               <svg
                 className="sj-jar"
                 width="15"
@@ -244,7 +249,7 @@ export default function RootLayout({
                 <line x1="6.4" y1="16.4" x2="17.6" y2="16.4" />
               </svg>
               <span>A Silly Jam Pte. Ltd. product</span>
-            </span>
+            </Link>
           </div>
         </footer>
       </body>
