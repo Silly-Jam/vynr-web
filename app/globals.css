@@ -175,6 +175,16 @@ button:focus-visible {
   height: auto;
 }
 
+/* Silly Jam inline jar — text-sized brand mark leading a prose line */
+.prose img.sj-inline-jar {
+  display: inline-block;
+  width: 1.35em;
+  height: 1.35em;
+  vertical-align: -0.3em;
+  margin-right: 0.35em;
+  transform: rotate(-4deg);
+}
+
 /* Memory shots — atmospheric, peripheral screenshots */
 .memory-shot {
   position: relative;

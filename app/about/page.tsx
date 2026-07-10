@@ -81,20 +81,15 @@ export default function AboutPage() {
           wants their own record, not the internet&rsquo;s opinion.
         </p>
 
-        <h2
-          id="silly-jam"
-          style={{ display: "flex", alignItems: "center", gap: "0.5em" }}
-        >
+        <h2 id="silly-jam">Who makes it</h2>
+        <p>
           <Image
             src="/silly-jam-icon.png"
             alt="Silly Jam Pte. Ltd."
-            width={44}
-            height={44}
-            style={{ flexShrink: 0, transform: "rotate(-4deg)" }}
+            width={28}
+            height={28}
+            className="sj-inline-jar"
           />
-          Who makes it
-        </h2>
-        <p>
           Silly Jam Pte. Ltd. is a Singapore software company building
           thoughtful software for enthusiasts and collectors.
         </p>
