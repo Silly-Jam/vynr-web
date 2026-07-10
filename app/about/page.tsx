@@ -94,6 +94,15 @@ export default function AboutPage() {
           thoughtful software for enthusiasts and collectors.
         </p>
         <p>Creator and publisher of vynr.</p>
+        <p>
+          <a
+            href="https://github.com/Silly-Jam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn more about Silly Jam &rarr;
+          </a>
+        </p>
 
         <hr />
 
