@@ -2,7 +2,7 @@
   "$schema": "../../schemas/grapes.schema.json",
   "version": "1.0",
   "description": "Extended grape variety dataset - valid but less commonly encountered varieties",
-  "count": 166,
+  "count": 174,
   "provenance": {
     "source_name": "Manual curation",
     "license": "Proprietary - vynr app data",
@@ -2133,6 +2133,114 @@
       "style_hint": "Light-bodied, low tannin, red cherry",
       "aging_potential": "short",
       "typical_peak_offset_years": 2
+    },
+    {
+      "canonical_name": "Kraljevina",
+      "color": "white",
+      "aliases": [],
+      "tokens": [
+        "kraljevina"
+      ],
+      "style_hint": "Crisp, low-alcohol, high-acid white; light and floral",
+      "aging_potential": "short",
+      "typical_peak_offset_years": 2
+    },
+    {
+      "canonical_name": "Malvazija Istrska",
+      "color": "white",
+      "aliases": [
+        "Malvasia Istriana",
+        "Malvazija Istarska"
+      ],
+      "tokens": [
+        "malvazija",
+        "istrska",
+        "malvasia",
+        "istriana"
+      ],
+      "style_hint": "Dry white, floral with an almond note; crisp to skin-contact",
+      "aging_potential": "medium",
+      "typical_peak_offset_years": 4
+    },
+    {
+      "canonical_name": "Plavec Žuti",
+      "color": "white",
+      "aliases": [
+        "Rumeni Plavec",
+        "Plavec Zuti"
+      ],
+      "tokens": [
+        "plavec",
+        "zuti",
+        "rumeni"
+      ],
+      "style_hint": "Tart, low-alcohol white; classic sparkling base",
+      "aging_potential": "short",
+      "typical_peak_offset_years": 2
+    },
+    {
+      "canonical_name": "Žametovka",
+      "color": "red",
+      "aliases": [
+        "Modra Kavčina",
+        "Kavčina črna",
+        "Kavcina Crna"
+      ],
+      "tokens": [
+        "zametovka",
+        "kavcina"
+      ],
+      "style_hint": "Pale, light, high-acid red; Cviček component",
+      "aging_potential": "short",
+      "typical_peak_offset_years": 2
+    },
+    {
+      "canonical_name": "Pinela",
+      "color": "white",
+      "aliases": [],
+      "tokens": [
+        "pinela"
+      ],
+      "style_hint": "Light, mineral, gently fruity dry white",
+      "aging_potential": "short",
+      "typical_peak_offset_years": 2
+    },
+    {
+      "canonical_name": "Refošk",
+      "color": "red",
+      "aliases": [
+        "Terrano"
+      ],
+      "tokens": [
+        "refosk",
+        "terrano"
+      ],
+      "style_hint": "Deep-colored, high-acid, tannic red",
+      "aging_potential": "medium",
+      "typical_peak_offset_years": 5
+    },
+    {
+      "canonical_name": "Vitovska Grganja",
+      "color": "white",
+      "aliases": [],
+      "tokens": [
+        "vitovska",
+        "grganja"
+      ],
+      "style_hint": "Mineral, floral, saline dry white; often skin-contact",
+      "aging_potential": "medium",
+      "typical_peak_offset_years": 4
+    },
+    {
+      "canonical_name": "Zelen",
+      "color": "white",
+      "aliases": [],
+      "tokens": [
+        "zelen"
+      ],
+      "style_hint": "Semi-aromatic, fruity-herbal dry white",
+      "aging_potential": "short",
+      "typical_peak_offset_years": 3
     }
   ]
 }
