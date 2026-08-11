@@ -34,7 +34,7 @@ export default function PrivacyPage() {
             letterSpacing: "0.02em",
           }}
         >
-          Effective date: February 7, 2026
+          Effective date: August 11, 2026
         </p>
         <div
           style={{
@@ -95,6 +95,27 @@ export default function PrivacyPage() {
           proxy service which forwards the request to an AI provider and
           returns text to your device. Personal identifying information is not
           included, and this feature is optional.
+        </p>
+
+        <h2>Evolution guide reads (optional)</h2>
+        <p>
+          When you ask vynr to read a bottle&apos;s evolution (&ldquo;vynr&apos;s
+          guide&rdquo;), the request works like AI commentary: limited wine
+          context — producer, cuvée, vintage, region, appellation, grape, and
+          the wine&apos;s current window — is sent to our proxy service, and the
+          guide&apos;s answer is returned to your device.
+        </p>
+        <p>
+          To improve vynr&apos;s reference data, the proxy also keeps an
+          anonymous, wine‑scoped record of each guide read: the wine&apos;s
+          identity and the guide&apos;s proposed drinking window. This record
+          contains no account, device, session, or network identity — it cannot
+          be linked to you or to your cellar. Raw records expire after 90 days;
+          beyond that, only normalized wine‑level observations (for example,
+          &ldquo;this wine was asked about, and the guide proposed this
+          window&rdquo;) are kept, and they are used solely to prioritise and
+          research vynr&apos;s built‑in wine knowledge. This is independent of
+          any usage‑data setting and applies only when you invoke the guide.
         </p>
 
         <h2>Diagnostics</h2>
