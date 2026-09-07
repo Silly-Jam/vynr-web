@@ -104,13 +104,21 @@ export default function PrivacyPage() {
 
         <h2>AI Fix / label review (optional)</h2>
         <p>
-          If you explicitly ask AI Fix to take another look, vynr sends the
-          label photo, the text it read, and the details on the current scan form
-          to the AI proxy and its configured AI provider. Before the first
-          upload, the app shows this disclosure. It does not send your notes,
-          tastings, or journal. The image is discarded after servicing the
-          request; only derived repair fields may be cached for up to 24 hours
-          by label fingerprint.
+          If you explicitly ask AI Fix to take another look, vynr sends the label
+          photo, the text it read, and the details on the current scan form to the
+          AI proxy and its configured AI provider. Before the first manual upload,
+          the app shows this disclosure.
+        </p>
+        <p>
+          For Cellar Health, vynr sends each eligible wine&apos;s saved label photo,
+          the text read from that photo, and the wine&apos;s stored details through the
+          same proxy and AI provider. Cellar Health has its own first-use
+          disclosure, separate from a manual AI Fix disclosure.
+        </p>
+        <p>
+          Neither flow sends your notes, tastings, or journal. The image is
+          discarded after servicing the request; only derived repair fields may be
+          cached for up to 24 hours by label fingerprint.
         </p>
 
         <h2>Evolution guide reads (optional)</h2>

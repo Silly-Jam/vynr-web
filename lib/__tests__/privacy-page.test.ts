@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { describe, it } from 'node:test';
 
 const page = readFileSync(new URL('../../app/privacy/page.tsx', import.meta.url), 'utf8');
-const words = page.replace(/\s+/g, ' ');
+const words = page.replace(/&apos;/g, "'").replace(/\s+/g, ' ');
 
 describe('privacy page matches the shipping service boundaries', () => {
   it('distinguishes app AI providers from a user-connected Assistant Link', () => {
@@ -22,6 +22,17 @@ describe('privacy page matches the shipping service boundaries', () => {
     assert.match(
       words,
       /Uninstalling the app removes local data from the device, but does not delete published Share or Assistant Link data/,
+    );
+  });
+
+  it('discloses the separate Cellar Health stored-label flow', () => {
+    assert.match(
+      words,
+      /For Cellar Health, vynr sends each eligible wine's saved label photo, the text read from that photo, and the wine's stored details/,
+    );
+    assert.match(
+      words,
+      /Cellar Health has its own first-use disclosure, separate from a manual AI Fix disclosure/,
     );
   });
 });
