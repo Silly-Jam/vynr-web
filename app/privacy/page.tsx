@@ -172,7 +172,10 @@ export default function PrivacyPage() {
 
         <h2>Your control</h2>
         <ul>
-          <li>You can use the app without iCloud sync.</li>
+          <li>
+            You can use the app without iCloud sync by turning off iCloud access
+            for vynr in iOS Settings.
+          </li>
           <li>You can delete individual entries inside the app at any time.</li>
           <li>
             Settings → Delete All Wine Data permanently removes your wine
