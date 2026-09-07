@@ -175,9 +175,9 @@ export default function PrivacyPage() {
           <li>You can use the app without iCloud sync.</li>
           <li>You can delete individual entries inside the app at any time.</li>
           <li>
-            Settings → Delete All Wine Data permanently deletes your wine,
-            cellar, journal, and backup data from this device and from
-            vynr&apos;s private CloudKit database.
+            Settings → Delete All Wine Data permanently removes your wine
+            records and saved label images from this device and clears
+            vynr&apos;s private CloudKit backup.
           </li>
           <li>You can revoke or delete Share and Assistant Link publications.</li>
           <li>You can disable anonymous usage data and AI Commentary in Settings.</li>
