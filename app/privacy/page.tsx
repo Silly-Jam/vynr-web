@@ -75,7 +75,7 @@ export default function PrivacyPage() {
             By default, your data is stored locally on your device.
           </li>
           <li>
-            If you enable iCloud backup, the data is stored in your private
+            If iCloud is on for vynr, the data is stored in your private
             iCloud database using Apple CloudKit.
           </li>
         </ul>
@@ -168,7 +168,9 @@ export default function PrivacyPage() {
           <li>We do not run advertising networks.</li>
           <li>
             We do not send your notes, tastings, ratings, or journal content to
-            AI providers.
+            the AI providers behind AI Commentary, AI Fix, or guide reads. If
+            you connect Assistant Link, the assistant you choose reads the
+            redacted projection, which may include derived rating summaries.
           </li>
           <li>We do not use your private journal to train public models.</li>
         </ul>
@@ -176,7 +178,7 @@ export default function PrivacyPage() {
         <h2>Your control</h2>
         <ul>
           <li>
-            You can use the app without iCloud sync by turning off iCloud access
+            You can use the app without iCloud backup by turning off iCloud access
             for vynr in iOS Settings.
           </li>
           <li>You can delete individual entries inside the app at any time.</li>
@@ -189,7 +191,11 @@ export default function PrivacyPage() {
           </li>
           <li>You can revoke or delete Share and Assistant Link publications.</li>
           <li>You can disable anonymous usage data and AI Commentary in Settings.</li>
-          <li>Uninstalling the app removes local data from the device.</li>
+          <li>
+            Uninstalling the app removes local data from the device, but does
+            not delete published Share or Assistant Link data. Use the in-app
+            revoke or delete control for those services.
+          </li>
         </ul>
 
         <h2>Third-party services</h2>
