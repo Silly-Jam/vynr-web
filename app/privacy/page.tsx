@@ -87,8 +87,8 @@ export default function PrivacyPage() {
 
         <h2>Photos and scanning</h2>
         <p>
-          Ordinary label scanning and text recognition happen on-device, and a
-          photo is saved only if you choose to attach it.
+          Ordinary label scanning and text recognition happen on-device. Label
+          images are kept inside the app on your device.
         </p>
 
         <h2>AI Commentary (optional)</h2>
@@ -176,8 +176,8 @@ export default function PrivacyPage() {
           <li>You can delete individual entries inside the app at any time.</li>
           <li>
             Settings → Delete All Wine Data permanently removes your wine
-            records and saved label images from this device and clears
-            vynr&apos;s private CloudKit backup.
+            records and saved label images from this device and clears your
+            private iCloud backup for vynr.
           </li>
           <li>You can revoke or delete Share and Assistant Link publications.</li>
           <li>You can disable anonymous usage data and AI Commentary in Settings.</li>
