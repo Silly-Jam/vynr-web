@@ -181,10 +181,11 @@ export default function PrivacyPage() {
           </li>
           <li>You can delete individual entries inside the app at any time.</li>
           <li>
-            Settings → Delete All Wine Data permanently removes wine records
-            and saved label images from this device and your private iCloud
-            backup. Journal entries and cellar layout remain on your device and,
-            if iCloud is on, are backed up again.
+            Settings → Delete All Wine Data permanently removes wine records,
+            saved label images, retained import source files, and associated
+            import history from this device and your private iCloud backup.
+            Journal entries and cellar layout remain on your device and, if
+            iCloud is on, are backed up again.
           </li>
           <li>You can revoke or delete Share and Assistant Link publications.</li>
           <li>You can disable anonymous usage data and AI Commentary in Settings.</li>
