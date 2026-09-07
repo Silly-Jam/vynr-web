@@ -34,7 +34,7 @@ export default function PrivacyPage() {
             letterSpacing: "0.02em",
           }}
         >
-          Effective date: August 11, 2026
+          Effective date: September 7, 2026
         </p>
         <div
           style={{
@@ -49,22 +49,24 @@ export default function PrivacyPage() {
 
       <article className="prose">
         <p>
-          vynr is a private personal wine journal. The app is designed so that
-          most of your information stays on your device and under your control.
+          vynr is designed to be a calm, private, user-owned wine journal and
+          atlas. Most of your information stays on your device and under your
+          control. We do not sell your data, run advertising networks, or track
+          you across apps or websites.
         </p>
 
-        <h2>What data vynr stores</h2>
-        <p>You may create the following information inside the app:</p>
+        <h2>What data vynr processes</h2>
+        <p>You may create or capture the following information inside the app:</p>
         <ul>
-          <li>Cellar entries (bottles, quantities, and notes)</li>
-          <li>Tasting notes and ratings</li>
-          <li>Optional photos you attach</li>
-          <li>Optional personal annotations</li>
+          <li>Cellar entries, quantities, storage locations, and purchase notes</li>
+          <li>Wine details such as producer, cuvée, vintage, grapes, and place</li>
+          <li>Tasting notes, ratings, journal entries, and optional annotations</li>
+          <li>Label and journal photos you choose to keep</li>
         </ul>
         <p>
-          This information exists only to provide the core features of the app
-          (cellar tracking, journaling, and search). It is not publicly
-          visible and is not sold or shared for advertising purposes.
+          This information provides cellar management, journaling, navigation,
+          search, and the optional services described below. It is not publicly
+          visible unless you explicitly publish a shared cellar.
         </p>
 
         <h2>Where your data lives</h2>
@@ -73,28 +75,42 @@ export default function PrivacyPage() {
             By default, your data is stored locally on your device.
           </li>
           <li>
-            If you enable iCloud sync, the data is stored in your personal
-            iCloud account using Apple CloudKit.
+            If iCloud is on for vynr, the data is stored in your private
+            iCloud database using Apple CloudKit.
           </li>
         </ul>
         <p>
-          vynr does not operate user accounts and does not host your cellar or
-          journal on our own servers.
+          vynr does not operate sign-in accounts. Optional Share and Assistant
+          Link services use a random, keychain-backed service identifier rather
+          than your Apple Account or a hardware device identifier.
         </p>
 
-        <h2>Photos</h2>
+        <h2>Photos and scanning</h2>
         <p>
-          Photos are accessed only when you choose them. If you scan a label,
-          processing happens on‑device and the image is saved only if you attach
-          it to a wine entry.
+          Ordinary label scanning and text recognition happen on-device. Label
+          images are kept inside the app on your device.
         </p>
 
-        <h2>AI commentary (optional)</h2>
+        <h2>AI Commentary (optional)</h2>
         <p>
-          If you request AI commentary, the app sends limited wine context to a
-          proxy service which forwards the request to an AI provider and
-          returns text to your device. Personal identifying information is not
-          included, and this feature is optional.
+          If you request AI Commentary, the app sends limited, impersonal wine
+          and Atlas context to a Cloudflare Worker proxy, which forwards the
+          request to an AI provider and returns text to your device. The request
+          cannot represent tasting notes, ratings, journal text, journal photos,
+          or other user-authored personal content, and the proxy rejects those
+          fields recursively. Reference-only responses may be cached for up to
+          seven days without a user or device identifier.
+        </p>
+
+        <h2>AI Fix / label review (optional)</h2>
+        <p>
+          If you explicitly ask AI Fix to take another look, vynr sends the
+          label photo, the text it read, and the details on the current scan form
+          to the AI proxy and its configured AI provider. Before the first
+          upload, the app shows this disclosure. It does not send your notes,
+          tastings, or journal. The image is discarded after servicing the
+          request; only derived repair fields may be cached for up to 24 hours
+          by label fingerprint.
         </p>
 
         <h2>Evolution guide reads (optional)</h2>
@@ -118,11 +134,31 @@ export default function PrivacyPage() {
           any usage‑data setting and applies only when you invoke the guide.
         </p>
 
+        <h2>Shared Cellars and Assistant Link (optional)</h2>
+        <p>
+          If you publish a shared cellar, vynr uploads the fields you select,
+          which may include label photos, owner notes, and selected journal
+          marginalia. If you enable Assistant Link, vynr uploads a redacted,
+          read-only projection that may include derived rating summaries. These
+          services use a keychain-backed random identifier so published data can
+          be retrieved and revoked. Published service data is retained until
+          you use the corresponding revoke or delete control.
+        </p>
+
+        <h2>Anonymous usage data (optional)</h2>
+        <p>
+          The &ldquo;Share Anonymous Usage Data&rdquo; setting is off by default.
+          If you enable it, vynr sends content-free feature counters to a
+          separate Cloudflare Worker. It sends no text, photos, wine names,
+          notes, or user or device identifier. Aggregate counters expire after
+          30 days.
+        </p>
+
         <h2>Diagnostics</h2>
         <p>
-          The app contains no advertising trackers or third‑party analytics SDKs.
-          Apple may provide anonymized crash reports if you enable system
-          diagnostic sharing in your device settings.
+          vynr contains no advertising, analytics, or crash-reporting SDK.
+          Apple may provide App Store or TestFlight crash and performance
+          diagnostics under Apple&apos;s own privacy controls and policy.
         </p>
 
         <h2>What we do not do</h2>
@@ -130,16 +166,46 @@ export default function PrivacyPage() {
           <li>We do not sell your data.</li>
           <li>We do not track you across apps or websites.</li>
           <li>We do not run advertising networks.</li>
+          <li>
+            We do not send your notes, tastings, ratings, or journal content to
+            the AI providers behind AI Commentary, AI Fix, or guide reads. If
+            you connect Assistant Link, the assistant you choose reads the
+            redacted projection, which may include derived rating summaries.
+          </li>
           <li>We do not use your private journal to train public models.</li>
         </ul>
 
         <h2>Your control</h2>
         <ul>
-          <li>You can use the app without iCloud sync.</li>
-          <li>You can delete any entry inside the app at any time.</li>
-          <li>Uninstalling the app removes local data from the device.</li>
-          <li>iCloud data can be managed from your Apple ID settings.</li>
+          <li>
+            You can use the app without iCloud backup by turning off iCloud access
+            for vynr in iOS Settings.
+          </li>
+          <li>You can delete individual entries inside the app at any time.</li>
+          <li>
+            Settings → Delete All Wine Data permanently removes wine records,
+            saved label images, retained import source files, and associated
+            import history from this device and your private iCloud backup.
+            Journal entries and cellar layout remain on your device and, if
+            iCloud is on, are backed up again.
+          </li>
+          <li>You can revoke or delete Share and Assistant Link publications.</li>
+          <li>You can disable anonymous usage data and AI Commentary in Settings.</li>
+          <li>
+            Uninstalling the app removes local data from the device, but does
+            not delete published Share or Assistant Link data. Use the in-app
+            revoke or delete control for those services.
+          </li>
         </ul>
+
+        <h2>Third-party services</h2>
+        <p>
+          Depending on the features you choose, vynr uses Apple CloudKit,
+          Cloudflare Workers and KV, and configured AI providers. We minimise
+          what is sent and use it only to provide the
+          requested feature, operate the service, prevent abuse, or maintain
+          the short-lived caches described above.
+        </p>
 
         <h2>Children</h2>
         <p>vynr is intended for adults of legal drinking age.</p>
