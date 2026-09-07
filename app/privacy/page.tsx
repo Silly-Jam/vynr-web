@@ -166,7 +166,10 @@ export default function PrivacyPage() {
           <li>We do not sell your data.</li>
           <li>We do not track you across apps or websites.</li>
           <li>We do not run advertising networks.</li>
-          <li>We do not send private cellar or journal content to AI providers.</li>
+          <li>
+            We do not send your notes, tastings, ratings, or journal content to
+            AI providers.
+          </li>
           <li>We do not use your private journal to train public models.</li>
         </ul>
 
