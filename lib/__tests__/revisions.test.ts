@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import {
   SHOW_ALL_THRESHOLD,
+  formatDate,
   SUPPORTED_SCHEMA_VERSION,
   UnsupportedEditionError,
   describeUpdate,
@@ -219,6 +220,47 @@ describe('the published editions', () => {
 
 // ─── Highlights are additive and human-owned ────────────────────────────────
 
+const EDITIONS_DIR = path.join(process.cwd(), 'content/revisions');
+const HIGHLIGHTS_DIR = path.join(process.cwd(), 'content/revisions/highlights');
+
+/**
+ * Run `body` with a synthetic edition and optional highlights file in place.
+ *
+ * These fixtures live in the REAL content directory, because that is what the module
+ * under test reads. Two rules follow, and the second is why this helper exists at all:
+ * every fixture uses an id no generated edition can produce, and the helper REFUSES to
+ * start if a fixture path already exists rather than overwriting it. An earlier version
+ * of these tests wrote and then deleted `highlights/epoch-953.md` — so running the
+ * suite would have destroyed a human's editorial note for a real edition, silently.
+ * A test may never delete content it did not create.
+ */
+function withFixtures(
+  files: { path: string; body: string }[],
+  body: () => void
+): void {
+  for (const file of files) {
+    assert.ok(!fs.existsSync(file.path), `refusing to overwrite ${file.path}`);
+  }
+  fs.mkdirSync(HIGHLIGHTS_DIR, { recursive: true });
+  for (const file of files) fs.writeFileSync(file.path, file.body, 'utf8');
+  try {
+    body();
+  } finally {
+    // Only the exact paths this helper created, and only after proving they were absent.
+    for (const file of files) fs.rmSync(file.path, { force: true });
+  }
+}
+
+const FIXTURE_ID = 'epoch-fixture-not-a-real-edition';
+const fixtureEdition = (id: string) => ({
+  path: path.join(EDITIONS_DIR, `${id}.json`),
+  body: JSON.stringify({ ...edition([change()]), editionId: id }, null, 2) + '\n',
+});
+const fixtureHighlights = (id: string, text: string) => ({
+  path: path.join(HIGHLIGHTS_DIR, `${id}.md`),
+  body: text,
+});
+
 describe('getHighlights', () => {
   it('is absent for an edition nobody has annotated', () => {
     assert.equal(getHighlights('epoch-does-not-exist'), null);
@@ -227,55 +269,94 @@ describe('getHighlights', () => {
   it('never treats prose about the directory as an edition annotation', () => {
     // Regression: a README beside the notes rendered as one edition's editorial panel,
     // because the lookup only asked "is there a file with this name?".
-    const dir = path.join(process.cwd(), 'content/revisions/highlights');
-    const stray = path.join(dir, 'README.md');
-    fs.writeFileSync(stray, 'prose about this directory\n', 'utf8');
-    try {
+    withFixtures([fixtureHighlights('README', 'prose about this directory\n')], () => {
       assert.equal(getHighlights('README'), null);
-    } finally {
-      fs.rmSync(stray, { force: true });
-    }
+    });
   });
 
   it('is absent when the id names no edition, even with a file present', () => {
-    const dir = path.join(process.cwd(), 'content/revisions/highlights');
-    const orphan = path.join(dir, 'epoch-orphan-fixture.md');
-    fs.writeFileSync(orphan, 'a note for an edition that does not exist\n', 'utf8');
-    try {
-      assert.equal(getHighlights('epoch-orphan-fixture'), null);
-    } finally {
-      fs.rmSync(orphan, { force: true });
-    }
+    withFixtures([fixtureHighlights(FIXTURE_ID, 'a note for an edition that does not exist\n')], () => {
+      assert.equal(getHighlights(FIXTURE_ID), null);
+    });
   });
 
   it('reads a highlights file written AFTER publication, leaving facts untouched', () => {
-    const dir = path.join(process.cwd(), 'content/revisions/highlights');
-    const target = path.join(dir, 'epoch-953.md');
-    fs.writeFileSync(target, '\nTwo Bordeaux estates joined the atlas this week.\n', 'utf8');
-    try {
-      assert.equal(getHighlights('epoch-953'), 'Two Bordeaux estates joined the atlas this week.');
-      // The machine record for a real edition is byte-identical either way.
-      const before = fs.readFileSync(path.join(process.cwd(), 'content/revisions/epoch-953.json'), 'utf8');
-      const after = fs.readFileSync(path.join(process.cwd(), 'content/revisions/epoch-953.json'), 'utf8');
-      assert.equal(before, after, 'a highlights file must not be able to alter a machine edition');
-      assert.equal(getEdition('epoch-953')?.changeCount, JSON.parse(before).changeCount);
-    } finally {
-      fs.rmSync(target, { force: true });
-    }
+    const realEdition = path.join(EDITIONS_DIR, 'epoch-953.json');
+    const before = fs.readFileSync(realEdition, 'utf8');
+    withFixtures(
+      [fixtureEdition(FIXTURE_ID), fixtureHighlights(FIXTURE_ID, '\nTwo Bordeaux estates joined the atlas this week.\n')],
+      () => {
+        assert.equal(getHighlights(FIXTURE_ID), 'Two Bordeaux estates joined the atlas this week.');
+        assert.equal(getEdition(FIXTURE_ID)?.changeCount, 1, 'the annotated edition still reads');
+      }
+    );
+    // A real, published edition is byte-identical throughout: annotation is additive.
+    assert.equal(fs.readFileSync(realEdition, 'utf8'), before);
   });
 
   it('treats a whitespace-only highlights file as no highlights', () => {
-    const dir = path.join(process.cwd(), 'content/revisions/highlights');
-    const target = path.join(dir, 'epoch-953.md');
-    fs.writeFileSync(target, '   \n\n', 'utf8');
-    try {
-      assert.equal(getHighlights('epoch-953'), null);
-    } finally {
-      fs.rmSync(target, { force: true });
-    }
+    withFixtures([fixtureEdition(FIXTURE_ID), fixtureHighlights(FIXTURE_ID, '   \n\n')], () => {
+      assert.equal(getHighlights(FIXTURE_ID), null);
+    });
   });
 
   it('refuses a highlights id that escapes the content directory', () => {
     assert.equal(getHighlights('../../package'), null);
+  });
+});
+
+// ─── The filename is the URL, so the id cannot disagree with it ─────────────
+
+describe('editionId is bound to its filename', () => {
+  it('refuses an edition whose id does not match the file it was read from', () => {
+    // Otherwise the index links to `/revisions/<id>`, which resolves by looking for
+    // `<id>.json` and 404s: the record advertises an edition nobody can open.
+    assert.throws(
+      () => parseEdition(JSON.stringify({ ...edition([]), editionId: 'epoch-999' }), 'epoch-953.json', 'epoch-953'),
+      UnsupportedEditionError
+    );
+  });
+
+  it('accepts a matching id', () => {
+    const doc = parseEdition(JSON.stringify({ ...edition([]), editionId: 'epoch-999' }), 'epoch-999.json', 'epoch-999');
+    assert.equal(doc.editionId, 'epoch-999');
+  });
+
+  it('holds for every edition committed to this repository', () => {
+    for (const name of fs.readdirSync(EDITIONS_DIR).filter((f) => f.endsWith('.json'))) {
+      const doc = JSON.parse(fs.readFileSync(path.join(EDITIONS_DIR, name), 'utf8'));
+      assert.equal(doc.editionId, name.replace(/\.json$/, ''));
+    }
+  });
+});
+
+// ─── Dates render identically wherever the site is built ────────────────────
+
+describe('formatDate', () => {
+  it('renders the calendar date the timestamp itself carries', () => {
+    // 02:00+08:00 is the previous day in UTC. A build host must not be able to move
+    // a published record's date, in either direction.
+    assert.equal(formatDate('2026-09-04T02:00:00+08:00'), 'September 4, 2026');
+    assert.equal(formatDate('2026-09-04T23:30:00-05:00'), 'September 4, 2026');
+    assert.equal(formatDate('2026-09-04T09:59:47+08:00'), 'September 4, 2026');
+  });
+
+  it('is independent of the process timezone', () => {
+    const original = process.env.TZ;
+    const rendered: string[] = [];
+    try {
+      for (const tz of ['UTC', 'Asia/Singapore', 'America/Los_Angeles', 'Pacific/Kiritimati']) {
+        process.env.TZ = tz;
+        rendered.push(formatDate('2026-09-04T02:00:00+08:00'));
+      }
+    } finally {
+      if (original === undefined) delete process.env.TZ;
+      else process.env.TZ = original;
+    }
+    assert.deepEqual(new Set(rendered), new Set(['September 4, 2026']));
+  });
+
+  it('returns an unparseable value unchanged rather than inventing a date', () => {
+    assert.equal(formatDate('not a date'), 'not a date');
   });
 });

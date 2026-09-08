@@ -83,7 +83,7 @@ export class UnsupportedEditionError extends Error {}
  * and a page that quietly shows less than the record contains is worse than a page that
  * says it cannot show it.
  */
-export function parseEdition(raw: string, source: string): Edition {
+export function parseEdition(raw: string, source: string, expectedId?: string): Edition {
   const parsed = JSON.parse(raw) as Partial<Edition>
   if (parsed.schemaVersion !== SUPPORTED_SCHEMA_VERSION) {
     throw new UnsupportedEditionError(
@@ -93,6 +93,16 @@ export function parseEdition(raw: string, source: string): Edition {
   }
   if (!parsed.editionId || !parsed.from || !parsed.to || !Array.isArray(parsed.changes)) {
     throw new UnsupportedEditionError(`${source}: missing required edition fields`)
+  }
+  // The filename is the URL and the id is what the index links to, so they must be
+  // the same fact. A mismatch is not cosmetic: the index would render a link to
+  // `/revisions/<id>` that resolves by looking for `<id>.json` and 404s, and the
+  // record would advertise an edition nobody can open.
+  if (expectedId !== undefined && parsed.editionId !== expectedId) {
+    throw new UnsupportedEditionError(
+      `${source}: editionId ${parsed.editionId} does not match its filename ` +
+        `(${expectedId}); the id is the URL, so the two cannot disagree.`
+    )
   }
   return parsed as Edition
 }
@@ -104,7 +114,11 @@ export function getAllEditions(): Edition[] {
     .readdirSync(editionsDirectory)
     .filter((name) => name.endsWith('.json'))
     .map((name) =>
-      parseEdition(fs.readFileSync(path.join(editionsDirectory, name), 'utf8'), name)
+      parseEdition(
+        fs.readFileSync(path.join(editionsDirectory, name), 'utf8'),
+        name,
+        name.replace(/\.json$/, '')
+      )
     )
     .sort((a, b) => b.to.epoch - a.to.epoch)
 }
@@ -112,7 +126,7 @@ export function getAllEditions(): Edition[] {
 export function getEdition(editionId: string): Edition | null {
   const file = path.join(editionsDirectory, `${editionId}.json`)
   if (!isInsideEditions(file) || !fs.existsSync(file)) return null
-  return parseEdition(fs.readFileSync(file, 'utf8'), editionId)
+  return parseEdition(fs.readFileSync(file, 'utf8'), editionId, editionId)
 }
 
 /**
@@ -205,8 +219,29 @@ export function formatEpochRange(edition: Edition): string {
   return `Epoch ${edition.from.epoch} → ${edition.to.epoch}`
 }
 
+/**
+ * The calendar date an endpoint's timestamp carries, rendered identically everywhere.
+ *
+ * `new Date(iso).toLocaleDateString()` renders in the BUILD MACHINE's zone, so an
+ * edition committed at `2026-09-04T02:00:00+08:00` reads as 4 September locally and 3
+ * September on a UTC build host — the same record, two dates. For something whose
+ * whole claim is reproducibility that is not acceptable.
+ *
+ * The date is therefore taken from the timestamp's OWN calendar fields (its leading
+ * `YYYY-MM-DD`, which is already expressed in the committer's offset) and formatted as
+ * UTC so no further shift can occur. That is both deterministic and faithful to what
+ * the commit records — converting to UTC instead would be deterministic but would move
+ * some editions a day away from the date their commit actually carries.
+ *
+ * A string that is not a leading ISO date is returned unchanged rather than run
+ * through `Date`, which would render "Invalid Date" — an invented answer is worse than
+ * an unformatted one.
+ */
 export function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString('en-US', {
+  const match = /^(\d{4}-\d{2}-\d{2})/.exec(iso)
+  if (!match) return iso
+  return new Date(`${match[1]}T00:00:00Z`).toLocaleDateString('en-US', {
+    timeZone: 'UTC',
     year: 'numeric',
     month: 'long',
     day: 'numeric',
