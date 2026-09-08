@@ -160,6 +160,17 @@ export default function RootLayout({
           </Link>
           <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
           <Link
+            href="/support"
+            style={{
+              color: "var(--atlas-text-placeholder)",
+              textDecoration: "none",
+              transition: "color 0.15s ease",
+            }}
+          >
+            Support
+          </Link>
+          <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
+          <Link
             href="/contact"
             style={{
               color: "var(--atlas-text-placeholder)",
@@ -168,6 +179,17 @@ export default function RootLayout({
             }}
           >
             Contact
+          </Link>
+          <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
+          <Link
+            href="/terms"
+            style={{
+              color: "var(--atlas-text-placeholder)",
+              textDecoration: "none",
+              transition: "color 0.15s ease",
+            }}
+          >
+            Terms
           </Link>
           <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
           <a

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -40,7 +41,7 @@ export default function ContactPage() {
 
       <article className="prose">
         <p>
-          For support and feedback:
+          For help with the app, visit <Link href="/support">Support</Link> or write to:
           <br />
           <a href="mailto:support@vynr.app">support@vynr.app</a>
         </p>
