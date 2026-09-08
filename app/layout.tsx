@@ -121,6 +121,21 @@ export default function RootLayout({
               >
                 Blog
               </Link>
+              {/* Revisions sits beside Blog because both are published editorial
+                  surfaces, and deliberately NOT in a system-status position: this
+                  records what changed in the reference data, and Vynr publishes no
+                  uptime or incident reporting for it to be mistaken for. */}
+              <Link
+                href="/revisions"
+                style={{
+                  fontSize: "0.875rem",
+                  color: "var(--atlas-text-secondary)",
+                  textDecoration: "none",
+                  transition: "color 0.15s ease",
+                }}
+              >
+                Revisions
+              </Link>
             </div>
           </nav>
         </header>
