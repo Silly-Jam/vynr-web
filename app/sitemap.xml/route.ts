@@ -1,16 +1,22 @@
 import { getAllPosts } from '@/lib/posts'
+import { getAllEditions } from '@/lib/revisions'
 import { getAllAtlasNodes, buildAtlasUrlPath } from '@/lib/atlas'
 
 const BASE = 'https://vynr.app'
 
 export function GET() {
   const posts = getAllPosts()
+  const editions = getAllEditions()
 
   const staticUrls = [
     `<url><loc>${BASE}/</loc></url>`,
     `<url><loc>${BASE}/blog</loc></url>`,
     ...posts.map(
       p => `<url><loc>${BASE}/blog/${p.slug}</loc></url>`
+    ),
+    `<url><loc>${BASE}/revisions</loc></url>`,
+    ...editions.map(
+      e => `<url><loc>${BASE}/revisions/${e.editionId}</loc></url>`
     ),
     `<url><loc>${BASE}/about</loc></url>`,
     `<url><loc>${BASE}/privacy</loc></url>`,

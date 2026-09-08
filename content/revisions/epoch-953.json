@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-953",
+  "generatedAt": "2026-09-08T04:51:00Z",
+  "from": {
+    "epoch": 952,
+    "commit": "81c5156f4a013276ab81a21eefdfccd71f557025",
+    "committedAt": "2026-09-04T09:59:47+08:00",
+    "registrySha256": "174881ac8e658711014db06b66d3d4fb33f926d7c24292e6b653af7ea70e9a0c"
+  },
+  "to": {
+    "epoch": 953,
+    "commit": "89fafadc9a9bc708214265a81ba3d167e8bd79f4",
+    "committedAt": "2026-09-04T12:09:58+08:00",
+    "registrySha256": "4c12f3c2c96720edd6fc8e2efd7e458ccf13df8052fb0eaf228a97eeb0209621"
+  },
+  "changeCount": 7,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 2,
+      "updated": 1,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 2,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "category": "Appellations",
+      "added": 0,
+      "updated": 2,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Château Grimon",
+      "label": "Château Grimon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Château Jean de Gué",
+      "label": "Château Jean de Gué",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Arnaud Baillot",
+      "label": "Arnaud Baillot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:chateau-grimon",
+      "label": "Château Grimon",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:chateau-jean-de-gue",
+      "label": "Château Jean de Gué",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Castillon Côtes de Bordeaux",
+      "label": "Castillon Côtes de Bordeaux",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Lalande-de-Pomerol",
+      "label": "Lalande-de-Pomerol",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    }
+  ]
+}
