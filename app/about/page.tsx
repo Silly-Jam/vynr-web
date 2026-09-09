@@ -42,8 +42,8 @@ export default function AboutPage() {
 
       <article className="prose">
         <p>
-          vynr is a private wine cellar and tasting journal, backed by an
-          interactive atlas of the wine world.
+          vynr brings together your wines, their makers, their places and
+          your memories &mdash; so every bottle belongs to a larger story.
         </p>
 
         <p>
@@ -60,23 +60,38 @@ export default function AboutPage() {
           product.
         </p>
 
-        <h2>Three things, woven together</h2>
+        <h2>Three things, woven through time and taste</h2>
         <p>
           <strong>A cellar</strong> — to track what you own.
           <br />
           <strong>A journal</strong> — to record what you experienced.
           <br />
-          <strong>An atlas</strong> — to understand where it came from.
+          <strong>An atlas</strong> — to understand where it came from, and
+          who made it.
+        </p>
+        <p>Two threads run through all three.</p>
+        <p>
+          <strong>Time.</strong> Wine changes, and so does a cellar. Every
+          bottle sits somewhere on its own curve — closed, approaching, at its
+          peak, fading — and the Time Lens lets you scrub forward to see what
+          will be ready next spring, or back to what you were drinking the
+          year you moved house. The cellar is not a list. It is a map that
+          moves.
         </p>
         <p>
-          The atlas gives meaning to the cellar. The journal gives meaning to
-          the atlas. The cellar grounds the journal in real wines.
+          <strong>Taste.</strong> What you keep, what you open and what you
+          write down slowly form a picture of what you actually like. vynr
+          never turns that into a score or a chart. It uses it quietly, to
+          make its notes more yours: which bottle to open tonight, what
+          you&rsquo;re overlooking, what a new wine might mean to you. It is
+          built for you, used only for you, and it grows with every bottle.
         </p>
 
         <h2>Who it&rsquo;s for</h2>
         <p>
           People who enjoy wine and want a calm place to keep it: what they
-          opened, where it came from, and what it meant in the moment. For
+          opened, where it came from, when the rest will be ready, and what
+          it meant in the moment. For
           anyone who prefers private tools over public performance — and who
           wants their own record, not the internet&rsquo;s opinion.
         </p>
