@@ -4,7 +4,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "A private wine cellar and tasting journal. No ratings, no social feeds — just wine, remembered.",
+    "A private wine cellar, atlas and tasting journal that brings together your wines, their makers, their places and your memories.",
 };
 
 export default function AboutPage() {
@@ -91,17 +91,15 @@ export default function AboutPage() {
         <p>
           Everything that helps a collector also helps a student. The atlas
           is a working map of regions, appellations and the rules behind
-          them, not a decoration. Every producer carries a written profile:
-          who they are, how they work, how their wines age. Vynrpedia sits
-          underneath it all &mdash; long-press a place or a term to read what
-          it means, or browse it on its own. The journal holds tasting notes
-          and the marginalia around them, so a WSET-style note and your own
-          aside about the room sit on the same page.
+          them, not a decoration. Producer profiles bring together who they
+          are, how they work and how their wines age. Vynrpedia sits
+          underneath it all &mdash; in the app, long-press a place or a term
+          to read what it means, or browse it on its own. The journal holds
+          tasting notes and the marginalia around them, so a structured
+          tasting note and your own aside about the room sit on the same
+          page.
         </p>
-        <p>
-          Study and drinking become one record. This is where vynr will keep
-          growing.
-        </p>
+        <p>Study and drinking become one record.</p>
 
         <h2>Who it&rsquo;s for</h2>
         <p>
@@ -133,7 +131,7 @@ export default function AboutPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn more about Silly Jam &rarr;
+            Silly Jam on GitHub &rarr;
           </a>
         </p>
 

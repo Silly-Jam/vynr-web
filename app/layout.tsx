@@ -80,7 +80,7 @@ export default function RootLayout({
             style={{
               maxWidth: 720,
               margin: "0 auto",
-              padding: "14px 24px",
+              padding: "4px 24px",
               display: "flex",
               alignItems: "center",
               justifyContent: "space-between",
@@ -98,9 +98,10 @@ export default function RootLayout({
             >
               Vynr
             </Link>
-            <div style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
+            <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
               <Link
                 href="/atlas"
+              className="tap-target"
                 style={{
                   fontSize: "0.875rem",
                   color: "var(--atlas-text-secondary)",
@@ -112,6 +113,7 @@ export default function RootLayout({
               </Link>
               <Link
                 href="/blog"
+              className="tap-target"
                 style={{
                   fontSize: "0.875rem",
                   color: "var(--atlas-text-secondary)",
@@ -127,6 +129,7 @@ export default function RootLayout({
                   uptime or incident reporting for it to be mistaken for. */}
               <Link
                 href="/revisions"
+              className="tap-target"
                 style={{
                   fontSize: "0.875rem",
                   color: "var(--atlas-text-secondary)",
@@ -145,75 +148,79 @@ export default function RootLayout({
         <footer
           style={{
             borderTop: "1px solid var(--atlas-separator)",
-            padding: "1.5rem 1.5rem 1.75rem",
+            padding: "0.75rem 1.5rem 1rem",
             textAlign: "center",
-            color: "var(--atlas-text-placeholder)",
+            color: "var(--atlas-text-secondary)",
             fontSize: "0.8rem",
             letterSpacing: "0.02em",
           }}
         >
           <Link
             href="/about"
+              className="tap-target"
             style={{
-              color: "var(--atlas-text-placeholder)",
+              color: "var(--atlas-text-secondary)",
               textDecoration: "none",
               transition: "color 0.15s ease",
             }}
           >
             About
           </Link>
-          <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
+          <span aria-hidden="true" style={{ margin: "0 0.25rem", opacity: 0.4 }}>·</span>
           <Link
             href="/privacy"
+              className="tap-target"
             style={{
-              color: "var(--atlas-text-placeholder)",
+              color: "var(--atlas-text-secondary)",
               textDecoration: "none",
               transition: "color 0.15s ease",
             }}
           >
             Privacy
           </Link>
-          <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
+          <span aria-hidden="true" style={{ margin: "0 0.25rem", opacity: 0.4 }}>·</span>
           <Link
             href="/support"
             style={{
-              color: "var(--atlas-text-placeholder)",
+              color: "var(--atlas-text-secondary)",
               textDecoration: "none",
               transition: "color 0.15s ease",
             }}
           >
             Support
           </Link>
-          <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
+          <span aria-hidden="true" style={{ margin: "0 0.25rem", opacity: 0.4 }}>·</span>
           <Link
             href="/contact"
+              className="tap-target"
             style={{
-              color: "var(--atlas-text-placeholder)",
+              color: "var(--atlas-text-secondary)",
               textDecoration: "none",
               transition: "color 0.15s ease",
             }}
           >
             Contact
           </Link>
-          <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
+          <span aria-hidden="true" style={{ margin: "0 0.25rem", opacity: 0.4 }}>·</span>
           <Link
             href="/terms"
             style={{
-              color: "var(--atlas-text-placeholder)",
+              color: "var(--atlas-text-secondary)",
               textDecoration: "none",
               transition: "color 0.15s ease",
             }}
           >
             Terms
           </Link>
-          <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
+          <span aria-hidden="true" style={{ margin: "0 0.25rem", opacity: 0.4 }}>·</span>
           <a
             href="https://www.instagram.com/vynr.app"
+            className="tap-target"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Vynr on Instagram"
             style={{
-              color: "var(--atlas-text-placeholder)",
+              color: "var(--atlas-text-secondary)",
               textDecoration: "none",
               transition: "color 0.15s ease",
               verticalAlign: "middle",
@@ -235,14 +242,15 @@ export default function RootLayout({
               <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
             </svg>
           </a>
-          <span aria-hidden="true" style={{ margin: "0 0.75rem", opacity: 0.4 }}>·</span>
+          <span aria-hidden="true" style={{ margin: "0 0.25rem", opacity: 0.4 }}>·</span>
           <a
             href="https://www.tiktok.com/@vynr.app"
+            className="tap-target"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Vynr on TikTok"
             style={{
-              color: "var(--atlas-text-placeholder)",
+              color: "var(--atlas-text-secondary)",
               textDecoration: "none",
               transition: "color 0.15s ease",
               verticalAlign: "middle",
