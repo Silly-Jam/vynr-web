@@ -81,18 +81,36 @@ export default function AboutPage() {
         <p>
           <strong>Taste.</strong> What you keep, what you open and what you
           write down slowly form a picture of what you actually like. vynr
-          never turns that into a score or a chart. It uses it quietly, to
-          make its notes more yours: which bottle to open tonight, what
-          you&rsquo;re overlooking, what a new wine might mean to you. It is
-          built for you, used only for you, and it grows with every bottle.
+          uses it to make its notes more yours: which bottle to open tonight,
+          what you&rsquo;re overlooking, what a new wine might mean to you.
+          It is built from your own record, for you, and it grows with every
+          bottle.
+        </p>
+
+        <h2>If you&rsquo;re studying wine</h2>
+        <p>
+          Everything that helps a collector also helps a student. The atlas
+          is a working map of regions, appellations and the rules behind
+          them, not a decoration. Every producer carries a written profile:
+          who they are, how they work, how their wines age. Vynrpedia sits
+          underneath it all &mdash; long-press a place or a term to read what
+          it means, or browse it on its own. The journal holds tasting notes
+          and the marginalia around them, so a WSET-style note and your own
+          aside about the room sit on the same page.
+        </p>
+        <p>
+          Study and drinking become one record. This is where vynr will keep
+          growing.
         </p>
 
         <h2>Who it&rsquo;s for</h2>
         <p>
           People who enjoy wine and want a calm place to keep it: what they
           opened, where it came from, when the rest will be ready, and what
-          it meant in the moment. For
-          anyone who prefers private tools over public performance — and who
+          it meant in the moment. People learning wine seriously &mdash;
+          WSET students, newcomers to the trade, the curious &mdash; who want
+          their study and their drinking to be the same record. For anyone
+          who prefers private tools over public performance &mdash; and who
           wants their own record, not the internet&rsquo;s opinion.
         </p>
 
