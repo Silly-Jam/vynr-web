@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-954",
+  "generatedAt": "2026-09-15T07:43:13Z",
+  "from": {
+    "epoch": 953,
+    "commit": "89fafadc9a9bc708214265a81ba3d167e8bd79f4",
+    "committedAt": "2026-09-04T12:09:58+08:00",
+    "registrySha256": "4c12f3c2c96720edd6fc8e2efd7e458ccf13df8052fb0eaf228a97eeb0209621"
+  },
+  "to": {
+    "epoch": 954,
+    "commit": "d93fb237d93fa359b1300ffcfce093bdfe1d0488",
+    "committedAt": "2026-09-14T20:03:43+08:00",
+    "registrySha256": "2e5b0c5f1743eb7814b0186297b78b71a2383e968a917a24075d147bc759b9a5"
+  },
+  "changeCount": 13,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 4,
+      "updated": 1,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 4,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "category": "Appellations",
+      "added": 0,
+      "updated": 4,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Maison Arthur Metz",
+      "label": "Maison Arthur Metz",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Maxime Cheurlin Noëllat",
+      "label": "Maxime Cheurlin Noëllat",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Takahata Winery",
+      "label": "Takahata Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Winzerfamilie Gregor Schup",
+      "label": "Winzerfamilie Gregor Schup",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Frescobaldi",
+      "label": "Frescobaldi",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:maison-arthur-metz",
+      "label": "Maison Arthur Metz",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:maxime-cheurlin-noellat",
+      "label": "Maxime Cheurlin Noëllat",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:jp:takahata-winery",
+      "label": "Takahata Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:at:winzerfamilie-gregor-schup",
+      "label": "Winzerfamilie Gregor Schup",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Crémant d'Alsace",
+      "label": "Crémant d'Alsace",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Thermenregion",
+      "label": "Thermenregion",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Vosne-Romanée",
+      "label": "Vosne-Romanée",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Yamagata",
+      "label": "Yamagata",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    }
+  ]
+}
