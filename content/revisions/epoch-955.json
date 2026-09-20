@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-955",
+  "generatedAt": "2026-09-20T12:02:32Z",
+  "from": {
+    "epoch": 954,
+    "commit": "d93fb237d93fa359b1300ffcfce093bdfe1d0488",
+    "committedAt": "2026-09-14T20:03:43+08:00",
+    "registrySha256": "2e5b0c5f1743eb7814b0186297b78b71a2383e968a917a24075d147bc759b9a5"
+  },
+  "to": {
+    "epoch": 955,
+    "commit": "87caf204924c3ac9ee48ccaf1e3c0a37d2a32fde",
+    "committedAt": "2026-09-20T20:01:37+08:00",
+    "registrySha256": "f042f449d9272a8991a37a779ef00e4d35a07442584089d01a91a5480371b468"
+  },
+  "changeCount": 16,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 4,
+      "updated": 3,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 4,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "category": "Appellations",
+      "added": 0,
+      "updated": 4,
+      "removed": 0
+    },
+    {
+      "category": "Regions",
+      "added": 0,
+      "updated": 1,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Ganevat",
+      "label": "Domaine Ganevat",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Milan",
+      "label": "Domaine Milan",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Mélanie Pfister",
+      "label": "Domaine Mélanie Pfister",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Olivier Merlin",
+      "label": "Domaine Olivier Merlin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Aresti",
+      "label": "Aresti",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodega Septima",
+      "label": "Bodega Septima",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 4
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Margalit",
+      "label": "Margalit",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-ganevat",
+      "label": "Domaine Ganevat",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-milan",
+      "label": "Domaine Milan",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-melanie-pfister",
+      "label": "Domaine Mélanie Pfister",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-olivier-merlin",
+      "label": "Domaine Olivier Merlin",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Alsace",
+      "label": "Alsace",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Côtes du Jura",
+      "label": "Côtes du Jura",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Pouilly-Fuissé",
+      "label": "Pouilly-Fuissé",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Santa Cruz Mountains",
+      "label": "Santa Cruz Mountains",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 4
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Provence",
+      "label": "Provence",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    }
+  ]
+}
