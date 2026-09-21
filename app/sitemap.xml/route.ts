@@ -19,6 +19,7 @@ export function GET() {
       e => `<url><loc>${BASE}/revisions/${e.editionId}</loc></url>`
     ),
     `<url><loc>${BASE}/about</loc></url>`,
+    `<url><loc>${BASE}/guide</loc></url>`,
     `<url><loc>${BASE}/privacy</loc></url>`,
     `<url><loc>${BASE}/support</loc></url>`,
     `<url><loc>${BASE}/contact</loc></url>`,
