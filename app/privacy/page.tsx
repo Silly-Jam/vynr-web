@@ -34,7 +34,7 @@ export default function PrivacyPage() {
             letterSpacing: "0.02em",
           }}
         >
-          Effective date: September 7, 2026
+          Effective date: September 25, 2026
         </p>
         <div
           style={{
@@ -146,11 +146,83 @@ export default function PrivacyPage() {
         <p>
           If you publish a shared cellar, vynr uploads the fields you select,
           which may include label photos, owner notes, and selected journal
-          marginalia. If you enable Assistant Link, vynr uploads a redacted,
-          read-only projection that may include derived rating summaries. These
-          services use a keychain-backed random identifier so published data can
-          be retrieved and revoked. Published service data is retained until
-          you use the corresponding revoke or delete control.
+          marginalia. These services use a keychain-backed random identifier so
+          published data can be retrieved and revoked. Published service data is
+          retained until you delete it with the corresponding in-app control,
+          except that an Assistant Link snapshot is also deleted automatically
+          in the cases described under &ldquo;Subscription records (vynr+)&rdquo;
+          below. Revoking stops access immediately but does not itself delete
+          anything; the content stays until you delete it or that automatic
+          cleanup removes it.
+        </p>
+
+        <h3>Assistant Link is strictly opt-in</h3>
+        <p>
+          Nothing is uploaded until you turn Assistant Link on and publish. You
+          choose what the redacted, read-only snapshot includes, for example
+          whether to include your palate; it may include derived rating
+          summaries. Free-text tasting notes, prices, storage locations, device
+          identifiers and exact bottle counts are never included. You then
+          connect an assistant yourself, by adding your private link to ChatGPT,
+          Claude, Gemini or another assistant you choose.
+        </p>
+        <p>
+          <strong>What vynr handles, and what your assistant provider handles.</strong>{" "}
+          vynr stores the snapshot you published and serves it only to an
+          assistant that holds your link. When your assistant asks your link a
+          question, vynr receives that request (for example, a dish to pair) and
+          uses it only to answer. vynr does not store it, and it never sees the
+          rest of your conversation. Your questions, the snapshot data your
+          assistant reads, and its answers are handled by that provider under
+          its own terms and privacy policy, not this one.
+        </p>
+
+        <h3>Subscription records (vynr+)</h3>
+        <p>
+          Assistant Link is part of vynr+. To decide whether your link may
+          answer, the app sends Apple&apos;s signed subscription record to our
+          link service, and Apple sends it subscription status notifications
+          (renewal, billing grace, refund, expiry). Apple&apos;s record also
+          contains details such as the price and storefront; vynr checks the
+          record&apos;s signature and discards those details. Apple never sends
+          vynr your payment method, name, email address or Apple Account
+          details. vynr keeps only what it needs to decide access:
+        </p>
+        <ul>
+          <li>a keyed one-way code derived from your subscription&apos;s transaction ID;</li>
+          <li>the subscription&apos;s current state and access end date;</li>
+          <li>which of your service identifiers it covers.</li>
+        </ul>
+        <p>
+          This record is pseudonymous, but it is linked to your Assistant Link,
+          so it is not anonymous. It is used only to authorize and operate
+          Assistant Link, and never to identify you in the real world, for
+          marketing or advertising, for profiling, for sale or data brokerage,
+          or to enrich any other product or service.
+        </p>
+        <p>
+          Listing, revoking and deleting your links are free on every tier,
+          with or without vynr+. If vynr+ lapses, your link stops answering at
+          once, and its snapshot is deleted automatically 7 days later. A link
+          that never had vynr+ access (one created before Assistant Link joined
+          vynr+) has its snapshot deleted by the same scheduled cleanup 7 days
+          after the later of the date this cleanup began and the link&apos;s
+          last update.
+          Deleting your last link deletes every link between those records and
+          you. Two things are kept afterwards:
+        </p>
+        <ul>
+          <li>a record that a free trial was used, so the trial cannot be repeated;</li>
+          <li>
+            for a refunded or expired subscription, its one-way code and access
+            state, with no link to you, so an old purchase record cannot be
+            replayed to regain access.
+          </li>
+        </ul>
+        <p>
+          Apple notification identifiers are kept for up to 31 days (a daily
+          cleanup removes them once they are 30 days old), only to avoid
+          applying the same notification twice.
         </p>
 
         <h2>Anonymous usage data (optional)</h2>
@@ -197,7 +269,10 @@ export default function PrivacyPage() {
             Journal entries and cellar layout remain on your device and, if
             iCloud is on, are backed up again.
           </li>
-          <li>You can revoke or delete Share and Assistant Link publications.</li>
+          <li>
+            You can revoke or delete Share and Assistant Link publications.
+            Revoking stops access; deleting removes the published content.
+          </li>
           <li>You can disable anonymous usage data and AI Commentary in Settings.</li>
           <li>
             Uninstalling the app removes local data from the device, but does
@@ -209,7 +284,9 @@ export default function PrivacyPage() {
         <h2>Third-party services</h2>
         <p>
           Depending on the features you choose, vynr uses Apple CloudKit,
-          Cloudflare Workers and KV, and configured AI providers. We minimise
+          Cloudflare Workers, KV, D1 and R2, and configured AI providers. An
+          assistant you connect through Assistant Link is chosen by you and
+          works under its provider&apos;s own terms. We minimise
           what is sent and use it only to provide the
           requested feature, operate the service, prevent abuse, or maintain
           the short-lived caches described above.
