@@ -148,9 +148,12 @@ export default function PrivacyPage() {
           which may include label photos, owner notes, and selected journal
           marginalia. These services use a keychain-backed random identifier so
           published data can be retrieved and revoked. Published service data is
-          retained until you delete it with the corresponding in-app control.
-          Revoking stops access immediately but keeps the content until you
-          delete it.
+          retained until you delete it with the corresponding in-app control,
+          except that an Assistant Link snapshot is also deleted automatically
+          in the cases described under &ldquo;Subscription records (vynr+)&rdquo;
+          below. Revoking stops access immediately but does not itself delete
+          anything; the content stays until you delete it or that automatic
+          cleanup removes it.
         </p>
 
         <h3>Assistant Link is strictly opt-in</h3>
