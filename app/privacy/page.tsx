@@ -148,7 +148,9 @@ export default function PrivacyPage() {
           which may include label photos, owner notes, and selected journal
           marginalia. These services use a keychain-backed random identifier so
           published data can be retrieved and revoked. Published service data is
-          retained until you use the corresponding revoke or delete control.
+          retained until you delete it with the corresponding in-app control.
+          Revoking stops access immediately but keeps the content until you
+          delete it.
         </p>
 
         <h3>Assistant Link is strictly opt-in</h3>
@@ -198,7 +200,11 @@ export default function PrivacyPage() {
         <p>
           Listing, revoking and deleting your links are free on every tier,
           with or without vynr+. If vynr+ lapses, your link stops answering at
-          once, and its snapshot is deleted automatically 7 days later.
+          once, and its snapshot is deleted automatically 7 days later. A link
+          that never had vynr+ access (one created before Assistant Link joined
+          vynr+) has its snapshot deleted by the same scheduled cleanup 7 days
+          after the later of the date this cleanup began and the link&apos;s
+          last update.
           Deleting your last link deletes every link between those records and
           you. Two things are kept afterwards:
         </p>
@@ -211,8 +217,9 @@ export default function PrivacyPage() {
           </li>
         </ul>
         <p>
-          Apple notification identifiers are kept for up to 30 days, only to
-          avoid applying the same notification twice.
+          Apple notification identifiers are kept for up to 31 days (a daily
+          cleanup removes them once they are 30 days old), only to avoid
+          applying the same notification twice.
         </p>
 
         <h2>Anonymous usage data (optional)</h2>
@@ -259,7 +266,10 @@ export default function PrivacyPage() {
             Journal entries and cellar layout remain on your device and, if
             iCloud is on, are backed up again.
           </li>
-          <li>You can revoke or delete Share and Assistant Link publications.</li>
+          <li>
+            You can revoke or delete Share and Assistant Link publications.
+            Revoking stops access; deleting removes the published content.
+          </li>
           <li>You can disable anonymous usage data and AI Commentary in Settings.</li>
           <li>
             Uninstalling the app removes local data from the device, but does
