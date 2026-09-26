@@ -13,6 +13,8 @@
   --atlas-text-placeholder: #8A7D68;
   --atlas-separator: #B8AC94;
   --atlas-tint: #8B7355;
+  /* Link text: the tint darkened to pass WCAG AA (4.88:1 on --atlas-bg; the tint is 4.16:1) */
+  --atlas-link: #806847;
   --atlas-destructive: #A85040;
 
   /* Chrome — warm, matching canvas */
@@ -126,14 +128,16 @@ button:focus-visible {
   margin-bottom: 0.5rem;
 }
 
-.prose a {
-  color: var(--atlas-tint);
+.prose a,
+.text-link {
+  color: var(--atlas-link);
   text-decoration: underline;
   text-underline-offset: 2px;
   transition: color 0.15s ease;
 }
 
-.prose a:hover {
+.prose a:hover,
+.text-link:hover {
   color: var(--atlas-text);
 }
 
@@ -581,4 +585,129 @@ g:focus-visible .focus-ring {
   min-width: 44px;
   padding: 0 0.5rem;
   box-sizing: border-box;
+}
+
+/* Site chrome — primary header nav and grouped footer.
+   Every link carries .tap-target (44px); nothing collapses into a menu. */
+.site-nav {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-wordmark {
+  margin-left: -0.5rem; /* the tap-target padding, so the wordmark still aligns with the content edge */
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--atlas-text);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.site-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  align-items: center;
+  margin-right: -0.5rem;
+}
+
+.nav-link {
+  gap: 0.4em;
+  font-size: 0.875rem;
+  color: var(--atlas-text-secondary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.nav-link:hover {
+  color: var(--atlas-text);
+}
+
+.site-footer {
+  border-top: 1px solid var(--atlas-separator);
+  padding: 1.5rem 0 1rem;
+  color: var(--atlas-text-secondary);
+}
+
+/* Header, footer and page content share one column: 720px including 24px gutters. */
+.footer-groups,
+.footer-social,
+.site-footer .sj-mark-wrap {
+  max-width: 720px;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.footer-groups {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-group-label {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--atlas-text-secondary);
+}
+
+.footer-group ul {
+  list-style: none;
+  margin: 0 0 0 -0.5rem; /* align link text, not tap-target padding, with the label */
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.25rem;
+}
+
+.footer-group .nav-link,
+.footer-social .nav-link {
+  justify-content: flex-start;
+  font-size: 0.85rem;
+}
+
+.footer-social {
+  margin: 0.75rem auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.25rem;
+}
+
+.footer-social > :first-child {
+  margin-left: -0.5rem;
+}
+
+/* The colophon aligns with the footer groups rather than centring beneath them. */
+.site-footer .sj-mark-wrap {
+  margin: 0.5rem auto 0;
+  align-items: flex-start;
+}
+
+.sj-colophon {
+  min-height: 44px;
+}
+
+@media (min-width: 640px) {
+  .footer-groups {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .footer-group {
+    flex: 1;
+  }
+
+  .footer-group ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

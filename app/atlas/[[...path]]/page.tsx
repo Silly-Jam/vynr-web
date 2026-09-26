@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { resolveUrlPath, getAtlasChildren, getAllAtlasNodes, getAtlasNode, buildAtlasUrlPath, atlasNodeCount, atlasDataEpoch, type AtlasNode } from '@/lib/atlas';
 import { AtlasBrowser } from './AtlasBrowser';
 
@@ -71,7 +72,8 @@ export default async function AtlasPage({
           fontSize: '0.68rem', color: 'var(--atlas-text-placeholder)',
           letterSpacing: '0.02em',
         }}>
-          {atlasNodeCount} regions &middot; epoch {atlasDataEpoch}
+          {atlasNodeCount} regions &middot; epoch {atlasDataEpoch} &middot;{' '}
+          <Link href="/revisions" className="text-link">Reference-data changes</Link>
         </span>
       </header>
 

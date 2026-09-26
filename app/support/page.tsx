@@ -43,7 +43,8 @@ export default function SupportPage() {
         <p>
           vynr is made by a small, independent team. If something in the app is
           wrong or unclear, write to us. Messages are read by a person and are
-          typically answered within a few days.
+          typically answered within a few days. For getting started, read
+          the <Link href="/guide">Guide</Link>.
         </p>
         <p>
           <a href="mailto:support@vynr.app" style={{ overflowWrap: "anywhere" }}>

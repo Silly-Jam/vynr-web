@@ -97,7 +97,8 @@ export default function GuidePage() {
         <p>
           This is the short launch guide. We will continue adding deeper
           walkthroughs as vynr grows. If something is unclear or does not work
-          as described, visit <Link href="/support">Support</Link>.
+          as described, visit <Link href="/support">Support</Link>. For planned
+          improvements, see the <Link href="/roadmap">Roadmap</Link>.
         </p>
       </article>
     </section>

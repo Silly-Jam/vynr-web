@@ -40,7 +40,8 @@ export default async function RevisionsPage() {
       >
         What changed in the wine reference data. Each edition compares two published
         epochs and lists the producers, places, grapes and concepts that moved between
-        them.
+        them. For planned app features and improvements, see the{" "}
+        <Link href="/roadmap" className="text-link">Roadmap</Link>.
       </p>
 
       {editions.length === 0 ? (

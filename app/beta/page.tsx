@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Beta Guide",
@@ -509,6 +510,8 @@ export default function BetaPage() {
           Shake your device or take a screenshot and tap the share prompt to
           use TestFlight&rsquo;s built-in feedback. You can also email
           directly: <a href="mailto:support@vynr.app">support@vynr.app</a>.
+          The public <Link href="/guide">Guide</Link> and{" "}
+          <Link href="/support">Support</Link> pages cover the basics.
         </p>
 
         <h3>What makes feedback valuable</h3>
