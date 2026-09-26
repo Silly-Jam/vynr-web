@@ -55,17 +55,12 @@ describe('support page is a bounded, static release surface', () => {
 });
 
 describe('support is discoverable across the public site', () => {
-  it('groups Support with Guide and Contact under Help, and Terms with Privacy under Legal', () => {
-    const helpAt = layout.indexOf('>Help</h2>');
-    const legalAt = layout.indexOf('>Legal</h2>');
-    const supportAt = layout.indexOf('href="/support"');
-    const contactAt = layout.indexOf('href="/contact"');
-    const privacyAt = layout.indexOf('href="/privacy"');
-    const termsAt = layout.indexOf('href="/terms"');
-
-    assert.ok(helpAt >= 0 && legalAt > helpAt);
-    assert.ok(supportAt > helpAt && contactAt > supportAt && contactAt < legalAt);
-    assert.ok(privacyAt > legalAt && termsAt > privacyAt);
+  it('lists Support and Contact under Help in the site menu, and Terms beside Privacy in the footer', () => {
+    const menu = readFileSync(new URL('../../app/components/SiteMenu.tsx', import.meta.url), 'utf8');
+    const help = menu.slice(menu.indexOf('label: "Help"'));
+    assert.ok(help.indexOf('href: "/support"') > 0 && help.indexOf('href: "/contact"') > help.indexOf('href: "/support"'));
+    const footer = layout.slice(layout.indexOf('<footer'), layout.indexOf('</footer>'));
+    assert.ok(footer.indexOf('href="/terms"') > footer.indexOf('href="/privacy"'));
   });
 
   it('lists Support and Terms in the sitemap', () => {

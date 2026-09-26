@@ -194,8 +194,9 @@ describe('roadmap publishes nothing internal and promises nothing unsupported', 
 });
 
 describe('roadmap is discoverable without changing the header', () => {
-  it('appears once in the footer and once in the sitemap', () => {
-    assert.equal((layout.match(/href="\/roadmap"/g) ?? []).length, 1);
+  it('appears in the site menu and once in the sitemap, not in the header row', () => {
+    const menu = readFileSync(new URL('../../app/components/SiteMenu.tsx', import.meta.url), 'utf8');
+    assert.match(menu, /href: "\/roadmap"/);
     const nav = layout.slice(layout.indexOf('<nav'), layout.indexOf('</nav>'));
     assert.doesNotMatch(nav, /\/roadmap/);
     assert.equal((sitemap.match(/\$\{BASE\}\/roadmap</g) ?? []).length, 1);

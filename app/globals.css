@@ -587,8 +587,8 @@ g:focus-visible .focus-ring {
   box-sizing: border-box;
 }
 
-/* Site chrome — primary header nav and grouped footer.
-   Every link carries .tap-target (44px); nothing collapses into a menu. */
+/* Site chrome — header with the site menu, and the one-line footer.
+   Every link carries .tap-target (44px). */
 .site-nav {
   max-width: 720px;
   margin: 0 auto;
@@ -631,28 +631,79 @@ g:focus-visible .focus-ring {
 
 .site-footer {
   border-top: 1px solid var(--atlas-separator);
-  padding: 1.5rem 0 1rem;
+  padding: 0.75rem 1.5rem 1rem;
+  text-align: center;
   color: var(--atlas-text-secondary);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
 }
 
-/* Header, footer and page content share one column: 720px including 24px gutters. */
-.footer-groups,
-.footer-social,
-.site-footer .sj-mark-wrap {
-  max-width: 720px;
-  padding: 0 24px;
-  box-sizing: border-box;
+.site-footer .nav-link {
+  font-size: inherit;
+  vertical-align: middle;
 }
 
-.footer-groups {
-  margin: 0 auto;
+.footer-dot {
+  margin: 0 0.25rem;
+  opacity: 0.4;
+}
+
+.site-nav-start {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  align-items: center;
+  margin-left: -0.75rem; /* the menu button's tap-target padding: its icon aligns with the content edge */
 }
 
-.footer-group-label {
-  margin: 0;
+.site-nav-start .site-wordmark {
+  margin-left: 0;
+}
+
+.site-nav {
+  position: relative;
+}
+
+.site-menu-button {
+  padding: 0 0.75rem;
+  background: none;
+  border: 0;
+  color: var(--atlas-text-secondary);
+  cursor: pointer;
+}
+
+.site-menu-button:hover,
+.site-menu-button[aria-expanded="true"] {
+  color: var(--atlas-text);
+}
+
+/* A quiet sheet under the header: full width on phones, a small panel on wider screens.
+   It hangs from the nav's real bottom edge (plus the header's 1px rule), so a header that
+   wraps under large text never hides it, and it scrolls within itself on short screens. */
+.site-menu-panel {
+  position: absolute;
+  top: calc(100% + 1px);
+  left: 0;
+  right: 0;
+  z-index: 60;
+  max-height: calc(100dvh - 100%);
+  overflow-y: auto;
+  padding: 0.5rem 24px 1rem;
+  background: var(--chrome-bg);
+  border-bottom: 1px solid var(--atlas-separator);
+  box-shadow: 0 8px 16px -12px rgba(61, 53, 40, 0.35);
+}
+
+.site-menu-panel[hidden] {
+  display: none;
+}
+
+.site-menu-group + .site-menu-group {
+  border-top: 1px solid var(--atlas-separator);
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+}
+
+.site-menu-label {
+  margin: 0.5rem 0 0;
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -660,54 +711,39 @@ g:focus-visible .focus-ring {
   color: var(--atlas-text-secondary);
 }
 
-.footer-group ul {
+.site-menu-group ul {
   list-style: none;
-  margin: 0 0 0 -0.5rem; /* align link text, not tap-target padding, with the label */
+  margin: 0 0 0 -0.5rem;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 0.25rem;
 }
 
-.footer-group .nav-link,
-.footer-social .nav-link {
-  justify-content: flex-start;
-  font-size: 0.85rem;
+.site-menu-group .nav-link[aria-current="page"] {
+  color: var(--atlas-text);
+  font-weight: 600;
 }
 
-.footer-social {
-  margin: 0.75rem auto 0;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 0.25rem;
-}
+@media (min-width: 640px) {
+  .site-menu {
+    position: relative;
+  }
 
-.footer-social > :first-child {
-  margin-left: -0.5rem;
-}
+  .site-menu-panel {
+    top: calc(100% + 5px);
+    right: auto;
+    min-width: 240px;
+    border: 1px solid var(--atlas-separator);
+    border-radius: 6px;
+    padding: 0.25rem 1rem 0.75rem;
+  }
 
-/* The colophon aligns with the footer groups rather than centring beneath them. */
-.site-footer .sj-mark-wrap {
-  margin: 0.5rem auto 0;
-  align-items: flex-start;
+  .site-menu-group ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .sj-colophon {
   min-height: 44px;
-}
-
-@media (min-width: 640px) {
-  .footer-groups {
-    flex-direction: row;
-    gap: 3rem;
-  }
-
-  .footer-group {
-    flex: 1;
-  }
-
-  .footer-group ul {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 }

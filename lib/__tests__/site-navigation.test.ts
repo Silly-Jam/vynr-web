@@ -7,54 +7,68 @@ const layout = read('app/layout.tsx');
 
 const header = layout.slice(layout.indexOf('<header'), layout.indexOf('</header>'));
 const footer = layout.slice(layout.indexOf('<footer'), layout.indexOf('</footer>'));
+const menu = read('app/components/SiteMenu.tsx');
 
 const hrefs = (source: string) => [...source.matchAll(/href="([^"]+)"/g)].map(m => m[1]);
 
-// The links between one footer group label and the next (or the end of the groups nav).
-function group(label: string): string[] {
-  const start = footer.indexOf(`>${label}</h2>`);
-  assert.ok(start >= 0, `missing footer group: ${label}`);
-  const next = footer.indexOf('<h2', start);
-  const end = next === -1 ? footer.indexOf('</nav>', start) : next;
-  return hrefs(footer.slice(start, end));
-}
-
-describe('header carries the three reasons people visit, always visible', () => {
-  it('links the wordmark home, then Atlas, Guide and Blog in order', () => {
+describe('header: the menu, the wordmark, and the three reasons people visit', () => {
+  it('puts the menu before the wordmark, then Atlas, Guide and Blog', () => {
+    assert.ok(header.indexOf('<SiteMenu />') >= 0, 'header renders the site menu');
+    assert.ok(header.indexOf('<SiteMenu />') < header.indexOf('site-wordmark'), 'menu sits left of the wordmark');
     assert.deepEqual(hrefs(header), ['/', '/atlas', '/guide', '/blog']);
-  });
-
-  it('has no menu to open', () => {
-    assert.doesNotMatch(header, /<(?:details|summary|button|input)\b/);
-    assert.doesNotMatch(layout, /['"]use client['"]/);
   });
 });
 
-describe('footer groups every other destination under a label', () => {
-  it('uses the Vynr, Help and Legal groups in order', () => {
-    const labels = [...footer.matchAll(/className="footer-group-label">([^<]+)</g)].map(m => m[1]);
-    assert.deepEqual(labels, ['Vynr', 'Help', 'Legal']);
-    assert.deepEqual(group('Vynr'), ['/about', '/roadmap', '/revisions']);
-    assert.deepEqual(group('Help'), ['/guide', '/support', '/contact']);
-    assert.deepEqual(group('Legal'), ['/privacy', '/terms']);
+describe('the site menu holds every page', () => {
+  it('lists Explore, Vynr and Help in order', () => {
+    const groups = [...menu.matchAll(/label: "([^"]+)",\s*links: \[([\s\S]*?)\]/g)].map(m => ({
+      label: m[1],
+      hrefs: [...m[2].matchAll(/href: "([^"]+)"/g)].map(h => h[1]),
+    }));
+    assert.deepEqual(groups, [
+      { label: 'Explore', hrefs: ['/atlas', '/guide', '/blog'] },
+      { label: 'Vynr', hrefs: ['/about', '/roadmap', '/revisions'] },
+      { label: 'Help', hrefs: ['/support', '/contact'] },
+    ]);
   });
 
-  it('labels the social links in text and drops the dot separators', () => {
-    assert.match(footer, />\s*Instagram\s*</);
-    assert.match(footer, />\s*TikTok\s*</);
-    assert.doesNotMatch(footer, /·/);
+  it('is an accessible disclosure that closes on navigation, link choice, Tab-out, Escape and outside taps', () => {
+    assert.match(menu, /aria-expanded=\{open\}/);
+    assert.match(menu, /aria-controls=\{panelId\}/);
+    assert.match(menu, /hidden=\{!open\}/);
+    assert.match(menu, /if \(pathname !== lastPath\)[\s\S]*?setOpen\(false\)/);
+    assert.match(menu, /event\.key !== "Escape"/);
+    assert.match(menu, /if \(focusWasInside\) buttonRef\.current\?\.focus\(\)/);
+    assert.match(menu, /onBlur=[\s\S]*?event\.relatedTarget[\s\S]*?setOpen\(false\)/);
+    assert.match(menu, /onClick=\{\(\) => setOpen\(false\)\}/);
+    assert.match(menu, /pointerdown/);
+    assert.match(menu, /aria-current=\{pathname === link\.href \? "page" : undefined\}/);
   });
 
-  it('gives every navigation link a 44px tap target', () => {
-    const links = [...layout.matchAll(/<(?:Link|a)\b[^>]*>/g)].map(m => m[0]);
+  it('keeps the tester-only beta guide out of site navigation', () => {
+    assert.doesNotMatch(layout + menu, /\/beta/);
+  });
+});
+
+describe('footer is one calm line of legal pages and outward links', () => {
+  it('links Privacy, Terms, Instagram, TikTok and the publisher, in order', () => {
+    assert.deepEqual(hrefs(footer), [
+      '/privacy',
+      '/terms',
+      'https://www.instagram.com/vynr.app',
+      'https://www.tiktok.com/@vynr.app',
+      '/about#silly-jam',
+    ]);
+    assert.match(footer, /aria-label="Vynr on Instagram"/);
+    assert.match(footer, /aria-label="Vynr on TikTok"/);
+  });
+
+  it('gives every chrome link a 44px tap target', () => {
+    const links = [...(layout + menu).matchAll(/<(?:Link|a|button)\b[^>]*>/g)].map(m => m[0]);
     for (const link of links) {
       assert.match(link, /className="[^"]*(?:tap-target|sj-colophon)/, `link lacks a tap target: ${link}`);
     }
     assert.match(read('app/globals.css'), /\.sj-colophon\s*\{\s*min-height: 44px;/);
-  });
-
-  it('keeps the tester-only beta guide out of site navigation', () => {
-    assert.doesNotMatch(layout, /href="\/beta"/);
   });
 });
 

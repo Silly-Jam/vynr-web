@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
+import { SiteMenu } from "./components/SiteMenu";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://vynr.app"),
@@ -76,13 +77,15 @@ export default function RootLayout({
             borderBottom: "1px solid var(--atlas-separator)",
           }}
         >
-          {/* Primary navigation: why people visit (explore, learn the app, read).
-              Three links stay visible at every width, so there is no menu to open.
-              Roadmap and Revisions live in the footer's Vynr group. */}
+          {/* Primary navigation: the menu holds every page; Atlas, Guide and Blog
+              (why people visit) stay visible on the right. */}
           <nav className="site-nav" aria-label="Primary">
-            <Link href="/" className="tap-target site-wordmark">
-              Vynr
-            </Link>
+            <div className="site-nav-start">
+              <SiteMenu />
+              <Link href="/" className="tap-target site-wordmark">
+                Vynr
+              </Link>
+            </div>
             <div className="site-nav-links">
               <Link href="/atlas" className="tap-target nav-link">
                 Atlas
@@ -99,82 +102,61 @@ export default function RootLayout({
 
         <main>{children}</main>
 
+        {/* One calm, centred line: the legal pages and the outward links. Every
+            site page lives in the header menu. */}
         <footer className="site-footer">
-          <nav className="footer-groups" aria-label="Footer">
-            <div className="footer-group">
-              <h2 className="footer-group-label">Vynr</h2>
-              <ul>
-                <li><Link href="/about" className="tap-target nav-link">About</Link></li>
-                <li><Link href="/roadmap" className="tap-target nav-link">Roadmap</Link></li>
-                {/* Revisions records reference-data changes. It sits with the
-                    publication's own pages, deliberately NOT in a status position:
-                    Vynr publishes no uptime or incident reporting for it to be
-                    mistaken for. */}
-                <li><Link href="/revisions" className="tap-target nav-link">Revisions</Link></li>
-              </ul>
-            </div>
-            <div className="footer-group">
-              <h2 className="footer-group-label">Help</h2>
-              <ul>
-                <li><Link href="/guide" className="tap-target nav-link">Guide</Link></li>
-                <li><Link href="/support" className="tap-target nav-link">Support</Link></li>
-                <li><Link href="/contact" className="tap-target nav-link">Contact</Link></li>
-              </ul>
-            </div>
-            <div className="footer-group">
-              <h2 className="footer-group-label">Legal</h2>
-              <ul>
-                <li><Link href="/privacy" className="tap-target nav-link">Privacy</Link></li>
-                <li><Link href="/terms" className="tap-target nav-link">Terms</Link></li>
-              </ul>
-            </div>
-          </nav>
-
-          <div className="footer-social">
-            <a
-              href="https://www.instagram.com/vynr.app"
-              className="tap-target nav-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                aria-hidden="true"
-                focusable="false"
+          <Link href="/privacy" className="tap-target nav-link">
+            Privacy
+          </Link>
+          <span aria-hidden="true" className="footer-dot">·</span>
+          <Link href="/terms" className="tap-target nav-link">
+            Terms
+          </Link>
+          <span aria-hidden="true" className="footer-dot">·</span>
+          <a
+            href="https://www.instagram.com/vynr.app"
+            className="tap-target nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Vynr on Instagram"
+          >
+            <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+            focusable="false"
               >
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                <circle cx="12" cy="12" r="5" />
-                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
-              </svg>
-              Instagram
-            </a>
-            <a
-              href="https://www.tiktok.com/@vynr.app"
-              className="tap-target nav-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                stroke="none"
-                aria-hidden="true"
-                focusable="false"
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+            <circle cx="12" cy="12" r="5" />
+            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+          </svg>
+          </a>
+          <span aria-hidden="true" className="footer-dot">·</span>
+          <a
+            href="https://www.tiktok.com/@vynr.app"
+            className="tap-target nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Vynr on TikTok"
+          >
+            <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            stroke="none"
+            aria-hidden="true"
+            focusable="false"
               >
-                <path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5c-1.43 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.07 2.49 5.57 5.56 5.57 3.07 0 5.56-2.5 5.56-5.57V9.01a7.3 7.3 0 0 0 4.32 1.4V7.3s-1.98.07-3.6-1.48Z" />
-              </svg>
-              TikTok
-            </a>
-          </div>
+            <path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5c-1.43 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.07 2.49 5.57 5.56 5.57 3.07 0 5.56-2.5 5.56-5.57V9.01a7.3 7.3 0 0 0 4.32 1.4V7.3s-1.98.07-3.6-1.48Z" />
+          </svg>
+          </a>
 
           <div className="sj-mark-wrap">
             <Link
