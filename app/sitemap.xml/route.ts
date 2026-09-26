@@ -20,6 +20,7 @@ export function GET() {
     ),
     `<url><loc>${BASE}/about</loc></url>`,
     `<url><loc>${BASE}/guide</loc></url>`,
+    `<url><loc>${BASE}/roadmap</loc></url>`,
     `<url><loc>${BASE}/privacy</loc></url>`,
     `<url><loc>${BASE}/support</loc></url>`,
     `<url><loc>${BASE}/contact</loc></url>`,

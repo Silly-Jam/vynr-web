@@ -180,6 +180,18 @@ export default function RootLayout({
           </Link>
           <span aria-hidden="true" style={{ margin: "0 0.25rem", opacity: 0.4 }}>·</span>
           <Link
+            href="/roadmap"
+            className="tap-target"
+            style={{
+              color: "var(--atlas-text-secondary)",
+              textDecoration: "none",
+              transition: "color 0.15s ease",
+            }}
+          >
+            Roadmap
+          </Link>
+          <span aria-hidden="true" style={{ margin: "0 0.25rem", opacity: 0.4 }}>·</span>
+          <Link
             href="/privacy"
               className="tap-target"
             style={{
