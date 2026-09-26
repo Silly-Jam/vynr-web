@@ -18,31 +18,54 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
+  const url = postPath(slug);
+  const image = socialImage(post);
   return {
     title: post.title,
     description: post.description,
+    alternates: { canonical: url },
     openGraph: {
       title: post.title,
       description: post.description,
       type: "article",
-      publishedTime: post.date,
-      ...(post.heroImage && { images: [{ url: post.heroImage }] }),
+      url,
+      publishedTime: isoDate(post.date),
+      images: [image],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.description,
-      ...(post.heroImage && { images: [post.heroImage] }),
+      images: [image.url],
     },
   };
 }
 
+function postPath(slug: string): string {
+  return `/blog/${slug}`;
+}
+
+// A hero image is the post's own picture; otherwise use the generated article card.
+function socialImage(post: { slug: string; title: string; heroImage?: string; heroAlt?: string }) {
+  if (post.heroImage) {
+    return { url: post.heroImage, alt: post.heroAlt || post.title };
+  }
+  return { url: `/og${postPath(post.slug)}`, width: 1200, height: 630, alt: post.title };
+}
+
+// gray-matter parses a bare YAML date into a Date; normalise to YYYY-MM-DD.
+function isoDate(date: string | Date): string {
+  return new Date(date).toISOString().slice(0, 10);
+}
+
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
+  // UTC, so the visible day matches the <time dateTime> (a YAML date is UTC midnight).
   return d.toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
 
@@ -136,6 +159,19 @@ export default async function PostPage({
     }
   }
 
+  const blogPosting = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    datePublished: isoDate(post.date),
+    url: `https://vynr.app${postPath(slug)}`,
+    mainEntityOfPage: `https://vynr.app${postPath(slug)}`,
+    image: new URL(socialImage(post).url, "https://vynr.app").toString(),
+    ...(post.tags && { keywords: post.tags.join(", ") }),
+    publisher: { "@type": "Organization", name: "Silly Jam Pte. Ltd." },
+  };
+
   return (
     <section
       style={{
@@ -144,6 +180,10 @@ export default async function PostPage({
         padding: "48px 24px 80px",
       }}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPosting).replace(/</g, "\\u003c") }}
+      />
       <Link
         href="/blog"
         style={{
@@ -172,6 +212,7 @@ export default async function PostPage({
           {post.title}
         </h1>
         <time
+          dateTime={isoDate(post.date)}
           style={{
             fontSize: "0.8rem",
             color: "var(--atlas-text-placeholder)",

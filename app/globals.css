@@ -10,7 +10,8 @@
   --atlas-card-stroke: #CEC4B2;
   --atlas-text: #3D3528;
   --atlas-text-secondary: #6B614E;
-  --atlas-text-placeholder: #8A7D68;
+  /* Muted text: 4.77:1 on --atlas-bg (WCAG AA for the small date/colophon sizes; was #8A7D68 at 3.73:1) */
+  --atlas-text-placeholder: #786C58;
   --atlas-separator: #B8AC94;
   --atlas-tint: #8B7355;
   /* Link text: the tint darkened to pass WCAG AA (4.88:1 on --atlas-bg; the tint is 4.16:1) */
