@@ -82,10 +82,10 @@ describe('releases are organised by commitment level', () => {
   });
 
   it('fails loudly on a malformed source instead of rendering a guess', () => {
-    assert.throws(() => parseRoadmap('# R\n\n## Launch\n\n### 1.2 — X\n\nno meta line\n'), /must open with/);
-    assert.throws(() => parseRoadmap('# R\n\n## Launch\n\n### 1.2 — X\n\n**Planned next** · *p*\n'), /sits under "Launch"/);
-    assert.throws(() => parseRoadmap('# R\n\n## Launch\n\ntext\n'), /has no releases/);
-    assert.throws(() => parseRoadmap('# R\n\n## What stays\n\n### 1.9 — X\n\n**Launch**\n'), /may only sit under/);
+    assert.throws(() => parseRoadmap('# R\n\nS.\n\n## Launch\n\n### 1.2 — X\n\nno meta line\n'), /must open with/);
+    assert.throws(() => parseRoadmap('# R\n\nS.\n\n## Launch\n\n### 1.2 — X\n\n**Planned next** · *p*\n'), /sits under "Launch"/);
+    assert.throws(() => parseRoadmap('# R\n\nS.\n\n## Launch\n\ntext\n'), /has no releases/);
+    assert.throws(() => parseRoadmap('# R\n\nS.\n\n## What stays\n\n### 1.9 — X\n\n**Launch**\n'), /may only sit under/);
     assert.throws(() => parseRoadmap('# R\n\nS.\n\n```\n## not a heading\n```\n'), /fenced code/);
     assert.throws(() => parseRoadmap('# R\n\nS.\n\n## Launch\n\n### 1.2 — A\n\n**Launch**\n\n### 1.2 — B\n\n**Launch**\n'), /duplicate id "v1-2"/);
     assert.throws(() => parseRoadmap('# R\n\nS.\n\n## 日本\n\ntext\n'), /empty id/);
@@ -199,7 +199,7 @@ describe('the page invites feedback through the existing contact path', () => {
     assert.match(roadmap.introHtml, /<blockquote>[\s\S]*href="\/contact"[\s\S]*<\/blockquote>/);
     assert.match(section('Tell us what matters').html, /<blockquote>[\s\S]*href="\/contact"[\s\S]*<\/blockquote>/);
     assert.equal((source.match(/Which of these would matter most to you\?/g) ?? []).length, 2);
-    assert.match(read('app/globals.css'), /\.roadmap blockquote \{[^}]*border: 1px solid/);
+    assert.match(read('app/globals.css'), /\.roadmap blockquote,\s*\.plans blockquote \{[^}]*border: 1px solid/);
   });
 
   it('links the cadence section to Revisions', () => {

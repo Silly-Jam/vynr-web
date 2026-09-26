@@ -19,6 +19,7 @@ const GROUPS: { label: string; links: { href: string; label: string }[] }[] = [
     label: "Vynr",
     links: [
       { href: "/about", label: "About" },
+      { href: "/vynr-plus", label: "vynr+" },
       { href: "/roadmap", label: "Roadmap" },
       { href: "/revisions", label: "Revisions" },
     ],

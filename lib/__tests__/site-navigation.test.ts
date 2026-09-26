@@ -27,7 +27,7 @@ describe('the site menu holds every page', () => {
     }));
     assert.deepEqual(groups, [
       { label: 'Explore', hrefs: ['/atlas', '/guide', '/blog'] },
-      { label: 'Vynr', hrefs: ['/about', '/roadmap', '/revisions'] },
+      { label: 'Vynr', hrefs: ['/about', '/vynr-plus', '/roadmap', '/revisions'] },
       { label: 'Help', hrefs: ['/support', '/contact'] },
     ]);
   });

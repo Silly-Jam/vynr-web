@@ -37,7 +37,9 @@ vynr brings together your wines, their makers, their places and your memories.
 - Shared cellars that anyone can explore in the app or the web viewer.
 - iCloud backup and restore, and full export. This is backup, not live sync between devices.
 
-Free includes analytical tasting, your own wine records, backup and export. vynr+ adds room for a larger collection, the forward Time Lens beyond six months, Assistant Link, multiple cellars, and richer journal composition and publishing. The [Guide to vynr](https://vynr.app/guide) walks through the launch release.
+The [Guide to vynr](https://vynr.app/guide) walks through the launch release.
+
+> **vynr+** adds unlimited bottles and more cellars, planning beyond six months, Assistant Link to connect your cellar privately to ChatGPT, Claude or Gemini, Ask vynr whenever you need it, and richer journal composition and publishing. The wine facts are the same on every plan. [Compare vynr and vynr+](https://vynr.app/vynr-plus).
 
 ## Planned next
 

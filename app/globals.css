@@ -750,11 +750,13 @@ g:focus-visible .focus-ring {
 
 /* Roadmap — rendered from ROADMAP.md. A quiet reading column with scan structure:
    a jump index, release bands edged by commitment level, and bordered feedback callouts. */
-.roadmap [id] {
+.roadmap [id],
+.plans [id] {
   scroll-margin-top: 64px; /* clear the sticky header when jumping to a section */
 }
 
-.roadmap blockquote {
+.roadmap blockquote,
+.plans blockquote {
   margin: 1.5rem 0;
   padding: 0.85rem 1.1rem;
   border: 1px solid var(--atlas-separator);
@@ -764,7 +766,8 @@ g:focus-visible .focus-ring {
   color: var(--atlas-text);
 }
 
-.roadmap blockquote p {
+.roadmap blockquote p,
+.plans blockquote p {
   margin: 0;
 }
 
@@ -783,16 +786,19 @@ g:focus-visible .focus-ring {
 }
 
 /* Scannable lists: quiet disc markers (the site's base styles strip them). */
-.roadmap ul {
+.roadmap ul,
+.plans ul {
   list-style: disc;
   padding-left: 1.25rem;
 }
 
-.roadmap li {
+.roadmap li,
+.plans li {
   margin-bottom: 0.35rem;
 }
 
-.roadmap li::marker {
+.roadmap li::marker,
+.plans li::marker {
   color: var(--atlas-tint);
 }
 
@@ -862,4 +868,109 @@ g:focus-visible .focus-ring {
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--atlas-text);
+}
+
+/* vynr and vynr+ — rendered from VYNR-PLUS.md. The comparison is a real table:
+   three columns on wide screens, one small stacked block per row on phones. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.plans-table {
+  width: 100%;
+  margin: 1rem 0 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.plans-table th,
+.plans-table td {
+  padding: 0.7rem 0.75rem 0.7rem 0;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid var(--atlas-separator);
+}
+
+.plans-table thead th {
+  border-top: 0;
+  padding-bottom: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  /* Small caps rather than an uppercase transform, so the accessible name stays "vynr". */
+  font-variant-caps: all-small-caps;
+  color: var(--atlas-text-secondary);
+}
+
+.plans-table tbody th {
+  width: 22%;
+  font-weight: 600;
+  color: var(--atlas-text);
+}
+
+.plans-table td p {
+  margin: 0;
+}
+
+.plans-table td[data-plan="vynr+"] {
+  color: var(--atlas-text);
+}
+
+@media (max-width: 639px) {
+  /* Visually hidden, never display:none: the headers stay in the accessibility tree. */
+  .plans-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+
+  .plans-table,
+  .plans-table tbody,
+  .plans-table tbody tr,
+  .plans-table th,
+  .plans-table td {
+    display: block;
+    width: auto;
+  }
+
+  .plans-table tr {
+    padding: 0.75rem 0;
+    border-top: 1px solid var(--atlas-separator);
+  }
+
+  .plans-table th,
+  .plans-table td,
+  .plans-table tbody th {
+    width: auto;
+    border-top: 0;
+    padding: 0.15rem 0;
+  }
+
+  /* Label and text side by side, so wrapped text hangs beside its plan name. */
+  .plans-table td {
+    display: grid;
+    grid-template-columns: 3.5rem 1fr;
+    align-items: baseline;
+  }
+
+  /* The column header is hidden on phones, so each cell names its plan visually. The
+     alt text "" keeps this label out of the accessibility tree: the header already names it. */
+  .plans-table td::before {
+    content: attr(data-plan) / "";
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--atlas-text-secondary);
+  }
+
 }
