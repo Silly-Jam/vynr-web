@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { getRoadmap } from "@/lib/roadmap";
 
-export const metadata: Metadata = {
-  title: "Roadmap",
-  description:
-    "What vynr launches with, what we are building next, and the directions we intend to take after that.",
-  alternates: { canonical: "/roadmap" },
-};
+export function generateMetadata(): Metadata {
+  return {
+    title: "Roadmap",
+    description: getRoadmap().summary,
+    alternates: { canonical: "/roadmap" },
+  };
+}
 
 // Every word on this page comes from ROADMAP.md; this component only lays it out.
 export default function RoadmapPage() {

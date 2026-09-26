@@ -31,6 +31,8 @@ export interface RoadmapSection {
 
 export interface Roadmap {
   title: string
+  /** The first paragraph of the intro as plain text, for the page's meta description. */
+  summary: string
   introHtml: string
   sections: RoadmapSection[]
 }
@@ -38,7 +40,10 @@ export interface Roadmap {
 // "**Planned next** · *Remember every tasting.*" — the first line of every release band.
 const META_LINE = /^\*\*(.+?)\*\*(?: · \*(.+)\*)?$/
 const VERSION_SEPARATOR = ' — '
-const SITE_ORIGIN = 'https://vynr.app/'
+// "1.2", "1.2.1", "1.2.x": an App Store version, never free text.
+const VERSION_SHAPE = /^\d+(?:\.(?:\d+|x))+$/
+// Links to the site itself are written absolutely so they work on GitHub; on the site they are local.
+const SITE_LINK = /href="https:\/\/(?:www\.)?vynr\.app(\/[^"]*)?"/g
 
 function slug(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
@@ -46,8 +51,7 @@ function slug(text: string): string {
 
 function render(markdown: string): string {
   const out = String(remark().use(html).processSync(markdown.trim()))
-  // The source links absolutely so it reads correctly on GitHub; on the site they are local.
-  return out.split(`href="${SITE_ORIGIN}`).join('href="/')
+  return out.replace(SITE_LINK, (_, path: string | undefined) => `href="${path ?? '/'}"`)
 }
 
 /** Splits `markdown` at every line starting with `marker` (e.g. "## "), returning the preamble and the parts. */
@@ -80,6 +84,9 @@ function parseRelease(heading: string, body: string, section: string): RoadmapRe
   }
   const separator = heading.indexOf(VERSION_SEPARATOR)
   const version = separator === -1 ? undefined : heading.slice(0, separator)
+  if (version !== undefined && !VERSION_SHAPE.test(version)) {
+    throw new Error(`ROADMAP.md: "${heading}" — text before " — " must be a version such as 1.3 or 1.2.x`)
+  }
   const theme = separator === -1 ? heading : heading.slice(separator + VERSION_SEPARATOR.length)
   return {
     id: slug(version ? `v${version}` : theme),
@@ -91,7 +98,11 @@ function parseRelease(heading: string, body: string, section: string): RoadmapRe
   }
 }
 
-export function parseRoadmap(markdown: string): Roadmap {
+export function parseRoadmap(raw: string): Roadmap {
+  const markdown = raw.replace(/\r\n?/g, '\n')
+  // The source is split on heading lines; a fenced block could hide a "## " line and tear
+  // the fence apart. The roadmap has no use for code, so refuse it rather than guess.
+  if (/^\s*(?:```|~~~)/m.test(markdown)) throw new Error('ROADMAP.md: fenced code blocks are not supported')
   const titleMatch = markdown.match(/^# (.+)$/m)
   if (!titleMatch) throw new Error('ROADMAP.md: missing "# " title')
   const afterTitle = markdown.slice(markdown.indexOf(titleMatch[0]) + titleMatch[0].length)
@@ -114,7 +125,17 @@ export function parseRoadmap(markdown: string): Roadmap {
     }
   })
 
-  return { title: titleMatch[1].trim(), introHtml: render(preamble), sections }
+  // Every section and release id becomes an HTML id and a jump target: each must exist and be unique.
+  const ids = sections.flatMap(s => [s.id, ...s.releases.map(r => r.id)])
+  for (const id of ids) {
+    if (!id) throw new Error('ROADMAP.md: a heading produced an empty id; use ASCII letters or digits')
+    if (ids.indexOf(id) !== ids.lastIndexOf(id)) throw new Error(`ROADMAP.md: duplicate id "${id}"`)
+  }
+
+  const summary = preamble.trim().split(/\n\s*\n/)[0]?.replace(/\s+/g, ' ').trim() ?? ''
+  if (!summary) throw new Error('ROADMAP.md: the intro must open with a summary paragraph')
+
+  return { title: titleMatch[1].trim(), summary, introHtml: render(preamble), sections }
 }
 
 export function getRoadmap(): Roadmap {

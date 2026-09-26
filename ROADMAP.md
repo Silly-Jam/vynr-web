@@ -8,6 +8,17 @@ Every release carries one of three commitment levels:
 - **Planned next**: work we are committed to and designing now. Each release has a working scope; the details are refined through design.
 - **Directional later**: the order and themes we intend. Scope is settled when each release's design is accepted, so details may change.
 
+### Always improving
+
+Two priorities run continuously alongside every release, and neither has a finish line:
+
+- **Label reading** gets more accurate in app updates every two weeks to monthly, with urgent fixes sooner.
+- **Reference data** grows every week: producers, places, grapes, ageing and vintage guidance, and Vynrpedia. It reaches the app without an app update, and each week's changes are published in [Revisions](https://vynr.app/revisions).
+
+### Toward 2.0
+
+We aim for vynr to be functionally complete at 2.0: the point where the core idea of vynr is whole. It is not an end. Maintenance, reference data, label reading, privacy and security work, and refinement all continue after it.
+
 > Which of these would matter most to you? [Tell us](https://vynr.app/contact).
 
 ## Launch
@@ -34,11 +45,11 @@ Free includes analytical tasting, your own wine records, backup and export. vynr
 
 **Planned next** · *The launch features, smoother.*
 
-Weekly updates at first, easing to every two weeks as things settle. They refine what 1.2 already does rather than add new capabilities.
+Weekly updates at first, easing to every two weeks as things settle. They refine what 1.2 already does. The one addition is CellarTracker import, which was ready for launch and held back only to keep the launch release simple.
 
 #### 1.2.1 — the first update
 
-- CellarTracker import returns. It was held out of the launch release only to keep that release simple.
+- CellarTracker import, to bring an existing cellar across.
 - Smoother manual entry when a scan fails or is only partly read.
 - A clearer Restore from iCloud screen.
 
@@ -50,13 +61,12 @@ Weekly updates at first, easing to every two weeks as things settle. They refine
 - A clearer path from publishing a shared cellar to opening it in the app or web viewer, including QR hand-off in a classroom.
 - Making sure a student can record their own tasting of a shared wine without cloning it into a cellar.
 - Clearer information about the bottle allowance, the edge of the free forward Time Lens, and a reminder before a trial ends.
-- Label reading keeps improving: better recognition of producers, cuvées and designations, and a way to pick the intended bottle when a photograph holds several.
 
 ### 1.3 — Journal, learn and teach
 
 **Planned next** · *Remember every tasting.*
 
-The working scope for a release roughly three months after launch. Tasting and the Journal become permanent and connected: capture an occasion, keep what you tasted, learn from it through the Atlas and Vynrpedia, come back to it, and turn it into study or teaching material. Details are refined through design.
+The working scope of a roughly three-month release. Tasting and the Journal become permanent and connected: capture an occasion, keep what you tasted, learn from it through the Atlas and Vynrpedia, come back to it, and turn it into study or teaching material. Details are refined through design.
 
 #### Tasting events
 
@@ -88,7 +98,7 @@ The working scope for a release roughly three months after launch. Tasting and t
 
 - Publish a tasting or study set to students, building on shared cellars that already carry notes and journal entries.
 - Students can record their own tasting of a shared wine without cloning or owning it.
-- The whole route, from a tutor's QR code or link to the student's app or browser, checked on real devices.
+- A smooth route from a tutor's QR code or link to the student's app or browser.
 
 #### From vynr
 
@@ -96,7 +106,7 @@ The working scope for a release roughly three months after launch. Tasting and t
 - No account and no tracking. It never interrupts what you are doing, and the app works fully without it.
 - Each notice can invite your feedback through the same contact route as this page.
 
-Analytical tasting stays free. Capturing, correcting, keeping, backing up and exporting your own tasting history will never be taken away, and reading shared material stays free. vynr+ additions build on that record: composing, organising, teaching and publishing.
+Analytical tasting stays free. Capturing, correcting, keeping, revisiting, backing up and exporting your own tasting history will never be taken away, and reading shared material stays free. vynr+ additions build on that record: composing, organising, teaching and publishing.
 
 ## Directional later
 
@@ -111,7 +121,7 @@ The Time Lens becomes a planning tool that helps you act.
 - Plan wines for a meal, dinner or tasting, starting from the food, the date, the guests or a few candidate bottles.
 - Deeper Assistant Link help with food pairing and planning an opening, with snapshots that stay current under your existing privacy choices.
 
-The same readiness facts appear on every tier, and useful planning and reminders stay free within the six-month forward window. Being reminded about your own bottle will not be a paid extra.
+Our intent is that the same readiness facts appear on every tier and that free planning stays genuinely useful. What is free and what is vynr+ is settled when this release is designed.
 
 ### 1.5 — Your taste
 
@@ -125,7 +135,7 @@ What your own history says about the wines, places and styles you return to, and
 - Your own private notes on places, producers and concepts in the Atlas, kept visibly separate from vynr's reference information.
 - Explicit control over whether any of your taste reaches Assistant Link.
 
-Your profile stays private on your device unless you choose to share part of it. There is no single score for you or a wine, and no comparison with other people.
+Your profile stays private on your device unless you choose to share part of it. There is no single score of your taste, and no comparison with other people.
 
 ### 1.6 — Everywhere
 
@@ -141,6 +151,7 @@ Your profile stays private on your device unless you choose to share part of it.
 **Directional later** · *No version yet.*
 
 - More ways to group a cellar: by producer, grape and vintage.
+- Picking the intended bottle when a photograph holds several.
 - An interactive map within the Atlas.
 - Further development of the shared-cellar web viewer and Atlas reference pages.
 - Comparing your cellar with another collection, such as a restaurant list, a retailer's catalogue or a club cellar, to see where they overlap and which wines match your taste.
@@ -155,8 +166,8 @@ Your profile stays private on your device unless you choose to share part of it.
 Four kinds of work move at different speeds. These are the rhythms we intend, not fixed delivery dates.
 
 - **Fix and refine (1.2.1, 1.2.2, …).** Weekly app updates at first, easing to every two weeks. Urgent reliability fixes can arrive sooner.
-- **Reference data.** Weekly updates to producers, places, grapes, ageing guidance, education and Vynrpedia. These reach the app without an app update, and each week's changes are published in [Revisions](https://vynr.app/revisions).
-- **Label reading.** Accuracy improvements every two weeks to monthly, delivered inside app updates. When a label fails because a producer or place is missing, we add the reference data rather than bend the reader around the gap.
+- **Reference data.** Weekly and continuous (see *Always improving*), published in [Revisions](https://vynr.app/revisions).
+- **Label reading.** Every two weeks to monthly and continuous, inside app updates. When a label fails because a producer or place is missing, we add the reference data rather than bend the reader around the gap.
 - **New capabilities (1.3, 1.4, …).** Roughly one release a quarter, each centred on one theme. What is free and what is vynr+ is settled before the work begins.
 
 ## What stays

@@ -27,9 +27,14 @@ describe('ROADMAP.md is the single public source', () => {
   it('renders /roadmap from ROADMAP.md with no copy in the page component', () => {
     assert.match(page, /import \{ getRoadmap \} from "@\/lib\/roadmap"/);
     assert.match(read('lib/roadmap.ts'), /path\.join\(process\.cwd\(\), 'ROADMAP\.md'\)/);
-    for (const phrase of ['Remember every tasting', 'Journal, learn and teach', 'Tell us', '<li>', '<p>']) {
+    for (const phrase of ['Remember every tasting', 'Journal, learn and teach', 'Tell us', 'What vynr launches with', '<li>', '<p>']) {
       assert.ok(!page.includes(phrase), `page.tsx must not carry roadmap copy: ${phrase}`);
     }
+  });
+
+  it('takes the meta description from the source summary', () => {
+    assert.match(page, /description: getRoadmap\(\)\.summary/);
+    assert.equal(roadmap.summary, source.split('\n\n')[1].trim());
   });
 
   it('builds without fetching anything', () => {
@@ -39,8 +44,10 @@ describe('ROADMAP.md is the single public source', () => {
 
   it('localises vynr.app links and carries no raw HTML in the source', () => {
     const html = [roadmap.introHtml, ...roadmap.sections.flatMap(s => [s.html, ...s.releases.map(r => r.html)])].join('');
-    assert.doesNotMatch(html, /href="https:\/\/vynr\.app\//);
-    assert.doesNotMatch(source, /<(?:script|iframe|style|div|span)\b/i);
+    assert.doesNotMatch(html, /href="https:\/\/(?:www\.)?vynr\.app/);
+    assert.doesNotMatch(source, /<[a-z][a-z0-9-]*[\s>/]/i);
+    const probe = parseRoadmap('# R\n\nS.\n\n[a](https://vynr.app) [b](https://www.vynr.app/x) [c](https://vynr.app/y#z)\n');
+    assert.match(probe.introHtml, /href="\/">a<[\s\S]*href="\/x">b<[\s\S]*href="\/y#z">c</);
   });
 });
 
@@ -67,6 +74,7 @@ describe('releases are organised by commitment level', () => {
   it('indexes the three tiers and styles bands by tier', () => {
     assert.deepEqual(roadmap.sections.filter(s => s.releases.length).map(s => s.id), ['launch', 'planned-next', 'directional-later']);
     assert.match(page, /className="roadmap-index"/);
+    assert.match(page, /href=\{`#\$\{tier\.id\}`\} className="tap-target nav-link"/);
     assert.match(page, /data-commitment=\{section\.id\}/);
   });
 
@@ -75,13 +83,22 @@ describe('releases are organised by commitment level', () => {
     assert.throws(() => parseRoadmap('# R\n\n## Launch\n\n### 1.2 — X\n\n**Planned next** · *p*\n'), /sits under "Launch"/);
     assert.throws(() => parseRoadmap('# R\n\n## Launch\n\ntext\n'), /has no releases/);
     assert.throws(() => parseRoadmap('# R\n\n## What stays\n\n### 1.9 — X\n\n**Launch**\n'), /may only sit under/);
+    assert.throws(() => parseRoadmap('# R\n\nS.\n\n```\n## not a heading\n```\n'), /fenced code/);
+    assert.throws(() => parseRoadmap('# R\n\nS.\n\n## Launch\n\n### 1.2 — A\n\n**Launch**\n\n### 1.2 — B\n\n**Launch**\n'), /duplicate id "v1-2"/);
+    assert.throws(() => parseRoadmap('# R\n\nS.\n\n## 日本\n\ntext\n'), /empty id/);
+    assert.throws(() => parseRoadmap('# R\n\nS.\n\n## Launch\n\n### Under consideration — ideas\n\n**Launch**\n'), /must be a version/);
+    assert.throws(() => parseRoadmap('# R\n\n## Launch\n\n### 1.2 — A\n\n**Launch**\n'), /summary paragraph/);
+  });
+
+  it('reads Windows line endings the same as Unix ones', () => {
+    assert.deepEqual(parseRoadmap(source.replace(/\n/g, '\r\n')), roadmap);
   });
 });
 
 describe('the 1.3 working scope matches its release epic', () => {
   it('is presented as the working scope of a roughly three-month release, not a loose list', () => {
     const html = release('1.3').html;
-    assert.match(html, /working scope for a release roughly three months after launch/);
+    assert.match(html, /working scope of a roughly three-month release/);
     assert.match(html, /Details are refined through design/);
     assert.doesNotMatch(text, /not every one will arrive together|candidate enhancements|not a committed checklist|grab bag/i);
   });
@@ -114,7 +131,13 @@ describe('the directional releases match their epics without over-promising', ()
     for (const item of ['whole cellar', 'Opt-in drink-window reminders', 'not one alert per bottle', 'Plan wines for a meal', 'Assistant Link']) {
       assert.ok(html.includes(item), `1.4 missing: ${item}`);
     }
-    assert.match(html, /will not be a paid extra/);
+  });
+
+  it('directional releases state intent, never settled free or paid terms', () => {
+    for (const version of ['1.4', '1.5', '1.6']) {
+      assert.doesNotMatch(release(version).html, /will not be a paid|will never|stays? free|free within|guarantee/i, `${version} makes a settled pledge`);
+    }
+    assert.match(release('1.4').html, /settled when this release is designed/);
   });
 
   it('1.5 covers profile, recommendations, chapters, personal Atlas and consent', () => {
@@ -122,7 +145,7 @@ describe('the directional releases match their epics without over-promising', ()
     for (const item of ['evidence behind every conclusion', 'You can correct it', 'why a wine may suit you', 'Chapters', 'private notes', 'reaches Assistant Link']) {
       assert.ok(html.includes(item), `1.5 missing: ${item}`);
     }
-    assert.match(html, /no comparison with other people/);
+    assert.match(html, /no single score of your taste, and no comparison with other people/);
   });
 
   it('1.6 and the long-horizon list stay directional', () => {
@@ -133,6 +156,35 @@ describe('the directional releases match their epics without over-promising', ()
     for (const item of ['group a cellar', 'interactive map', 'web viewer', 'Comparing your cellar with another collection', 'Educational overlays', 'Aroma fingerprints', 'Drinks beyond wine', 'Android', 'lifetime purchase option']) {
       assert.ok(later.includes(item), `under consideration missing: ${item}`);
     }
+  });
+});
+
+describe('continuing priorities and the 2.0 arc sit near the top', () => {
+  const intro = roadmap.introHtml;
+  const at = (needle: string) => intro.indexOf(needle);
+
+  it('states label reading and reference data as continuing, with honest rhythms', () => {
+    assert.ok(at('<h3>Always improving</h3>') >= 0, 'intro has "Always improving"');
+    assert.match(intro, /neither has a finish line/);
+    assert.match(intro, /Label reading<\/strong> gets more accurate in app updates every two weeks to monthly, with urgent fixes sooner/);
+    assert.match(intro, /Reference data<\/strong> grows every week/);
+    assert.match(intro, /href="\/revisions"/);
+  });
+
+  it('defines 2.0 as functional completeness, not an end to improvement', () => {
+    assert.ok(at('<h3>Toward 2.0</h3>') > at('<h3>Always improving</h3>'));
+    assert.match(intro, /functionally complete at 2\.0/);
+    assert.match(intro, /It is not an end\. Maintenance, reference data, label reading, privacy and security work, and refinement all continue after it/);
+  });
+
+  it('places both before the first release and the feedback callout', () => {
+    assert.ok(at('<h3>Toward 2.0</h3>') < at('<blockquote>'), 'priorities come before the callout');
+    assert.doesNotMatch(text, /(?:label reading|reference data)[^.]*(?:is|are|will be) (?:done|finished|complete)/i);
+  });
+
+  it('keeps unproven label-reading capability out of committed releases', () => {
+    assert.doesNotMatch(section('Planned next').releases.map(r => r.html).join(''), /intended bottle/);
+    assert.match(section('Directional later').releases.at(-1)!.html, /Picking the intended bottle/);
   });
 });
 
@@ -151,7 +203,7 @@ describe('the page invites feedback through the existing contact path', () => {
 
 describe('the public source carries nothing internal and promises nothing unsupported', () => {
   it('has no internal identifiers, tooling or links', () => {
-    assert.doesNotMatch(source, /SJAM-|ADR-|STRAT-|linear\.app|badmini|Trinity|\bepoch\b|\bbuild \d|\bFR\d\b|\bG[1-5]\b/i);
+    assert.doesNotMatch(source, /SJAM|\bADR\b|ADR-|STRAT-|linear\.app|badmini|Trinity|\bepoch\b|\bbuild \d|\bFR\d\b|\bG[1-5]\b|real devices|feel gate/i);
     assert.doesNotMatch(source, /WSET|MCP/);
   });
 
@@ -162,6 +214,9 @@ describe('the public source carries nothing internal and promises nothing unsupp
 
   it('uses "forward" Time Lens wording and never claims future work is available', () => {
     assert.doesNotMatch(text, /(?:full|complete) (?:forward )?Time Lens|unlimited scrubbing/i);
+    for (const mention of text.match(/[^.]*Time Lens beyond six months[^.]*/g) ?? []) {
+      assert.match(mention, /forward Time Lens beyond six months/, 'the paid Time Lens is always the forward one');
+    }
     assert.doesNotMatch(text, /available now|coming soon|privacy controls/i);
     assert.match(text, /Free never shrinks/);
     for (const never of ['social feeds', 'community ratings', 'marketplace', 'advertising', 'affiliate links', 'gamification', 'sponsored placement', 'pay-to-rank', 'transaction fees', 'data resale']) {
