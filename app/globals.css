@@ -747,3 +747,119 @@ g:focus-visible .focus-ring {
 .sj-colophon {
   min-height: 44px;
 }
+
+/* Roadmap — rendered from ROADMAP.md. A quiet reading column with scan structure:
+   a jump index, release bands edged by commitment level, and bordered feedback callouts. */
+.roadmap [id] {
+  scroll-margin-top: 64px; /* clear the sticky header when jumping to a section */
+}
+
+.roadmap blockquote {
+  margin: 1.5rem 0;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid var(--atlas-separator);
+  border-left: 3px solid var(--atlas-link);
+  border-radius: 4px;
+  font-style: normal; /* no fill: links keep AA contrast on the page background */
+  color: var(--atlas-text);
+}
+
+.roadmap blockquote p {
+  margin: 0;
+}
+
+.roadmap-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.25rem;
+  margin: 1.5rem 0 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--atlas-separator);
+}
+
+.roadmap-index .nav-link:first-child {
+  padding-left: 0; /* text, not tap padding, aligns with the column; the rule stays inside it */
+  justify-content: flex-start;
+}
+
+/* Scannable lists: quiet disc markers (the site's base styles strip them). */
+.roadmap ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+
+.roadmap li {
+  margin-bottom: 0.35rem;
+}
+
+.roadmap li::marker {
+  color: var(--atlas-tint);
+}
+
+.roadmap-index .nav-link {
+  color: var(--atlas-link);
+  text-decoration: none;
+}
+
+.roadmap-section > h2 {
+  margin-top: 3rem;
+}
+
+.release-band {
+  margin: 1.75rem 0 0;
+  padding: 0.25rem 0 0.25rem 1.1rem;
+  border-left: 2px solid var(--atlas-separator);
+}
+
+.release-band[data-commitment="launch"] {
+  border-left-color: var(--atlas-text-secondary);
+}
+
+.release-band[data-commitment="planned-next"] {
+  border-left-color: var(--atlas-link);
+}
+
+.release-band[data-commitment="directional-later"] {
+  border-left-style: dashed;
+}
+
+.release-band h3 {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.6rem;
+}
+
+.release-version {
+  font-variant-numeric: tabular-nums;
+  color: var(--atlas-link);
+}
+
+.release-meta {
+  margin: 0.2rem 0 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.75rem;
+}
+
+.release-commitment {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--atlas-text-secondary);
+}
+
+.release-promise {
+  font-style: italic;
+  color: var(--atlas-text);
+}
+
+.release-band h4 {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--atlas-text);
+}

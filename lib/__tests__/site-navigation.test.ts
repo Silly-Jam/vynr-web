@@ -97,7 +97,7 @@ describe('links meet WCAG AA contrast', () => {
 describe('pages cross-link so nothing depends on the header alone', () => {
   it('connects Roadmap, Revisions, Atlas, Guide, Support and Beta', () => {
     assert.match(read('app/revisions/page.tsx'), /href="\/roadmap"/);
-    assert.match(read('app/roadmap/page.tsx'), /href="\/revisions"/);
+    assert.match(read('ROADMAP.md'), /\]\(https:\/\/vynr\.app\/revisions\)/);
     assert.match(read('app/atlas/[[...path]]/page.tsx'), /href="\/revisions"/);
     assert.match(read('app/guide/page.tsx'), /href="\/roadmap"/);
     assert.match(read('app/support/page.tsx'), /href="\/guide"/);
