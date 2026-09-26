@@ -6,6 +6,9 @@ import { remark } from "remark";
 import html from "remark-html";
 import WineCard from "@/app/components/WineCard";
 
+// Unknown slugs 404 instead of failing to read a missing Markdown file.
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const posts = getAllPosts();
   return posts.map((post) => ({ slug: post.slug }));
