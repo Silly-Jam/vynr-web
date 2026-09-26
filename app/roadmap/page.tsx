@@ -275,7 +275,11 @@ export default function RoadmapPage() {
             Further development of the shared-cellar web viewer and Atlas
             reference pages.
           </li>
-          <li>Similarity between wines, and how your cellar maps onto the Atlas.</li>
+          <li>
+            Comparing your cellar with another collection &mdash; a restaurant
+            list, a retailer&rsquo;s catalogue or a club cellar &mdash; to see
+            where they overlap and which wines match your taste.
+          </li>
           <li>Educational overlays for deeper study.</li>
           <li>Aroma fingerprints.</li>
           <li>Drinks beyond wine.</li>

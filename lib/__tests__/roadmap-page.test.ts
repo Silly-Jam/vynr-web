@@ -115,8 +115,8 @@ describe('roadmap covers every major user-facing theme', () => {
   it('covers every later and long-horizon direction', () => {
     const later = section('Directional later');
     for (const item of [
-      'Similarity between wines',
-      'how your cellar maps onto the Atlas',
+      'Comparing your cellar with another collection',
+      'which wines match your taste',
       'Further development of the shared-cellar web viewer',
       'Drink-window notifications',
       'food pairing',
