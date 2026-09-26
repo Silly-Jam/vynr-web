@@ -12,6 +12,14 @@ const text = roadmap.replace(/\s+/g, ' ');
 // Published copy only: the <article> body, so layout styles (e.g. lineHeight: 1.2) never trip copy checks.
 const article = roadmap.slice(roadmap.indexOf('<article'), roadmap.indexOf('</article>'));
 
+// The source between an H2 and the next H2 (or the end of the article).
+function section(h2: string): string {
+  const start = roadmap.indexOf(`<h2>${h2}</h2>`);
+  assert.ok(start >= 0, `missing section: ${h2}`);
+  const next = roadmap.indexOf('<h2>', start + 1);
+  return roadmap.slice(start, next === -1 ? undefined : next).replace(/\s+/g, ' ');
+}
+
 function headings(tag: 'h2' | 'h3'): string[] {
   return [...roadmap.matchAll(new RegExp(`<${tag}>([^<]+)</${tag}>`, 'g'))].map(m => m[1].trim());
 }
@@ -39,6 +47,16 @@ describe('roadmap is organised by commitment level', () => {
       'Everywhere',
       'Under consideration',
     ]);
+    // Placement, not just order: every H3 must sit between its own H2 and the next one.
+    for (const [tier, themes] of Object.entries({
+      'Planned next': ['Everyday refinements', 'Journal, learn and teach'],
+      'Directional later': ['Plan and be reminded', 'Your taste', 'Everywhere', 'Under consideration'],
+    })) {
+      const body = section(tier);
+      for (const theme of themes) {
+        assert.ok(body.includes(`<h3>${theme}</h3>`), `${theme} must sit under ${tier}`);
+      }
+    }
   });
 
   it('states that planned and later items are not promises', () => {
@@ -50,8 +68,12 @@ describe('roadmap is organised by commitment level', () => {
 
 describe('roadmap covers every major user-facing theme', () => {
   it('names all four cadence tracks and links Revisions', () => {
-    for (const track of ['Fix and refine.', 'Reference data.', 'Label reading.', 'New capabilities.']) {
-      assert.ok(text.includes(track), `missing cadence track: ${track}`);
+    const cadence = section('How vynr develops');
+    for (const item of [
+      'Fix and refine.', 'Reference data.', 'Label reading.', 'New capabilities.',
+      'producers, cuvées and designations', 'pick the intended bottle',
+    ]) {
+      assert.ok(cadence.includes(item), `missing from cadence: ${item}`);
     }
     assert.match(roadmap, /href="\/revisions"/);
   });
@@ -85,7 +107,11 @@ describe('roadmap covers every major user-facing theme', () => {
   });
 
   it('covers every later and long-horizon direction', () => {
+    const later = section('Directional later');
     for (const item of [
+      'Similarity between wines',
+      'how your cellar maps onto the Atlas',
+      'Further development of the shared-cellar web viewer',
       'Drink-window notifications',
       'food pairing',
       'what you tend to enjoy',
@@ -104,7 +130,7 @@ describe('roadmap covers every major user-facing theme', () => {
       'Android',
       'lifetime purchase option',
     ]) {
-      assert.ok(text.includes(item), `missing later direction: ${item}`);
+      assert.ok(later.includes(item), `missing later direction: ${item}`);
     }
   });
 

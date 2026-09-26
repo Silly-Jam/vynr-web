@@ -106,7 +106,9 @@ export default function RoadmapPage() {
           </li>
           <li>
             <strong>Label reading.</strong> Accuracy improvements every two
-            weeks to monthly, delivered inside app updates. When a label fails
+            weeks to monthly, delivered inside app updates: better recognition
+            of producers, cuvées and designations, and a way to pick the
+            intended bottle when a photograph holds several. When a label fails
             because a producer or place is missing, we add the reference data
             rather than bend the reader around the gap.
           </li>
