@@ -1,6 +1,9 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { describe, it } from 'node:test';
+import { createElement } from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
+import RoadmapPage from '../../app/roadmap/page';
 import { getRoadmap, parseRoadmap } from '../roadmap';
 
 const read = (path: string) => readFileSync(new URL(`../../${path}`, import.meta.url), 'utf8');
@@ -88,6 +91,9 @@ describe('releases are organised by commitment level', () => {
     assert.throws(() => parseRoadmap('# R\n\nS.\n\n## 日本\n\ntext\n'), /empty id/);
     assert.throws(() => parseRoadmap('# R\n\nS.\n\n## Launch\n\n### Under consideration — ideas\n\n**Launch**\n'), /must be a version/);
     assert.throws(() => parseRoadmap('# R\n\n## Launch\n\n### 1.2 — A\n\n**Launch**\n'), /summary paragraph/);
+    for (const definition of ['[c]: https://vynr.app/contact', '[c]:https://vynr.app/contact', '> [c]: https://vynr.app/contact', '- [c]: https://vynr.app/contact']) {
+      assert.throws(() => parseRoadmap(`# R\n\nS [contact][c].\n\n## What stays\n\n${definition}\n`), /inline links/, definition);
+    }
   });
 
   it('reads Windows line endings the same as Unix ones', () => {
@@ -231,5 +237,23 @@ describe('roadmap is discoverable', () => {
     const nav = layout.slice(layout.indexOf('<nav'), layout.indexOf('</nav>'));
     assert.doesNotMatch(nav, /\/roadmap/);
     assert.equal((sitemap.match(/\$\{BASE\}\/roadmap</g) ?? []).length, 1);
+  });
+});
+
+describe('the rendered page', () => {
+  const html = renderToStaticMarkup(createElement(RoadmapPage));
+
+  it('renders every section and release exactly once, with unique ids', () => {
+    const ids = [...html.matchAll(/ id="([^"]+)"/g)].map(m => m[1]);
+    assert.equal(new Set(ids).size, ids.length, `duplicate ids: ${ids}`);
+    assert.equal((html.match(/class="release-band"/g) ?? []).length, 7);
+    assert.equal((html.match(/<h1\b/g) ?? []).length, 1);
+    assert.equal((html.match(/<h2>/g) ?? []).length, roadmap.sections.length);
+  });
+
+  it('links the feedback callouts to /contact exactly twice, and indexes the three tiers', () => {
+    assert.equal((html.match(/href="\/contact"/g) ?? []).length, 2);
+    const index = html.slice(html.indexOf('class="roadmap-index"'), html.indexOf('</nav>', html.indexOf('class="roadmap-index"')));
+    assert.deepEqual([...index.matchAll(/href="#([^"]+)"/g)].map(m => m[1]), ['launch', 'planned-next', 'directional-later']);
   });
 });

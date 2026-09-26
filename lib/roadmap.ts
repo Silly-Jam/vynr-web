@@ -45,6 +45,16 @@ const VERSION_SHAPE = /^\d+(?:\.(?:\d+|x))+$/
 // Links to the site itself are written absolutely so they work on GitHub; on the site they are local.
 const SITE_LINK = /href="https:\/\/(?:www\.)?vynr\.app(\/[^"]*)?"/g
 
+interface MarkdownNode {
+  type: string
+  children?: MarkdownNode[]
+}
+
+/** Whether the parsed markdown tree contains a node of `type` anywhere, at any depth. */
+function hasNode(node: MarkdownNode, type: string): boolean {
+  return node.type === type || (node.children ?? []).some(child => hasNode(child, type))
+}
+
 function slug(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 }
@@ -103,6 +113,11 @@ export function parseRoadmap(raw: string): Roadmap {
   // The source is split on heading lines; a fenced block could hide a "## " line and tear
   // the fence apart. The roadmap has no use for code, so refuse it rather than guess.
   if (/^\s*(?:```|~~~)/m.test(markdown)) throw new Error('ROADMAP.md: fenced code blocks are not supported')
+  // Each section renders on its own, so a reference-style link definition in one section
+  // would not resolve in another. Inline links only.
+  if (hasNode(remark().parse(markdown), 'definition')) {
+    throw new Error('ROADMAP.md: use inline links, not reference-style definitions')
+  }
   const titleMatch = markdown.match(/^# (.+)$/m)
   if (!titleMatch) throw new Error('ROADMAP.md: missing "# " title')
   const afterTitle = markdown.slice(markdown.indexOf(titleMatch[0]) + titleMatch[0].length)
