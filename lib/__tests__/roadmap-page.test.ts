@@ -29,7 +29,7 @@ describe('roadmap is organised by commitment level', () => {
     assert.ok(existsSync(roadmapUrl), 'app/roadmap/page.tsx must exist');
     assert.equal((roadmap.match(/<h1(?:\s|>)/g) ?? []).length, 1);
     assert.deepEqual(headings('h2'), [
-      'Launch foundation',
+      'Launch',
       'How vynr develops',
       'Planned next',
       'Directional later',
@@ -40,17 +40,22 @@ describe('roadmap is organised by commitment level', () => {
 
   it('keeps each theme under its tier', () => {
     assert.deepEqual(headings('h3'), [
-      'Everyday refinements',
-      'Journal, learn and teach',
-      'Plan and be reminded',
-      'Your taste',
-      'Everywhere',
+      '1.2 &mdash; the launch release',
+      '1.2.1 &mdash; the first update',
+      'Later 1.2.x updates',
+      '1.3 &mdash; Journal, learn and teach',
+      '1.4 &mdash; Plan and be reminded',
+      '1.5 &mdash; Your taste',
+      '1.6 &mdash; Everywhere',
       'Under consideration',
     ]);
     // Placement, not just order: every H3 must sit between its own H2 and the next one.
     for (const [tier, themes] of Object.entries({
-      'Planned next': ['Everyday refinements', 'Journal, learn and teach'],
-      'Directional later': ['Plan and be reminded', 'Your taste', 'Everywhere', 'Under consideration'],
+      'Launch': ['1.2 &mdash; the launch release'],
+      'Planned next': ['1.2.1 &mdash; the first update', 'Later 1.2.x updates', '1.3 &mdash; Journal, learn and teach'],
+      'Directional later': [
+        '1.4 &mdash; Plan and be reminded', '1.5 &mdash; Your taste', '1.6 &mdash; Everywhere', 'Under consideration',
+      ],
     })) {
       const body = section(tier);
       for (const theme of themes) {
@@ -60,9 +65,9 @@ describe('roadmap is organised by commitment level', () => {
   });
 
   it('states that planned and later items are not promises', () => {
-    assert.match(text, /candidate outcomes, not a committed checklist/);
-    assert.match(text, /not scheduled releases/);
-    assert.match(text, /None of these has a release window or a settled scope/);
+    assert.match(text, /candidate enhancements, not a committed checklist/);
+    assert.match(text, /These versions are not scheduled/);
+    assert.match(text, /None of these has a version or a settled scope/);
   });
 });
 
@@ -70,7 +75,7 @@ describe('roadmap covers every major user-facing theme', () => {
   it('names all four cadence tracks and links Revisions', () => {
     const cadence = section('How vynr develops');
     for (const item of [
-      'Fix and refine.', 'Reference data.', 'Label reading.', 'New capabilities.',
+      'Fix and refine (1.2.1', 'Reference data.', 'Label reading.', 'New capabilities (1.3',
       'producers, cuvées and designations', 'pick the intended bottle',
     ]) {
       assert.ok(cadence.includes(item), `missing from cadence: ${item}`);
@@ -93,16 +98,17 @@ describe('roadmap covers every major user-facing theme', () => {
   });
 
   it('covers the Journal, learn and teach candidates', () => {
+    const next = section('Planned next').toLowerCase();
     for (const item of [
       'Start an empty tasting',
       'never count towards your bottle allowance',
       'Vynrpedia concepts',
-      'appearance, nose, palate, finish and conclusion',
-      'blind-tasting sets',
+      'Appearance, nose, palate, finish and conclusion',
+      'Blind-tasting sets',
       'study sets',
       'tasting sets published to students',
     ]) {
-      assert.ok(text.includes(item), `missing FR1 candidate: ${item}`);
+      assert.ok(next.includes(item.toLowerCase()), `missing 1.3 candidate: ${item}`);
     }
   });
 
@@ -115,7 +121,7 @@ describe('roadmap covers every major user-facing theme', () => {
       'Drink-window notifications',
       'food pairing',
       'what you tend to enjoy',
-      'journal chapters',
+      'Journal chapters',
       'annotations in the Atlas',
       'Live sync between devices',
       'iPad and Mac',
@@ -152,7 +158,7 @@ describe('roadmap invites feedback through the existing contact path', () => {
     assert.equal((roadmap.match(/href="\/contact"/g) ?? []).length, 2);
     assert.equal((text.match(/Which of these would matter most to you\?/g) ?? []).length, 2);
     const first = roadmap.indexOf('href="/contact"');
-    assert.ok(first < roadmap.indexOf('<h2>Launch foundation</h2>'), 'first invitation precedes the tiers');
+    assert.ok(first < roadmap.indexOf('<h2>Launch</h2>'), 'first invitation precedes the tiers');
     assert.ok(roadmap.lastIndexOf('href="/contact"') > roadmap.indexOf('<h2>Tell us what matters</h2>'));
   });
 
@@ -172,8 +178,13 @@ describe('roadmap publishes nothing internal and promises nothing unsupported', 
   it('carries no prices, version labels or dates', () => {
     assert.doesNotMatch(roadmap, /S\$|US\$|\$\d|€|£/);
     assert.ok(article.length > 0, 'article body must exist');
-    assert.doesNotMatch(article, /\b1\.\d\b|\bFR\d\b/);
+    // Public App Store versions are published; internal release codes are not.
+    assert.doesNotMatch(article, /\bFR\d\b/);
     assert.doesNotMatch(roadmap, /\b20\d\d\b|\bQ[1-4]\b/);
+  });
+
+  it('does not advertise controls for a feature the reader may not have', () => {
+    assert.doesNotMatch(text, /privacy controls/i);
   });
 
   it('uses "forward" Time Lens wording and never claims future work is available', () => {

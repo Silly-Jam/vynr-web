@@ -46,19 +46,19 @@ export default function RoadmapPage() {
       </header>
 
       <article className="prose">
-        <p>Everything below sits in one of three places:</p>
+        <p>Each release sits in one of three places:</p>
         <ul>
           <li>
-            <strong>Launch foundation</strong> &mdash; what vynr is built on at
-            launch.
+            <strong>Launch</strong> &mdash; version 1.2, what vynr is built on.
           </li>
           <li>
-            <strong>Planned next</strong> &mdash; our intended focus. Candidates
-            may change, and not every one will arrive together.
+            <strong>Planned next</strong> &mdash; the 1.2.x updates and 1.3.
+            This is our intended focus; individual items may change, and not
+            every one will arrive together.
           </li>
           <li>
-            <strong>Directional later</strong> &mdash; themes we are
-            considering. Their order, scope and timing may change.
+            <strong>Directional later</strong> &mdash; 1.4 to 1.6 and beyond.
+            A proposed order; scope and timing may change.
           </li>
         </ul>
         <p>
@@ -66,24 +66,28 @@ export default function RoadmapPage() {
           <Link href="/contact">Tell us</Link>.
         </p>
 
-        <h2>Launch foundation</h2>
+        <h2>Launch</h2>
+
+        <h3>1.2 &mdash; the launch release</h3>
+        <ul>
+          <li>Label scanning and manual entry.</li>
+          <li>Cellar and storage views, as a treemap or a list.</li>
+          <li>The Atlas, producer pages and Vynrpedia.</li>
+          <li>Drinking windows and the Time Lens, back through your history and forward.</li>
+          <li>A journal of tastings, notes and photographs, with analytical tasting.</li>
+          <li>Shared cellars that readers can explore in the app or the web viewer.</li>
+          <li>
+            iCloud backup and restore, and full export. This is backup, not live
+            sync between devices.
+          </li>
+        </ul>
         <p>
-          Label scanning and manual entry; cellar and storage views; the Atlas
-          and Vynrpedia; drinking windows and the Time Lens; and a journal of
-          tastings, notes and photographs. The{" "}
-          <Link href="/guide">Guide to vynr</Link> walks through each of them.
-        </p>
-        <p>
-          The free foundation includes analytical tasting, your own wine
-          records, backup and export. vynr+ adds room for a larger collection,
-          the forward Time Lens beyond six months, Assistant Link, multiple
-          cellars, and richer journal composition and publishing.
-        </p>
-        <p>
-          Shared cellars let readers explore selected wines, notes and journal
-          entries in the app or the web viewer. iCloud provides backup and
-          restore; it is not live sync between devices, which is a later
-          direction.
+          Free includes analytical tasting, your own wine records, backup and
+          export. vynr+ adds room for a larger collection, the forward Time
+          Lens beyond six months, Assistant Link, multiple cellars, and richer
+          journal composition and publishing. The{" "}
+          <Link href="/guide">Guide to vynr</Link> walks through the launch
+          release.
         </p>
 
         <h2>How vynr develops</h2>
@@ -93,10 +97,10 @@ export default function RoadmapPage() {
         </p>
         <ul>
           <li>
-            <strong>Fix and refine.</strong> Weekly app updates at first,
-            easing to every two weeks as things settle. They refine existing
-            features rather than add new ones; urgent reliability fixes can
-            arrive sooner.
+            <strong>Fix and refine (1.2.1, 1.2.2, &hellip;).</strong> Weekly
+            app updates at first, easing to every two weeks as things settle.
+            They refine existing features rather than add new ones; urgent
+            reliability fixes can arrive sooner.
           </li>
           <li>
             <strong>Reference data.</strong> Weekly updates to producers,
@@ -106,16 +110,16 @@ export default function RoadmapPage() {
           </li>
           <li>
             <strong>Label reading.</strong> Accuracy improvements every two
-            weeks to monthly, delivered inside app updates: better recognition
-            of producers, cuvées and designations, and a way to pick the
-            intended bottle when a photograph holds several. When a label fails
-            because a producer or place is missing, we add the reference data
-            rather than bend the reader around the gap.
+            weeks to monthly, delivered inside the 1.2.x updates: better
+            recognition of producers, cuvées and designations, and a way to
+            pick the intended bottle when a photograph holds several. When a
+            label fails because a producer or place is missing, we add the
+            reference data rather than bend the reader around the gap.
           </li>
           <li>
-            <strong>New capabilities.</strong> A quarterly rhythm after launch,
-            each release centred on one theme. What is free and what is vynr+
-            is settled before the work begins.
+            <strong>New capabilities (1.3, 1.4, &hellip;).</strong> Roughly one
+            release a quarter after launch, each centred on one theme. What is
+            free and what is vynr+ is settled before the work begins.
           </li>
         </ul>
         <p>
@@ -127,24 +131,27 @@ export default function RoadmapPage() {
 
         <h2>Planned next</h2>
 
-        <h3>Everyday refinements</h3>
-        <p>
-          The first update after launch is intended to bring back CellarTracker
-          import, held out of the launch build to keep it simple, and to make
-          manual entry smoother when a scan fails or is only partly read. Other
-          near-term refinements:
-        </p>
+        <h3>1.2.1 &mdash; the first update</h3>
         <ul>
           <li>
-            A clearer Restore from iCloud screen, alongside continued backup
-            and restore improvements.
+            CellarTracker import returns. It was held out of the launch release
+            only to keep that release simple.
           </li>
+          <li>
+            Smoother manual entry when a scan fails or is only partly read.
+          </li>
+          <li>A clearer Restore from iCloud screen.</li>
+        </ul>
+
+        <h3>Later 1.2.x updates</h3>
+        <ul>
+          <li>Continued backup and restore improvements.</li>
           <li>
             Refinements to the maturity views and the Time Lens, and a quicker
             route from the Time Lens to the Journal.
           </li>
           <li>
-            Better Assistant Link setup, recovery when a connection goes stale,
+            Easier Assistant Link setup, recovery when a connection goes stale,
             and explicit choices about sharing exact quantities and collection
             value.
           </li>
@@ -161,44 +168,56 @@ export default function RoadmapPage() {
             free forward Time Lens, and a reminder before a trial ends.
           </li>
         </ul>
-        <p>
-          These may arrive across several updates. Assistant Link privacy
-          controls remain free; using the link is part of vynr+.
-        </p>
 
-        <h3>Journal, learn and teach</h3>
+        <h3>1.3 &mdash; Journal, learn and teach</h3>
         <p>
-          The next feature theme centres on tasting occasions that stay part of
-          your record, and on a closer connection between tasting, the Journal
-          and learning. What follows are candidate outcomes, not a committed
-          checklist.
+          The first feature release after launch. It centres on tasting
+          occasions that stay part of your record, and on a closer connection
+          between tasting, the Journal and learning. These are candidate
+          enhancements, not a committed checklist.
         </p>
-        <p>
-          <strong>Keep the occasion.</strong> Start an empty tasting, add wines
-          as you taste them, and come back later to their notes and marginalia.
-          Wines you tasted stay distinct from bottles you own and never count
-          towards your bottle allowance. The aim is a lasting record you can
-          revisit, annotate and export, with a photographic keepsake, and an
-          explicit step if you later add a tasted wine to a cellar.
-        </p>
-        <p>
-          <strong>Learn from the record.</strong> Bring tasting notes and
-          marginalia closer to Atlas places and Vynrpedia concepts. Extend the
-          existing analytical tasting flow &mdash; appearance, nose, palate,
-          finish and conclusion &mdash; with one consistent vocabulary, colour
-          choices suited to each wine type, free text where you want it, and
-          linked explanations. Related candidates: Vynrpedia explanations
-          throughout the app, and a clearer way to review scan details that
-          were set aside for checking.
-        </p>
-        <p>
-          <strong>Compose and teach.</strong> Candidates include blind-tasting
-          sets (write the note, reveal the wine, compare with vynr&rsquo;s
-          reference information), study sets drawn from journal entries,
-          composed study notes and exports, and tasting sets published to
-          students. This builds on shared cellars that already carry notes and
-          journal entries.
-        </p>
+        <ul>
+          <li>
+            <strong>Tasting events.</strong> Start an empty tasting, add wines
+            as you taste them, and come back to it later.
+          </li>
+          <li>
+            <strong>Tasted, not owned.</strong> Wines you tasted stay distinct
+            from bottles you own and never count towards your bottle allowance,
+            with an explicit step if you later add one to a cellar.
+          </li>
+          <li>
+            <strong>A lasting record.</strong> Revisit, annotate and export a
+            completed tasting, with a photographic keepsake.
+          </li>
+          <li>
+            <strong>Notes that teach.</strong> Tasting notes and marginalia
+            linked to Atlas places and Vynrpedia concepts.
+          </li>
+          <li>
+            <strong>Analytical tasting, extended.</strong> Appearance, nose,
+            palate, finish and conclusion with one consistent vocabulary,
+            colour choices suited to each wine type, free text where you want
+            it, and linked explanations.
+          </li>
+          <li>
+            <strong>Vynrpedia throughout the app</strong>, and a clearer way to
+            review scan details that were set aside for checking.
+          </li>
+          <li>
+            <strong>Blind-tasting sets.</strong> Write the note, reveal the
+            wine, then compare with vynr&rsquo;s reference information.
+          </li>
+          <li>
+            <strong>Study sets</strong> drawn from journal entries, and composed
+            study notes and exports.
+          </li>
+          <li>
+            <strong>Teaching.</strong> Tasting sets published to students,
+            building on shared cellars that already carry notes and journal
+            entries.
+          </li>
+        </ul>
         <p>
           Analytical tasting stays free. Capturing and keeping your own tasting
           history will not be taken away. Paid additions would build on that
@@ -208,36 +227,47 @@ export default function RoadmapPage() {
 
         <h2>Directional later</h2>
         <p>
-          A proposed order after Journal, learn and teach. These are not
-          scheduled releases, and individual capabilities may move or change.
+          A proposed order after 1.3. These versions are not scheduled, and
+          individual capabilities may move between them or change.
         </p>
 
-        <h3>Plan and be reminded</h3>
-        <p>
-          Drink-window notifications and &ldquo;ready soon&rdquo; summaries; a
-          view of what peaks across the whole cellar and where drinking windows
-          crowd together; and deeper Assistant Link support, including food
-          pairing and automatically refreshed cellar snapshots.
-        </p>
+        <h3>1.4 &mdash; Plan and be reminded</h3>
+        <ul>
+          <li>Drink-window notifications and &ldquo;ready soon&rdquo; summaries.</li>
+          <li>
+            A view of what peaks across the whole cellar, and where drinking
+            windows crowd together.
+          </li>
+          <li>
+            Deeper Assistant Link support, including food pairing and
+            automatically refreshed cellar snapshots.
+          </li>
+        </ul>
 
-        <h3>Your taste</h3>
-        <p>
-          A visible profile of what you tend to enjoy, explanations of why a
-          wine may suit you, and recommendations informed by your own
-          tastings. Further directions: journal chapters that draw connections
-          across your past experiences, and your own annotations in the Atlas.
-        </p>
+        <h3>1.5 &mdash; Your taste</h3>
+        <ul>
+          <li>A visible profile of what you tend to enjoy.</li>
+          <li>
+            Explanations of why a wine may suit you, and recommendations
+            informed by your own tastings.
+          </li>
+          <li>Journal chapters that draw connections across your past experiences.</li>
+          <li>Your own annotations in the Atlas.</li>
+        </ul>
 
-        <h3>Everywhere</h3>
-        <p>
-          Live sync between devices, followed by iPad and Mac; Siri and
-          Shortcuts; and a quick capture for noting a bottle when there is no
-          time to stop. Live sync is separate from the backup and restore that
-          vynr has at launch.
-        </p>
+        <h3>1.6 &mdash; Everywhere</h3>
+        <ul>
+          <li>
+            Live sync between devices, separate from the backup and restore in
+            1.2.
+          </li>
+          <li>iPad and Mac, after live sync.</li>
+          <li>Siri and Shortcuts.</li>
+          <li>A quick capture for noting a bottle when there is no time to stop.</li>
+        </ul>
 
         <h3>Under consideration</h3>
-        <p>None of these has a release window or a settled scope.</p>
+        <p>None of these has a version or a settled scope.</p>
         <ul>
           <li>More ways to group a cellar: by producer, grape and vintage.</li>
           <li>An interactive map within the Atlas.</li>
