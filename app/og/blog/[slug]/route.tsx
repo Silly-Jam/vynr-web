@@ -5,6 +5,9 @@ import { getAllPosts, getPostBySlug } from "@/lib/posts";
 // Colours mirror the papyrus tokens in app/globals.css.
 const SIZE = { width: 1200, height: 630 };
 
+// Unknown slugs 404 instead of failing to read a missing Markdown file.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
 }

@@ -60,10 +60,12 @@ function isoDate(date: string | Date): string {
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
+  // UTC, so the visible day matches the <time dateTime> (a YAML date is UTC midnight).
   return d.toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
 
