@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-958",
+  "generatedAt": "2026-09-30T10:08:15Z",
+  "from": {
+    "epoch": 957,
+    "commit": "9ec4a51ff5e331f34684226f448bf441c9e8bf19",
+    "committedAt": "2026-09-28T09:50:16+08:00",
+    "registrySha256": "8785b8f54f2ed13bf2e3d0763216224a4fda38061c2b616d57323bf43fbef62d"
+  },
+  "to": {
+    "epoch": 958,
+    "commit": "3f1df96dd503052be0787d9abaf8ce0ac0f714aa",
+    "committedAt": "2026-09-30T01:11:07+08:00",
+    "registrySha256": "e6d78af9a97c76c8cd177f641edafd16f0a00e43812f6180862962edb9350980"
+  },
+  "changeCount": 14,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 2,
+      "updated": 4,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 1,
+      "updated": 5,
+      "removed": 0
+    },
+    {
+      "category": "Appellations",
+      "added": 0,
+      "updated": 2,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Lucien Le Moine",
+      "label": "Lucien Le Moine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Thomas Fogarty Winery",
+      "label": "Thomas Fogarty Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Askaneli",
+      "label": "Askaneli",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 4
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Balfour Winery",
+      "label": "Balfour Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Mascarello Giuseppe e Figlio",
+      "label": "Mascarello Giuseppe e Figlio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Takahata Winery",
+      "label": "Takahata Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 4
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:lucien-le-moine",
+      "label": "Lucien Le Moine",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-dehours-et-fils",
+      "label": "Champagne Dehours et Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:domaine-eric-forest",
+      "label": "Domaine Eric Forest",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:domaine-jean-marc-et-hugues-pavelot",
+      "label": "Domaine Jean‑Marc et Hugues Pavelot",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:domaine-yves-gangloff",
+      "label": "Domaine Yves Gangloff",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:nz:saint-clair-family-estate",
+      "label": "Saint Clair Family Estate",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Beaune",
+      "label": "Beaune",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Santa Cruz Mountains",
+      "label": "Santa Cruz Mountains",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    }
+  ]
+}

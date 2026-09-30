@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-959",
+  "generatedAt": "2026-09-30T10:08:15Z",
+  "from": {
+    "epoch": 958,
+    "commit": "3f1df96dd503052be0787d9abaf8ce0ac0f714aa",
+    "committedAt": "2026-09-30T01:11:07+08:00",
+    "registrySha256": "e6d78af9a97c76c8cd177f641edafd16f0a00e43812f6180862962edb9350980"
+  },
+  "to": {
+    "epoch": 959,
+    "commit": "70d57c12c98faeab7abf2d15ceaf9b717f221870",
+    "committedAt": "2026-09-30T04:25:37+08:00",
+    "registrySha256": "b5a2b78a2807dc68b6397df1129f72783894e263d65d728fc0c62e2d10bb99b8"
+  },
+  "changeCount": 34,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 1,
+      "updated": 3,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 1,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "category": "Appellations",
+      "added": 0,
+      "updated": 29,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Viña Zorzal",
+      "label": "Viña Zorzal",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Caves Saint-Pierre",
+      "label": "Caves Saint-Pierre",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "common_ocr_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Saint-Pierre",
+      "label": "Château Saint-Pierre",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "common_ocr_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Manz Wine",
+      "label": "Manz Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:es:vina-zorzal",
+      "label": "Viña Zorzal",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Bienvenues-Bâtard-Montrachet",
+      "label": "Bienvenues-Bâtard-Montrachet",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Bonnes-Mares",
+      "label": "Bonnes-Mares",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Chambertin",
+      "label": "Chambertin",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Chambertin-Clos de Bèze",
+      "label": "Chambertin-Clos de Bèze",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Chapelle-Chambertin",
+      "label": "Chapelle-Chambertin",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Charmes-Chambertin",
+      "label": "Charmes-Chambertin",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Chevalier-Montrachet",
+      "label": "Chevalier-Montrachet",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Clos de la Roche",
+      "label": "Clos de la Roche",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Clos de Tart",
+      "label": "Clos de Tart",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Clos de Vougeot",
+      "label": "Clos de Vougeot",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Clos Saint-Denis",
+      "label": "Clos Saint-Denis",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Corton",
+      "label": "Corton",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Corton-Charlemagne",
+      "label": "Corton-Charlemagne",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Criots-Bâtard-Montrachet",
+      "label": "Criots-Bâtard-Montrachet",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Grands-Échezeaux",
+      "label": "Grands-Échezeaux",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Griotte-Chambertin",
+      "label": "Griotte-Chambertin",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "La Romanée",
+      "label": "La Romanée",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "La Tâche",
+      "label": "La Tâche",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Latricières-Chambertin",
+      "label": "Latricières-Chambertin",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Mazis-Chambertin",
+      "label": "Mazis-Chambertin",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Mazoyères-Chambertin",
+      "label": "Mazoyères-Chambertin",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Musigny",
+      "label": "Musigny",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Navarra",
+      "label": "Navarra",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Richebourg",
+      "label": "Richebourg",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Romanée-Conti",
+      "label": "Romanée-Conti",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Romanée-Saint-Vivant",
+      "label": "Romanée-Saint-Vivant",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Ruchottes-Chambertin",
+      "label": "Ruchottes-Chambertin",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "St. Magdalener Classico",
+      "label": "St. Magdalener Classico",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [
+        "parent_region"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Échézeaux",
+      "label": "Échézeaux",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    }
+  ]
+}
