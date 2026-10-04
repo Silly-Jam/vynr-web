@@ -1,0 +1,1537 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-960",
+  "generatedAt": "2026-10-04T05:44:25Z",
+  "from": {
+    "epoch": 959,
+    "commit": "70d57c12c98faeab7abf2d15ceaf9b717f221870",
+    "committedAt": "2026-09-30T04:25:37+08:00",
+    "registrySha256": "b5a2b78a2807dc68b6397df1129f72783894e263d65d728fc0c62e2d10bb99b8"
+  },
+  "to": {
+    "epoch": 960,
+    "commit": "c90892c8ce6afd38edb5ddd9eb5ac7bd968e7d4f",
+    "committedAt": "2026-10-04T13:43:31+08:00",
+    "registrySha256": "ce77b499e9e03d00594ba92b86ab4f78c0c319dbdab9b1b19c70bba4bbc35aa4"
+  },
+  "changeCount": 153,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 56,
+      "updated": 10,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 51,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "category": "Appellations",
+      "added": 0,
+      "updated": 27,
+      "removed": 0
+    },
+    {
+      "category": "Regions",
+      "added": 0,
+      "updated": 9,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Ada Nada",
+      "label": "Ada Nada",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Adega Condes de Albarei, S.A.U.",
+      "label": "Adega Condes de Albarei, S.A.U.",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Almacerro",
+      "label": "Almacerro",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "ALPS WINE Co.,LTD.",
+      "label": "ALPS WINE Co.,LTD.",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Azienda Agricola Manenti",
+      "label": "Azienda Agricola Manenti",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "B Cellars",
+      "label": "B Cellars",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Baldacci Family Vineyards",
+      "label": "Baldacci Family Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bottega Spa",
+      "label": "Bottega Spa",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Broglia",
+      "label": "Broglia",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Cantina Dionigi",
+      "label": "Cantina Dionigi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Alain Bergère",
+      "label": "Champagne Alain Bergère",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Alain Mercier",
+      "label": "Champagne Alain Mercier",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Anthony Betouzet",
+      "label": "Champagne Anthony Betouzet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Belouis Gricourt",
+      "label": "Champagne Belouis Gricourt",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Bernard Lonclas",
+      "label": "Champagne Bernard Lonclas",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Christian DOUARD",
+      "label": "Champagne Christian DOUARD",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Cuillier Père et Fils",
+      "label": "Champagne Cuillier Père et Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Diogène Tissier et Fils",
+      "label": "Champagne Diogène Tissier et Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne François Heucq et fils",
+      "label": "Champagne François Heucq et fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Godin-Schuester",
+      "label": "Champagne Godin-Schuester",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Gratiot-Delugny",
+      "label": "Champagne Gratiot-Delugny",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne J-M. Gobillard & Fils",
+      "label": "Champagne J-M. Gobillard & Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Jean-Pol Hautbois",
+      "label": "Champagne Jean-Pol Hautbois",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Laborde",
+      "label": "Champagne Laborde",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Malingre-Truchon",
+      "label": "Champagne Malingre-Truchon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Maurice Gonel et Fils",
+      "label": "Champagne Maurice Gonel et Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Michel Hoerter",
+      "label": "Champagne Michel Hoerter",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne N. Potié",
+      "label": "Champagne N. Potié",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Person",
+      "label": "Champagne Person",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne R&L Legras",
+      "label": "Champagne R&L Legras",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Champagne Richard-Fliniaux",
+      "label": "Champagne Richard-Fliniaux",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Château Noaillac",
+      "label": "Château Noaillac",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Château Sigognac",
+      "label": "Château Sigognac",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Di Filippo",
+      "label": "Di Filippo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Diamond Creek Vineyards",
+      "label": "Diamond Creek Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Alexandre Parigot",
+      "label": "Domaine Alexandre Parigot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Béatrice et Pascal Lambert",
+      "label": "Domaine Béatrice et Pascal Lambert",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Goisot",
+      "label": "Domaine Goisot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Sainte‑Barbe",
+      "label": "Domaine Sainte‑Barbe",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Fermier",
+      "label": "Fermier",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Giulia Negri",
+      "label": "Giulia Negri",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Gusbourne",
+      "label": "Gusbourne",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Maison Roger-Constant Lemaire",
+      "label": "Maison Roger-Constant Lemaire",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Morgan Winery",
+      "label": "Morgan Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Ottella",
+      "label": "Ottella",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Pepper Tree Wines",
+      "label": "Pepper Tree Wines",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Pietracupa",
+      "label": "Pietracupa",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Poderi Gianni Gagliardo",
+      "label": "Poderi Gianni Gagliardo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Rue de Vin",
+      "label": "Rue de Vin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "SAYS FARM",
+      "label": "SAYS FARM",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Sensi 1890",
+      "label": "Sensi 1890",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Spring Vale Vineyards",
+      "label": "Spring Vale Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Tenuta Bellafonte",
+      "label": "Tenuta Bellafonte",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Tenuta Scuotto",
+      "label": "Tenuta Scuotto",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Terra Blanca Winery & Estate Vineyard",
+      "label": "Terra Blanca Winery & Estate Vineyard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Whalehaven",
+      "label": "Whalehaven",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Cappellano",
+      "label": "Cappellano",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Casarena",
+      "label": "Casarena",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Masi",
+      "label": "Masi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Matteo Correggia",
+      "label": "Matteo Correggia",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Produttori del Barbaresco",
+      "label": "Produttori del Barbaresco",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Renmano",
+      "label": "Renmano",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Roagna",
+      "label": "Roagna",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Romain Duvernay",
+      "label": "Romain Duvernay",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Sansilvestro",
+      "label": "Sansilvestro",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Machherndl",
+      "label": "Weingut Machherndl",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 3
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:ada-nada",
+      "label": "Ada Nada",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:es:adega-condes-de-albarei-s-a-u",
+      "label": "Adega Condes de Albarei, S.A.U.",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:jp:alps-wine-co-ltd",
+      "label": "ALPS WINE Co.,LTD.",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:azienda-agricola-manenti",
+      "label": "Azienda Agricola Manenti",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:bottega-spa",
+      "label": "Bottega Spa",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:broglia",
+      "label": "Broglia",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:cantina-dionigi",
+      "label": "Cantina Dionigi",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-alain-bergere",
+      "label": "Champagne Alain Bergère",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-alain-mercier",
+      "label": "Champagne Alain Mercier",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-anthony-betouzet",
+      "label": "Champagne Anthony Betouzet",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-belouis-gricourt",
+      "label": "Champagne Belouis Gricourt",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-bernard-lonclas",
+      "label": "Champagne Bernard Lonclas",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-christian-douard",
+      "label": "Champagne Christian DOUARD",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-cuillier-pere-et-fils",
+      "label": "Champagne Cuillier Père et Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-diogene-tissier-et-fils",
+      "label": "Champagne Diogène Tissier et Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-francois-heucq-et-fils",
+      "label": "Champagne François Heucq et fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-godin-schuester",
+      "label": "Champagne Godin-Schuester",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-gratiot-delugny",
+      "label": "Champagne Gratiot-Delugny",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-j-m-gobillard-and-fils",
+      "label": "Champagne J-M. Gobillard & Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-jean-pol-hautbois",
+      "label": "Champagne Jean-Pol Hautbois",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-laborde",
+      "label": "Champagne Laborde",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-malingre-truchon",
+      "label": "Champagne Malingre-Truchon",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-maurice-gonel-et-fils",
+      "label": "Champagne Maurice Gonel et Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-michel-hoerter",
+      "label": "Champagne Michel Hoerter",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-n-potie",
+      "label": "Champagne N. Potié",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-person",
+      "label": "Champagne Person",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-r-and-l-legras",
+      "label": "Champagne R&L Legras",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:champagne-richard-fliniaux",
+      "label": "Champagne Richard-Fliniaux",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:chateau-noaillac",
+      "label": "Château Noaillac",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:chateau-sigognac",
+      "label": "Château Sigognac",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:di-filippo",
+      "label": "Di Filippo",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-alexandre-parigot",
+      "label": "Domaine Alexandre Parigot",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-beatrice-et-pascal-lambert",
+      "label": "Domaine Béatrice et Pascal Lambert",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-goisot",
+      "label": "Domaine Goisot",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-sainte-barbe",
+      "label": "Domaine Sainte‑Barbe",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:jp:fermier",
+      "label": "Fermier",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:giulia-negri",
+      "label": "Giulia Negri",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:gb:gusbourne",
+      "label": "Gusbourne",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:maison-roger-constant-lemaire",
+      "label": "Maison Roger-Constant Lemaire",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:ottella",
+      "label": "Ottella",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:au:pepper-tree-wines",
+      "label": "Pepper Tree Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:pietracupa",
+      "label": "Pietracupa",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:poderi-gianni-gagliardo",
+      "label": "Poderi Gianni Gagliardo",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:jp:rue-de-vin",
+      "label": "Rue de Vin",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:jp:says-farm",
+      "label": "SAYS FARM",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:sensi-1890",
+      "label": "Sensi 1890",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:au:spring-vale-vineyards",
+      "label": "Spring Vale Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:tenuta-bellafonte",
+      "label": "Tenuta Bellafonte",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:tenuta-scuotto",
+      "label": "Tenuta Scuotto",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:terra-blanca-winery-and-estate-vineyard",
+      "label": "Terra Blanca Winery & Estate Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:za:whalehaven",
+      "label": "Whalehaven",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Barolo",
+      "label": "Barolo",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Beaune",
+      "label": "Beaune",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Bourgogne",
+      "label": "Bourgogne",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 2
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Cerasuolo di Vittoria",
+      "label": "Cerasuolo di Vittoria",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Chinon",
+      "label": "Chinon",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Diamond Mountain District",
+      "label": "Diamond Mountain District",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Fiano di Avellino",
+      "label": "Fiano di Avellino",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Gavi",
+      "label": "Gavi",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Hemel-en-Aarde",
+      "label": "Hemel-en-Aarde",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Howell Mountain",
+      "label": "Howell Mountain",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Hunter Valley",
+      "label": "Hunter Valley",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Langhe",
+      "label": "Langhe",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Lugana",
+      "label": "Lugana",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Mercurey",
+      "label": "Mercurey",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Montefalco Sagrantino",
+      "label": "Montefalco Sagrantino",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Morey-Saint-Denis",
+      "label": "Morey-Saint-Denis",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Médoc",
+      "label": "Médoc",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Nagano",
+      "label": "Nagano",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Pernand-Vergelesses",
+      "label": "Pernand-Vergelesses",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Red Mountain",
+      "label": "Red Mountain",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Rías Baixas",
+      "label": "Rías Baixas",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Saint-Bris",
+      "label": "Saint-Bris",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Santa Lucia Highlands",
+      "label": "Santa Lucia Highlands",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Stags Leap District",
+      "label": "Stags Leap District",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Tasmania",
+      "label": "Tasmania",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Viré-Clessé",
+      "label": "Viré-Clessé",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Yamanashi",
+      "label": "Yamanashi",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Aÿ",
+      "label": "Aÿ",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Champagne",
+      "label": "Champagne",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Chouilly",
+      "label": "Chouilly",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Japan",
+      "label": "Japan",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Kent",
+      "label": "Kent",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Montalcino",
+      "label": "Montalcino",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Nagano",
+      "label": "Nagano",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Napa Valley",
+      "label": "Napa Valley",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Vallée de la Marne",
+      "label": "Vallée de la Marne",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    }
+  ]
+}
