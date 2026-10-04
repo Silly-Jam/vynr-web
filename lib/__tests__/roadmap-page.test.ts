@@ -111,17 +111,27 @@ describe('the 1.3 working scope matches its release epic', () => {
 
   it('covers every area of the epic, including From vynr', () => {
     const html = release('1.3').html;
-    for (const heading of ['Tasting events', 'Analytical tasting, extended', 'Journal and learning', 'Blind tasting and study sets', 'Teaching and sharing', 'From vynr']) {
+    for (const heading of ['Tasting events', 'Analytical tasting, extended', 'Journal and learning', 'Blind tasting and study sets', 'Teaching and sharing', 'Producer ageing tendencies', 'From vynr']) {
       assert.ok(html.includes(`<h4>${heading}</h4>`), `1.3 missing: ${heading}`);
     }
     for (const item of [
       'never count towards your bottle allowance', 'explicit step adds it to a cellar', 'rename, correct or delete',
       'photographic keepsake', 'Vynrpedia explanations beside each field', 'set aside for checking',
       'Nobody marks you right or wrong', 'without cloning or owning it', 'readable again at any time from Settings',
-      'No account and no tracking',
+      'No account and no tracking', 'says so rather than guessing', 'how many of your wines your view affects', 'always takes precedence',
     ]) {
       assert.ok(html.includes(item), `1.3 missing detail: ${item}`);
     }
+  });
+
+  it('keeps producer ageing tendencies to what the design commits to', () => {
+    const html = release('1.3').html;
+    const start = html.indexOf('<h4>Producer ageing tendencies</h4>');
+    const end = html.indexOf('<h4>', start + 1);
+    assert.ok(start !== -1 && end > start, 'producer ageing section must be followed by another 1.3 area');
+    const area = html.slice(start, end);
+    assert.doesNotMatch(area, /Master of Wine|\bMW\b|\bfree\b|vynr\+|suggest/i);
+    assert.doesNotMatch(area, /undo[^.;]*at any time/i, 'undo is time-limited; only reset is "at any time"');
   });
 
   it('keeps the free record free', () => {
