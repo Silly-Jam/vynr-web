@@ -102,6 +102,12 @@ The working scope of a roughly three-month release. Tasting and the Journal beco
 - Students can record their own tasting of a shared wine without cloning or owning it.
 - A smooth route from a tutor's QR code or link to the student's app or browser.
 
+#### Producer ageing tendencies
+
+- Where vynr has enough evidence, a producer's page shows how its wines tend to age compared with similar wines: for example, opening later or holding longer. Where it doesn't, the page says so rather than guessing.
+- Record your own view of a producer's ageing, for all of its wines or one tier of its range. The page shows how many of your wines your view affects, and their drinking windows follow it.
+- A curve you draw for an individual wine always takes precedence. Your view stays separate from vynr's guidance. You can reset it at any time, and undo a change you have just made.
+
 #### From vynr
 
 - A quiet place in the app for updates, known issues, advice and roadmap news from vynr, readable again at any time from Settings.
