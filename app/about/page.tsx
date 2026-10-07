@@ -127,11 +127,11 @@ export default function AboutPage() {
         <p>Creator and publisher of vynr.</p>
         <p>
           <a
-            href="https://github.com/Silly-Jam"
+            href="https://www.linkedin.com/company/silly-jam"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Silly Jam on GitHub &rarr;
+            Silly Jam on LinkedIn &rarr;
           </a>
         </p>
 
