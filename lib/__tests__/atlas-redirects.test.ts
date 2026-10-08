@@ -4,6 +4,17 @@ import nextConfig from '../../next.config';
 import { resolveUrlPath } from '../atlas';
 
 describe('published Atlas URL continuity', () => {
+  it('preserves the published St. Magdalener Classico URL after reparenting', async () => {
+    const source = '/atlas/europe/italy/trentino-alto-adige/st-magdalener-classico';
+    const destination = '/atlas/europe/italy/trentino-alto-adige/alto-adige/st-magdalener-classico';
+    const redirects = await nextConfig.redirects?.() ?? [];
+    assert.deepEqual(redirects.find(redirect => redirect.source === source), {
+      source, destination, permanent: true,
+    });
+    assert.equal(resolveUrlPath(destination.slice('/atlas/'.length).split('/')).node?.canonicalKey,
+      'st-magdalener-classico');
+  });
+
   it('redirects the two reparented Chilean regions to their canonical paths', async () => {
     const redirects = await nextConfig.redirects?.() ?? [];
     const cases = [
