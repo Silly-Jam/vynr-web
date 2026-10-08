@@ -1,5 +1,9 @@
 import type { NextConfig } from "next";
 
+import { assertPublicationEpochs } from './lib/publication';
+
+assertPublicationEpochs();
+
 const nextConfig: NextConfig = {
   async redirects() {
     return [
