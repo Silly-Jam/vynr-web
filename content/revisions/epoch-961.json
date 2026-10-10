@@ -1,0 +1,6366 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-961",
+  "generatedAt": "2026-10-10T22:02:16Z",
+  "from": {
+    "epoch": 960,
+    "commit": "c90892c8ce6afd38edb5ddd9eb5ac7bd968e7d4f",
+    "committedAt": "2026-10-04T13:43:31+08:00",
+    "registrySha256": "ce77b499e9e03d00594ba92b86ab4f78c0c319dbdab9b1b19c70bba4bbc35aa4"
+  },
+  "to": {
+    "epoch": 961,
+    "commit": "2b861c7193b7a8ed1f90513af0908920b15defd4",
+    "committedAt": "2026-10-11T06:01:25+08:00",
+    "registrySha256": "d7b02654cf8adde2be75d58d197376112492b977e927e1d791a212d0d349035f"
+  },
+  "changeCount": 489,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 15,
+      "updated": 393,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 10,
+      "updated": 67,
+      "removed": 0
+    },
+    {
+      "category": "Appellations",
+      "added": 0,
+      "updated": 3,
+      "removed": 0
+    },
+    {
+      "category": "Grapes",
+      "added": 0,
+      "updated": 1,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Ambar Estate",
+      "label": "Ambar Estate",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Anderson Family Vineyard",
+      "label": "Anderson Family Vineyard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Archery Summit",
+      "label": "Archery Summit",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Argyle",
+      "label": "Argyle",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Arterberry Maresh",
+      "label": "Arterberry Maresh",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Beltane Ranch",
+      "label": "Beltane Ranch",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bergström Wines",
+      "label": "Bergström Wines",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Blue Farm",
+      "label": "Blue Farm",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Cramoisi Vineyard",
+      "label": "Cramoisi Vineyard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Enkidu Wine",
+      "label": "Enkidu Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Hawkes Wine",
+      "label": "Hawkes Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Jordan Vineyard & Winery",
+      "label": "Jordan Vineyard & Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Schermeister Winery",
+      "label": "Schermeister Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Sokol Blosser Winery",
+      "label": "Sokol Blosser Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "The Eyrie Vineyards",
+      "label": "The Eyrie Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "19 Crimes",
+      "label": "19 Crimes",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "1924",
+      "label": "1924",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Aleanna",
+      "label": "Aleanna",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Alheit Vineyards",
+      "label": "Alheit Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Altos de José Ignacio",
+      "label": "Altos de José Ignacio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Altos Las Hormigas",
+      "label": "Altos Las Hormigas",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Anselmo Mendes",
+      "label": "Anselmo Mendes",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "AnticaVigna",
+      "label": "AnticaVigna",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Antigal",
+      "label": "Antigal",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Argiolas",
+      "label": "Argiolas",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Arnaldo Caprai",
+      "label": "Arnaldo Caprai",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Askaneli",
+      "label": "Askaneli",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Ayala",
+      "label": "Ayala",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Azienda Agricola Fontodi",
+      "label": "Azienda Agricola Fontodi",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Azumino Winery",
+      "label": "Azumino Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bacalhôa",
+      "label": "Bacalhôa",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Baia's Wine",
+      "label": "Baia's Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Balfour Winery",
+      "label": "Balfour Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Barca Velha",
+      "label": "Barca Velha",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Barkan",
+      "label": "Barkan",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Barta Pince",
+      "label": "Barta Pince",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bartoli Giusti",
+      "label": "Bartoli Giusti",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Belvento",
+      "label": "Belvento",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bereche et Fils",
+      "label": "Bereche et Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "known_cuvees"
+      ],
+      "otherFieldCount": 4
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bertrand de Monceny",
+      "label": "Bertrand de Monceny",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bibi Graetz",
+      "label": "Bibi Graetz",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodega Norton",
+      "label": "Bodega Norton",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodegas Aalto",
+      "label": "Bodegas Aalto",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodegas Caro",
+      "label": "Bodegas Caro",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodegas El Nido",
+      "label": "Bodegas El Nido",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodegas Emilio Moro",
+      "label": "Bodegas Emilio Moro",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodegas Frontonio",
+      "label": "Bodegas Frontonio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodegas Jiménez-Landi",
+      "label": "Bodegas Jiménez-Landi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodegas Ossian",
+      "label": "Bodegas Ossian",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Boekenhoutskloof",
+      "label": "Boekenhoutskloof",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bonpas",
+      "label": "Bonpas",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bouchard Père & Fils",
+      "label": "Bouchard Père & Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Brokenwood",
+      "label": "Brokenwood",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bruno Paillard",
+      "label": "Bruno Paillard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Burn Cottage",
+      "label": "Burn Cottage",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Béres",
+      "label": "Béres",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "California Traditions",
+      "label": "California Traditions",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Cantina Delsignore",
+      "label": "Cantina Delsignore",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "common_ocr_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Cantina Tramin",
+      "label": "Cantina Tramin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Carmen",
+      "label": "Carmen",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Casa Santos Lima",
+      "label": "Casa Santos Lima",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Cave de Limoux",
+      "label": "Cave de Limoux",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Cedric Bouchard",
+      "label": "Cedric Bouchard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Cellers Scala Dei, S.A.",
+      "label": "Cellers Scala Dei, S.A.",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Changyu",
+      "label": "Changyu",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chanmoris",
+      "label": "Chanmoris",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chartogne-Taillet",
+      "label": "Chartogne-Taillet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Beau-Sejour Becot",
+      "label": "Chateau Beau-Sejour Becot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Cantenac Brown",
+      "label": "Chateau Cantenac Brown",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Climens",
+      "label": "Chateau Climens",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau d'Issan",
+      "label": "Chateau d'Issan",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau de la Negly",
+      "label": "Chateau de la Negly",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau de Pez",
+      "label": "Chateau de Pez",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau De Roques",
+      "label": "Chateau De Roques",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Doisy-Daene",
+      "label": "Chateau Doisy-Daene",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Giscours",
+      "label": "Chateau Giscours",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Guiraud",
+      "label": "Chateau Guiraud",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Haut-Bailly",
+      "label": "Chateau Haut-Bailly",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Kirwan",
+      "label": "Chateau Kirwan",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau La Gaffeliere",
+      "label": "Chateau La Gaffeliere",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau la Nerthe",
+      "label": "Chateau la Nerthe",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Lafon-Rochet",
+      "label": "Chateau Lafon-Rochet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Lagrange",
+      "label": "Chateau Lagrange",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Langoa Barton",
+      "label": "Chateau Langoa Barton",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Larcis Ducasse",
+      "label": "Chateau Larcis Ducasse",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Latour-Martillac",
+      "label": "Chateau Latour-Martillac",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Malartic-Lagraviere",
+      "label": "Chateau Malartic-Lagraviere",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Ormes de Pez",
+      "label": "Chateau Ormes de Pez",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Pape Clement",
+      "label": "Chateau Pape Clement",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Phelan Segur",
+      "label": "Chateau Phelan Segur",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Rauzan-Segla",
+      "label": "Chateau Rauzan-Segla",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Chateau Troplong Mondot",
+      "label": "Chateau Troplong Mondot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Batailley",
+      "label": "Château Batailley",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Beychevelle",
+      "label": "Château Beychevelle",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Certan de May",
+      "label": "Château Certan de May",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Cheval Blanc",
+      "label": "Château Cheval Blanc",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château d'Armailhac",
+      "label": "Château d'Armailhac",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château de Villegeorge",
+      "label": "Château de Villegeorge",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Duhart-Milon",
+      "label": "Château Duhart-Milon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Haut-Batailley",
+      "label": "Château Haut-Batailley",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Hosanna",
+      "label": "Château Hosanna",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château La Fleur-Pétrus",
+      "label": "Château La Fleur-Pétrus",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château La Gardine",
+      "label": "Château La Gardine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Lafite Rothschild",
+      "label": "Château Lafite Rothschild",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Mars",
+      "label": "Château Mars",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "common_ocr_variants",
+        "name_variants"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Mercian",
+      "label": "Château Mercian",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "brand_aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Nénin",
+      "label": "Château Nénin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Pichon-Longueville Comtesse de Lalande",
+      "label": "Château Pichon-Longueville Comtesse de Lalande",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Rayas",
+      "label": "Château Rayas",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Teynac",
+      "label": "Château Teynac",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "brand_aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Tronquoy-Lalande",
+      "label": "Château Tronquoy-Lalande",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Vitallis",
+      "label": "Château Vitallis",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Clos de la Roilette",
+      "label": "Clos de la Roilette",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Clos du Moulin aux Moines",
+      "label": "Clos du Moulin aux Moines",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Clos Fourtet",
+      "label": "Clos Fourtet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Clos Rougeard",
+      "label": "Clos Rougeard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Clos Uroulat",
+      "label": "Clos Uroulat",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Cloudline",
+      "label": "Cloudline",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Cock & Bull",
+      "label": "Cock & Bull",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Coco Farm",
+      "label": "Coco Farm",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "brand_aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Comando G",
+      "label": "Comando G",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Cono Sur",
+      "label": "Cono Sur",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Corner Stone",
+      "label": "Corner Stone",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Coteau St-Paul",
+      "label": "Coteau St-Paul",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Crystallum",
+      "label": "Crystallum",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "De Bortoli",
+      "label": "De Bortoli",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "De Martino",
+      "label": "De Martino",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Delamotte",
+      "label": "Delamotte",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Delas Freres",
+      "label": "Delas Freres",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "DFJ Vinhos",
+      "label": "DFJ Vinhos",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Dirk Niepoort",
+      "label": "Dirk Niepoort",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Disznókő",
+      "label": "Disznókő",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Dobogó",
+      "label": "Dobogó",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Alain Brumont",
+      "label": "Domaine Alain Brumont",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Andre et Mireille Tissot",
+      "label": "Domaine Andre et Mireille Tissot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Andre Kientzler",
+      "label": "Domaine Andre Kientzler",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Anne Gros",
+      "label": "Domaine Anne Gros",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Arlaud",
+      "label": "Domaine Arlaud",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Armand Rousseau",
+      "label": "Domaine Armand Rousseau",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Arnoux-Lachaux",
+      "label": "Domaine Arnoux-Lachaux",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Barmes-Buecher",
+      "label": "Domaine Barmes-Buecher",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Bernard Baudry",
+      "label": "Domaine Bernard Baudry",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Bernard Dugat-Py",
+      "label": "Domaine Bernard Dugat-Py",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Bernard Faurie",
+      "label": "Domaine Bernard Faurie",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Bernard Moreau",
+      "label": "Domaine Bernard Moreau",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Bertagna",
+      "label": "Domaine Bertagna",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Bonneau du Martray",
+      "label": "Domaine Bonneau du Martray",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Bott-Geyl",
+      "label": "Domaine Bott-Geyl",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Cauhape",
+      "label": "Domaine Cauhape",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Chandon de Briailles",
+      "label": "Domaine Chandon de Briailles",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Charles Joguet",
+      "label": "Domaine Charles Joguet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Christian Moreau",
+      "label": "Domaine Christian Moreau",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Claude Riffault",
+      "label": "Domaine Claude Riffault",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Clos de Lambrays",
+      "label": "Domaine Clos de Lambrays",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Coche-Dury",
+      "label": "Domaine Coche-Dury",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Coillot",
+      "label": "Domaine Coillot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Comte Georges de Vogüé",
+      "label": "Domaine Comte Georges de Vogüé",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Comte Liger-Belair",
+      "label": "Domaine Comte Liger-Belair",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Coquard-Loison-Fleurot",
+      "label": "Domaine Coquard-Loison-Fleurot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Couly-Dutheil",
+      "label": "Domaine Couly-Dutheil",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Cécile Tremblay",
+      "label": "Domaine Cécile Tremblay",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine d'Auvenay",
+      "label": "Domaine d'Auvenay",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine de Cristia",
+      "label": "Domaine de Cristia",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine de la Grange des Peres",
+      "label": "Domaine de la Grange des Peres",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine de la Pepiere",
+      "label": "Domaine de la Pepiere",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine de la Romanée-Conti",
+      "label": "Domaine de la Romanée-Conti",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine de la Vieille Ferme",
+      "label": "Domaine de la Vieille Ferme",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine de Ladoucette",
+      "label": "Domaine de Ladoucette",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Denis Mortet",
+      "label": "Domaine Denis Mortet",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine des Bernardins",
+      "label": "Domaine des Bernardins",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine du Cayron",
+      "label": "Domaine du Cayron",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine du Clos de Tart",
+      "label": "Domaine du Clos de Tart",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine du Closel",
+      "label": "Domaine du Closel",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine du Vieux Lazaret",
+      "label": "Domaine du Vieux Lazaret",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Duroche",
+      "label": "Domaine Duroche",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Emmanuel Rouget",
+      "label": "Domaine Emmanuel Rouget",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Ernest Burn",
+      "label": "Domaine Ernest Burn",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Etienne Sauzet",
+      "label": "Domaine Etienne Sauzet",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Forey Père et Fils",
+      "label": "Domaine Forey Père et Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Franck Millet",
+      "label": "Domaine Franck Millet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Francois Chidaine",
+      "label": "Domaine Francois Chidaine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Francois Villard",
+      "label": "Domaine Francois Villard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Frederic Esmonin",
+      "label": "Domaine Frederic Esmonin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine G. Roumier",
+      "label": "Domaine G. Roumier",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Gaston & Pierre Ravaut",
+      "label": "Domaine Gaston & Pierre Ravaut",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Georges Lignier et Fils",
+      "label": "Domaine Georges Lignier et Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Georges Mugneret-Gibourg",
+      "label": "Domaine Georges Mugneret-Gibourg",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Ghislaine Barthod",
+      "label": "Domaine Ghislaine Barthod",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Gramenon",
+      "label": "Domaine Gramenon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Henri Gouges",
+      "label": "Domaine Henri Gouges",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Hudelot-Noëllat",
+      "label": "Domaine Hudelot-Noëllat",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Jacques Carillon",
+      "label": "Domaine Jacques Carillon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Jacques Puffeney",
+      "label": "Domaine Jacques Puffeney",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Jacques-Frédéric Mugnier",
+      "label": "Domaine Jacques-Frédéric Mugnier",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Jean Grivot",
+      "label": "Domaine Jean Grivot",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Jean-Francois Ganevat",
+      "label": "Domaine Jean-Francois Ganevat",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Jean-Michel Gerin",
+      "label": "Domaine Jean-Michel Gerin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Jean-Paul & Benoit Droin",
+      "label": "Domaine Jean-Paul & Benoit Droin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Joseph Roty",
+      "label": "Domaine Joseph Roty",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Leflaive",
+      "label": "Domaine Leflaive",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Leon Barral",
+      "label": "Domaine Leon Barral",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Louis Michel & Fils",
+      "label": "Domaine Louis Michel & Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Lucien Crochet",
+      "label": "Domaine Lucien Crochet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Lucien Le Moine",
+      "label": "Domaine Lucien Le Moine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Michel Bouzereau",
+      "label": "Domaine Michel Bouzereau",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Méo-Camuzet",
+      "label": "Domaine Méo-Camuzet",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Nicolas Joly",
+      "label": "Domaine Nicolas Joly",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Olivier Pithon",
+      "label": "Domaine Olivier Pithon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Paul Blanck",
+      "label": "Domaine Paul Blanck",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Perrot-Minot",
+      "label": "Domaine Perrot-Minot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Peyre Rose",
+      "label": "Domaine Peyre Rose",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Philippe Alliet",
+      "label": "Domaine Philippe Alliet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Philippe Naddef",
+      "label": "Domaine Philippe Naddef",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Pierre Amiot et Fils",
+      "label": "Domaine Pierre Amiot et Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Pierre Damoy",
+      "label": "Domaine Pierre Damoy",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Pierre Morey",
+      "label": "Domaine Pierre Morey",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Pierre Usseglio",
+      "label": "Domaine Pierre Usseglio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Ramonet",
+      "label": "Domaine Ramonet",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Robert Chevillon",
+      "label": "Domaine Robert Chevillon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Roger Belland",
+      "label": "Domaine Roger Belland",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Roulot",
+      "label": "Domaine Roulot",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Sautereau",
+      "label": "Domaine Sautereau",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Schoffit",
+      "label": "Domaine Schoffit",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Sebastien Riffault",
+      "label": "Domaine Sebastien Riffault",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Simon Bize",
+      "label": "Domaine Simon Bize",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Sylvain Cathiard",
+      "label": "Domaine Sylvain Cathiard",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Takahiko",
+      "label": "Domaine Takahiko",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Taupenot-Merme",
+      "label": "Domaine Taupenot-Merme",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Thomas-Labaille",
+      "label": "Domaine Thomas-Labaille",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Tollot-Beaut",
+      "label": "Domaine Tollot-Beaut",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Tortochot",
+      "label": "Domaine Tortochot",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Trapet Père & Fils",
+      "label": "Domaine Trapet Père & Fils",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Yves Cuilleron",
+      "label": "Domaine Yves Cuilleron",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Don Cayetano",
+      "label": "Don Cayetano",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Dr. Bürklin-Wolf",
+      "label": "Dr. Bürklin-Wolf",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Drappier",
+      "label": "Drappier",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Druet père et fils",
+      "label": "Druet père et fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Duemani",
+      "label": "Duemani",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Ecker Eckhof",
+      "label": "Ecker Eckhof",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Educated Guess",
+      "label": "Educated Guess",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Emidio Pepe",
+      "label": "Emidio Pepe",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Enrique Mendoza",
+      "label": "Enrique Mendoza",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Erzsébet Pince",
+      "label": "Erzsébet Pince",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Establecimiento Juanicó",
+      "label": "Establecimiento Juanicó",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "brand_aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Familia Torres",
+      "label": "Familia Torres",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Feudi di Guagnano",
+      "label": "Feudi di Guagnano",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Finca Las Moras",
+      "label": "Finca Las Moras",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Fleur Angely",
+      "label": "Fleur Angely",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Foradori",
+      "label": "Foradori",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "G.H. Mumm",
+      "label": "G.H. Mumm",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Gauchezco",
+      "label": "Gauchezco",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Gerard Bertrand",
+      "label": "Gerard Bertrand",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Giuaani",
+      "label": "Giuaani",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Golan Heights Winery",
+      "label": "Golan Heights Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "brand_aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Grace Wine",
+      "label": "Grace Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Grande Polaire",
+      "label": "Grande Polaire",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Grant Burge",
+      "label": "Grant Burge",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Groszer Wein",
+      "label": "Groszer Wein",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Gróf Degenfeld",
+      "label": "Gróf Degenfeld",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Gulfi",
+      "label": "Gulfi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Hansjörg Rebholz",
+      "label": "Hansjörg Rebholz",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Heinrich",
+      "label": "Heinrich",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Heitz Cellar",
+      "label": "Heitz Cellar",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Herdade do Esporao",
+      "label": "Herdade do Esporao",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Hester Creek Estate Winery",
+      "label": "Hester Creek Estate Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Holdvölgy",
+      "label": "Holdvölgy",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Huggy Wine",
+      "label": "Huggy Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Hugo Mendes",
+      "label": "Hugo Mendes",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Inniskillin",
+      "label": "Inniskillin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "brand_aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Jean Foillard",
+      "label": "Jean Foillard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Jean-Noël Haton",
+      "label": "Jean-Noël Haton",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Jiabeilan",
+      "label": "Jiabeilan",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Joh. Jos. Prüm",
+      "label": "Joh. Jos. Prüm",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Jurtschitsch",
+      "label": "Jurtschitsch",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Kardos",
+      "label": "Kardos",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Kenzo Estate",
+      "label": "Kenzo Estate",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Kirkland Signature",
+      "label": "Kirkland Signature",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Királyudvar",
+      "label": "Királyudvar",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Kooyong",
+      "label": "Kooyong",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Krondorf",
+      "label": "Krondorf",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "La Marca",
+      "label": "La Marca",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Laherte Freres",
+      "label": "Laherte Freres",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Laurent-Perrier",
+      "label": "Laurent-Perrier",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Laurette",
+      "label": "Laurette",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Le Boncie",
+      "label": "Le Boncie",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Leon Launois",
+      "label": "Leon Launois",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Leonetti Cellar",
+      "label": "Leonetti Cellar",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Little Giant",
+      "label": "Little Giant",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Loimer",
+      "label": "Loimer",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Long Dai",
+      "label": "Long Dai",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Luis Felipe Edwards",
+      "label": "Luis Felipe Edwards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Lungarotti",
+      "label": "Lungarotti",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Magon",
+      "label": "Magon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Maison de La Villette",
+      "label": "Maison de La Villette",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Margalit",
+      "label": "Margalit",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Mas Jullien",
+      "label": "Mas Jullien",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Mascarello Giuseppe e Figlio",
+      "label": "Mascarello Giuseppe e Figlio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Mastery",
+      "label": "Mastery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Matthieu Barret",
+      "label": "Matthieu Barret",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Miani",
+      "label": "Miani",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Miyoshi Wine",
+      "label": "Miyoshi Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Montes",
+      "label": "Montes",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Montes Alpha",
+      "label": "Montes Alpha",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Moric",
+      "label": "Moric",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Nigl",
+      "label": "Nigl",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Niya",
+      "label": "Niya",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Oakridge",
+      "label": "Oakridge",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Oakville Winery",
+      "label": "Oakville Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Obuse Winery",
+      "label": "Obuse Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Orgo",
+      "label": "Orgo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Osoyoos Larose",
+      "label": "Osoyoos Larose",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Palliser Estate",
+      "label": "Palliser Estate",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Pannon Tokaj",
+      "label": "Pannon Tokaj",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Pascal Agrapart",
+      "label": "Pascal Agrapart",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Patricius",
+      "label": "Patricius",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Peccavi Estate",
+      "label": "Peccavi Estate",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Pegasus Bay",
+      "label": "Pegasus Bay",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Pepperjack",
+      "label": "Pepperjack",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Petrolo",
+      "label": "Petrolo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Pewsey Vale",
+      "label": "Pewsey Vale",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Pincemester",
+      "label": "Pincemester",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Popova Kula Winery",
+      "label": "Popova Kula Winery",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Pradio",
+      "label": "Pradio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Presqu'ile",
+      "label": "Presqu'ile",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Prophet's Rock",
+      "label": "Prophet's Rock",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Puklus Pincészet",
+      "label": "Puklus Pincészet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Quilceda Creek",
+      "label": "Quilceda Creek",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Quinta da Pellada",
+      "label": "Quinta da Pellada",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Quinta do Javali",
+      "label": "Quinta do Javali",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Quinta do Vallado",
+      "label": "Quinta do Vallado",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Quinta do Vesuvio",
+      "label": "Quinta do Vesuvio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Quinta dos Aciprestes",
+      "label": "Quinta dos Aciprestes",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Quinta dos Roques",
+      "label": "Quinta dos Roques",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Raats Family Wines",
+      "label": "Raats Family Wines",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Raimat",
+      "label": "Raimat",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Rauzan-Gassies",
+      "label": "Rauzan-Gassies",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Restless River",
+      "label": "Restless River",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Rohe",
+      "label": "Rohe",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Rtvelisi",
+      "label": "Rtvelisi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Rutini Wines",
+      "label": "Rutini Wines",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Rémy Ferbras",
+      "label": "Rémy Ferbras",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "S.C. Pannell",
+      "label": "S.C. Pannell",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Sacha Lichine",
+      "label": "Sacha Lichine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Salomon Estate",
+      "label": "Salomon Estate",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Salon",
+      "label": "Salon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Sansilvestro",
+      "label": "Sansilvestro",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Sauska",
+      "label": "Sauska",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Schloss Gobelsburg",
+      "label": "Schloss Gobelsburg",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Sea Change",
+      "label": "Sea Change",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Shaw + Smith",
+      "label": "Shaw + Smith",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Snake + Herring",
+      "label": "Snake + Herring",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Soalheiro",
+      "label": "Soalheiro",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Sorrenberg",
+      "label": "Sorrenberg",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Spy Valley",
+      "label": "Spy Valley",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Squealing Pig",
+      "label": "Squealing Pig",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "St Johns Brook",
+      "label": "St Johns Brook",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Sterling Vineyards",
+      "label": "Sterling Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Sun Sun Winery",
+      "label": "Sun Sun Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Suntory",
+      "label": "Suntory",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Susana Balbo",
+      "label": "Susana Balbo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Szepsy",
+      "label": "Szepsy",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "TA_KU",
+      "label": "TA_KU",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Tahbilk",
+      "label": "Tahbilk",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Te Mata Estate",
+      "label": "Te Mata Estate",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Tement",
+      "label": "Tement",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Tenuta di Caseo",
+      "label": "Tenuta di Caseo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Tenuta di Trinoro",
+      "label": "Tenuta di Trinoro",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Tenuta Fanti",
+      "label": "Tenuta Fanti",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "The Royal Tokaji Wine Company",
+      "label": "The Royal Tokaji Wine Company",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Three Finger Jack",
+      "label": "Three Finger Jack",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Tokachi Wine",
+      "label": "Tokachi Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Tokaj Oremus",
+      "label": "Tokaj Oremus",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Trapiche",
+      "label": "Trapiche",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Trivento",
+      "label": "Trivento",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Tua Rita",
+      "label": "Tua Rita",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Udaca",
+      "label": "Udaca",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Val Frison",
+      "label": "Val Frison",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Valentini",
+      "label": "Valentini",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Vasse Felix",
+      "label": "Vasse Felix",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Vazisubani Estate",
+      "label": "Vazisubani Estate",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Vieux Château Certan",
+      "label": "Vieux Château Certan",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Villa Bucci",
+      "label": "Villa Bucci",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Vina Vik",
+      "label": "Vina Vik",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Viña Los Vascos",
+      "label": "Viña Los Vascos",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Viñedos de Páganos",
+      "label": "Viñedos de Páganos",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Battenfeld-Spanier",
+      "label": "Weingut Battenfeld-Spanier",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Christmann",
+      "label": "Weingut Christmann",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Clemens Busch",
+      "label": "Weingut Clemens Busch",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Heymann-Lowenstein",
+      "label": "Weingut Heymann-Lowenstein",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Peter Lauer",
+      "label": "Weingut Peter Lauer",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Rudolf Furst",
+      "label": "Weingut Rudolf Furst",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Schlossgut Diel",
+      "label": "Weingut Schlossgut Diel",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Spreitzer",
+      "label": "Weingut Spreitzer",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weingut Wagner-Stempel",
+      "label": "Weingut Wagner-Stempel",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Weinrieder",
+      "label": "Weinrieder",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Wieninger",
+      "label": "Wieninger",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Wine & Soul",
+      "label": "Wine & Soul",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Wine Man",
+      "label": "Wine Man",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Wither Hills",
+      "label": "Wither Hills",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Wolf Blass",
+      "label": "Wolf Blass",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Wynns Coonawarra Estate",
+      "label": "Wynns Coonawarra Estate",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Xiao Ling",
+      "label": "Xiao Ling",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Y by Yoshiki",
+      "label": "Y by Yoshiki",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Yabby Lake",
+      "label": "Yabby Lake",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Yellow Tail",
+      "label": "Yellow Tail",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Yi'er Xiangdu",
+      "label": "Yi'er Xiangdu",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Yosemite Road",
+      "label": "Yosemite Road",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Zinio",
+      "label": "Zinio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:anderson-family-vineyard",
+      "label": "Anderson Family Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:archery-summit",
+      "label": "Archery Summit",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:argyle",
+      "label": "Argyle",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:blue-farm",
+      "label": "Blue Farm",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:cramoisi-vineyard",
+      "label": "Cramoisi Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:hawkes-wine",
+      "label": "Hawkes Wine",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:au:heartland",
+      "label": "Heartland",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:jordan-vineyard-and-winery",
+      "label": "Jordan Vineyard & Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:schermeister-winery",
+      "label": "Schermeister Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:au:woodstock",
+      "label": "Woodstock",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:ada-nada",
+      "label": "Ada Nada",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:adega-condes-de-albarei-s-a-u",
+      "label": "Adega Condes de Albarei, S.A.U.",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:agnes",
+      "label": "Agnes",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:almacerro",
+      "label": "Almacerro",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:au:alpha-box-dice",
+      "label": "Alpha Box & Dice",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:azienda-agricola-manenti",
+      "label": "Azienda Agricola Manenti",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:b-cellars",
+      "label": "B Cellars",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:baldacci-family-vineyards",
+      "label": "Baldacci Family Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:il:barkan",
+      "label": "Barkan",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:bottega",
+      "label": "Bottega",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:bottega-spa",
+      "label": "Bottega Spa",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:cantina-dionigi",
+      "label": "Cantina Dionigi",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-alain-mercier",
+      "label": "Champagne Alain Mercier",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-anthony-betouzet",
+      "label": "Champagne Anthony Betouzet",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-belouis-gricourt",
+      "label": "Champagne Belouis Gricourt",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-bernard-lonclas",
+      "label": "Champagne Bernard Lonclas",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-christian-douard",
+      "label": "Champagne Christian DOUARD",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-cuillier-pere-et-fils",
+      "label": "Champagne Cuillier Père et Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-diogene-tissier-et-fils",
+      "label": "Champagne Diogène Tissier et Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-francois-heucq-et-fils",
+      "label": "Champagne François Heucq et fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-godin-schuester",
+      "label": "Champagne Godin-Schuester",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-gratiot-delugny",
+      "label": "Champagne Gratiot-Delugny",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-j-m-gobillard-and-fils",
+      "label": "Champagne J-M. Gobillard & Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-laborde",
+      "label": "Champagne Laborde",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-malingre-truchon",
+      "label": "Champagne Malingre-Truchon",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-maurice-gonel-et-fils",
+      "label": "Champagne Maurice Gonel et Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-r-and-l-legras",
+      "label": "Champagne R&L Legras",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-richard-fliniaux",
+      "label": "Champagne Richard-Fliniaux",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:chateau-noaillac",
+      "label": "Château Noaillac",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:au:cock-and-bull",
+      "label": "Cock & Bull",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:di-filippo",
+      "label": "Di Filippo",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:domaine-beatrice-et-pascal-lambert",
+      "label": "Domaine Béatrice et Pascal Lambert",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:domaine-goisot",
+      "label": "Domaine Goisot",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:domaine-sainte-barbe",
+      "label": "Domaine Sainte‑Barbe",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:dominio-de-valdepusa",
+      "label": "Dominio de Valdepusa",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:dveri-pax",
+      "label": "Dveri-Pax",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:edi-simcic",
+      "label": "Edi Simčič",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:emidio-pepe",
+      "label": "Emidio Pepe",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:gb:fortnum-and-mason",
+      "label": "Fortnum & Mason",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:frelih",
+      "label": "Frelih",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:gb:gusbourne",
+      "label": "Gusbourne",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:kabaj",
+      "label": "Kabaj",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:korenika-and-moskon",
+      "label": "Korenika & Moškon",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:la-valentina",
+      "label": "La Valentina",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:cl:loma-negra",
+      "label": "Loma Negra",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:lucien-le-moine",
+      "label": "Lucien Le Moine",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:jp:manns-wines",
+      "label": "Manns Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:masciarelli",
+      "label": "Masciarelli",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:morgan-winery",
+      "label": "Morgan Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:movia",
+      "label": "Movia",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:pasqua",
+      "label": "Pasqua",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:au:pepper-tree-wines",
+      "label": "Pepper Tree Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:pietracupa",
+      "label": "Pietracupa",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:pieve-santa-restituta",
+      "label": "Pieve Santa Restituta",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:radgonske-gorice",
+      "label": "Radgonske Gorice",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:rencel",
+      "label": "Renčel",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:nz:rongopai",
+      "label": "Rongopai",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:za:rupert-and-rothschild-vignerons",
+      "label": "Rupert & Rothschild Vignerons",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:sensi-1890",
+      "label": "Sensi 1890",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:au:spring-vale-vineyards",
+      "label": "Spring Vale Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:tenuta-bellafonte",
+      "label": "Tenuta Bellafonte",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:tenuta-scuotto",
+      "label": "Tenuta Scuotto",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:venica-and-venica",
+      "label": "Venica & Venica",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:vina-bordon",
+      "label": "Vina Bordon",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:vinska-klet-prus",
+      "label": "Vinska klet Prus",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:vina-zorzal",
+      "label": "Viña Zorzal",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:si:stoka",
+      "label": "Štoka",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Alexander Valley",
+      "label": "Alexander Valley",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Dundee Hills",
+      "label": "Dundee Hills",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Sonoma Valley",
+      "label": "Sonoma Valley",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Grapes",
+      "kind": "updated",
+      "id": "Welschriesling",
+      "label": "Welschriesling",
+      "datasets": [
+        "ocr/grapes_v1_extended.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    }
+  ]
+}
