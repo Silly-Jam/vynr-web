@@ -1,0 +1,2060 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-962",
+  "generatedAt": "2026-10-18T11:02:27Z",
+  "from": {
+    "epoch": 961,
+    "commit": "2b861c7193b7a8ed1f90513af0908920b15defd4",
+    "committedAt": "2026-10-11T06:01:25+08:00",
+    "registrySha256": "d7b02654cf8adde2be75d58d197376112492b977e927e1d791a212d0d349035f"
+  },
+  "to": {
+    "epoch": 962,
+    "commit": "b29d4a6cf0f05969bab0622137858f3daadb024a",
+    "committedAt": "2026-10-18T19:01:31+08:00",
+    "registrySha256": "4a347bb722ee9d6f2fe1b743e2f81d3cd81d50d433621cab56cb09a2dac0c530"
+  },
+  "changeCount": 200,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 53,
+      "updated": 23,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 46,
+      "updated": 15,
+      "removed": 0
+    },
+    {
+      "category": "Place and style education",
+      "added": 2,
+      "updated": 11,
+      "removed": 1
+    },
+    {
+      "category": "Appellations",
+      "added": 12,
+      "updated": 21,
+      "removed": 12
+    },
+    {
+      "category": "Regions",
+      "added": 1,
+      "updated": 2,
+      "removed": 1
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Alps Co., Ltd.",
+      "label": "Alps Co., Ltd.",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Andrea Cauda",
+      "label": "Andrea Cauda",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "AntoLin Cellars",
+      "label": "AntoLin Cellars",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Azienda Agricola Collemucioli",
+      "label": "Azienda Agricola Collemucioli",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Azienda Agricola Colognole",
+      "label": "Azienda Agricola Colognole",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Azienda Agricola Frascole",
+      "label": "Azienda Agricola Frascole",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Azienda Agricola Romana Carlo",
+      "label": "Azienda Agricola Romana Carlo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Azienda Agricola Travignoli",
+      "label": "Azienda Agricola Travignoli",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bartholomew Estate Winery",
+      "label": "Bartholomew Estate Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bethel Heights Vineyard",
+      "label": "Bethel Heights Vineyard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bonair Winery",
+      "label": "Bonair Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Borgo Macereto",
+      "label": "Borgo Macereto",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Brooks Wine",
+      "label": "Brooks Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Cantine Vivito",
+      "label": "Cantine Vivito",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Cappellasantandrea Societ\u0000e0 Agricola S.S.",
+      "label": "Cappellasantandrea Societ\u0000e0 Agricola S.S.",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Cascina Corte",
+      "label": "Cascina Corte",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Chionetti",
+      "label": "Chionetti",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Col di Bacche",
+      "label": "Col di Bacche",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Collina dei Venti",
+      "label": "Collina dei Venti",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Cultura Wine",
+      "label": "Cultura Wine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Cà Neuva",
+      "label": "Cà Neuva",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Dichotomy Wines",
+      "label": "Dichotomy Wines",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Serene",
+      "label": "Domaine Serene",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Fattoria Abbazia Monte Oliveto",
+      "label": "Fattoria Abbazia Monte Oliveto",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Fattoria di Grignano",
+      "label": "Fattoria di Grignano",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Fattoria Lavacchio",
+      "label": "Fattoria Lavacchio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Fattoria San Felo",
+      "label": "Fattoria San Felo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Freehand Cellars",
+      "label": "Freehand Cellars",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Fritsch Pince",
+      "label": "Fritsch Pince",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Gere Tamás & Zsolt",
+      "label": "Gere Tamás & Zsolt",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Gundlach Bundschu Winery",
+      "label": "Gundlach Bundschu Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Heumann",
+      "label": "Heumann",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "I Veroni",
+      "label": "I Veroni",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Kenwood Vineyards",
+      "label": "Kenwood Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Knight Hill Winery",
+      "label": "Knight Hill Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "LaPierre Farms & Winery",
+      "label": "LaPierre Farms & Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Ledson Winery and Vineyards",
+      "label": "Ledson Winery and Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Lelovits Tamás Pincészete",
+      "label": "Lelovits Tamás Pincészete",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Marziano Abbona",
+      "label": "Marziano Abbona",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Native Flora",
+      "label": "Native Flora",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Osvaldo Barberis",
+      "label": "Osvaldo Barberis",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Paradisos del Sol Winery & Organic Vineyard",
+      "label": "Paradisos del Sol Winery & Organic Vineyard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Pecchenino",
+      "label": "Pecchenino",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Podere Poggio Bestiale",
+      "label": "Podere Poggio Bestiale",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Poderi del Paradiso",
+      "label": "Poderi del Paradiso",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Poderi Luigi Einaudi",
+      "label": "Poderi Luigi Einaudi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Roccapesta",
+      "label": "Roccapesta",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Sheridan Vineyard",
+      "label": "Sheridan Vineyard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Streit-Zágonyi Winery",
+      "label": "Streit-Zágonyi Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Tenute Faladas",
+      "label": "Tenute Faladas",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Tenute Oskiros",
+      "label": "Tenute Oskiros",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Treveri Cellars",
+      "label": "Treveri Cellars",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Vylyan Szőlőbirtok és Pincészet",
+      "label": "Vylyan Szőlőbirtok és Pincészet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Ada Nada",
+      "label": "Ada Nada",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 4
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Alkoomi",
+      "label": "Alkoomi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 2
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Brown Brothers",
+      "label": "Brown Brothers",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Bel Rose",
+      "label": "Château Bel Rose",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Gramboy",
+      "label": "Château Gramboy",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Château Malescasse",
+      "label": "Château Malescasse",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 4
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Delaire Graff",
+      "label": "Delaire Graff",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Dominio Romano",
+      "label": "Dominio Romano",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Familia Torres",
+      "label": "Familia Torres",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Famille Perrin",
+      "label": "Famille Perrin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Fattoria da Sasino",
+      "label": "Fattoria da Sasino",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 4
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Fermier",
+      "label": "Fermier",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Gabb Family Vineyards",
+      "label": "Gabb Family Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Giulia Negri",
+      "label": "Giulia Negri",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Hidden Bench Vineyards Winery",
+      "label": "Hidden Bench Vineyards Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Jaffelin",
+      "label": "Jaffelin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Kloster Eberbach",
+      "label": "Kloster Eberbach",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Magon",
+      "label": "Magon",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Maxime Cheurlin Noëllat",
+      "label": "Maxime Cheurlin Noëllat",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Quinta do Pégo",
+      "label": "Quinta do Pégo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "SAYS FARM",
+      "label": "SAYS FARM",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Schlink Haus",
+      "label": "Schlink Haus",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Winzerfamilie Gregor Schup",
+      "label": "Winzerfamilie Gregor Schup",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "known_cuvees"
+      ],
+      "otherFieldCount": 4
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:jp:alps-co-ltd",
+      "label": "Alps Co., Ltd.",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:andrea-cauda",
+      "label": "Andrea Cauda",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:antolin-cellars",
+      "label": "AntoLin Cellars",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:azienda-agricola-collemucioli",
+      "label": "Azienda Agricola Collemucioli",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:azienda-agricola-colognole",
+      "label": "Azienda Agricola Colognole",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:azienda-agricola-frascole",
+      "label": "Azienda Agricola Frascole",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:azienda-agricola-romana-carlo",
+      "label": "Azienda Agricola Romana Carlo",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:azienda-agricola-travignoli",
+      "label": "Azienda Agricola Travignoli",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:bartholomew-estate-winery",
+      "label": "Bartholomew Estate Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:borgo-macereto",
+      "label": "Borgo Macereto",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:brooks-wine",
+      "label": "Brooks Wine",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:cantine-vivito",
+      "label": "Cantine Vivito",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:cappellasantandrea-societ-e0-agricola-s-s",
+      "label": "Cappellasantandrea Societ\u0000e0 Agricola S.S.",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:cascina-corte",
+      "label": "Cascina Corte",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:chionetti",
+      "label": "Chionetti",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:col-di-bacche",
+      "label": "Col di Bacche",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:collina-dei-venti",
+      "label": "Collina dei Venti",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:cultura-wine",
+      "label": "Cultura Wine",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:ca-neuva",
+      "label": "Cà Neuva",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:dichotomy-wines",
+      "label": "Dichotomy Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:fattoria-abbazia-monte-oliveto",
+      "label": "Fattoria Abbazia Monte Oliveto",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:fattoria-di-grignano",
+      "label": "Fattoria di Grignano",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:fattoria-lavacchio",
+      "label": "Fattoria Lavacchio",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:fattoria-san-felo",
+      "label": "Fattoria San Felo",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:freehand-cellars",
+      "label": "Freehand Cellars",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:hu:fritsch-pince",
+      "label": "Fritsch Pince",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:hu:gere-tamas-and-zsolt",
+      "label": "Gere Tamás & Zsolt",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:hu:heumann",
+      "label": "Heumann",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:i-veroni",
+      "label": "I Veroni",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:knight-hill-winery",
+      "label": "Knight Hill Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:lapierre-farms-and-winery",
+      "label": "LaPierre Farms & Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:hu:lelovits-tamas-pinceszete",
+      "label": "Lelovits Tamás Pincészete",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:marziano-abbona",
+      "label": "Marziano Abbona",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:native-flora",
+      "label": "Native Flora",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:osvaldo-barberis",
+      "label": "Osvaldo Barberis",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:paradisos-del-sol-winery-and-organic-vineyard",
+      "label": "Paradisos del Sol Winery & Organic Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:pecchenino",
+      "label": "Pecchenino",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:podere-poggio-bestiale",
+      "label": "Podere Poggio Bestiale",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:poderi-del-paradiso",
+      "label": "Poderi del Paradiso",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:poderi-luigi-einaudi",
+      "label": "Poderi Luigi Einaudi",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:roccapesta",
+      "label": "Roccapesta",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:sheridan-vineyard",
+      "label": "Sheridan Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:hu:streit-zagonyi-winery",
+      "label": "Streit-Zágonyi Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:tenute-faladas",
+      "label": "Tenute Faladas",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:tenute-oskiros",
+      "label": "Tenute Oskiros",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:hu:vylyan-szolobirtok-es-pinceszet",
+      "label": "Vylyan Szőlőbirtok és Pincészet",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:ambar-estate",
+      "label": "Ambar Estate",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:anderson-family-vineyard",
+      "label": "Anderson Family Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:archery-summit",
+      "label": "Archery Summit",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:argyle",
+      "label": "Argyle",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:azienda-agricola-sebastiani-alberto",
+      "label": "Azienda Agricola Sebastiani Alberto",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:azienda-agricola-vitivinicola-la-torretta",
+      "label": "Azienda Agricola Vitivinicola La Torretta",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:beltane-ranch",
+      "label": "Beltane Ranch",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:bethel-heights-vineyard",
+      "label": "Bethel Heights Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:blue-farm",
+      "label": "Blue Farm",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:domaine-serene",
+      "label": "Domaine Serene",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:gundlach-bundschu-winery",
+      "label": "Gundlach Bundschu Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:hawkes-wine",
+      "label": "Hawkes Wine",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:schermeister-winery",
+      "label": "Schermeister Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:stefano-vegis",
+      "label": "Stefano Vegis",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:the-eyrie-vineyards",
+      "label": "The Eyrie Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Place and style education",
+      "kind": "added",
+      "id": "geo:au:frankland-river-gi",
+      "label": "Frankland River",
+      "datasets": [
+        "education/wine_education.json"
+      ]
+    },
+    {
+      "category": "Place and style education",
+      "kind": "added",
+      "id": "geo:jp:toyama",
+      "label": "Toyama",
+      "datasets": [
+        "education/wine_education.json"
+      ]
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-chusclan",
+      "label": "Côtes du Rhône Villages Chusclan",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-massif-duchaux",
+      "label": "Côtes du Rhône Villages Massif d'Uchaux",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-plan-de-dieu",
+      "label": "Côtes du Rhône Villages Plan de Dieu",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-puymeras",
+      "label": "Côtes du Rhône Villages Puyméras",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-roaix",
+      "label": "Côtes du Rhône Villages Roaix",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-sablet",
+      "label": "Côtes du Rhône Villages Sablet",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-saint-gervais",
+      "label": "Côtes du Rhône Villages Saint-Gervais",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-sainte-cecile",
+      "label": "Côtes du Rhône Villages Sainte-Cécile",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-signargues",
+      "label": "Côtes du Rhône Villages Signargues",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-seguret",
+      "label": "Côtes du Rhône Villages Séguret",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:fr:cotes-du-rhone-villages-visan",
+      "label": "Côtes du Rhône Villages Visan",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "removed",
+      "id": "geo:au:milawa",
+      "label": "Milawa",
+      "datasets": [
+        "education/wine_education.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Chusclan",
+      "label": "Côtes du Rhône Villages Chusclan",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Massif d'Uchaux",
+      "label": "Côtes du Rhône Villages Massif d'Uchaux",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Plan de Dieu",
+      "label": "Côtes du Rhône Villages Plan de Dieu",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Puyméras",
+      "label": "Côtes du Rhône Villages Puyméras",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Roaix",
+      "label": "Côtes du Rhône Villages Roaix",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Sablet",
+      "label": "Côtes du Rhône Villages Sablet",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Saint-Gervais",
+      "label": "Côtes du Rhône Villages Saint-Gervais",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Sainte-Cécile",
+      "label": "Côtes du Rhône Villages Sainte-Cécile",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Signargues",
+      "label": "Côtes du Rhône Villages Signargues",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Séguret",
+      "label": "Côtes du Rhône Villages Séguret",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Côtes du Rhône Villages Visan",
+      "label": "Côtes du Rhône Villages Visan",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Frankland River",
+      "label": "Frankland River",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Banghoek",
+      "label": "Banghoek",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [
+        "parent_region"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Beaujolais",
+      "label": "Beaujolais",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Bourgueil",
+      "label": "Bourgueil",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Chianti",
+      "label": "Chianti",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Chianti Rufina",
+      "label": "Chianti Rufina",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Châteauneuf-du-Pape",
+      "label": "Châteauneuf-du-Pape",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Dogliani",
+      "label": "Dogliani",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Dundee Hills",
+      "label": "Dundee Hills",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Eola-Amity Hills",
+      "label": "Eola-Amity Hills",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Lalande-de-Pomerol",
+      "label": "Lalande-de-Pomerol",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Lussac-Saint-Émilion",
+      "label": "Lussac-Saint-Émilion",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Morellino di Scansano",
+      "label": "Morellino di Scansano",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Roero",
+      "label": "Roero",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Roero Arneis",
+      "label": "Roero Arneis",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Santorini",
+      "label": "Santorini",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Sonoma Valley",
+      "label": "Sonoma Valley",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Vermentino di Gallura",
+      "label": "Vermentino di Gallura",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Vernaccia di San Gimignano",
+      "label": "Vernaccia di San Gimignano",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Villány",
+      "label": "Villány",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Yakima Valley",
+      "label": "Yakima Valley",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Yamanashi",
+      "label": "Yamanashi",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Chusclan",
+      "label": "Cotes du Rhone Villages Chusclan",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Massif d'Uchaux",
+      "label": "Cotes du Rhone Villages Massif d'Uchaux",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Plan de Dieu",
+      "label": "Cotes du Rhone Villages Plan de Dieu",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Puymeras",
+      "label": "Cotes du Rhone Villages Puymeras",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Roaix",
+      "label": "Cotes du Rhone Villages Roaix",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Sablet",
+      "label": "Cotes du Rhone Villages Sablet",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Saint-Gervais",
+      "label": "Cotes du Rhone Villages Saint-Gervais",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Sainte-Cecile",
+      "label": "Cotes du Rhone Villages Sainte-Cecile",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Seguret",
+      "label": "Cotes du Rhone Villages Seguret",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Signargues",
+      "label": "Cotes du Rhone Villages Signargues",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Cotes du Rhone Villages Visan",
+      "label": "Cotes du Rhone Villages Visan",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Milawa",
+      "label": "Milawa",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Regions",
+      "kind": "added",
+      "id": "Toyama",
+      "label": "Toyama",
+      "datasets": [
+        "atlas/regions_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Japan",
+      "label": "Japan",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Nagano",
+      "label": "Nagano",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 2
+    },
+    {
+      "category": "Regions",
+      "kind": "removed",
+      "id": "Frankland River",
+      "label": "Frankland River",
+      "datasets": [
+        "atlas/regions_v1_extended.json"
+      ]
+    }
+  ]
+}
