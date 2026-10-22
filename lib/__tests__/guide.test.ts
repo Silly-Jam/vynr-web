@@ -104,11 +104,15 @@ describe('the bundle is the one vynr generated', () => {
 });
 
 describe('chapters keep the source order and its groups', () => {
-  it('lists the twelve tour chapters in tour order, each in a known group', () => {
+  it('lists the twelve tour chapters in tour order, with the web-only chapters in their groups', () => {
     assert.deepEqual(guide.chapters.map(c => c.id), [
       'move', 'jump', 'two-fingers', 'back-across', 'places', 'hold', 'pinch',
-      'add', 'filters', 'follow', 'time-lens', 'journal',
+      'add', 'filters', 'follow', 'storage', 'time-lens', 'journal', 'keep-safe',
     ]);
+    assert.deepEqual(guide.chapters.filter(c => c.tour === null).map(c => c.id), ['storage', 'keep-safe']);
+    const groups = guide.chapters.map(c => c.group);
+    assert.deepEqual(groups.filter((g, i) => g !== groups[i - 1]), GROUPS.map(g => g.id),
+      'each group is one contiguous run, in GROUPS order');
     const known: readonly string[] = GROUPS.map(g => g.id);
     for (const chapter of guide.chapters) assert.ok(known.includes(chapter.group), chapter.id);
   });
@@ -118,6 +122,9 @@ describe('chapters keep the source order and its groups', () => {
     assert.equal(chapterLine(move), move.tour!.message);
     assert.equal(getChapter('nope'), undefined);
     assert.deepEqual(neighbours('move'), { previous: undefined, next: getChapter('jump') });
-    assert.deepEqual(neighbours('journal'), { previous: getChapter('time-lens'), next: undefined });
+    assert.deepEqual(neighbours('storage'), { previous: getChapter('follow'), next: getChapter('time-lens') });
+    assert.deepEqual(neighbours('keep-safe'), { previous: getChapter('journal'), next: undefined });
+    const storage = getChapter('storage')!;
+    assert.equal(chapterLine(storage), storage.summary, 'a web-only chapter leads with its summary');
   });
 });

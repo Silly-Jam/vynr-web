@@ -4,7 +4,7 @@
   "bootstrapEqualityDigest": "8b917f987240761775f46bec3b8552730d527fe66a9a30c7583be845ad707181",
   "chapters": [
     {
-      "body": "",
+      "body": "\nThe four maps share one way of moving. Cellar groups your wines by where they come from. Atlas is the wine world those wines belong to. Storage groups your bottles by where you keep them. Time Lens shows your cellar across time.\n\nOn a map, a larger tile holds more. In Cellar a tile is sized by the wines under that place; in Storage, by the bottles in that location, so a wine kept in two places appears on both.\n",
       "group": "getting-around",
       "id": "move",
       "summary": null,
@@ -84,7 +84,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nThe switcher lists the four maps — Cellar, Atlas, Storage and Time Lens — then Journal, Wine List, Producer List and Vynrpedia. Vynrpedia, the A to Z of wine terms, practices and places, is reached only from here.\n\nStorage is always in the switcher, even before you have a storage location: it is where you add your first.\n",
       "group": "getting-around",
       "id": "jump",
       "summary": null,
@@ -161,7 +161,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nOn a list, in Journal and in Vynrpedia, one finger scrolls the page, so it cannot also move you between views. A two-finger drag is not a scroll, which is why the same hold reaches the switcher on every screen.\n",
       "group": "getting-around",
       "id": "two-fingers",
       "summary": null,
@@ -241,7 +241,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nSwiping right from the left edge always means back: up one level on a map, or out of a wine's record. If a panel is open over the page, it closes first.\n\nThe count on a producer page, such as 3 of 12, is your place in the list you opened it from.\n",
       "group": "getting-around",
       "id": "back-across",
       "summary": null,
@@ -336,7 +336,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nCellar shows only the places that hold your wines, so its map is shaped by your own collection: a continent appears when you hold a wine from it.\n\nThe bar is both the way in and the way back. Each place in it is a step you took, and tapping one returns you there in a single move, however deep you are.\n",
       "group": "getting-around",
       "id": "places",
       "summary": null,
@@ -461,7 +461,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nA hold explains whatever you hold. A place in the bar gives its story; in Storage, a tile gives the meaning of its storage profile.\n\nPress-and-hold on words in vynr's own text is a separate option, Look Up Words, in Settings → Appearance. It is off until you turn it on, and while it is on, press and hold no longer selects text for copying.\n",
       "group": "getting-around",
       "id": "hold",
       "summary": null,
@@ -556,7 +556,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nThe list shows what the map shows. In France, the Wine List holds the wines under France; tap a place in the bar and the list follows.\n\nStorage has no list: each of its tiles is a place where you keep bottles, and tapping one opens it.\n",
       "group": "getting-around",
       "id": "pinch",
       "summary": null,
@@ -651,7 +651,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nAfter a scan, vynr shows what it read before anything is saved: origin, colour, structure and varietal, then details such as sweetness, when you acquired the wine and where it is stored. Correct anything that is wrong, then choose Add to Cellar, or Just a Tasting to record the wine without adding bottles.\n\nIf the wine may already be in your cellar, vynr asks whether to add to the existing wine, save it as a new one, or review first.\n\nA free cellar holds 50 bottles at a time. Bottles you drink or give away free their space, and vynr+ has no limit.\n",
       "group": "your-wines",
       "id": "add",
       "summary": null,
@@ -707,7 +707,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nThe Session narrows what you see for now; it never changes your wines. Pairing offers a dozen kinds of dish, from lean fish and shellfish to blue cheese and desserts.\n\nOther sections appear when your wines support them: Sweetness, Opening status & intent, Notes, and Location once you keep bottles in two or more places. Clear session filters clears those sections; a pairing stays until you choose None.\n",
       "group": "your-wines",
       "id": "filters",
       "summary": null,
@@ -799,7 +799,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nA producer page holds a short note on the producer, their ageing profile where vynr has one, where they are on the map, the other names they go by, and My wines when you own some of theirs.\n",
       "group": "your-wines",
       "id": "follow",
       "summary": null,
@@ -897,7 +897,15 @@
       }
     },
     {
-      "body": "",
+      "body": "\nTo add a location, open Storage from the switcher and tap + Add storage below the map. Name the place — for example, Basement rack — choose the profile that best describes its conditions, and tap Done. You can also create one from the storage row while adding a wine, or from a wine's record.\n\nOnce you have a storage location of your own, Storage joins the maps you flick through, between Atlas and Time Lens.\n\nEach tile is one location, sized by the bottles in it. Tap a tile to open it: its conditions, the wines inside it, and the moves. You can move some or all of a wine's bottles to another location, or move everything out at once. A location can be removed only when it is empty. Press and hold a tile to learn what its profile means.\n\nThe profile — Ideal, Cool and stable, Normal indoor, Warm or variable, Refrigerated, Transit or Unknown — is the one setting that changes how vynr reads a wine's drinking window: the less steady the conditions, the wider the uncertainty, and a bottle keeps the widest it has known. Temperature, humidity and notes are kept as a record only.\n\nA bottle added without a chosen location goes to the location you updated most recently, or to Default rack if you have none of your own. Every move is kept with its date, so your cellar's history includes where each bottle was. Storage is a map only, with no list, and it is part of the free plan.\n",
+      "group": "your-wines",
+      "id": "storage",
+      "summary": "Storage is your cellar grouped by where the bottles are kept: a rack, a wine fridge, a friend's cellar.",
+      "title": "Keep track of where your bottles are",
+      "tour": null
+    },
+    {
+      "body": "\nMemories is built from your own records: the bottles you added and opened, on the days you did it.\n\nEvolution reads each wine's drinking window. Where a bottle has been kept affects how sure that reading is. Warm or variable, refrigerated, transit and unknown conditions widen it, and a bottle keeps the widest it has known: moving it somewhere steadier later does not narrow it again.\n\nYour full history and the next six months are free; vynr+ follows every bottle as far ahead as its curve goes.\n",
       "group": "time-and-memory",
       "id": "time-lens",
       "summary": null,
@@ -1019,7 +1027,7 @@
       }
     },
     {
-      "body": "",
+      "body": "\nAn entry holds text and photos. A free entry holds one text block and one photo block; more blocks in one entry are part of vynr+.\n\nJournal can be narrowed to Tastings, Notes or Evolution. A tasting event gathers an evening's tastings under one name: press and hold + and choose Start tasting event, and every tasting recorded during it carries a Tasting Event badge.\n",
       "group": "time-and-memory",
       "id": "journal",
       "summary": null,
@@ -1172,11 +1180,19 @@
         ],
         "title": "Record what you drink"
       }
+    },
+    {
+      "body": "\n**There is no vynr account.** Your wines, tastings, journal and storage locations live on your device. vynr backs them up to your private iCloud account a few moments after each change, and only you can access that backup. Settings → Backup, in the Data section, shows its status and when it last ran.\n\n**On a new device,** install vynr and open it. Before showing an empty cellar, vynr checks iCloud and restores yours. A backup made by a newer version of vynr asks you to update first.\n\n**A copy of your own.** Export Cellar, on the same screen, saves your whole cellar as a .vynr file: wines, photos, tastings, collections and your journal. Restore from Backup replaces your entire cellar with a file's contents, and cannot be undone.\n\n**What leaves your device.** AI Commentary and Refine Scans with AI are off until you turn them on in Settings → AI Features. AI Fix This and Cellar Health send a wine's label photo and details through vynr's own service, and only when you use them. Share Anonymous Usage Data, in Settings → Privacy, is off unless you turn it on. Assistant Link uploads a redacted, read-only copy of your cellar when you create a link and, while Keep my assistant up to date is on (it is on by default), again after each change to your cellar. Turn that off to publish by hand only; you can revoke the link at any time.\n\n**Deleting.** Settings → Delete All Wine Data, in the Data section, removes your wines and saved label images from this device and from your iCloud backup. Your journal entries and storage locations stay. Deleting the app removes everything on the device; to stop backups as well, turn off iCloud for vynr in the iOS Settings app.\n",
+      "group": "your-data",
+      "id": "keep-safe",
+      "summary": "Your cellar lives on your device and is backed up automatically to your private iCloud account; you can also keep a copy as a file.",
+      "title": "Keep your cellar safe",
+      "tour": null
     }
   ],
-  "contentHash": "e03a5689bef55a7d6b82d9336df876d7fd818f8c90358df8ec9bad0e47730d20",
+  "contentHash": "c894aa692baaff1a96924e0320127941f18ade551e082208c6da24822092e686",
   "describes": "v1.2-build52-source",
-  "guideSourceCommit": "f4e88def9ee272017b9dfc60eed6230c8ba49cbd",
+  "guideSourceCommit": "bfe104ebe5e091c0c099a375feadc9260d02a846",
   "images": {
     "walkthrough-01-cellar.jpg": "d12c6cb84cd5999f37c8b22e6d5961e809cb0249c7ed90b6f6c19e32c346889d",
     "walkthrough-01b-atlas.jpg": "a0c9e3458ba9901cbc52f213c6b918c5c31103c245849fd3151a4ec2a13838d0",
