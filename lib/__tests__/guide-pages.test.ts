@@ -149,6 +149,15 @@ describe('the guide is discoverable, and complete without JavaScript', () => {
     assert.ok(eager.every(i => i.includes(`/guide/${guide.chapters[0].tour!.shots[0].file}`)));
   });
 
+  it('loads every inline shot before printing, so an unscrolled page prints whole', () => {
+    const enhancer = read('app/guide/GuideStoryEnhancer.tsx');
+    assert.match(enhancer, /PRINTED_SHOTS = "\.guide-inline-shot img"/);
+    assert.match(enhancer, /addEventListener\("beforeprint", loadForPrint\)/);
+    assert.equal(enhancer.match(/removeEventListener\("beforeprint", loadForPrint\)/g)?.length, 2,
+      'removed on both cleanup paths');
+    assert.match(enhancer, /img\.loading = "eager"/);
+  });
+
   it('honours Reduce Motion: no animation or transition survives it', () => {
     const css = read('app/globals.css');
     const reduced = css.slice(css.indexOf('@media (prefers-reduced-motion: reduce)', css.indexOf('Guide to vynr (SJAM-1041')));

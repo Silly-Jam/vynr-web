@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 
 // Progressive enhancement for the guide's story sections (spec §6). The server markup is the
-// complete page; this only toggles class names. Wide screens (≥ 900 × 640 px) get the pinned phone
+// complete page; this only toggles class names, and before printing loads the lazy shots. Wide screens (≥ 900 × 640 px) get the pinned phone
 // that follows the step being read; narrow screens and no-JavaScript keep the linear layout.
 // Reduce Motion is honoured in CSS: the highlighting stays, every animation is removed.
 // Wide and tall enough for the 540 px pinned phone plus its 80 px offset; otherwise linear.
@@ -12,6 +12,8 @@ const WIDE = "(min-width: 900px) and (min-height: 640px)";
 // how they resolve against the viewport varies, so the band is computed in pixels from the
 // window height and rebuilt when the window is resized.
 const READING_BAND = 0.45;
+// Print shows every inline shot, but a lazy image never scrolled into view may print empty.
+const PRINTED_SHOTS = ".guide-inline-shot img";
 
 function activate(step: HTMLElement) {
   const section = step.closest<HTMLElement>("[data-guide-story]");
@@ -32,7 +34,12 @@ function activate(step: HTMLElement) {
 
 export default function GuideStoryEnhancer() {
   useEffect(() => {
-    if (!("IntersectionObserver" in window) || !window.matchMedia) return;
+    const loadForPrint = () =>
+      document.querySelectorAll<HTMLImageElement>(PRINTED_SHOTS).forEach((img) => { img.loading = "eager"; });
+    window.addEventListener("beforeprint", loadForPrint);
+    if (!("IntersectionObserver" in window) || !window.matchMedia) {
+      return () => window.removeEventListener("beforeprint", loadForPrint);
+    }
     const sections = Array.from(document.querySelectorAll<HTMLElement>("[data-guide-story]"));
     const wide = window.matchMedia(WIDE);
     const applyWidth = () => sections.forEach((s) => s.classList.toggle("is-enhanced", wide.matches));
@@ -53,6 +60,7 @@ export default function GuideStoryEnhancer() {
     window.addEventListener("resize", observe);
 
     return () => {
+      window.removeEventListener("beforeprint", loadForPrint);
       observer?.disconnect();
       window.removeEventListener("resize", observe);
       wide.removeEventListener("change", applyWidth);
