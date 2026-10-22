@@ -106,6 +106,8 @@ export function verifyBundle(bundle: GuideBundle, framesDir: string): void {
   const fail = (field: string, problem: string): never => {
     throw new Error(`${NAME}: ${field}: ${problem}`)
   }
+  if (!Array.isArray(bundle.chapters)) fail('chapters', 'must be a list')
+  if (typeof bundle.images !== 'object' || bundle.images === null) fail('images', 'must be an object')
   if (!SHA.test(bundle.guideSourceCommit)) fail('guideSourceCommit', 'not a 40-hex commit')
   if (!SHA.test(bundle.appSourceCommit)) fail('appSourceCommit', 'not a 40-hex commit')
   const tag = bundle.describes.match(TAG)

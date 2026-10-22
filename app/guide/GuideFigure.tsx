@@ -38,7 +38,7 @@ function Primitive({ p }: { p: OverlayPrimitive }) {
           <circle cx={p.cx} cy={p.cy} r={OVERLAY.badgeDiameter / 2} fill={colours.textPrimary}
             stroke="white" strokeWidth={OVERLAY.badgeOutline} />
           <text x={p.cx} y={p.cy} fill="white" fontSize={OVERLAY.badgeFontSize} fontWeight={700}
-            fontFamily="ui-monospace, SFMono-Regular, Menlo, monospace" textAnchor="middle" dominantBaseline="central">
+            style={{ fontVariantNumeric: "tabular-nums" }} textAnchor="middle" dominantBaseline="central">
             {p.number}
           </text>
         </g>

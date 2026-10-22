@@ -87,6 +87,12 @@ describe('the bundle is the one vynr generated', () => {
     assert.throws(() => verifyBundle(tampered, FRAMES), new RegExp(name.replace('.', '\\.')));
   });
 
+  it('names a malformed bundle instead of failing on its shape', () => {
+    const shape = copy() as unknown as Record<string, unknown>;
+    shape.chapters = 'not a list';
+    assert.throws(() => verifyBundle(shape as unknown as GuideBundle, FRAMES), /chapters: must be a list/);
+  });
+
   it('rejects an unknown group and a stamp that disagrees with its tag', () => {
     const group = copy();
     group.chapters[0].group = 'misc';
