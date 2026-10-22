@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { GROUPS, chapterLine, getGuide, versionStamp } from "@/lib/guide";
+import { GROUPS, getGuide, versionStamp } from "@/lib/guide";
+import ChapterStory from "./ChapterStory";
+import GuideStoryEnhancer from "./GuideStoryEnhancer";
+import MovementMap from "./MovementMap";
 
-// The guide is written once, in vynr's guide/chapters (SJAM-1041); this page lays out the
-// generated bundle and carries none of its words.
+// The whole guide on one page (spec §6, the scrolling story). The guide is written once, in
+// vynr's guide/chapters (SJAM-1041); this page lays out the generated bundle and carries none
+// of its teaching words.
 export const metadata: Metadata = {
   title: "Guide to vynr",
   description:
@@ -13,34 +17,26 @@ export const metadata: Metadata = {
 
 export default function GuidePage() {
   const guide = getGuide();
-  const groups = GROUPS.map((group) => ({
-    ...group,
-    chapters: guide.chapters.filter((chapter) => chapter.group === group.id),
-  })).filter((group) => group.chapters.length > 0);
+  const firstOfGroup = new Map(
+    GROUPS.map((group) => [guide.chapters.find((c) => c.group === group.id)?.id, group.heading] as const),
+  );
 
   return (
-    <section className="guide">
+    <div className="guide">
       <header className="guide-header">
-        <h1>Guide to vynr</h1>
-        <p>
-          The same guide vynr shows when you first open it, with each page drawn as the app draws
-          it: the real screen, what to touch, and the gesture to use.
-        </p>
+        <p className="guide-kicker">Guide to vynr · {versionStamp(guide)}</p>
+        <h1>How vynr moves, and what each view is for</h1>
+        <p>Every page of the in-app guide, drawn the way the app draws it: the real screen, what to touch, and the gesture to use.</p>
         <div className="guide-rule" />
       </header>
 
-      {groups.map((group) => (
-        <section key={group.id} className="guide-group" aria-labelledby={`group-${group.id}`}>
-          <h2 id={`group-${group.id}`}>{group.heading}</h2>
-          <ul>
-            {group.chapters.map((chapter) => (
-              <li key={chapter.id}>
-                <Link href={`/guide/${chapter.id}`}>{chapter.title}</Link>
-                <p>{chapterLine(chapter)}</p>
-              </li>
-            ))}
-          </ul>
-        </section>
+      <MovementMap />
+
+      {guide.chapters.map((chapter, index) => (
+        <div key={chapter.id}>
+          {firstOfGroup.has(chapter.id) && <h2 className="guide-group-heading">{firstOfGroup.get(chapter.id)}</h2>}
+          <ChapterStory chapter={chapter} index={index} />
+        </div>
       ))}
 
       <div className="prose guide-closing">
@@ -51,6 +47,7 @@ export default function GuidePage() {
         </p>
       </div>
       <p className="guide-stamp">{versionStamp(guide)}</p>
-    </section>
+      <GuideStoryEnhancer />
+    </div>
   );
 }

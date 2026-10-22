@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import GuideFigure from "../GuideFigure";
-import { chapterLine, frameSize, getChapter, getGuide, neighbours, versionStamp } from "@/lib/guide";
-import { render } from "@/lib/markdown-source";
+import ChapterStory from "../ChapterStory";
+import GuideStoryEnhancer from "../GuideStoryEnhancer";
+import { chapterLine, getChapter, getGuide, neighbours, versionStamp } from "@/lib/guide";
 
-// Only the bundle's chapters exist; any other slug 404s instead of failing a lookup.
+// One chapter on its own, in the same story treatment as /guide (spec §6). Only the bundle's
+// chapters exist; any other slug 404s instead of failing a lookup.
 export const dynamicParams = false;
 
 export function generateStaticParams() {
@@ -27,30 +28,20 @@ export default async function GuideChapterPage({ params }: { params: Promise<{ c
   const { chapter: id } = await params;
   const chapter = getChapter(id);
   if (!chapter) notFound();
+  const guide = getGuide();
+  const index = guide.chapters.findIndex((c) => c.id === chapter.id);
   const { previous, next } = neighbours(chapter.id);
-  const body = chapter.body.trim();
 
   return (
-    <article className="guide">
-      <header className="guide-header">
-        <p className="guide-back"><Link href="/guide">Guide to vynr</Link></p>
-        <h1>{chapter.title}</h1>
-        <p>{chapterLine(chapter)}</p>
-        <div className="guide-rule" />
-      </header>
-
-      {chapter.tour?.shots.map((shot) => {
-        const { pixels, display } = frameSize(shot.file);
-        return <GuideFigure key={shot.file} shot={shot} pixels={pixels} display={display} />;
-      })}
-
-      {body && <div className="prose guide-body" dangerouslySetInnerHTML={{ __html: render(body) }} />}
-
+    <div className="guide">
+      <p className="guide-back"><Link href={`/guide#${chapter.id}`}>The full Guide to vynr</Link></p>
+      <ChapterStory chapter={chapter} index={index} headingLevel={1} />
       <nav className="guide-nav" aria-label="Guide chapters">
         {previous ? <Link href={`/guide/${previous.id}`} rel="prev">← {previous.title}</Link> : <span />}
         {next ? <Link href={`/guide/${next.id}`} rel="next">{next.title} →</Link> : <span />}
       </nav>
-      <p className="guide-stamp">{versionStamp(getGuide())}</p>
-    </article>
+      <p className="guide-stamp">{versionStamp(guide)}</p>
+      <GuideStoryEnhancer />
+    </div>
   );
 }
