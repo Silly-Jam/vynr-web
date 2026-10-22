@@ -1,0 +1,1208 @@
+{
+  "appSourceCommit": "79bb2f5a612adf9f27f4dd907c4aa6f3860f395b",
+  "appVersion": "1.2",
+  "bootstrapEqualityDigest": "8b917f987240761775f46bec3b8552730d527fe66a9a30c7583be845ad707181",
+  "chapters": [
+    {
+      "body": "",
+      "group": "getting-around",
+      "id": "move",
+      "summary": null,
+      "title": "Move around vynr",
+      "tour": {
+        "id": "move",
+        "message": "Cellar, Atlas, Storage and Time Lens are maps of your wine, stacked one above the next.",
+        "shots": [
+          {
+            "alt": "Cellar: your wines as a map, grouped by where they come from.",
+            "callouts": [
+              {
+                "badge": [
+                  0.86,
+                  0.84
+                ],
+                "number": 1,
+                "target": [
+                  0.01,
+                  0.2,
+                  0.98,
+                  0.76
+                ],
+                "text": "Flick up with one finger to go to the next view.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.5,
+                    0.82
+                  ],
+                  "hold": false,
+                  "motion": "parallel",
+                  "to": [
+                    0.5,
+                    0.45
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-01-cellar.jpg"
+          },
+          {
+            "alt": "Atlas, the wine world your bottles come from, one flick up from Cellar.",
+            "callouts": [
+              {
+                "badge": [
+                  0.86,
+                  0.45
+                ],
+                "number": 2,
+                "target": [
+                  0.01,
+                  0.2,
+                  0.98,
+                  0.76
+                ],
+                "text": "One flick moves one view: up goes on through Cellar, Atlas, Storage and Time Lens, then round again; down comes back. Storage joins once your bottles are kept in more than one place.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.5,
+                    0.45
+                  ],
+                  "hold": false,
+                  "motion": "parallel",
+                  "to": [
+                    0.5,
+                    0.82
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-01b-atlas.jpg"
+          }
+        ],
+        "title": "Move around vynr"
+      }
+    },
+    {
+      "body": "",
+      "group": "getting-around",
+      "id": "jump",
+      "summary": null,
+      "title": "Jump straight to a view",
+      "tour": {
+        "id": "jump",
+        "message": "The switcher lists every view, both lists, Journal and Vynrpedia.",
+        "shots": [
+          {
+            "alt": "The switcher, listing Cellar, Atlas, Storage and Time Lens, the Wine and Producer Lists, Journal and Vynrpedia.",
+            "callouts": [
+              {
+                "badge": [
+                  0.9,
+                  0.5
+                ],
+                "number": 1,
+                "target": [
+                  0.68,
+                  0.55,
+                  0.3,
+                  0.42
+                ],
+                "text": "Drag up or down with one finger, slow down and hold: the switcher opens under your finger.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.82,
+                    0.92
+                  ],
+                  "hold": true,
+                  "motion": "parallel",
+                  "to": [
+                    0.82,
+                    0.64
+                  ]
+                }
+              },
+              {
+                "badge": [
+                  0.07,
+                  0.4
+                ],
+                "number": 2,
+                "target": [
+                  0.12,
+                  0.33,
+                  0.5,
+                  0.645
+                ],
+                "text": "Keep your finger down, slide onto a view and lift to go there. Lift anywhere else to stay where you are.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.44,
+                  0.128
+                ],
+                "number": 3,
+                "target": [
+                  0.03,
+                  0.09,
+                  0.32,
+                  0.07
+                ],
+                "text": "Or tap the name of the view you are in to open the switcher; it stays open, and every row can be tapped.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-02-switcher.jpg"
+          }
+        ],
+        "title": "Jump straight to a view"
+      }
+    },
+    {
+      "body": "",
+      "group": "getting-around",
+      "id": "two-fingers",
+      "summary": null,
+      "title": "Two fingers work everywhere",
+      "tour": {
+        "id": "two-fingers",
+        "message": "One finger moves you around wherever it isn't scrolling the page. Two fingers work on every screen, so where one finger scrolls, use two.",
+        "shots": [
+          {
+            "alt": "The Producer List, which scrolls with one finger.",
+            "callouts": [
+              {
+                "badge": [
+                  0.88,
+                  0.9
+                ],
+                "number": 1,
+                "target": [
+                  0.02,
+                  0.28,
+                  0.96,
+                  0.71
+                ],
+                "text": "Anywhere, drag up or down with two fingers and hold: the same switcher opens. On a list, in Journal or in Vynrpedia, where one finger scrolls, this is how you move.",
+                "trace": {
+                  "fingers": 2,
+                  "from": [
+                    0.62,
+                    0.92
+                  ],
+                  "hold": true,
+                  "motion": "parallel",
+                  "to": [
+                    0.62,
+                    0.6
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-03-producer-list.jpg"
+          },
+          {
+            "alt": "Vynrpedia, the A to Z of wine words, which also scrolls with one finger.",
+            "callouts": [
+              {
+                "badge": [
+                  0.88,
+                  0.9
+                ],
+                "number": 2,
+                "target": [
+                  0.02,
+                  0.28,
+                  0.96,
+                  0.71
+                ],
+                "text": "Vynrpedia works the same way: hold with two fingers, then slide onto a view and lift.",
+                "trace": {
+                  "fingers": 2,
+                  "from": [
+                    0.62,
+                    0.92
+                  ],
+                  "hold": true,
+                  "motion": "parallel",
+                  "to": [
+                    0.62,
+                    0.6
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-03b-vynrpedia.jpg"
+          }
+        ],
+        "title": "Two fingers work everywhere"
+      }
+    },
+    {
+      "body": "",
+      "group": "getting-around",
+      "id": "back-across",
+      "summary": null,
+      "title": "Go back, and across",
+      "tour": {
+        "id": "back-across",
+        "message": "Sideways swipes work within what you are looking at; they never change the view.",
+        "shots": [
+          {
+            "alt": "A producer's page, opened from the Producer List.",
+            "callouts": [
+              {
+                "badge": [
+                  0.07,
+                  0.57
+                ],
+                "number": 1,
+                "target": [
+                  0.0,
+                  0.62,
+                  0.1,
+                  0.16
+                ],
+                "text": "Swipe right from the left edge to go back.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.05,
+                    0.7
+                  ],
+                  "hold": false,
+                  "motion": "parallel",
+                  "to": [
+                    0.42,
+                    0.7
+                  ]
+                }
+              },
+              {
+                "badge": [
+                  0.93,
+                  0.2
+                ],
+                "number": 2,
+                "target": [
+                  0.1,
+                  0.28,
+                  0.86,
+                  0.35
+                ],
+                "text": "On a producer opened from a list, swipe left across the page for the next producer, or right for the one before.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.88,
+                    0.45
+                  ],
+                  "hold": false,
+                  "motion": "parallel",
+                  "to": [
+                    0.32,
+                    0.45
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-04-producer.jpg"
+          },
+          {
+            "alt": "The next producer in the list, one swipe later.",
+            "callouts": [
+              {
+                "badge": [
+                  0.25,
+                  0.88
+                ],
+                "number": 3,
+                "target": [
+                  0.4,
+                  0.935,
+                  0.2,
+                  0.05
+                ],
+                "text": "The count shows where you are in the list.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-04b-producer-next.jpg"
+          }
+        ],
+        "title": "Go back, and across"
+      }
+    },
+    {
+      "body": "",
+      "group": "getting-around",
+      "id": "places",
+      "summary": null,
+      "title": "Into a place, and back out",
+      "tour": {
+        "id": "places",
+        "message": "Cellar and Atlas are maps of places within places: a continent holds its countries, a country its regions. The bar at the bottom shows where you are.",
+        "shots": [
+          {
+            "alt": "Atlas inside France, showing its regions; the bar at the bottom reads Europe, then France.",
+            "callouts": [
+              {
+                "badge": [
+                  0.86,
+                  0.84
+                ],
+                "number": 1,
+                "target": [
+                  0.01,
+                  0.19,
+                  0.98,
+                  0.73
+                ],
+                "text": "Tap a place on the map to go into it: Europe, then France, then Burgundy.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.085,
+                  0.905
+                ],
+                "number": 2,
+                "target": [
+                  0.15,
+                  0.933,
+                  0.145,
+                  0.052
+                ],
+                "text": "The bar at the bottom shows the way in. Tap an earlier place there, such as Europe, to go straight back up to it.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-04c-atlas-france.jpg"
+          },
+          {
+            "alt": "Atlas one level deeper, inside Burgundy; the bar reads Europe, France, Burgundy.",
+            "callouts": [
+              {
+                "badge": [
+                  0.71,
+                  0.905
+                ],
+                "number": 3,
+                "target": [
+                  0.45,
+                  0.933,
+                  0.19,
+                  0.052
+                ],
+                "text": "Press and hold a place in the bar, such as Burgundy, to learn about it.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-04d-atlas-burgundy.jpg"
+          },
+          {
+            "alt": "The panel about Burgundy, opened by pressing and holding Burgundy in the bar, over the map of Burgundy.",
+            "callouts": [
+              {
+                "badge": [
+                  0.07,
+                  0.19
+                ],
+                "number": 4,
+                "target": [
+                  0.0,
+                  0.23,
+                  0.1,
+                  0.16
+                ],
+                "text": "Swipe right from the left edge to go up one level. Anything open over the map, like this panel, closes first.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.05,
+                    0.31
+                  ],
+                  "hold": false,
+                  "motion": "parallel",
+                  "to": [
+                    0.42,
+                    0.31
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-04e-atlas-place.jpg"
+          },
+          {
+            "alt": "Atlas at France again, one level up from Burgundy; the bar reads Europe, then France.",
+            "callouts": [
+              {
+                "badge": [
+                  0.53,
+                  0.96
+                ],
+                "number": 5,
+                "target": [
+                  0.15,
+                  0.933,
+                  0.3,
+                  0.052
+                ],
+                "text": "France again, one level up. Each edge swipe climbs one level; at the top of the map it does nothing.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-04f-atlas-france-again.jpg"
+          }
+        ],
+        "title": "Into a place, and back out"
+      }
+    },
+    {
+      "body": "",
+      "group": "getting-around",
+      "id": "hold",
+      "summary": null,
+      "title": "Tap to go there, hold to learn",
+      "tour": {
+        "id": "hold",
+        "message": "Those are the two things a place can do, wherever its name appears. A tap goes there: into a place on the map, or back to an earlier one in the bar. Press and hold — keep your finger still — and vynr tells you what it is instead.",
+        "shots": [
+          {
+            "alt": "Atlas inside Burgundy. The bar at the bottom reads Europe, France, Burgundy, with a finger pressing and holding on Burgundy.",
+            "callouts": [
+              {
+                "badge": [
+                  0.71,
+                  0.905
+                ],
+                "number": 1,
+                "target": [
+                  0.45,
+                  0.933,
+                  0.19,
+                  0.052
+                ],
+                "text": "Press and hold a place in the bar at the bottom, such as Burgundy, and keep your finger still until it answers.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.545,
+                    0.959
+                  ],
+                  "hold": true,
+                  "motion": "hold",
+                  "to": [
+                    0.545,
+                    0.959
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-04d-atlas-burgundy.jpg"
+          },
+          {
+            "alt": "The panel that opens over the map after pressing and holding Burgundy, explaining what Burgundy is.",
+            "callouts": [
+              {
+                "badge": [
+                  0.5,
+                  0.36
+                ],
+                "number": 2,
+                "target": [
+                  0.06,
+                  0.42,
+                  0.88,
+                  0.42
+                ],
+                "text": "The panel explains the place you held — here, what Burgundy is. Every place in the bar at the bottom has one.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.86,
+                  0.26
+                ],
+                "number": 3,
+                "target": [
+                  0.2,
+                  0.3,
+                  0.6,
+                  0.09
+                ],
+                "text": "Swipe the panel down to close it. The map is where you left it.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.5,
+                    0.33
+                  ],
+                  "hold": false,
+                  "motion": "parallel",
+                  "to": [
+                    0.5,
+                    0.6
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-04e-atlas-place.jpg"
+          }
+        ],
+        "title": "Tap to go there, hold to learn"
+      }
+    },
+    {
+      "body": "",
+      "group": "getting-around",
+      "id": "pinch",
+      "summary": null,
+      "title": "From map to list",
+      "tour": {
+        "id": "pinch",
+        "message": "In Cellar, the map can also be a list of the wines under the place you are in; in Atlas, a list of the producers at or below it. The list follows the bar at the bottom. Storage has no list.",
+        "shots": [
+          {
+            "alt": "Cellar as a map, grouped by country.",
+            "callouts": [
+              {
+                "badge": [
+                  0.86,
+                  0.84
+                ],
+                "number": 1,
+                "target": [
+                  0.01,
+                  0.2,
+                  0.98,
+                  0.76
+                ],
+                "text": "Spread two fingers apart on the map to see it as a list.",
+                "trace": {
+                  "fingers": 2,
+                  "from": [
+                    0.5,
+                    0.58
+                  ],
+                  "hold": false,
+                  "motion": "spread",
+                  "to": [
+                    0.7,
+                    0.42
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-01-cellar.jpg"
+          },
+          {
+            "alt": "The same cellar as a list, one row per wine.",
+            "callouts": [
+              {
+                "badge": [
+                  0.9,
+                  0.92
+                ],
+                "number": 2,
+                "target": [
+                  0.01,
+                  0.33,
+                  0.98,
+                  0.66
+                ],
+                "text": "Pinch two fingers together on the list to go back to the map.",
+                "trace": {
+                  "fingers": 2,
+                  "from": [
+                    0.76,
+                    0.45
+                  ],
+                  "hold": false,
+                  "motion": "pinch",
+                  "to": [
+                    0.5,
+                    0.68
+                  ]
+                }
+              },
+              {
+                "badge": [
+                  0.46,
+                  0.19
+                ],
+                "number": 3,
+                "target": [
+                  0.03,
+                  0.15,
+                  0.34,
+                  0.08
+                ],
+                "text": "Or tap the view name and choose Wine List, or Producer List in Atlas; choose Cellar or Atlas to come back.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-01c-cellar-list.jpg"
+          }
+        ],
+        "title": "From map to list"
+      }
+    },
+    {
+      "body": "",
+      "group": "your-wines",
+      "id": "add",
+      "summary": null,
+      "title": "Add a wine",
+      "tour": {
+        "id": "add",
+        "message": "Every bottle starts from the + in the top bar.",
+        "shots": [
+          {
+            "alt": "The Wine List, with the add button in the top bar.",
+            "callouts": [
+              {
+                "badge": [
+                  0.6,
+                  0.354
+                ],
+                "number": 1,
+                "target": [
+                  0.745,
+                  0.167,
+                  0.1,
+                  0.1
+                ],
+                "text": "Tap + to scan a label with the camera.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-05-wine-list.jpg"
+          },
+          {
+            "alt": "The menu that opens when you press and hold the add button: Scan label, Enter manually, Quick Tasting and Start tasting event.",
+            "callouts": [
+              {
+                "badge": [
+                  0.08,
+                  0.706
+                ],
+                "number": 2,
+                "target": [
+                  0.2,
+                  0.544,
+                  0.6,
+                  0.426
+                ],
+                "text": "Press and hold + for more ways in: enter a wine by hand, record a quick tasting, or start a tasting event.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-05b-add-options.jpg"
+          }
+        ],
+        "title": "Add a wine"
+      }
+    },
+    {
+      "body": "",
+      "group": "your-wines",
+      "id": "filters",
+      "summary": null,
+      "title": "Narrow what you see",
+      "tour": {
+        "id": "filters",
+        "message": "The Filters button at the bottom right of the Cellar opens your Session.",
+        "shots": [
+          {
+            "alt": "The bottom of the Cellar map, with the Filters button at the bottom right.",
+            "callouts": [
+              {
+                "badge": [
+                  0.72,
+                  0.74
+                ],
+                "number": 1,
+                "target": [
+                  0.87,
+                  0.68,
+                  0.1,
+                  0.12
+                ],
+                "text": "Tap Filters, at the bottom right, to open the Session panel; tap it again to close it.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-05c-filters-glyph.jpg"
+          },
+          {
+            "alt": "The Session panel: Pairing, with a choice of foods, then the Cellar filters Colour and Structure.",
+            "callouts": [
+              {
+                "badge": [
+                  0.93,
+                  0.1
+                ],
+                "number": 2,
+                "target": [
+                  0.03,
+                  0.135,
+                  0.94,
+                  0.49
+                ],
+                "text": "Pairing: choose what you are eating, and vynr ranks the wines that suit it.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.75,
+                  0.8
+                ],
+                "number": 3,
+                "target": [
+                  0.03,
+                  0.69,
+                  0.6,
+                  0.26
+                ],
+                "text": "Under Cellar, Colour and Structure narrow the map to the wines you choose.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-05d-session.jpg"
+          },
+          {
+            "alt": "Further down the Session panel: Rating, and Grape / Varietal with a search field and the grapes in the cellar.",
+            "callouts": [
+              {
+                "badge": [
+                  0.93,
+                  0.2
+                ],
+                "number": 4,
+                "target": [
+                  0.03,
+                  0.25,
+                  0.94,
+                  0.74
+                ],
+                "text": "Rating and Grape / Varietal work the same way. The options reflect the wines you have, so a section appears only when your wines give it something to show.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-05e-session-cellar.jpg"
+          }
+        ],
+        "title": "Narrow what you see"
+      }
+    },
+    {
+      "body": "",
+      "group": "your-wines",
+      "id": "follow",
+      "summary": null,
+      "title": "Follow a wine to its maker and place",
+      "tour": {
+        "id": "follow",
+        "message": "A wine's record links to the people and places behind it.",
+        "shots": [
+          {
+            "alt": "The record of Alain Graillot Crozes-Hermitage 2022, with its map.",
+            "callouts": [
+              {
+                "badge": [
+                  0.62,
+                  0.358
+                ],
+                "number": 1,
+                "target": [
+                  0.05,
+                  0.34,
+                  0.3,
+                  0.036
+                ],
+                "text": "Tap the producer to open their page.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.93,
+                  0.542
+                ],
+                "number": 2,
+                "target": [
+                  0.06,
+                  0.583,
+                  0.88,
+                  0.382
+                ],
+                "text": "Tap the map to see where the wine comes from.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.08,
+                  0.39
+                ],
+                "number": 3,
+                "target": [
+                  0.0,
+                  0.43,
+                  0.1,
+                  0.12
+                ],
+                "text": "To come back, swipe right from the left edge.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.05,
+                    0.49
+                  ],
+                  "hold": false,
+                  "motion": "parallel",
+                  "to": [
+                    0.38,
+                    0.49
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-06-record.jpg"
+          },
+          {
+            "alt": "The location bar at the bottom of the record, showing Crozes-Hermitage and the producer.",
+            "callouts": [
+              {
+                "badge": [
+                  0.08,
+                  0.4
+                ],
+                "number": 4,
+                "target": [
+                  0.215,
+                  0.18,
+                  0.325,
+                  0.44
+                ],
+                "text": "Tap a place in the bar at the bottom, such as Crozes-Hermitage, to see it in your cellar; press and hold it to learn about it.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-06-record-bar.jpg"
+          }
+        ],
+        "title": "Follow a wine to its maker and place"
+      }
+    },
+    {
+      "body": "",
+      "group": "time-and-memory",
+      "id": "time-lens",
+      "summary": null,
+      "title": "See your cellar through time",
+      "tour": {
+        "id": "time-lens",
+        "message": "Time Lens is the last of the stacked maps: flick up to it, or choose it in the switcher. Then tap a side.",
+        "shots": [
+          {
+            "alt": "Time Lens, with Memories on the left and Evolution on the right.",
+            "callouts": [
+              {
+                "badge": [
+                  0.1,
+                  0.79
+                ],
+                "number": 1,
+                "target": [
+                  0.01,
+                  0.298,
+                  0.48,
+                  0.435
+                ],
+                "text": "Tap Memories to go back through your cellar's history.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.9,
+                  0.79
+                ],
+                "number": 2,
+                "target": [
+                  0.51,
+                  0.298,
+                  0.48,
+                  0.435
+                ],
+                "text": "Tap Evolution to look ahead to how your wines will drink.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-07-time-lens.jpg"
+          },
+          {
+            "alt": "Memories in the Held reading: the bottles held at the date shown, grouped by country, above the timeline.",
+            "callouts": [
+              {
+                "badge": [
+                  0.52,
+                  0.21
+                ],
+                "number": 3,
+                "target": [
+                  0.63,
+                  0.17,
+                  0.34,
+                  0.074
+                ],
+                "text": "Held counts the bottles you held on the date you are looking at; Opened shows what you had opened.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.5,
+                  0.53
+                ],
+                "number": 4,
+                "target": [
+                  0.04,
+                  0.62,
+                  0.9,
+                  0.07
+                ],
+                "text": "Drag along the timeline to move through your history.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-07b-time-lens-memories.jpg"
+          },
+          {
+            "alt": "Evolution: when the wines in the cellar are expected to drink well, with the wines that are ready now named below.",
+            "callouts": [
+              {
+                "badge": [
+                  0.93,
+                  0.169
+                ],
+                "number": 5,
+                "target": [
+                  0.04,
+                  0.234,
+                  0.9,
+                  0.315
+                ],
+                "text": "Evolution charts when your wines will be ready; on the free plan you can look six months ahead.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.93,
+                  0.597
+                ],
+                "number": 6,
+                "target": [
+                  0.05,
+                  0.621,
+                  0.85,
+                  0.306
+                ],
+                "text": "Below it, vynr names which wines are ready now and which are still developing.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-07c-time-lens-evolution.jpg"
+          }
+        ],
+        "title": "See your cellar through time"
+      }
+    },
+    {
+      "body": "",
+      "group": "time-and-memory",
+      "id": "journal",
+      "summary": null,
+      "title": "Record what you drink",
+      "tour": {
+        "id": "journal",
+        "message": "From Cellar, Atlas, a list or Vynrpedia, swipe left from the right edge to open Journal. In Time Lens the edge swipe is not available: tap the view name at the top and choose Journal.",
+        "shots": [
+          {
+            "alt": "Journal, still empty, with the new-entry button in the top bar.",
+            "callouts": [
+              {
+                "badge": [
+                  0.6,
+                  0.258
+                ],
+                "number": 1,
+                "target": [
+                  0.745,
+                  0.121,
+                  0.1,
+                  0.073
+                ],
+                "text": "In Journal, tap + to write an entry.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.08,
+                  0.42
+                ],
+                "number": 2,
+                "target": [
+                  0.0,
+                  0.47,
+                  0.1,
+                  0.16
+                ],
+                "text": "Swipe right from the left edge to close Journal.",
+                "trace": {
+                  "fingers": 1,
+                  "from": [
+                    0.05,
+                    0.55
+                  ],
+                  "hold": false,
+                  "motion": "parallel",
+                  "to": [
+                    0.4,
+                    0.55
+                  ]
+                }
+              }
+            ],
+            "file": "walkthrough-08-journal.jpg"
+          },
+          {
+            "alt": "A new journal entry, with an optional title and the menu to add text or a photo.",
+            "callouts": [
+              {
+                "badge": [
+                  0.5,
+                  0.447
+                ],
+                "number": 3,
+                "target": [
+                  0.04,
+                  0.287,
+                  0.92,
+                  0.106
+                ],
+                "text": "Give the entry a title if you like.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.1,
+                  0.83
+                ],
+                "number": 4,
+                "target": [
+                  0.19,
+                  0.691,
+                  0.62,
+                  0.266
+                ],
+                "text": "Tap the + under the text box to add text or a photo; this menu opens.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-08b-new-entry.jpg"
+          },
+          {
+            "alt": "Recording a tasting of Alain Graillot Crozes-Hermitage 2022: the taste glyph, a rating, notes and when you drank it.",
+            "callouts": [
+              {
+                "badge": [
+                  0.5,
+                  0.048
+                ],
+                "number": 5,
+                "target": [
+                  0.22,
+                  0.077,
+                  0.57,
+                  0.404
+                ],
+                "text": "To record a tasting, tap Tasting on a wine's record, or press and hold + and choose Quick Tasting.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-08c-quick-tasting.jpg"
+          },
+          {
+            "alt": "Settings, showing Guide to vynr and the Full User Guide link.",
+            "callouts": [
+              {
+                "badge": [
+                  0.94,
+                  0.475
+                ],
+                "number": 6,
+                "target": [
+                  0.04,
+                  0.424,
+                  0.92,
+                  0.104
+                ],
+                "text": "Settings → Guide to vynr replays this guide.",
+                "trace": null
+              },
+              {
+                "badge": [
+                  0.94,
+                  0.582
+                ],
+                "number": 7,
+                "target": [
+                  0.04,
+                  0.536,
+                  0.92,
+                  0.091
+                ],
+                "text": "Full User Guide opens vynr.app/guide.",
+                "trace": null
+              }
+            ],
+            "file": "walkthrough-08d-settings-guide.jpg"
+          }
+        ],
+        "title": "Record what you drink"
+      }
+    }
+  ],
+  "contentHash": "e03a5689bef55a7d6b82d9336df876d7fd818f8c90358df8ec9bad0e47730d20",
+  "describes": "v1.2-build52-source",
+  "guideSourceCommit": "f4e88def9ee272017b9dfc60eed6230c8ba49cbd",
+  "images": {
+    "walkthrough-01-cellar.jpg": "d12c6cb84cd5999f37c8b22e6d5961e809cb0249c7ed90b6f6c19e32c346889d",
+    "walkthrough-01b-atlas.jpg": "a0c9e3458ba9901cbc52f213c6b918c5c31103c245849fd3151a4ec2a13838d0",
+    "walkthrough-01c-cellar-list.jpg": "8d0fefa3aa0c525f4034f50bdbf76f5277a0cf8da082d7eb6196dbc9625b0afb",
+    "walkthrough-02-switcher.jpg": "4230db4cc44d47c01e6196359040eecc85775d0e079f25ebf66821db37cf0d04",
+    "walkthrough-03-producer-list.jpg": "ccd783315b9b0c8380990cdbe0b18e01b183130dca7d3f41cf312ce1550a1ea2",
+    "walkthrough-03b-vynrpedia.jpg": "3e2d152812c1999b82f761757b0ded9fbfd967cb74d8060ca772f01c002f929d",
+    "walkthrough-04-producer.jpg": "67cc51ae947d05a86f52b4172c3b24f8cf091fd0808b95c028c41c970ed545bb",
+    "walkthrough-04b-producer-next.jpg": "5a693b777a4f0ef1cf94f2f35d83cf2f7924907c38dae362b645734ae446d79b",
+    "walkthrough-04c-atlas-france.jpg": "63e5218e58dfd642cfa4d516c2a79ccee6bc41d14bded813ed2460dd90c3297c",
+    "walkthrough-04d-atlas-burgundy.jpg": "bd7109741e165a51af5bc26775c40a99d65072cf32c4b2e6f5ae785a74ae5f6c",
+    "walkthrough-04e-atlas-place.jpg": "12f130c8141305da28431f9bb653bc5ab0010ebaa858b3a295797ab1f8deed38",
+    "walkthrough-04f-atlas-france-again.jpg": "63e5218e58dfd642cfa4d516c2a79ccee6bc41d14bded813ed2460dd90c3297c",
+    "walkthrough-05-wine-list.jpg": "8cdd7d234da2e8d2b7917bcf21fa28aeb93026c5379c483b83a614119209ed33",
+    "walkthrough-05b-add-options.jpg": "b5c1ec4eed1be5d2f24443e71dfde0d6780a3105acf74bdf30d7b3eddcdd0d3c",
+    "walkthrough-05c-filters-glyph.jpg": "03933fee5200fb701c13881e510b6fb9dab58bcff5b40295d29033d4bbf8e837",
+    "walkthrough-05d-session.jpg": "6b845403e54ee29b94013c495726ef3e71a86555b4e0aa5d73da99aa14ec4ca9",
+    "walkthrough-05e-session-cellar.jpg": "ba89c174a8043c56df71d5a54fed4b5dd34b33d8aa6616da9ee3f4e2953720b4",
+    "walkthrough-06-record-bar.jpg": "589fcbe35b277039d2e5c74b184b82da2b0fd60ea3b41a4eba8db1c03aa3c91f",
+    "walkthrough-06-record.jpg": "215c3d4c436b604d5da9546225459ff85a6505ee9910180629158f863c80aa80",
+    "walkthrough-07-time-lens.jpg": "cba966243e3e0cdbfc059858e51698f313f5d1f9a25c6a58f69475ef06bbdd7f",
+    "walkthrough-07b-time-lens-memories.jpg": "1701bb6cbc956d6a63bd41e3c195015a3226fe19eb412100babd037bcc2f3426",
+    "walkthrough-07c-time-lens-evolution.jpg": "17b95e22f72308f57d8a8e4043e6c75e1ebcaf615d7cfbc2761fb4bef2f43430",
+    "walkthrough-08-journal.jpg": "062d19bf243e0173e17f71f728aaff3e4df790a48723704eaf81625d477b3ff1",
+    "walkthrough-08b-new-entry.jpg": "545866f1c0d8fadcff6ce0f0d733d3f594dcc5cb189913f043654f541ee04d40",
+    "walkthrough-08c-quick-tasting.jpg": "78b9cbf16ec196f8c7bf17e49c5a883c5db48f60f4611d380529e7dcd495ec27",
+    "walkthrough-08d-settings-guide.jpg": "c477030428fcf03df9176066e97544feb2d84377caf180621596bce9a04c9037"
+  }
+}
