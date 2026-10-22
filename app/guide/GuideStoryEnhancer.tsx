@@ -7,7 +7,10 @@ import { useEffect } from "react";
 // that follows the step being read; narrow screens and no-JavaScript keep the linear layout.
 // Reduce Motion is honoured in CSS: the highlighting stays, every animation is removed.
 const WIDE = "(min-width: 900px)";
-const READING_LINE = "-45% 0px -45% 0px";
+// The reading line is the middle tenth of the viewport. Percent root margins are not used:
+// how they resolve against the viewport varies, so the band is computed in pixels from the
+// window height and rebuilt when the window is resized.
+const READING_BAND = 0.45;
 
 function activate(step: HTMLElement) {
   const section = step.closest<HTMLElement>("[data-guide-story]");
@@ -35,14 +38,22 @@ export default function GuideStoryEnhancer() {
     applyWidth();
     wide.addEventListener("change", applyWidth);
 
-    const observer = new IntersectionObserver(
-      (entries) => entries.forEach((entry) => entry.isIntersecting && activate(entry.target as HTMLElement)),
-      { rootMargin: READING_LINE },
-    );
-    document.querySelectorAll<HTMLElement>(".guide-step").forEach((step) => observer.observe(step));
+    let observer: IntersectionObserver | undefined;
+    const observe = () => {
+      observer?.disconnect();
+      const inset = Math.round(window.innerHeight * READING_BAND);
+      observer = new IntersectionObserver(
+        (entries) => entries.forEach((entry) => entry.isIntersecting && activate(entry.target as HTMLElement)),
+        { rootMargin: `-${inset}px 0px -${inset}px 0px` },
+      );
+      document.querySelectorAll<HTMLElement>(".guide-step").forEach((step) => observer?.observe(step));
+    };
+    observe();
+    window.addEventListener("resize", observe);
 
     return () => {
-      observer.disconnect();
+      observer?.disconnect();
+      window.removeEventListener("resize", observe);
       wide.removeEventListener("change", applyWidth);
       sections.forEach((s) => s.classList.remove("is-enhanced"));
     };

@@ -119,6 +119,19 @@ describe('the guide is discoverable, and complete without JavaScript', () => {
       'the server markup is the linear page; enhancement is added only in the browser');
   });
 
+  it('keeps the inline shots in the accessibility tree when the phone takes over', () => {
+    const css = read('app/globals.css');
+    const rule = css.slice(css.indexOf('.guide-chapter.is-enhanced .guide-inline-shot {'));
+    assert.match(rule.slice(0, rule.indexOf('}')), /clip-path: inset\(50%\)/);
+    assert.doesNotMatch(css, /\.is-enhanced \.guide-inline-shot \{ display: none/);
+  });
+
+  it('sizes the reading line in pixels from the window height', () => {
+    const enhancer = read('app/guide/GuideStoryEnhancer.tsx');
+    assert.match(enhancer, /window\.innerHeight \* READING_BAND/);
+    assert.doesNotMatch(enhancer, /rootMargin: "-?\d+%/);
+  });
+
   it('honours Reduce Motion: no animation or transition survives it', () => {
     const css = read('app/globals.css');
     const reduced = css.slice(css.indexOf('@media (prefers-reduced-motion: reduce)', css.indexOf('Guide to vynr (SJAM-1041')));
