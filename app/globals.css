@@ -1025,7 +1025,7 @@ g:focus-visible .focus-ring {
   color: var(--atlas-text-placeholder); border-top: 1px solid var(--atlas-separator);
   padding-top: 1rem; margin: 0 0 2.5rem;
 }
-.guide-chapter { margin-bottom: 5.5rem; scroll-margin-top: 24px; }
+.guide-chapter { margin-bottom: 5.5rem; scroll-margin-top: 64px; } /* clear the sticky site header, as elsewhere */
 .guide-chapter-title {
   font-size: 1.875rem; font-weight: 600; letter-spacing: -0.015em; color: var(--atlas-text); margin: 0 0 0.625rem;
 }
@@ -1059,7 +1059,7 @@ g:focus-visible .focus-ring {
   min-height: 55vh; align-items: center; margin: 0; opacity: 0.4; transition: opacity 0.3s;
 }
 .guide-chapter.is-enhanced .guide-step.is-on { opacity: 1; }
-.guide-chapter.is-enhanced .guide-phone-col { display: block; position: sticky; top: 48px; }
+.guide-chapter.is-enhanced .guide-phone-col { display: block; position: sticky; top: 80px; } /* below the sticky site header */
 .guide-phone {
   position: relative; width: 300px; height: 540px; border-radius: 46px; background: #262420;
   padding: 20px 10px; box-sizing: border-box;

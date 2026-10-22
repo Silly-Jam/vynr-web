@@ -6,7 +6,7 @@ import { useEffect } from "react";
 // complete page; this only toggles class names. Wide screens (≥ 900 × 640 px) get the pinned phone
 // that follows the step being read; narrow screens and no-JavaScript keep the linear layout.
 // Reduce Motion is honoured in CSS: the highlighting stays, every animation is removed.
-// Wide and tall enough for the 540 px pinned phone plus its 48 px offset; otherwise linear.
+// Wide and tall enough for the 540 px pinned phone plus its 80 px offset; otherwise linear.
 const WIDE = "(min-width: 900px) and (min-height: 640px)";
 // The reading line is the middle tenth of the viewport. Percent root margins are not used:
 // how they resolve against the viewport varies, so the band is computed in pixels from the
