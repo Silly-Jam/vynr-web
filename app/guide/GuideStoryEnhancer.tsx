@@ -3,10 +3,11 @@
 import { useEffect } from "react";
 
 // Progressive enhancement for the guide's story sections (spec §6). The server markup is the
-// complete page; this only toggles class names. Wide screens (≥ 900 px) get the pinned phone
+// complete page; this only toggles class names. Wide screens (≥ 900 × 640 px) get the pinned phone
 // that follows the step being read; narrow screens and no-JavaScript keep the linear layout.
 // Reduce Motion is honoured in CSS: the highlighting stays, every animation is removed.
-const WIDE = "(min-width: 900px)";
+// Wide and tall enough for the 540 px pinned phone plus its 48 px offset; otherwise linear.
+const WIDE = "(min-width: 900px) and (min-height: 640px)";
 // The reading line is the middle tenth of the viewport. Percent root margins are not used:
 // how they resolve against the viewport varies, so the band is computed in pixels from the
 // window height and rebuilt when the window is resized.

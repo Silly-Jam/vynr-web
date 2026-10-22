@@ -129,6 +129,7 @@ describe('the guide is discoverable, and complete without JavaScript', () => {
   it('sizes the reading line in pixels from the window height', () => {
     const enhancer = read('app/guide/GuideStoryEnhancer.tsx');
     assert.match(enhancer, /window\.innerHeight \* READING_BAND/);
+    assert.match(enhancer, /min-width: 900px\) and \(min-height: 640px\)/, 'the 540 px phone pins only where it fits');
     assert.doesNotMatch(enhancer, /rootMargin: "-?\d+%/);
   });
 
