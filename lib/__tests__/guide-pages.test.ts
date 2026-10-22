@@ -133,6 +133,22 @@ describe('the guide is discoverable, and complete without JavaScript', () => {
     assert.doesNotMatch(enhancer, /rootMargin: "-?\d+%/);
   });
 
+  it('prints as the linear page, whatever the enhancement did', () => {
+    const css = read('app/globals.css');
+    const print = css.slice(css.indexOf('@media print {', css.indexOf('Guide to vynr (SJAM-1041')));
+    const block = print.slice(0, print.indexOf('\n}\n'));
+    assert.match(block, /\.is-enhanced \.guide-phone-col \{ display: none; \}/);
+    assert.match(block, /\.is-enhanced \.guide-inline-shot \{[^}]*clip-path: none/);
+    assert.match(block, /\.is-enhanced \.guide-step \{ min-height: 0; opacity: 1; \}/);
+  });
+
+  it('loads only the first shot at once; every other shot is lazy', () => {
+    const imgs = [...indexHtml.matchAll(/<img [^>]*>/g)].map(m => m[0]);
+    const eager = imgs.filter(i => !i.includes('loading="lazy"'));
+    assert.equal(eager.length, 2, 'the first shot, inline and its phone copy');
+    assert.ok(eager.every(i => i.includes(`/guide/${guide.chapters[0].tour!.shots[0].file}`)));
+  });
+
   it('honours Reduce Motion: no animation or transition survives it', () => {
     const css = read('app/globals.css');
     const reduced = css.slice(css.indexOf('@media (prefers-reduced-motion: reduce)', css.indexOf('Guide to vynr (SJAM-1041')));

@@ -1092,6 +1092,15 @@ g:focus-visible .focus-ring {
   .guide-phone-shot, .guide-c, .guide-chapter.is-enhanced .guide-step { transition: none; }
   .guide-phone .guide-c.is-on .guide-mv, .guide-phone .guide-c.is-on .guide-hr { animation: none; }
 }
+/* Print is the linear page, whatever the screen width enhancement did. */
+@media print {
+  .guide-chapter.is-enhanced .guide-story { display: block; }
+  .guide-chapter.is-enhanced .guide-inline-shot {
+    position: static; width: auto; height: auto; margin: 0.5rem 0 1.25rem; clip-path: none; overflow: visible; white-space: normal;
+  }
+  .guide-chapter.is-enhanced .guide-phone-col { display: none; }
+  .guide-chapter.is-enhanced .guide-step { min-height: 0; opacity: 1; }
+}
 @media (max-width: 759px) {
   .guide-map-grid { grid-template-columns: minmax(0, 1fr); }
 }

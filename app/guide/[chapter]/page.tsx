@@ -35,7 +35,7 @@ export default async function GuideChapterPage({ params }: { params: Promise<{ c
   return (
     <div className="guide">
       <p className="guide-back"><Link href={`/guide#${chapter.id}`}>The full Guide to vynr</Link></p>
-      <ChapterStory chapter={chapter} index={index} headingLevel={1} />
+      <ChapterStory chapter={chapter} index={index} headingLevel={1} eagerFirstShot />
       <nav className="guide-nav" aria-label="Guide chapters">
         {previous ? <Link href={`/guide/${previous.id}`} rel="prev">← {previous.title}</Link> : <span />}
         {next ? <Link href={`/guide/${next.id}`} rel="next">{next.title} →</Link> : <span />}

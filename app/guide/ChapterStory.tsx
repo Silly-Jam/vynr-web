@@ -7,10 +7,12 @@ import ShotFrame from "./ShotFrame";
  * order: each shot inline, then its steps. On wide screens GuideStoryEnhancer pins the phone
  * column beside the steps and lights the step being read; without it this order stands.
  */
-export default function ChapterStory({ chapter, index, headingLevel = 2 }: {
+export default function ChapterStory({ chapter, index, headingLevel = 2, eagerFirstShot = false }: {
   chapter: Chapter;
   index: number;
   headingLevel?: 1 | 2;
+  /** The page's first shot loads at once; the rest are lazy. */
+  eagerFirstShot?: boolean;
 }) {
   const Heading = headingLevel === 1 ? "h1" : "h2";
   const shots = chapter.tour?.shots ?? [];
@@ -29,7 +31,7 @@ export default function ChapterStory({ chapter, index, headingLevel = 2 }: {
             {shots.map((shot, s) => (
               <div key={shot.file} className="guide-shot-group">
                 <div className="guide-inline-shot">
-                  <ShotFrame shot={shot} pixels={frames[s].pixels} display={frames[s].display} />
+                  <ShotFrame shot={shot} pixels={frames[s].pixels} display={frames[s].display} eager={eagerFirstShot && s === 0} />
                 </div>
                 <ol className="guide-step-list" start={shot.callouts[0].number}>
                   {shot.callouts.map((callout) => (
@@ -48,7 +50,8 @@ export default function ChapterStory({ chapter, index, headingLevel = 2 }: {
               <div className="guide-screen">
                 {shots.map((shot, s) => (
                   <div key={shot.file} className={s === 0 ? "guide-phone-shot is-shown" : "guide-phone-shot"} data-shot={s}>
-                    <ShotFrame shot={shot} pixels={frames[s].pixels} display={frames[s].display} decorative />
+                    <ShotFrame shot={shot} pixels={frames[s].pixels} display={frames[s].display} decorative
+                      eager={eagerFirstShot && s === 0} />
                   </div>
                 ))}
               </div>

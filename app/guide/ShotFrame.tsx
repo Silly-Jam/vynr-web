@@ -67,11 +67,13 @@ function callouts(shot: Shot, display: Size): { vignette: OverlayPrimitive; grou
  * overlay drawn over it in the app's display space. `decorative` marks the pinned-phone copy,
  * which repeats an inline shot and so is hidden from assistive technology.
  */
-export default function ShotFrame({ shot, pixels, display, decorative = false }: {
+export default function ShotFrame({ shot, pixels, display, decorative = false, eager = false }: {
   shot: Shot;
   pixels: Size;
   display: Size;
   decorative?: boolean;
+  /** Load at once; every other shot is lazy, since /guide carries all of them. */
+  eager?: boolean;
 }) {
   const { vignette, groups } = callouts(shot, display);
   return (
@@ -80,7 +82,8 @@ export default function ShotFrame({ shot, pixels, display, decorative = false }:
         ["--guide-aspect" as string]: display.width / display.height }}
       aria-hidden={decorative || undefined}>
       {/* eslint-disable-next-line @next/next/no-img-element -- a real capture at its own size; no optimiser rewrite */}
-      <img src={`/guide/${shot.file}`} alt={decorative ? "" : shot.alt} width={pixels.width} height={pixels.height} />
+      <img src={`/guide/${shot.file}`} alt={decorative ? "" : shot.alt} width={pixels.width} height={pixels.height}
+        loading={eager ? undefined : "lazy"} />
       <svg viewBox={`0 0 ${display.width} ${display.height}`} aria-hidden="true" focusable="false">
         <Primitive p={vignette} />
         {groups.map((group, i) => (

@@ -35,7 +35,7 @@ export default function GuidePage() {
       {guide.chapters.map((chapter, index) => (
         <div key={chapter.id}>
           {firstOfGroup.has(chapter.id) && <h2 className="guide-group-heading">{firstOfGroup.get(chapter.id)}</h2>}
-          <ChapterStory chapter={chapter} index={index} />
+          <ChapterStory chapter={chapter} index={index} eagerFirstShot={index === 0} />
         </div>
       ))}
 
