@@ -1,6 +1,7 @@
 import { getAllPosts } from '@/lib/posts'
 import { getAllEditions } from '@/lib/revisions'
 import { getAllAtlasNodes, buildAtlasUrlPath } from '@/lib/atlas'
+import { getGuide } from '@/lib/guide'
 
 const BASE = 'https://vynr.app'
 
@@ -20,6 +21,9 @@ export function GET() {
     ),
     `<url><loc>${BASE}/about</loc></url>`,
     `<url><loc>${BASE}/guide</loc></url>`,
+    ...getGuide().chapters.map(
+      c => `<url><loc>${BASE}/guide/${c.id}</loc></url>`
+    ),
     `<url><loc>${BASE}/roadmap</loc></url>`,
     `<url><loc>${BASE}/vynr-plus</loc></url>`,
     `<url><loc>${BASE}/privacy</loc></url>`,

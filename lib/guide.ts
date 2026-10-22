@@ -1,6 +1,7 @@
 import { createHash } from 'crypto'
 import fs from 'fs'
 import path from 'path'
+import { displaySpace, jpegSize, type Size } from './guide-overlay'
 
 // The Guide to vynr is written once, in vynr's guide/chapters (SJAM-1041). vynr's
 // scripts/build_guide.py writes the generated bundle this module reads:
@@ -177,4 +178,11 @@ export function chapterLine(chapter: Chapter): string {
 
 export function versionStamp(bundle: GuideBundle): string {
   return `Guide for vynr ${bundle.appVersion}`
+}
+
+/** A frame's pixel size, read from the JPEG, and its size in the app's display space. */
+export function frameSize(file: string): { pixels: Size; display: Size } {
+  const pixels = jpegSize(fs.readFileSync(path.join(FRAMES_DIR, file)))
+  const { width, height } = displaySpace(pixels.width, pixels.height)
+  return { pixels, display: { width, height } }
 }
