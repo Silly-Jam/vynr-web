@@ -26,6 +26,14 @@ function assertStory(html: string, id: string): void {
   assert.ok(start >= 0, `${id}: section with its id`);
   const section = html.slice(start, html.indexOf('</section>', start));
   assert.ok(section.includes(`>${escape(chapter.title)}</`), `${id}: title`);
+  if (chapter.body.trim()) assert.ok(section.includes('class="prose guide-body"'), `${id}: its web-only depth`);
+  if (chapter.tour === null) {
+    // A web-only chapter is text: its summary is the lede, and it carries no shot or phone.
+    assert.ok(section.includes(`<p class="guide-lede">${escape(chapter.summary!)}</p>`), `${id}: summary as lede`);
+    assert.equal(count(section, '<img '), 0, `${id}: no shot`);
+    assert.equal(count(section, 'guide-phone-col'), 0, `${id}: no pinned phone`);
+    return;
+  }
   let cursor = 0;
   for (const shot of chapter.tour!.shots) {
     const image = section.indexOf(`alt="${escape(shot.alt)}"`, cursor);
