@@ -1,0 +1,591 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-964",
+  "generatedAt": "2026-11-01T14:05:08Z",
+  "from": {
+    "epoch": 963,
+    "commit": "ab92ae4b2c3568e91f4e512abfe79bd37ef09927",
+    "committedAt": "2026-10-25T06:01:46+08:00",
+    "registrySha256": "9527a95652cdcddf028ad055a0146be6efc0fd7d713b38815181151aa649efaf"
+  },
+  "to": {
+    "epoch": 964,
+    "commit": "9a27c8897e86a324c0af662e0e3bf1253d611e2b",
+    "committedAt": "2026-11-01T22:04:08+08:00",
+    "registrySha256": "c54b554935275ef94b90e8a8ffcbf5f049819bc38ba4433c18cfef40d5b508ae"
+  },
+  "changeCount": 56,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 18,
+      "updated": 3,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 17,
+      "updated": 2,
+      "removed": 0
+    },
+    {
+      "category": "Place and style education",
+      "added": 5,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "category": "Appellations",
+      "added": 5,
+      "updated": 5,
+      "removed": 0
+    },
+    {
+      "category": "Regions",
+      "added": 0,
+      "updated": 1,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bodega y Cavas de Weinert S.A.",
+      "label": "Bodega y Cavas de Weinert S.A.",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Château Barréjat",
+      "label": "Château Barréjat",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Château Bouscassé",
+      "label": "Château Bouscassé",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Château de Targé",
+      "label": "Château de Targé",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Château des Mouchères",
+      "label": "Château des Mouchères",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Capmartin",
+      "label": "Domaine Capmartin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine des Amandiers",
+      "label": "Domaine des Amandiers",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine des Frémonclairs",
+      "label": "Domaine des Frémonclairs",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Filliatreau",
+      "label": "Domaine Filliatreau",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Fouet",
+      "label": "Domaine Fouet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Haut-Lirou",
+      "label": "Domaine Haut-Lirou",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Joulin",
+      "label": "Domaine Joulin",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine la Bonnelière",
+      "label": "Domaine la Bonnelière",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Lavigne",
+      "label": "Domaine Lavigne",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Sergent",
+      "label": "Domaine Sergent",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Finca Bandini",
+      "label": "Finca Bandini",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Kingston Family Vineyards",
+      "label": "Kingston Family Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Viña Casas del Bosque",
+      "label": "Viña Casas del Bosque",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Bodegas Menade",
+      "label": "Bodegas Menade",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "primary_appellation"
+      ],
+      "otherFieldCount": 2
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Domaine Ramonet",
+      "label": "Domaine Ramonet",
+      "datasets": [
+        "ocr/producers_v1_core.json"
+      ],
+      "fields": [
+        "common_ocr_variants",
+        "name_variants"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producers",
+      "kind": "updated",
+      "id": "Nik Weis Mosel",
+      "label": "Nik Weis Mosel",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ],
+      "fields": [
+        "name_variants"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:ar:bodega-y-cavas-de-weinert-s-a",
+      "label": "Bodega y Cavas de Weinert S.A.",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:chateau-barrejat",
+      "label": "Château Barréjat",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:chateau-bouscasse",
+      "label": "Château Bouscassé",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:chateau-de-targe",
+      "label": "Château de Targé",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:chateau-des-moucheres",
+      "label": "Château des Mouchères",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-capmartin",
+      "label": "Domaine Capmartin",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-des-amandiers",
+      "label": "Domaine des Amandiers",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-des-fremonclairs",
+      "label": "Domaine des Frémonclairs",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-filliatreau",
+      "label": "Domaine Filliatreau",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-fouet",
+      "label": "Domaine Fouet",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-haut-lirou",
+      "label": "Domaine Haut-Lirou",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-joulin",
+      "label": "Domaine Joulin",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-la-bonneliere",
+      "label": "Domaine la Bonnelière",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-lavigne",
+      "label": "Domaine Lavigne",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-sergent",
+      "label": "Domaine Sergent",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:ar:finca-bandini",
+      "label": "Finca Bandini",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:cl:vina-casas-del-bosque",
+      "label": "Viña Casas del Bosque",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:celler-gritelles",
+      "label": "Celler Gritelles",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:cl:kingston-family-vineyards",
+      "label": "Kingston Family Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Place and style education",
+      "kind": "added",
+      "id": "geo:fr:alsace-grand-cru-kessler",
+      "label": "Alsace Grand Cru Kessler",
+      "datasets": [
+        "education/wine_education.json"
+      ]
+    },
+    {
+      "category": "Place and style education",
+      "kind": "added",
+      "id": "geo:fr:languedoc-aoc",
+      "label": "Languedoc",
+      "datasets": [
+        "education/wine_education.json"
+      ]
+    },
+    {
+      "category": "Place and style education",
+      "kind": "added",
+      "id": "geo:it:monica-di-sardegna",
+      "label": "Monica di Sardegna",
+      "datasets": [
+        "education/wine_education.json"
+      ]
+    },
+    {
+      "category": "Place and style education",
+      "kind": "added",
+      "id": "geo:it:puglia-igt",
+      "label": "Puglia",
+      "datasets": [
+        "education/wine_education.json"
+      ]
+    },
+    {
+      "category": "Place and style education",
+      "kind": "added",
+      "id": "geo:it:rubicone-igt",
+      "label": "Rubicone",
+      "datasets": [
+        "education/wine_education.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Alsace Grand Cru Kessler",
+      "label": "Alsace Grand Cru Kessler",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Languedoc",
+      "label": "Languedoc",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Monica di Sardegna",
+      "label": "Monica di Sardegna",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Puglia",
+      "label": "Puglia",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Rubicone",
+      "label": "Rubicone",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Casablanca Valley",
+      "label": "Casablanca Valley",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Luján de Cuyo",
+      "label": "Luján de Cuyo",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Madiran",
+      "label": "Madiran",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Pic Saint-Loup",
+      "label": "Pic Saint-Loup",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Saumur-Champigny",
+      "label": "Saumur-Champigny",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Yamanashi",
+      "label": "Yamanashi",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 1
+    }
+  ]
+}
