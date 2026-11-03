@@ -161,11 +161,12 @@ button:focus-visible {
 }
 
 .manifesto h1 {
-  font-family: var(--font-sans);
-  font-size: 0.95rem;
+  font-family: var(--manifesto-serif);
+  font-size: clamp(1.7rem, 1.4rem + 1.2vw, 2.25rem);
   font-weight: 500;
-  letter-spacing: 0.01em;
-  color: var(--atlas-text-secondary);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: var(--atlas-text);
   margin: 0 0 3.5rem;
 }
 
