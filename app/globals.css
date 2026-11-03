@@ -205,7 +205,7 @@ button:focus-visible {
 }
 
 .manifesto .manifesto-stamp-main {
-  font-size: min(clamp(2rem, 1.5rem + 3.25vw, 3.9rem), 10.6vw);
+  font-size: min(clamp(2rem, 1.5rem + 3.25vw, 3.9rem), 9vw);
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1;
@@ -213,7 +213,7 @@ button:focus-visible {
 }
 
 .manifesto .manifesto-stamp-sub {
-  font-size: min(clamp(1.1rem, 0.9rem + 0.75vw, 1.3rem), 4.25vw);
+  font-size: min(clamp(1.1rem, 0.9rem + 0.75vw, 1.3rem), 3.6vw);
   font-weight: 700;
   letter-spacing: 0.34em;
   margin-top: 0.4em;
