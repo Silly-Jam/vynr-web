@@ -1,8 +1,9 @@
 ---
 title: Now in Your Hands
 date: 2026-11-03
-type: journal
 description: vynr is now on the App Store—the foundation of a private wine atlas, cellar and journal, and the beginning of what comes next.
+heroImage: /journal/vynr-launch-cellar.png
+heroAlt: The cellar as a map
 tags:
   - launch
   - journal
@@ -18,8 +19,6 @@ Back in February, [I wrote](/blog/what-a-label-doesnt-say):
 Today, [vynr is available on the App Store](https://apps.apple.com/app/vynr/id6758237045).
 
 That is a small sentence for something that has occupied a very large part of my life.
-
-![vynr on an iPhone — the cellar opening into its places and wines](/journal/vynr-launch-cellar.png)
 
 ## What vynr became
 
