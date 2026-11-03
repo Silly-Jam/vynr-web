@@ -60,31 +60,32 @@ export default function AboutPage() {
           product.
         </p>
 
-        <h2>Three things, woven through time and taste</h2>
+        <h2>What vynr is built on</h2>
         <p>
-          <strong>A cellar</strong> — to track what you own.
-          <br />
-          <strong>A journal</strong> — to record what you experienced.
-          <br />
-          <strong>An atlas</strong> — to understand where it came from, and
-          who made it.
-        </p>
-        <p>Two threads run through all three.</p>
-        <p>
-          <strong>Time.</strong> Wine changes, and so does a cellar. Every
-          bottle sits somewhere on its own curve — closed, approaching, at its
-          peak, fading — and the Time Lens lets you scrub forward to see what
-          will be ready next spring, or back to what you were drinking the
-          year you moved house. The cellar is not a list. It is a map that
-          moves.
+          <strong>A spatial Cellar and Atlas.</strong> The Cellar shows the
+          wine world you have collected. The Atlas shows the larger world it
+          belongs to. They are not separate catalogues, but two views of the
+          same landscape.
         </p>
         <p>
-          <strong>Taste.</strong> What you keep, what you open and what you
-          write down slowly form a picture of what you actually like. vynr
-          uses it to make its notes more yours: which bottle to open tonight,
-          what you&rsquo;re overlooking, what a new wine might mean to you.
-          It is built from your own record, for you, and it grows with every
-          bottle.
+          <strong>Living wine knowledge.</strong> A continuously refined
+          reference of producers, places, grapes, vintages and maturity. It
+          reaches through the Atlas, producer pages and Vynrpedia, and keeps
+          growing without waiting for the next app release.
+        </p>
+        <p>
+          <strong>The Journal and Time Lens, working together.</strong> The
+          Journal keeps what happened around a wine: the tasting, the
+          photographs, the place, the asides in the margin. The Time Lens
+          turns that record into ground you can move across: back through
+          what you opened, over what the cellar is now, forward to what is
+          coming into its own.
+        </p>
+        <p>
+          <strong>Privacy by design.</strong> No account, no advertising and
+          no resale of your data. Your cellar and memories remain private
+          unless you choose to share them. Trust is not an option added in
+          Settings; it is part of how vynr is built.
         </p>
 
         <h2>If you&rsquo;re studying wine</h2>
