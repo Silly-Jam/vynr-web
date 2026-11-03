@@ -2,6 +2,7 @@ import { fetchShare, type SharePack, type ShareEntry, type MarginaliaEntry } fro
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { buildHierarchy } from '@/lib/cellar-tree';
+import { APP_STORE_URL } from '@/lib/app-store';
 import { CellarBrowser } from './CellarBrowser';
 
 // ─── Metadata ────────────────────────────────────────────────────────────────
@@ -125,7 +126,7 @@ function ActiveShareView({
           Open in vynr
         </a>
         <a
-          href="https://apps.apple.com/app/vynr/id6744048730"
+          href={APP_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
           style={{

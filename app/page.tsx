@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { APP_STORE_URL } from "@/lib/app-store";
 
 export default function Home() {
   return (
@@ -61,7 +62,7 @@ export default function Home() {
           letterSpacing: "-0.01em",
         }}
       >
-        Be the first to map your taste.
+        Map your taste.
       </p>
 
       <p
@@ -73,10 +74,25 @@ export default function Home() {
           lineHeight: 1.5,
         }}
       >
-        Vynr launches soon on iOS.
+        Available on the App Store now.
       </p>
 
-      <div style={{ marginTop: "clamp(1.5rem, 7vw, 3rem)" }}>
+      <a
+        href={APP_STORE_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ display: "inline-block", marginTop: "1.25rem" }}
+      >
+        <Image
+          src="/app-store-badge.svg"
+          alt="Download on the App Store"
+          width={144}
+          height={48}
+          style={{ display: "block" }}
+        />
+      </a>
+
+      <div style={{ marginTop: "clamp(1.25rem, 5vw, 2rem)" }}>
         <Link
           href="/blog"
           style={{
