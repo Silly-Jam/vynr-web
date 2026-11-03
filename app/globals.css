@@ -184,17 +184,20 @@ button:focus-visible {
   flex-direction: column;
   align-items: center;
   padding: 0.5em 0.85em 0.45em;
-  border: 4px double var(--atlas-link);
+  border: 5px double var(--atlas-link);
   border-radius: 6px;
   color: var(--atlas-link);
   font-family: var(--font-sans);
   text-transform: uppercase;
-  transform: rotate(-4.5deg);
+  transform: rotate(-6.5deg);
   transform-origin: left bottom;
   mix-blend-mode: multiply;
   opacity: 0.88;
-  max-width: 100%;
-  margin: 0.5rem 0 1.4rem 0.35rem;
+  /* Wider than the verse column at desktop widths, on purpose: a stamp does
+     not respect the page's margins. The vw caps on its text keep the whole
+     impression inside the viewport at every width (body clips overflow-x). */
+  max-width: none;
+  margin: 0.5rem 0 -0.35rem 0.35rem;
   -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  2.6 0 0 0 -0.35'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>");
   mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  2.6 0 0 0 -0.35'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>");
   -webkit-mask-size: 320px 320px;
@@ -202,7 +205,7 @@ button:focus-visible {
 }
 
 .manifesto .manifesto-stamp-main {
-  font-size: min(clamp(1.6rem, 1.2rem + 2.6vw, 3.1rem), 8.5vw);
+  font-size: min(clamp(2rem, 1.5rem + 3.25vw, 3.9rem), 9vw);
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1;
@@ -210,7 +213,7 @@ button:focus-visible {
 }
 
 .manifesto .manifesto-stamp-sub {
-  font-size: min(clamp(0.9rem, 0.7rem + 0.6vw, 1.05rem), 3.4vw);
+  font-size: min(clamp(1.1rem, 0.9rem + 0.75vw, 1.3rem), 3.6vw);
   font-weight: 700;
   letter-spacing: 0.34em;
   margin-top: 0.4em;
