@@ -64,25 +64,25 @@ export default function AboutPage() {
         <h2>What vynr is built on</h2>
         <dl className="foundations">
           <div>
-            <dt>A spatial Cellar and Atlas.</dt>
+            <dt>A spatial Cellar and Atlas.</dt>{" "}
             <dd>
               The Cellar shows the wine world you have collected. The Atlas shows the larger world it belongs to. They are not separate catalogues, but two views of the same landscape.
             </dd>
           </div>
           <div>
-            <dt>Living wine knowledge.</dt>
+            <dt>Living wine knowledge.</dt>{" "}
             <dd>
               A continuously refined reference of producers, places, grapes, vintages and maturity. It reaches through the Atlas, producer pages and Vynrpedia, and keeps growing without waiting for the next app release.
             </dd>
           </div>
           <div>
-            <dt>What happened, and what comes next.</dt>
+            <dt>What happened, and what comes next.</dt>{" "}
             <dd>
               The Journal and Time Lens share the same record. The Journal keeps what happened around a wine: the tasting, the photographs, the place and the asides in the margin. The Time Lens lets you move through that record: back through what you opened, across the cellar as it is now, and forward to what is coming into its own.
             </dd>
           </div>
           <div>
-            <dt>Privacy by design.</dt>
+            <dt>Privacy by design.</dt>{" "}
             <dd>
               No account, no advertising and no resale of your data. Your cellar and memories remain private unless you choose to share them. Trust is not an option added in Settings; it is part of how vynr is built.
             </dd>
