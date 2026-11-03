@@ -74,12 +74,12 @@ export default function AboutPage() {
           growing without waiting for the next app release.
         </p>
         <p>
-          <strong>The Journal and Time Lens, working together.</strong> The
-          Journal keeps what happened around a wine: the tasting, the
-          photographs, the place, the asides in the margin. The Time Lens
-          turns that record into ground you can move across: back through
-          what you opened, over what the cellar is now, forward to what is
-          coming into its own.
+          <strong>What happened, and what comes next.</strong> The Journal and
+          Time Lens share the same record. The Journal keeps what happened
+          around a wine: the tasting, the photographs, the place and the asides
+          in the margin. The Time Lens lets you move through that record: back
+          through what you opened, across the cellar as it is now, and forward
+          to what is coming into its own.
         </p>
         <p>
           <strong>Privacy by design.</strong> No account, no advertising and
