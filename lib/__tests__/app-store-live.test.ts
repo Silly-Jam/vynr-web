@@ -9,7 +9,7 @@ const layout = read('app/layout.tsx');
 
 describe('the site presents vynr as live on the App Store', () => {
   it('holds the one App Store link in lib/app-store.ts', () => {
-    assert.match(read('lib/app-store.ts'), /APP_STORE_URL = "https:\/\/apps\.apple\.com\/sg\/app\/vynr\/id6758237045"/);
+    assert.match(read('lib/app-store.ts'), /APP_STORE_URL = "https:\/\/apps\.apple\.com\/app\/vynr\/id6758237045"/);
   });
 
   it('makes the App Store badge the home page primary call to action', () => {
@@ -25,7 +25,7 @@ describe('the site presents vynr as live on the App Store', () => {
     for (const [name, source] of [['home', home], ['layout', layout], ['README', read('README.md')]]) {
       assert.doesNotMatch(source, /launches soon|coming soon|be the first|pre-?launch/i, name);
     }
-    assert.match(read('README.md'), /\[App Store\]\(https:\/\/apps\.apple\.com\/sg\/app\/vynr\/id6758237045\)/);
+    assert.match(read('README.md'), /\[App Store\]\(https:\/\/apps\.apple\.com\/app\/vynr\/id6758237045\)/);
   });
 
   it('tells search engines the app is in stock, not on pre-order', () => {
