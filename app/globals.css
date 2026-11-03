@@ -181,13 +181,13 @@ button:focus-visible {
   padding-left: 1.5em;
 }
 
-.manifesto-margin {
+.manifesto .manifesto-margin {
   font-style: italic;
   color: var(--atlas-text-secondary);
 }
 
 @media (min-width: 60rem) {
-  .manifesto-margin {
+  .manifesto .manifesto-margin {
     margin-left: -9rem;
     max-width: 8rem;
     font-size: 1rem;
@@ -195,7 +195,7 @@ button:focus-visible {
   }
 }
 
-.manifesto-close {
+.manifesto .manifesto-close {
   font-family: var(--font-sans);
   font-size: clamp(1.4rem, 1.2rem + 0.8vw, 1.75rem);
   font-weight: 600;
