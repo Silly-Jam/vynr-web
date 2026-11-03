@@ -10,7 +10,11 @@ export const metadata: Metadata = {
 export default function BastardPage() {
   return (
     <article className="manifesto" aria-labelledby="manifesto-title">
-      <h1 id="manifesto-title">The Wine Bastard Manifesto</h1>
+      <h1 id="manifesto-title" className="manifesto-title-hidden">The Wine Bastard Manifesto</h1>
+      <div className="manifesto-stamp" aria-hidden="true">
+        <span className="manifesto-stamp-main">Wine Bastard</span>
+        <span className="manifesto-stamp-sub">Manifesto</span>
+      </div>
 
       <p className="manifesto-carries">
         Every bottle carries
