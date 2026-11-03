@@ -21,38 +21,6 @@ That is a small sentence for something that has occupied a very large part of my
 
 ![vynr on an iPhone — the cellar opening into its places and wines](/journal/vynr-launch-cellar.png)
 
-## The quiet part
-
-I have been quiet for a while.
-
-It was not because work on vynr stopped. It was because the work changed.
-
-For a long time, progress was easy to see. A map appeared where there had been a list. The Time Lens began moving through the cellar. A label became a wine, a producer and a place. New ideas arrived quickly enough that every week seemed to produce another visible piece.
-
-Then I stopped adding things.
-
-There is an awkward stage in building software when it looks finished but is not yet ready. The main ideas are present. The screenshots look convincing. Most paths work most of the time. It is tempting to keep moving—to add the next feature because adding is more satisfying than asking what happens when the text is unusually long, the screen unusually short, the network unavailable, or a person changes their mind halfway through something important.
-
-So the last few months were spent making the existing app trustworthy.
-
-Screens were simplified. Navigation was made more explicit. Backups, restoration and export were tested. Label reading was made more careful about uncertainty. The smallest screens got the same attention as the largest. Places where vynr should stop and ask were separated from places where it could safely continue.
-
-The changes became less impressive to describe and more important to live with.
-
-## The final boss
-
-The final boss was, inevitably, a 375 × 667-point rectangle floating in the middle of an iPad.
-
-vynr is an iPhone app. On an iPad, it runs inside an iPhone-sized compatibility window. A tasting screen that felt comfortable on a larger phone became crowded there, and Apple’s reviewer found it.
-
-They were right.
-
-The screen learned to scroll. Its largest elements learned to yield when space was short. Navigation that had relied too heavily on an edge gesture gained a visible way back. Then every important surface was checked again at that compact size.
-
-There were forms, messages, screenshots, builds and more waiting than I expected. Eventually, though, there was an email with the word *Congratulations* at the top.
-
-The gate opened.
-
 ## What vynr became
 
 The original idea is still there: a wine label is the beginning of a story, not the story itself.
@@ -73,15 +41,35 @@ A bottle is rarely memorable because it occupied position twelve in a rack. It i
 
 The Journal keeps the tasting, photographs, notes, people and place beside the wine itself. It lets a bottle remain connected to the knowledge around it without allowing that knowledge to crowd out your own experience.
 
-That is the heart of vynr: understand the wine, explore its place, plan what comes next, and keep the life around every bottle.
+That is the heart of vynr: understand the wine, explore its place, plan what comes next, and keep the life around every bottle. It carries no advertising and asks for no account.
 
 ![A Journal memory connected to its wine, tasting and place](/journal/vynr-launch-journal.png)
+
+## The quiet part
+
+I have been quiet for a while.
+
+It was not because work on vynr stopped. It was because the work changed.
+
+For a long time, progress was easy to see. A map appeared where there had been a list. The Time Lens began moving through the cellar. A label became a wine, a producer and a place. New ideas arrived quickly enough that every week seemed to produce another visible piece.
+
+Then I stopped adding things.
+
+There is an awkward stage in building software when it looks finished but is not yet ready. The main ideas are present. The screenshots look convincing. Most paths work most of the time. It is tempting to keep moving—to add the next feature because adding is more satisfying than asking what happens when the text is unusually long, the screen unusually short, the network unavailable, or a person changes their mind halfway through something important.
+
+So the last few months were spent making the existing app trustworthy.
+
+Screens were simplified. Navigation was made more explicit. Backups, restoration and export were tested. Label reading was made more careful about uncertainty. The smallest screens got the same attention as the largest. Places where vynr should stop and ask were separated from places where it could safely continue.
+
+The changes became less impressive to describe and more important to live with.
+
+The last test came from an unexpectedly small place: the iPhone compatibility window on an iPad. Apple’s reviewer found a tasting screen that became crowded there. They were right. Fixing it made the app more adaptable everywhere—and after more builds, screenshots, forms and waiting than I expected, the gate finally opened.
 
 ## A foundation, not a finish
 
 This release puts the foundations in place for many of the ideas I still want to explore.
 
-The Journal will become deeper and more permanent: a place to return to tastings, compare memories, learn from them, and eventually compose them into something larger. The Time Lens will become more useful for planning. The Atlas and vynr’s wine knowledge will keep growing. Sharing, teaching and studying all have further to go.
+The Journal will become deeper and more expressive: a place to return to tastings, compare memories, learn from them, and eventually compose them into something larger. The Time Lens will become more useful for planning. The Atlas and vynr’s wine knowledge will keep growing. Sharing, teaching and studying all have further to go.
 
 Those directions—and the principles that should survive every release—are set out in the [public roadmap](https://vynr.app/roadmap).
 
