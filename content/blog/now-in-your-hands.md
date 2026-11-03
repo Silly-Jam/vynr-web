@@ -70,7 +70,7 @@ This release puts the foundations in place for many of the ideas I still want to
 
 The Journal will become deeper and more expressive: a place to return to tastings, compare memories, learn from them, and eventually compose them into something larger. The Time Lens will become more useful for planning. The Atlas and vynr’s wine knowledge will keep growing.
 
-Then there is sharing. A cellar in vynr is not a feed and never will be, but it can be handed to someone. Today you can publish a snapshot—with your notes in the margins—and anyone can open it by link or QR code, in the app or a browser, without an account. They can explore it, copy a wine into their own cellar, or record a tasting without owning the bottle.
+Then there is sharing. A cellar in vynr is not a feed and never will be, but it can be handed to someone. Today you can publish a snapshot—with your notes in the margins—and anyone can open it by link or QR code, in the app or a browser, without an account. They can explore it and copy a wine into their own cellar.
 
 What comes next builds on that same idea: tastings, study sets and events experienced together, while each person’s impressions remain their own. Reading stays free. Nothing a reader tastes flows back to whoever shared it. Nothing is ranked by who paid.
 
