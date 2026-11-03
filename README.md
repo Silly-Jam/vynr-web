@@ -16,7 +16,7 @@ Vynr is a native iOS app for tracking and exploring wine. Scan a label, build yo
 
 ## Status
 
-Available now on the [App Store](https://apps.apple.com/sg/app/vynr/id6758237045).
+Available now on the [App Store](https://apps.apple.com/app/vynr/id6758237045).
 
 ## Generated content
 
