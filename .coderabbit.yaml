@@ -1,0 +1,9 @@
+# vynr-web review policy (operator ruling 2026-11-03): the isolated Codex review
+# is the review for this repository; CodeRabbit does not auto-review here.
+# The merge gate is scripts/verify-review.sh in the vynr repo (PASS_CODEX).
+reviews:
+  auto_review:
+    enabled: false
+    drafts: false
+chat:
+  auto_reply: false
