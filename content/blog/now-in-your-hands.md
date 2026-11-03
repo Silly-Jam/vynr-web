@@ -27,7 +27,7 @@ The original idea is still there: a wine label is the beginning of a story, not 
 
 Photograph a label and vynr helps identify what is in front of you. Follow the wine into its producer, appellation and region. Move outward through the Atlas and understand where it belongs.
 
-![A recognised wine leading into its producer and place in the Atlas](/journal/vynr-launch-atlas.png)
+![Champagne and its wine regions mapped in the vynr Atlas](/journal/vynr-launch-atlas.png)
 
 Then look at the cellar through time.
 
