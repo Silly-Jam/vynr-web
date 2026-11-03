@@ -148,11 +148,67 @@ button:focus-visible {
   margin: 2.5rem 0;
 }
 
+/* Wine stains on the manifesto: dried-burgundy glass rings and a drip,
+   positioned against the verse column, behind the text, multiplied into the
+   paper. One ring sits on the stamp's corner, one is broken where the glass was
+   lifted wet, the drip is where the second bottle was opened. On narrow
+   screens the second ring goes; three stains in a phone column is a spill. */
+.manifesto-stains {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  color: #6b1e2e;
+  mix-blend-mode: multiply;
+}
+
+.manifesto-stains .stain {
+  position: absolute;
+  display: block;
+}
+
+.manifesto-stains .stain-one {
+  top: clamp(2.2rem, 10vh, 5.5rem);
+  right: -3.5rem;
+  width: clamp(120px, 34vw, 170px);
+  opacity: 0.42;
+}
+
+.manifesto-stains .stain-two {
+  display: none;
+  top: 58%;
+  left: -6rem;
+  width: 140px;
+  opacity: 0.36;
+}
+
+.manifesto-stains .stain-three {
+  bottom: clamp(4rem, 9vh, 6.5rem);
+  right: 0.5rem;
+  width: clamp(56px, 14vw, 84px);
+  opacity: 0.46;
+}
+
+.manifesto-stains .stain-ring,
+.manifesto-stains .stain-drip {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+@media (min-width: 60rem) {
+  .manifesto-stains .stain-two {
+    display: block;
+  }
+}
+
 /* The Wine Bastard Manifesto (/bastard): a kept page, not a tech manifesto.
    Serif verse in a narrow left-aligned column with air above it; the title is
    the quiet thing, the last line is the one loud thing, and the line about
    margins sits in the margin. No rules, no labels, no motion. */
 .manifesto {
+  position: relative;
   --manifesto-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
   max-width: 30rem;
   margin: 0 auto;
@@ -221,6 +277,8 @@ button:focus-visible {
 }
 
 .manifesto p {
+  position: relative;
+  z-index: 1;
   font-family: var(--manifesto-serif);
   font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
   line-height: 1.55;

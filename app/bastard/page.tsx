@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import WineStains from "./WineStains";
 
 // An unlinked page: not in the sitemap, not in navigation, not indexed.
 export const metadata: Metadata = {
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export default function BastardPage() {
   return (
     <article className="manifesto" aria-labelledby="manifesto-title">
+      <WineStains />
       <h1 id="manifesto-title" className="manifesto-title-hidden">The Wine Bastard Manifesto</h1>
       <div className="manifesto-stamp" aria-hidden="true">
         <span className="manifesto-stamp-main">Wine Bastard</span>
