@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { resolveUrlPath, getAtlasChildren, getAllAtlasNodes, getAtlasNode, buildAtlasUrlPath, atlasNodeCount, atlasDataEpoch, type AtlasNode } from '@/lib/atlas';
+import { APP_STORE_URL } from '@/lib/app-store';
 import { AtlasBrowser } from './AtlasBrowser';
 
 export async function generateStaticParams() {
@@ -95,7 +96,7 @@ export default async function AtlasPage({
         lineHeight: 1.6,
       }}>
         <a
-          href="https://apps.apple.com/app/vynr/id6744048730"
+          href={APP_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: 'var(--atlas-tint)', textDecoration: 'none' }}
