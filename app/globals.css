@@ -148,6 +148,62 @@ button:focus-visible {
   margin: 2.5rem 0;
 }
 
+/* The Wine Bastard Manifesto (/bastard): a kept page, not a tech manifesto.
+   Serif verse in a narrow left-aligned column with air above it; the title is
+   the quiet thing, the last line is the one loud thing, and the line about
+   margins sits in the margin. No rules, no labels, no motion. */
+.manifesto {
+  --manifesto-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: clamp(3rem, 14vh, 8rem) 24px clamp(4rem, 12vh, 7rem);
+  color: var(--atlas-text);
+}
+
+.manifesto h1 {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--atlas-text-secondary);
+  margin: 0 0 3.5rem;
+}
+
+.manifesto p {
+  font-family: var(--manifesto-serif);
+  font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
+  line-height: 1.55;
+  margin: 0 0 2.4rem;
+}
+
+.manifesto-carries span {
+  display: block;
+  padding-left: 1.5em;
+}
+
+.manifesto-margin {
+  font-style: italic;
+  color: var(--atlas-text-secondary);
+}
+
+@media (min-width: 60rem) {
+  .manifesto-margin {
+    margin-left: -9rem;
+    max-width: 8rem;
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+}
+
+.manifesto-close {
+  font-family: var(--font-sans);
+  font-size: clamp(1.4rem, 1.2rem + 0.8vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 3.5rem;
+  margin-bottom: 0;
+}
+
 /* The four foundations on About: a definition list so the labels are
    navigable, styled to read as run-in paragraph leads. */
 .prose dl.foundations {
