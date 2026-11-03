@@ -86,8 +86,8 @@ export default function Home() {
         <Image
           src="/app-store-badge.svg"
           alt="Download on the App Store"
-          width={144}
-          height={48}
+          width={120}
+          height={40}
           style={{ display: "block" }}
         />
       </a>
