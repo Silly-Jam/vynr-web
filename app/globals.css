@@ -148,6 +148,30 @@ button:focus-visible {
   margin: 2.5rem 0;
 }
 
+/* The four foundations on About: a definition list so the labels are
+   navigable, styled to read as run-in paragraph leads. */
+.prose dl.foundations {
+  margin-bottom: 1.5rem;
+}
+
+.prose dl.foundations > div {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--atlas-text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.prose dl.foundations dt {
+  display: inline;
+  font-weight: 600;
+  color: var(--atlas-text);
+}
+
+.prose dl.foundations dd {
+  display: inline;
+  margin: 0;
+}
+
 .prose strong {
   font-weight: 600;
   color: var(--atlas-text);
