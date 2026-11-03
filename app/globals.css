@@ -167,25 +167,27 @@ button:focus-visible {
   display: block;
 }
 
+/* A glass base is 7–8 cm: on a page of this measure that is a dozen lines
+   of verse, so the rings are sized to the column, not to the type. */
 .manifesto-stains .stain-one {
-  top: clamp(2.2rem, 10vh, 5.5rem);
-  right: -3.5rem;
-  width: clamp(120px, 34vw, 170px);
-  opacity: 0.42;
+  top: clamp(1.5rem, 7vh, 4rem);
+  right: -7rem;
+  width: clamp(250px, 80vw, 430px);
+  opacity: 0.4;
 }
 
 .manifesto-stains .stain-two {
   display: none;
-  top: 58%;
-  left: -6rem;
-  width: 140px;
-  opacity: 0.36;
+  top: 55%;
+  left: -11rem;
+  width: 400px;
+  opacity: 0.34;
 }
 
 .manifesto-stains .stain-three {
   bottom: clamp(4rem, 9vh, 6.5rem);
   right: 0.5rem;
-  width: clamp(56px, 14vw, 84px);
+  width: clamp(80px, 20vw, 120px);
   opacity: 0.46;
 }
 
