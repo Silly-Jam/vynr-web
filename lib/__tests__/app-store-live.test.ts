@@ -4,13 +4,12 @@ import { describe, it } from 'node:test';
 
 const read = (path: string) => readFileSync(new URL(`../../${path}`, import.meta.url), 'utf8');
 
-const LIVE_URL = 'https://apps.apple.com/sg/app/vynr/id6758237045';
 const home = read('app/page.tsx');
 const layout = read('app/layout.tsx');
 
 describe('the site presents vynr as live on the App Store', () => {
   it('holds the one App Store link in lib/app-store.ts', () => {
-    assert.ok(read('lib/app-store.ts').includes(`APP_STORE_URL = "${LIVE_URL}"`));
+    assert.match(read('lib/app-store.ts'), /APP_STORE_URL = "https:\/\/apps\.apple\.com\/sg\/app\/vynr\/id6758237045"/);
   });
 
   it('makes the App Store badge the home page primary call to action', () => {
@@ -26,7 +25,7 @@ describe('the site presents vynr as live on the App Store', () => {
     for (const [name, source] of [['home', home], ['layout', layout], ['README', read('README.md')]]) {
       assert.doesNotMatch(source, /launches soon|coming soon|be the first|pre-?launch/i, name);
     }
-    assert.ok(read('README.md').includes(LIVE_URL));
+    assert.match(read('README.md'), /\[App Store\]\(https:\/\/apps\.apple\.com\/sg\/app\/vynr\/id6758237045\)/);
   });
 
   it('tells search engines the app is in stock, not on pre-order', () => {
