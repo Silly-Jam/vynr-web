@@ -58,7 +58,7 @@ There is an awkward stage in building software when it looks finished but is not
 
 So the last few months were spent making the existing app trustworthy.
 
-When a label is only half legible, vynr now leaves the field empty for you to complete rather than guessing at a producer it cannot read. Leave a half-written tasting by accident and vynr holds it instead of throwing it away. An iCloud backup was restored after a clean reinstall and reconciled against the original cellar—wines, journal entries and photographs—before I was willing to trust it with anyone else’s.
+When a label is only half legible, vynr now leaves the field empty for you to complete rather than guessing at a producer it cannot read. Start a tasting and no stray swipe can carry you off to another screen until you have saved it or let it go. An iCloud backup was restored after a clean reinstall and reconciled against the original cellar—wines, journal entries and photographs—before I was willing to trust it with anyone else’s.
 
 The changes became less impressive to describe and more important to live with.
 
