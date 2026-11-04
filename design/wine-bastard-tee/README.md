@@ -2,15 +2,23 @@
 
 One page. Everything a vector illustrator needs to draw the print file from
 the approved art direction, without coming back to us. Written 2026-11-04 by
-the vynr team (operator + Ilsa, editorial + Claude). The manifesto itself is
-live at `vynr.app/bastard`; this shirt is its public face.
+the vynr team (operator + Ilsa, editorial + Claude), revised the same day
+after Ilsa's review and the operator's ruling on the garment. The manifesto
+itself is live at `vynr.app/bastard`; this shirt is its public face.
 
 ## What we are making
 
-A two-ink screen-printed T-shirt. **Back:** a hand raises a glass of red wine
-in a toast; beside it the line **ENJOY IT MIGHTILY.** The sleeve cuff carries
-a small **WINE BASTARD** stamp. **Front:** the manifesto's rubber stamp
-(WINE BASTARD / MANIFESTO) small on the left chest, nothing else.
+A two-ink screen-printed T-shirt on a **natural / ecru garment. One
+colourway only; there is no black tee.** vynr has no dark mode by design: its
+material is warm paper, and so is the shirt's.
+
+- **Back print:** a hand raises a glass of red wine in a toast; below the
+  hand, beside the forearm, the line **ENJOY IT MIGHTILY.** The forearm ends
+  in an **illustrated** shirt cuff, drawn as part of the back artwork, and
+  that drawn cuff carries a small **WINE BASTARD** stamp. There is no
+  separate print on the garment's own sleeve.
+- **Front print:** the manifesto's rubber stamp (WINE BASTARD over
+  MANIFESTO) small on the left chest, in oxblood only. Nothing else.
 
 The website is the manifesto someone carried in a pocket. The shirt is the
 standard someone raises. Same stamp, same oxblood, same paper-and-ink
@@ -22,97 +30,95 @@ never a threat.
 
 | File | What it is | Status |
 |---|---|---|
-| `reference/ilsa-art-direction-2026-11-04.png` | The approved composition, both colourways | **Approved art direction. Not printable.** It is a generated raster: the hand, stem and foot have errors, the highlights are wrong, the hatching is too fine. Redraw it, do not trace it. |
+| `reference/ilsa-art-direction-2026-11-04.png` | The approved composition, shown in two colourways | **Approved art direction. Not printable.** Use the left (cream) panel only; the black panel is historical. It is a generated raster: the hand, stem and foot have errors, the highlights are wrong, the hatching is too fine. Redraw it, do not trace it. |
 | `reference/vynr-app-icon-1024.png` | The vynr app icon | The glass on the shirt **is this glass**: same bowl shape, same swirl of wine up the right side of the bowl. |
 | `studies/block-arm-*.svg` | An earlier flat study | Superseded. Kept only for provenance. |
 
 ## Preserve from the art direction
 
 - The composition: hand and glass rising from the bottom-left, tilted a few
-  degrees in a toast; the two-line headline to the right, bottom-aligned with
-  the fist; the cuff and its stamp bottom-left.
+  degrees in a toast. The headline sits **below the hand and to the right of
+  the forearm**, its last line ending near the height of the illustrated
+  cuff, as in the reference. Do not move it up beside the fist.
 - The headline lettering: condensed wood-type caps, two lines, full stop
-  kept. Face to be a licensed-for-merchandise condensed grotesque or wood
-  type; confirm the face with us before outlining.
-- The cuff stamp reads **WINE BASTARD** only, two lines, in the same stamp
-  style as the front (double rule, slightly rotated, ink that skipped).
+  kept. The face must be licensed for merchandise; confirm it with us before
+  outlining.
+- The illustrated cuff and its stamp: **WINE BASTARD** only, two lines, in
+  the same stamp style as the front (double rule, slightly rotated, ink that
+  skipped).
 - The glass: the app icon's glass, with the wine swirled up the right side.
 
 ## Fix in the redraw
 
-1. **Hand anatomy.** Reconstruct the hand properly: a real grip on a stem,
-   thumb and index finger pinching the stem, remaining fingers curled under
-   the bowl's foot. Knuckles, tendons and the wrist bone where the linocut
-   would cut them. Decide left or right hand and keep it consistent with the
-   foot's position.
+1. **Hand anatomy, and the grip in particular.** The glass is held by the
+   stem, as in the reference: thumb and index finger pinch the stem just
+   below the bowl; the middle, ring and little fingers curl around the stem
+   beneath them; the foot of the glass sits below the hand, clear of the
+   fingers. Knuckles, tendons and the wrist bone where a linocut would cut
+   them. **Send a quick anatomical sketch of the hand and glass before the
+   detailed redraw.** Left or right hand is your call at that stage; choose
+   whichever gives the most convincing grip, and we approve it on the sketch.
 2. **One continuous stem,** visible where it should be between the fingers,
    and a **foot aligned with the stem and the tilt** of the glass.
-3. **Wine highlight: one cream knockout shape.** Not the pink glossy
-   lozenges in the reference. One flat cut, the way the glass's own highlight
-   is drawn. The icon's second small highlight may be kept if it reads as a
-   cut, not a gloss.
+3. **Wine highlight: one flat shape of exposed garment.** Not the pink glossy
+   lozenges in the reference. One cut where the oxblood is simply not
+   printed and the ecru fabric shows, the same way the glass's own highlight
+   is made. The icon's second small highlight may be kept only if it reads
+   as a cut, not a gloss.
 4. **Hatching reduced** to lines that survive screen printing at the sizes
    below. Fewer, more confident cuts beat many fine ones.
-5. **Two inks, exactly.** No tints, no halftones, no gradients, no third
-   colour. The garment supplies the third colour.
+5. **Two inks, exactly:** black and oxblood on the ecru garment. No tints,
+   no halftones, no gradients, no third ink. Every light area is the fabric.
 
 ## Colours
 
 | Role | Hex (reference) | Notes |
 |---|---|---|
-| Oxblood (wine, and the only colour) | `#6E1522` on cream tee · `#7D1A29` on black tee | Match to a Pantone at the printer; candidates in the 188 C / 7421 C family. One ink per colourway. |
-| Ink on cream tee | `#1B1917` | Near-black, warm. |
-| Ink on black tee | `#F1E8D3` | Cream, not white. |
-| Cream tee garment | about `#F4ECD8` | Natural / ecru. |
-| Black tee garment | about `#151412` | **Black is the hero colourway.** |
+| Oxblood ink (the wine, the stamps) | `#6E1522` | Match to a Pantone at the printer; start in the 188 C / 7421 C family. |
+| Black ink (hand, glass outline, headline) | `#1B1917` | Near-black, warm. |
+| Garment | about `#F4ECD8` | Natural / ecru heavyweight cotton. Not white. |
 
-Separations:
-
-- **Black tee:** cream ink + oxblood ink.
-- **Cream tee:** black ink + oxblood ink.
-
-Keep both colourways in the production file as separate artboards sharing one
-master drawing; only fills swap.
+Separation, back print: **black + oxblood.** Front print: **oxblood only.**
+One master drawing, one artboard per print location.
 
 ## Dimensions and print limits
 
 - **Back print:** artwork box 30 cm wide, up to 45 cm tall, portrait, top of
   the glass about 7 cm below the back collar seam. Draw at 1:1 in millimetres.
-- **Front print:** the stamp 8 cm wide on the left chest.
-- **Cuff stamp:** cap height of WINE BASTARD at least 6 mm at print size.
-- **Minimum line weight** 0.4 mm; **minimum gap between two inks or inside a
-  knockout** 0.5 mm. The hatching must obey this. Trap the oxblood under the
-  ink line of the bowl by 0.3 mm or specify no trap; say which.
+- **Front print:** the stamp 8 cm wide on the left chest, oxblood only.
+- **Cuff stamp (illustrated, inside the back artwork):** cap height of WINE
+  BASTARD at least 6 mm at print size.
+- **Minimum line weight** 0.4 mm; **minimum gap between the two inks or
+  inside any exposed-garment cut** 0.5 mm. The hatching must obey this.
+  State whether you have trapped the oxblood under the black bowl line
+  (0.3 mm) or left it untrapped.
 - Prove it at 30 cm: print the back at 1:1 on paper and look at the cuff
   stamp, the stem between the fingers and the finest hatching. If any of
   those fails, simplify, do not shrink.
 
 ## Deliverables
 
+0. The anatomical sketch of hand and glass (see Fix 1), before anything else.
 1. Vector master (AI or SVG), fonts outlined, one layer per ink, named
-   `ink-dark`, `ink-light`, `oxblood`.
-2. Two colourway artboards (black tee, cream tee) plus the front stamp
-   artboard.
+   `black` and `oxblood`.
+2. Two artboards: back print and front stamp.
 3. Spot-colour separations as PDF, 1:1, with registration marks.
-4. 300 dpi PNG previews of each artboard on its garment colour.
+4. 300 dpi PNG previews of each artboard on the ecru garment colour.
 5. A one-line note of the headline face and its licence.
 
 ## Invariants (do not change these)
 
 - Headline text is exactly `ENJOY IT MIGHTILY.` with the full stop.
-- The stamp text is exactly `WINE BASTARD` (cuff) and `WINE BASTARD` over
-  `MANIFESTO` (front).
+- The stamp text is exactly `WINE BASTARD` on the illustrated cuff, and
+  `WINE BASTARD` over `MANIFESTO` on the front.
+- One garment colour, natural / ecru. No black colourway.
 - No vynr wordmark, no URL, no app-store badge anywhere on the garment. The
-  glass is the only link to the app. (If the operator later wants a small
-  mark, it goes on the inside neck label, not the print.)
-- No third colour, no gradients, no distressing of the body lettering. The
-  stamp alone may skip and blot.
+  glass is the only link to the app. (If the operator later wants a mark, it
+  goes on the inside neck label, not the print.)
+- Two inks, no third ink, no gradients, no distressing of the body
+  lettering. The stamps alone may skip and blot.
 - The wine is red. The glass is the icon's glass.
 
-## Open points for us, not the illustrator
+## Still open for us, not the illustrator
 
-- Which hand (the reference is ambiguous). Default: the wearer's right hand,
-  drawn as seen from behind the wearer, so the toast is theirs.
-- Whether the front stamp carries MANIFESTO under WINE BASTARD (default yes,
-  matching the web page) or WINE BASTARD alone like the cuff.
-- Garment: a heavyweight cotton in natural and black.
+- The exact garment (weight and supplier) once the printer is chosen.
