@@ -1,128 +1,78 @@
-# First editable vector review — 2026-11-04
+# Wine Bastard tee — finished design candidate
 
-Review draft only. These files do not supersede the accepted foot-overlap study
-or constitute final production artwork. No image generation or automatic raster
-tracing was used for this pass: the hand and glass are manually constructed
-cubic paths, with transparent masks for cuts and occlusion.
+Natural ecru only. Black and oxblood. Prepared for the operator's review;
+jointly accepted by Codex/Ilsa and Claude/vynr-5a for presentation to the operator.
+Not yet operator-approved or printer-approved. No merge or order authorised.
+See `design-review-signoff.md` for concurrence and deliverable hashes.
 
-## Audit and reuse
+## Open these
 
-Read the current brief, accepted foot-overlap study and review, earlier
-block-arm SVG and the website's stamp styles. Reused the accepted pose and
-composition direction, two ink colours, double-rule stamp and text. The earlier
-SVG contains the superseded block hand and cannot supply the approved anatomy.
-The missing work was editable paths for the accepted hand and controlled glass
-geometry. No website code or accepted reference assets have changed.
+| File | Purpose |
+|---|---|
+| `back-final-preview.png` | Back artwork on ecru, 300 dpi |
+| `front-final-preview.png` | Front stamp on ecru, 300 dpi |
+| `back-final.svg` | Editable resolved back, 300 × 450 mm page |
+| `front-stamp-final.svg` | Editable resolved front, ink exactly 80 mm wide |
+| `hand-glass-final.svg` | Isolated hand/glass for inspection |
+| `back-actual-size.pdf` | Full-size 300 × 450 mm back paper proof |
+| `front-actual-size-a4.pdf` | A4 front paper proof, 80 mm stamp and 10 mm ruler |
 
-## Files
+Print PDFs at **100% / actual size**, never “fit to page”. The back requires
+large-format paper or tiled printing. These are review proofs, not a fabric proof.
 
-- `hand-glass-review.svg`: isolated hand/glass, editable paths, no typography.
-- `back-review.svg`: 300 × 450 mm page; hand/glass plus illustrated cuff,
-  oxblood cuff stamp and two-line headline.
-- `front-stamp-review.svg`: provisional front stamp on an 80 × 42 mm page.
-  The ink bounds must be fitted to exactly 80 mm after typography approval.
+## What is fixed
 
-Black and oxblood groups are separate. Light areas are transparent knockouts,
-not an ecru printing ink. Preview backgrounds are garment simulations only.
-No trapping is applied in this review draft.
+The accepted five-digit grip and poster-scale bowl remain. The foot is 80% of
+bowl width, 8% as tall as its own width, with the collinear wrist hidden 10% in
+from its tip. Returning fingers vary in size; the cuff wraps the forearm. The
+stamp borders skip and blot; the lettering and headline stay clean. Deliberate
+hand-cut irregularity is retained, per the operator's direction.
 
-## Explicit geometry
+**Typeface:** League Gothic Regular, natural width, SIL Open Font Licence 1.1.
+The unmodified font and licence are in `fonts/`, downloaded from
+https://github.com/google/fonts/tree/main/ofl/leaguegothic . All candidate type
+is outlined without glyph stretching. Cuff cap height is **6.367 mm**.
 
-In the hand master coordinate system:
+**Inks:** black `#1B1917`, oxblood `#6E1522`; ecru `#F4ECD8` appears only in
+previews. Final SVGs contain one compound path per ink: no masks, clips,
+filters, embedded images or live type. **No trap anywhere.** Printer must
+confirm physical ink matches and registration on the selected garment.
 
-- Bowl maximum outside width: 460 units (x=330…790).
-- Foot width: 368 units (x=376…744), exactly 80% of bowl width.
-- Foot outside height: 29.44 units, exactly 8% of foot width.
-- Foot centre: (560, 1108).
-- Hidden wrist contour: vertical at x=412.8, exactly 36.8 units (10% of
-  foot width) inward from the left tip; it remains collinear behind the foot.
-- Back composition applies a uniform 0.9 scale; all ratios are preserved.
+## Method and checks
 
-## Required review / remaining work
+Source curves were drawn as editable vector paths from the accepted study,
+not traced from raster pixels. Compound paths resolve source masks and strokes
+using sampled curves and boolean geometry. Maximum source chord: 0.5 units;
+final simplification tolerance: 0.01 units. Comparing against half-chord source
+sampling measured less than **0.05 mm** difference (`curve-convergence.json`).
+The earlier unverified 0.01 mm total-error target is superseded by that measured
+result. This is a convergence check, not a claim of exact analytic equivalence.
 
-1. The reconstructed hand is visibly more simplified than the accepted raster.
-   Review thumb/index relationship, palm contour, returning fingers, cuts and
-   the bowl-to-stem junction before approving it. Geometry compliance is not
-   evidence of anatomical or stylistic approval.
-2. The headline and stamps use **DIN Condensed Bold provisionally**, with live
-   editable text. Typeface approval and merchandise licence verification are
-   pending, per the brief; do not outline or substitute fonts silently.
-   Text rendering can vary between applications. Review the supplied previews.
-3. Cuff placement, headline scale, stamp styling and optical spacing are first
-   composition proposals. Stamp distress has not yet been added.
-4. No claim of minimum-line/minimum-gap compliance: pointed cuts, narrow spaces,
-   cuff lettering cap height and double rules require actual-size preflight
-   after the artwork/type is approved. Simplify or widen as needed.
-5. Masks and strokes should be resolved into final editable compound ink paths
-   before production PDF export. Printer-approved spot inks, registration marks,
-   300 dpi production previews, physical paper proof and final print approval
-   remain outstanding. These are not printer-ready separations.
+`geometry-report.json` records physical sizes and structural checks.
+`feature-audit.json` and `preflight.md` record sampled print survivability.
+The audit is 400 dpi (0.0635 mm), with type excluded from authored-mark tests,
+skeleton terminals pruned and 0.5 mm page edges excluded. It is sampled
+survivability, not mathematical minima at decorative tips or printer approval.
 
-## Verification performed
+## Source and provenance
 
-All three SVGs parse as XML and contain no embedded raster images. Numeric
-geometry assertions passed for the foot width, height and wrist inset. Rendered
-and visually inspected hand, back and front on ecru. Fixed a draft layering
-error that initially showed the stem through the fingers, and joined the arm
-to the cuff. Website tests were not run: no application code changed.
+`*-review.svg` are the editable construction sources (including masks);
+`*-final.svg` are the resolved candidate. Earlier `*-preview.png` are revision-2
+history; use `*-final-preview.png` for this candidate. `review-history.md`
+preserves the earlier reviews. The original accepted raster stays in `../studies/`.
 
-## Review of the first vector draft (Claude, 2026-11-04)
+`tools/` contains the reproducible build, vector resolution, audit and proof
+export scripts. From this directory, using `uv`:
 
-**Not yet approved for production work. The structure is right; the hand,
-the cuff and the type each need one more pass.** Checked the three SVG
-sources, the previews on ecru, and the hand at 2× crop. Geometry assertions
-(foot 80% / 8% / 10%, collinear hidden contour) hold; the black and oxblood
-groups are cleanly separate; every light area is a knockout; the wine
-carries one highlight. All of that stands.
+```
+uv run --with fonttools python tools/build_vector.py
+uv run --with numpy --with shapely --with svgpathtools python tools/resolve_vectors.py
+uv run --with numpy --with shapely --with svgpathtools --with pillow --with scikit-image python tools/audit_features.py
+python3 tools/export_proofs.py
+```
 
-### Hand
-
-1. **The cavity is too big.** The black wedge between palm and fingers is
-   about twice the area of the accepted study's; the hand reads as a glove
-   opening rather than a fist. Close it to the study's proportion.
-2. **The spikes inside the cavity go.** Two jagged white shards inside the
-   black wedge read as cracks. Keep the long sliver along the thumb web and
-   the two knuckle creases on the back of the hand, which work; delete the
-   shards or replace them with one calm curve.
-3. **Index finger.** The rounded tip right of the stem under the thumb is
-   the index and it is enough for five digits. Give the index its knuckle
-   on the top contour, one small bump between the thumb base and the back
-   of the hand, so the count reads without looking for the tip.
-4. **Returning fingers.** Three sausages with one nick each is the right
-   idea; give the middle finger a joint so they are not identical.
-5. **Pointed cuts.** Every sliver tapers to zero. Round each tip to at
-   least 1.7 units (0.5 mm at 300 mm) before preflight, per the brief.
-
-### Cuff
-
-6. **The cuff is a box, not a sleeve.** It sits detached under a straight
-   clip line, with two curves inside that read as the top of a sock. Draw it
-   as a band wrapping the forearm: its edges follow the cylinder of the arm,
-   the forearm enters it, and the turned-back edge is one curve. The stamp
-   then sits on the band's face, rotated with it.
-
-### Type
-
-7. **No `textLength` with `spacingAndGlyphs`.** It is distorting the
-   glyphs on both the headline and the stamps. Set the size and tracking and
-   let the words be their own width.
-8. **DIN Condensed Bold is a macOS system font.** Apple's licence covers
-   documents on Apple devices; it is not a merchandise licence, and the
-   brief requires one. Candidates that are: League Gothic or Bebas Neue
-   (both SIL Open Font Licence). Pick one, record it in the brief, then
-   outline.
-9. **Front stamp.** Match the web stamp: MANIFESTO centred under WINE
-   BASTARD, small, widely tracked (0.34 em), not left-set at two thirds the
-   size. The cuff stamp stays WINE BASTARD only. Stamp distress (skip and
-   blot) still to come; the double rule and the 6° rotation are right.
-
-### Composition
-
-10. The headline sits where the brief says, below the hand beside the
-    forearm; its weight is right. Once the cuff wraps the arm, check that
-    MIGHTILY.'s baseline still ends near the cuff's top edge.
-11. The arm runs off the art box's left edge and the cuff hugs it. That is
-    as in the art direction; the print edge will cut the arm. Accepted.
-
-Preflight for minimum line and gap is still the illustrator's step after
-these fixes; nothing here is a printer approval.
+Rendering requires `rsvg-convert`. The audit writes intermediate files and its
+JSON to `work/`; the reviewed JSON is copied alongside this README. Physical
+paper review, garment supplier/weight, placement and the printer's fabric proof
+remain external approvals. Preserve the rough character rather than polishing
+it into a sterile mark.

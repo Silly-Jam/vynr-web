@@ -1,0 +1,26 @@
+{
+  "back": {
+    "sample_dpi": 400,
+    "pixel_mm": 0.0635,
+    "body_medial_width_min_mm_after_8px_terminal_prune": 0.45790501198392664,
+    "body_medial_width_1pct_mm": 0.508,
+    "min_isolated_component_rotated_box_width_mm": 2.0598423584676455,
+    "component_count": 18,
+    "sub_0_4mm_samples": 0,
+    "thin_clusters": [],
+    "gap_medial_width_min_mm_after_12px_terminal_prune": 0.683915930506082,
+    "sub_0_5mm_gap_samples": 0
+  },
+  "front-stamp": {
+    "sample_dpi": 400,
+    "pixel_mm": 0.0635,
+    "body_medial_width_min_mm_after_8px_terminal_prune": 0.762,
+    "body_medial_width_1pct_mm": 0.889,
+    "min_isolated_component_rotated_box_width_mm": 5.342963217812505,
+    "component_count": 7,
+    "sub_0_4mm_samples": 0,
+    "thin_clusters": [],
+    "gap_medial_width_min_mm_after_12px_terminal_prune": 0.889,
+    "sub_0_5mm_gap_samples": 0
+  }
+}

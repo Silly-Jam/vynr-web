@@ -1,0 +1,12 @@
+{
+  "back": {
+    "minimum_isolated_ink_component_minor_bbox_mm": 2.0598423584676455,
+    "isolated_knockout_count": 11,
+    "minimum_isolated_knockout_minor_bbox_mm": 4.573097862260768
+  },
+  "front-stamp": {
+    "minimum_isolated_ink_component_minor_bbox_mm": 5.342963217812505,
+    "isolated_knockout_count": 0,
+    "minimum_isolated_knockout_minor_bbox_mm": null
+  }
+}

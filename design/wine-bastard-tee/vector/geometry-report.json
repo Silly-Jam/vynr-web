@@ -1,0 +1,37 @@
+{
+  "hand-glass": {
+    "width_mm": 240.0,
+    "height_mm": 360.0,
+    "mm_per_unit": 0.234375,
+    "ink_components": {
+      "black": 10,
+      "oxblood": 1
+    },
+    "mask_count": 0,
+    "clip_count": 0,
+    "curve_sampling_max_chord_units": 0.5
+  },
+  "back": {
+    "width_mm": 300.0,
+    "height_mm": 450.0,
+    "mm_per_unit": 0.3,
+    "ink_components": {
+      "black": 26,
+      "oxblood": 15
+    },
+    "mask_count": 0,
+    "clip_count": 0,
+    "curve_sampling_max_chord_units": 0.5
+  },
+  "front-stamp": {
+    "width_mm": 80.0,
+    "height_mm": 36.770889347197055,
+    "mm_per_unit": 0.48572392889204596,
+    "ink_components": {
+      "oxblood": 27
+    },
+    "mask_count": 0,
+    "clip_count": 0,
+    "curve_sampling_max_chord_units": 0.5
+  }
+}
