@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Homemade_Apple } from "next/font/google";
 import WineStains from "./WineStains";
 
@@ -27,10 +28,14 @@ export default function BastardPage() {
 
         <div className="manifesto-verse">
           <div className="manifesto-stamp-row">
-            <div className="manifesto-stamp" aria-hidden="true">
-              <span className="manifesto-stamp-main">Wine Bastard</span>
-              <span className="manifesto-stamp-sub">Manifesto</span>
-            </div>
+            <Image
+              className="manifesto-stamp"
+              src="/brand/wine-bastard-stamp.svg"
+              alt=""
+              width={800}
+              height={368}
+              unoptimized
+            />
           </div>
 
           <p className="manifesto-carries">
