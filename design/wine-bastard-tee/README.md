@@ -33,7 +33,9 @@ never a threat.
 | `reference/ilsa-art-direction-2026-11-04.png` | The approved composition, shown in two colourways | **Approved art direction. Not printable.** Use the left (cream) panel only; the black panel is historical. It is a generated raster: the hand, stem and foot have errors, the highlights are wrong, the hatching is too fine. Redraw it, do not trace it. |
 | `reference/vynr-app-icon-1024.png` | The vynr app icon | The glass on the shirt **is this glass**: same bowl shape, same swirl of wine up the right side of the bowl. |
 | `studies/block-arm-*.svg` | An earlier flat study | Superseded. Kept only for provenance. |
-| `studies/hand-glass-wide-base-2026-11-04.png` + `.md` | The hand-and-glass anatomical sketch and its review | **Accepted at the sketch gate with four corrections** listed in the `.md`. Start the vector hand from this. |
+| `studies/hand-glass-wide-base-2026-11-04.png` + `.md` | The hand-and-glass anatomical sketch and its review | Accepted at the sketch gate with four corrections listed in the `.md`. Superseded as the starting image by the foot-overlap study below. |
+| `studies/hand-glass-linocut-draft-2026-11-04.png` + `.md` | Intermediate linocut pass | Provenance only; its foot still touched the wrist. |
+| `studies/hand-glass-foot-overlap-2026-11-04.png` + `.md` | The hand and glass with the corrections applied | **Start the vector hand from this.** Three of the four corrections are solved in it; the foot width is set by number below, not by another image. |
 
 ## Preserve from the art direction
 
@@ -61,6 +63,10 @@ never a threat.
    whichever gives the most convincing grip, and we approve it on the sketch.
 2. **One continuous stem,** visible where it should be between the fingers,
    and a **foot aligned with the stem and the tilt** of the glass.
+   Foot geometry, by number: width 80% of the bowl's maximum width; height
+   8% of the foot's width (near edge-on, like the rim); the wrist contour
+   passes behind the foot and emerges 10% of the foot's width in from the
+   tip, collinear with where it entered.
 3. **Wine highlight: one flat shape of exposed garment.** Not the pink glossy
    lozenges in the reference. One cut where the oxblood is simply not
    printed and the ecru fabric shows, the same way the glass's own highlight
