@@ -5,7 +5,7 @@
 const RING_FILTER = (
   <filter id="stain-wobble" x="-20%" y="-20%" width="140%" height="140%">
     <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="3" result="noise" />
-    <feDisplacementMap in="SourceGraphic" in2="noise" scale="7" xChannelSelector="R" yChannelSelector="G" />
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G" />
     <feGaussianBlur stdDeviation="0.55" />
   </filter>
 );
@@ -22,8 +22,8 @@ function Ring({ dash, rotate }: { dash?: string; rotate?: number }) {
       </defs>
       <g filter="url(#stain-wobble)" transform={rotate ? `rotate(${rotate} 80 80)` : undefined}>
         <circle cx="80" cy="80" r="68" fill="url(#stain-pool)" />
-        <circle cx="80" cy="80" r="68" fill="none" stroke="currentColor" strokeWidth="5.5" strokeOpacity="0.55" strokeDasharray={dash} />
-        <circle cx="81" cy="79" r="66" fill="none" stroke="currentColor" strokeWidth="2" strokeOpacity="0.35" strokeDasharray={dash} />
+        <circle cx="80" cy="80" r="68" fill="none" stroke="currentColor" strokeWidth="4" strokeOpacity="0.55" strokeDasharray={dash} />
+        <circle cx="81" cy="79" r="66" fill="none" stroke="currentColor" strokeWidth="1.4" strokeOpacity="0.35" strokeDasharray={dash} />
       </g>
     </svg>
   );
