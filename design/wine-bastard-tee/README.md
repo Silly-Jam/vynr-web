@@ -46,6 +46,10 @@ never a threat.
 - The headline lettering: condensed wood-type caps, two lines, full stop
   kept. The face must be licensed for merchandise; confirm it with us before
   outlining.
+  Current vector revision selects **League Gothic Regular**, natural width,
+  licensed under SIL OFL 1.1; the font and licence are bundled in
+  `vector/fonts/`. Revision 2 outlines this candidate for review without glyph
+  stretching. Typeface appearance remains subject to review.
 - The illustrated cuff and its stamp: **WINE BASTARD** only, two lines, in
   the same stamp style as the front (double rule, slightly rotated, ink that
   skipped).
