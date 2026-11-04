@@ -33,6 +33,7 @@ never a threat.
 | `reference/ilsa-art-direction-2026-11-04.png` | The approved composition, shown in two colourways | **Approved art direction. Not printable.** Use the left (cream) panel only; the black panel is historical. It is a generated raster: the hand, stem and foot have errors, the highlights are wrong, the hatching is too fine. Redraw it, do not trace it. |
 | `reference/vynr-app-icon-1024.png` | The vynr app icon | The glass on the shirt **is this glass**: same bowl shape, same swirl of wine up the right side of the bowl. |
 | `studies/block-arm-*.svg` | An earlier flat study | Superseded. Kept only for provenance. |
+| `studies/hand-glass-wide-base-2026-11-04.png` + `.md` | The hand-and-glass anatomical sketch and its review | **Accepted at the sketch gate with four corrections** listed in the `.md`. Start the vector hand from this. |
 
 ## Preserve from the art direction
 
@@ -118,6 +119,9 @@ One master drawing, one artboard per print location.
 - Two inks, no third ink, no gradients, no distressing of the body
   lettering. The stamps alone may skip and blot.
 - The wine is red. The glass is the icon's glass.
+- The glass is drawn at poster scale, about 1.5× life against the hand, as
+  in the accepted sketch (`studies/hand-glass-wide-base-2026-11-04.md`).
+  Keep that scale; do not correct it to life size.
 
 ## Still open for us, not the illustrator
 
