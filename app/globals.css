@@ -258,83 +258,30 @@ button:focus-visible {
   border: 0;
 }
 
-/* The stamp sits in the top margin, over to the right and off the edge of the
-   sheet, where someone banged it down after the printing: oxblood pad ink,
-   skipped where the pad was dry, blotted at one corner where it was wet, and
-   rocked so a faint second impression trails it. Air before the first line. */
+/* The shared print/web stamp: the same vector as the shirt's front stamp,
+   carrying its own rotation and dry-pad marks, so the two cannot drift
+   apart. It is banged into the top-right corner, not placed: wider than
+   the verse column, its right end runs off the sheet and is cropped by the
+   paper (the sheet clips overflow), with air before the first line. */
 .manifesto .manifesto-stamp-row {
   display: block;
   margin: 0 0 clamp(2.5rem, 6vh, 4rem);
 }
 
-@media (min-width: 60rem) {
-  .manifesto .manifesto-stamp {
-    margin-left: 4rem;
-  }
-}
-
 .manifesto .manifesto-stamp {
-  position: relative;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0.5em 0.9em 0.45em;
-  border: 6px double var(--manifesto-oxblood);
-  border-radius: 7px;
-  color: var(--manifesto-oxblood);
-  font-family: var(--font-sans);
-  text-transform: uppercase;
-  transform: rotate(-6deg);
-  transform-origin: left bottom;
+  display: block;
+  width: 104%;
+  max-width: none;
+  height: auto;
   mix-blend-mode: multiply;
   opacity: 0.92;
-  max-width: none;
-  text-shadow: 2px 1.5px 0 rgba(110, 21, 34, 0.26);
-  box-shadow: 2px 1.5px 0 rgba(110, 21, 34, 0.22);
-  -webkit-mask-image:
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  3.4 0 0 0 -0.75'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>"),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='640' height='640'><filter id='b'><feTurbulence type='fractalNoise' baseFrequency='0.012' numOctaves='1' seed='4' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  2.0 0 0 0 -0.25'/></filter><rect width='100%' height='100%' filter='url(%23b)'/></svg>");
-  mask-image:
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  3.4 0 0 0 -0.75'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>"),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='640' height='640'><filter id='b'><feTurbulence type='fractalNoise' baseFrequency='0.012' numOctaves='1' seed='4' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  2.0 0 0 0 -0.25'/></filter><rect width='100%' height='100%' filter='url(%23b)'/></svg>");
-  -webkit-mask-size: 320px 320px, 640px 640px;
-  mask-size: 320px 320px, 640px 640px;
-  -webkit-mask-composite: source-in;
-  mask-composite: intersect;
 }
 
-/* The blot: the corner where the pad was too wet. Inside the stamp so the
-   same skipping mask runs over it. */
-.manifesto .manifesto-stamp::after {
-  content: "";
-  position: absolute;
-  right: -3%;
-  bottom: -12%;
-  width: 20%;
-  height: 46%;
-  pointer-events: none;
-  background: radial-gradient(ellipse at 58% 52%,
-    rgba(110, 21, 34, 0.72) 0%,
-    rgba(110, 21, 34, 0.58) 32%,
-    rgba(110, 21, 34, 0.18) 56%,
-    rgba(110, 21, 34, 0) 70%);
-  filter: blur(0.8px);
-}
-
-.manifesto .manifesto-stamp-main {
-  font-size: min(clamp(2.3rem, 1.5rem + 2.4vw, 3.5rem), 9.5vw);
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  line-height: 1;
-  white-space: nowrap;
-}
-
-.manifesto .manifesto-stamp-sub {
-  font-size: min(clamp(1.1rem, 0.9rem + 0.8vw, 1.35rem), 3.8vw);
-  font-weight: 700;
-  letter-spacing: 0.34em;
-  margin-top: 0.4em;
-  padding-left: 0.34em;
+@media (min-width: 60rem) {
+  .manifesto .manifesto-stamp {
+    width: 31.5rem;
+    margin-left: 4rem;
+  }
 }
 
 .manifesto p {
