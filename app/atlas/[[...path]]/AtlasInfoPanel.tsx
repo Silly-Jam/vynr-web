@@ -2,6 +2,7 @@
 
 import { useMemo } from 'react';
 import type { AtlasNode } from '@/lib/atlas';
+import { formatLevelCount } from '@/lib/atlas-levels';
 import { getEducation, grapeEducationId } from '@/lib/education';
 import { grapePillTint } from '@/lib/grape-colors';
 
@@ -157,7 +158,7 @@ export function AtlasInfoPanel({ currentNode, childCount, selectedGrape, onGrape
           color: 'var(--atlas-text-placeholder)',
           margin: 0,
         }}>
-          {childCount} {currentNode.childLevelHint.toLowerCase()}{childCount !== 1 ? 's' : ''}
+          {formatLevelCount(childCount, currentNode.childLevelHint)}
         </p>
       )}
     </div>

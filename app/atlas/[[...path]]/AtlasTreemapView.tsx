@@ -4,6 +4,7 @@ import { useRef, useState, useEffect, useCallback, useMemo } from 'react';
 import { squarify, type TreemapItem } from '@/lib/treemap-layout';
 import { useCanHover } from '@/lib/use-can-hover';
 import type { AtlasNode } from '@/lib/atlas';
+import { DEFAULT_CHILD_LEVEL, formatLevelCount } from '@/lib/atlas-levels';
 
 // ─── Neutral limestone palette ─────────────────────────────────────────────
 
@@ -101,7 +102,7 @@ export function AtlasTreemapView({ nodes, onNodeClick, currentNode }: AtlasTreem
     if (!node) return;
     const childCount = node.childIds.length;
     const hint = childCount > 0
-      ? `${childCount} ${node.childLevelHint ? node.childLevelHint.toLowerCase() + (childCount !== 1 ? 's' : '') : 'regions'}`
+      ? formatLevelCount(childCount, node.childLevelHint ?? DEFAULT_CHILD_LEVEL)
       : 'Appellation';
     setTooltip({ label: node.displayName, hint, x: svgX, y: svgY, labelHidden });
   }, [canHover, nodeMap]);

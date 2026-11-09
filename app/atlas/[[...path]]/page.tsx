@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { resolveUrlPath, getAtlasChildren, getAllAtlasNodes, getAtlasNode, buildAtlasUrlPath, atlasNodeCount, atlasDataEpoch, type AtlasNode } from '@/lib/atlas';
 import { APP_STORE_URL } from '@/lib/app-store';
+import { DEFAULT_CHILD_LEVEL, formatLevelCount } from '@/lib/atlas-levels';
 import { AtlasBrowser } from './AtlasBrowser';
 
 export async function generateStaticParams() {
@@ -33,10 +34,9 @@ export async function generateMetadata({
 
   const children = getAtlasChildren(node?.id ?? null);
   const childCount = children.length;
-  const childLabel = node?.childLevelHint?.toLowerCase() ?? 'region';
   const title = node ? `${node.displayName} — vynr Atlas` : 'Wine Atlas — vynr';
   const description = node
-    ? `${node.displayName}${childCount > 0 ? ` — ${childCount} ${childLabel}${childCount !== 1 ? 's' : ''}` : ''}`
+    ? `${node.displayName}${childCount > 0 ? ` — ${formatLevelCount(childCount, node.childLevelHint ?? DEFAULT_CHILD_LEVEL)}` : ''}`
     : 'Explore the world of wine. A geographic atlas of wine regions, from continents to appellations.';
   const url = `https://vynr.app${path.length > 0 ? `/atlas/${path.join('/')}` : '/atlas'}`;
 
