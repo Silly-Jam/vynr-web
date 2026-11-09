@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect, useCallback, useMemo } from 'react';
 import { squarify, type TreemapItem } from '@/lib/treemap-layout';
+import { useCanHover } from '@/lib/use-can-hover';
 import type { AtlasNode } from '@/lib/atlas';
 
 // ─── Neutral limestone palette ─────────────────────────────────────────────
@@ -61,11 +62,7 @@ export function AtlasTreemapView({ nodes, onNodeClick, currentNode }: AtlasTreem
   const measuredWidth = useContainerWidth(containerRef);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [tooltip, setTooltip] = useState<TooltipData | null>(null);
-  const [canHover, setCanHover] = useState(false);
-
-  useEffect(() => {
-    setCanHover(window.matchMedia('(hover: hover)').matches);
-  }, []);
+  const canHover = useCanHover();
 
   // Height policy: square-ish on mobile, 3:2 on desktop, scales with node count
   const isMobile = measuredWidth > 0 && measuredWidth < 480;

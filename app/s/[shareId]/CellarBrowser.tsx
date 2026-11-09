@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import type { ShareEntry } from '@/lib/share-api';
 import {
   type CellarNode,
@@ -48,13 +48,6 @@ export function CellarBrowser({ tree, rootLabel, shareId, marginalia, curatorNam
     () => resolveScope(tree, pathIds),
     [tree, pathIds],
   );
-
-  // Reconcile stale path: if resolveScope trimmed the path, sync state
-  useEffect(() => {
-    if (resolvedPath.length !== pathIds.length || !resolvedPath.every((id, i) => id === pathIds[i])) {
-      setPathIds(resolvedPath);
-    }
-  }, [resolvedPath, pathIds]);
 
   const currentNode = useMemo(
     () => resolveCurrentNode(tree, resolvedPath),
@@ -107,27 +100,28 @@ export function CellarBrowser({ tree, rootLabel, shareId, marginalia, curatorNam
   // - If drilling into a node with exactly 1 wine child, open the wine detail directly
   // - If drilling into a node where all children are wines, drill but auto-switch to list view
   //   (a treemap of single-wine tiles is not useful)
+  // Drill from resolvedPath, not raw state, so a stale tail resolveScope trimmed is dropped.
   const handleNodeClick = useCallback((node: CellarNode) => {
     if (canDrill(node)) {
       const allChildrenAreWines = node.children.length > 0 && node.children.every(isWineNode);
 
       if (allChildrenAreWines && node.children.length === 1 && node.children[0].entry) {
         // Single wine — open detail directly, no need to drill
-        setPathIds((prev) => [...prev, node.id]);
+        setPathIds([...resolvedPath, node.id]);
         setSelectedWineId(node.children[0].id);
       } else if (allChildrenAreWines) {
         // Multiple wines — drill and show as list (treemap of single-wine tiles is wasteful)
-        setPathIds((prev) => [...prev, node.id]);
+        setPathIds([...resolvedPath, node.id]);
         setViewMode('list');
         setSelectedWineId(null);
       } else {
-        setPathIds((prev) => [...prev, node.id]);
+        setPathIds([...resolvedPath, node.id]);
         setSelectedWineId(null);
       }
     } else if (isWineNode(node)) {
       setSelectedWineId(node.id);
     }
-  }, []);
+  }, [resolvedPath]);
 
   const handleNavigate = useCallback((newPathIds: string[]) => {
     setPathIds(newPathIds);
