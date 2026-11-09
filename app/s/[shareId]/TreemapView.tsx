@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect, useCallback, useMemo } from 'react';
 import { squarify, type TreemapItem } from '@/lib/treemap-layout';
+import { useCanHover } from '@/lib/use-can-hover';
 import {
   wineTypeTint,
   wineTypeHoverTint,
@@ -105,12 +106,7 @@ export function TreemapView({
   const containerRef = useRef<HTMLDivElement>(null);
   const measuredWidth = useContainerWidth(containerRef);
   const [tooltip, setTooltip] = useState<TooltipData | null>(null);
-  const [canHover, setCanHover] = useState(false);
-
-  // Detect hover capability
-  useEffect(() => {
-    setCanHover(window.matchMedia('(hover: hover)').matches);
-  }, []);
+  const canHover = useCanHover();
 
   // Height policy: square-ish on mobile, 3:2 on desktop, scales with node count
   const isMobile = measuredWidth > 0 && measuredWidth < 480;
