@@ -1,0 +1,2545 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-966",
+  "generatedAt": "2026-11-14T22:01:18Z",
+  "from": {
+    "epoch": 965,
+    "commit": "fd3ce147bf92f5bae1e1499b6e793864beccbc83",
+    "committedAt": "2026-11-08T06:01:42+08:00",
+    "registrySha256": "8fdb9c4c20773daefd66c4d9314fe0ece6f9de25949126f47e4d3889cdb26166"
+  },
+  "to": {
+    "epoch": 966,
+    "commit": "4625e49b06a21ecf2238ca0a3310b192ae512a17",
+    "committedAt": "2026-11-15T06:00:45+08:00",
+    "registrySha256": "6cf9b45a3624d5cb27bf75e87380f7b93b8fc75ff38afdd0aa3ec9eccc131be0"
+  },
+  "changeCount": 230,
+  "categories": [
+    {
+      "category": "Producers",
+      "added": 59,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "category": "Producer knowledge",
+      "added": 52,
+      "updated": 77,
+      "removed": 1
+    },
+    {
+      "category": "Place and style education",
+      "added": 0,
+      "updated": 5,
+      "removed": 0
+    },
+    {
+      "category": "Appellations",
+      "added": 4,
+      "updated": 23,
+      "removed": 4
+    },
+    {
+      "category": "Regions",
+      "added": 0,
+      "updated": 3,
+      "removed": 0
+    },
+    {
+      "category": "Grapes",
+      "added": 0,
+      "updated": 1,
+      "removed": 0
+    },
+    {
+      "category": "Producer registries",
+      "added": 0,
+      "updated": 0,
+      "removed": 1
+    }
+  ],
+  "changes": [
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Alban Vineyards",
+      "label": "Alban Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Anaia Wines",
+      "label": "Anaia Wines",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Assolati",
+      "label": "Assolati",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Ayres Vineyard & Winery",
+      "label": "Ayres Vineyard & Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Azienda Agricola Parmoleto",
+      "label": "Azienda Agricola Parmoleto",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Azienda Agricola Piaggia",
+      "label": "Azienda Agricola Piaggia",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Azienda Agricola Poggio Stenti",
+      "label": "Azienda Agricola Poggio Stenti",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Baileyana",
+      "label": "Baileyana",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Beaux Frères",
+      "label": "Beaux Frères",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Benito Ferrara",
+      "label": "Benito Ferrara",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bodega Benegas",
+      "label": "Bodega Benegas",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bodega Dante Robino",
+      "label": "Bodega Dante Robino",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bodegas Bleda",
+      "label": "Bodegas Bleda",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Bodegas Carchelo, S.L.",
+      "label": "Bodegas Carchelo, S.L.",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Borgo Maragliano",
+      "label": "Borgo Maragliano",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Brick House",
+      "label": "Brick House",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Campinuovi",
+      "label": "Campinuovi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Castello ColleMassari",
+      "label": "Castello ColleMassari",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Celler Ronadelles",
+      "label": "Celler Ronadelles",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Cingles Blaus",
+      "label": "Cingles Blaus",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Claiborne & Churchill",
+      "label": "Claiborne & Churchill",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Coeur de Terre Vineyard",
+      "label": "Coeur de Terre Vineyard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Coleman Vineyard",
+      "label": "Coleman Vineyard",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Colline San Biagio",
+      "label": "Colline San Biagio",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Companyia Vitícola Sileo",
+      "label": "Companyia Vitícola Sileo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Berthaut-Gerbet",
+      "label": "Domaine Berthaut-Gerbet",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Domaine Joliet Père et Fils",
+      "label": "Domaine Joliet Père et Fils",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Durigutti Family Winemakers",
+      "label": "Durigutti Family Winemakers",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Ektimo Vineyards",
+      "label": "Ektimo Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Eminent Domaine",
+      "label": "Eminent Domaine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Fabrizio Pratesi",
+      "label": "Fabrizio Pratesi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Familia Blanco",
+      "label": "Familia Blanco",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Fattoria Ambra",
+      "label": "Fattoria Ambra",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Fattoria Nicodemi",
+      "label": "Fattoria Nicodemi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Ferrari Trento",
+      "label": "Ferrari Trento",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Hartford Family Winery",
+      "label": "Hartford Family Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Il Sassolo",
+      "label": "Il Sassolo",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Iron Horse",
+      "label": "Iron Horse",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "La Banditaccia",
+      "label": "La Banditaccia",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "La Biblioteca",
+      "label": "La Biblioteca",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Le Maciarine",
+      "label": "Le Maciarine",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Maison Ambroise",
+      "label": "Maison Ambroise",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Maysara Winery",
+      "label": "Maysara Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Patricia Green Cellars",
+      "label": "Patricia Green Cellars",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Peteglia",
+      "label": "Peteglia",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Piandibugnano",
+      "label": "Piandibugnano",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Podere Allocco",
+      "label": "Podere Allocco",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Small Vines Wines",
+      "label": "Small Vines Wines",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Tenuta di Artimino",
+      "label": "Tenuta di Artimino",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Tenuta L'Impostino",
+      "label": "Tenuta L'Impostino",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Tenuta La Borriana",
+      "label": "Tenuta La Borriana",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Tenuta Pianirossi",
+      "label": "Tenuta Pianirossi",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Trisaetum Winery",
+      "label": "Trisaetum Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Utopia Vineyard & Winery",
+      "label": "Utopia Vineyard & Winery",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Vini Mura",
+      "label": "Vini Mura",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Vinyes d’en Gabriel",
+      "label": "Vinyes d’en Gabriel",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Wolff Vineyards",
+      "label": "Wolff Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Yamhill Valley Vineyards",
+      "label": "Yamhill Valley Vineyards",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producers",
+      "kind": "added",
+      "id": "Youngberg Hill",
+      "label": "Youngberg Hill",
+      "datasets": [
+        "ocr/producers_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:ar:anaia-wines",
+      "label": "Anaia Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:assolati",
+      "label": "Assolati",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:ayres-vineyard-and-winery",
+      "label": "Ayres Vineyard & Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:azienda-agricola-parmoleto",
+      "label": "Azienda Agricola Parmoleto",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:azienda-agricola-piaggia",
+      "label": "Azienda Agricola Piaggia",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:azienda-agricola-poggio-stenti",
+      "label": "Azienda Agricola Poggio Stenti",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:baileyana",
+      "label": "Baileyana",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:benito-ferrara",
+      "label": "Benito Ferrara",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:ar:bodega-benegas",
+      "label": "Bodega Benegas",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:ar:bodega-dante-robino",
+      "label": "Bodega Dante Robino",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:es:bodegas-bleda",
+      "label": "Bodegas Bleda",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:es:bodegas-carchelo-s-l",
+      "label": "Bodegas Carchelo, S.L.",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:borgo-maragliano",
+      "label": "Borgo Maragliano",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:brick-house",
+      "label": "Brick House",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:campinuovi",
+      "label": "Campinuovi",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:castello-collemassari",
+      "label": "Castello ColleMassari",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:es:celler-ronadelles",
+      "label": "Celler Ronadelles",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:es:cingles-blaus",
+      "label": "Cingles Blaus",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:claiborne-and-churchill",
+      "label": "Claiborne & Churchill",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:coeur-de-terre-vineyard",
+      "label": "Coeur de Terre Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:coleman-vineyard",
+      "label": "Coleman Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:colline-san-biagio",
+      "label": "Colline San Biagio",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:es:companyia-viticola-sileo",
+      "label": "Companyia Vitícola Sileo",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-berthaut-gerbet",
+      "label": "Domaine Berthaut-Gerbet",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:domaine-joliet-pere-et-fils",
+      "label": "Domaine Joliet Père et Fils",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:ar:durigutti-family-winemakers",
+      "label": "Durigutti Family Winemakers",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:ektimo-vineyards",
+      "label": "Ektimo Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:eminent-domaine",
+      "label": "Eminent Domaine",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:fabrizio-pratesi",
+      "label": "Fabrizio Pratesi",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:ar:familia-blanco",
+      "label": "Familia Blanco",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:fattoria-ambra",
+      "label": "Fattoria Ambra",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:fattoria-nicodemi",
+      "label": "Fattoria Nicodemi",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:ferrari-trento",
+      "label": "Ferrari Trento",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:hartford-family-winery",
+      "label": "Hartford Family Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:il-sassolo",
+      "label": "Il Sassolo",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:iron-horse",
+      "label": "Iron Horse",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:la-banditaccia",
+      "label": "La Banditaccia",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:la-biblioteca",
+      "label": "La Biblioteca",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:le-maciarine",
+      "label": "Le Maciarine",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:fr:maison-ambroise",
+      "label": "Maison Ambroise",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:maysara-winery",
+      "label": "Maysara Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:peteglia",
+      "label": "Peteglia",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:piandibugnano",
+      "label": "Piandibugnano",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:podere-allocco",
+      "label": "Podere Allocco",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:tenuta-di-artimino",
+      "label": "Tenuta di Artimino",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:tenuta-l-impostino",
+      "label": "Tenuta L'Impostino",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:tenuta-la-borriana",
+      "label": "Tenuta La Borriana",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:tenuta-pianirossi",
+      "label": "Tenuta Pianirossi",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:utopia-vineyard-and-winery",
+      "label": "Utopia Vineyard & Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:it:vini-mura",
+      "label": "Vini Mura",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:es:vinyes-d-en-gabriel",
+      "label": "Vinyes d’en Gabriel",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "added",
+      "id": "prod:us:wolff-vineyards",
+      "label": "Wolff Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:ar:adrianna-vineyard",
+      "label": "Adrianna Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:alban-vineyards",
+      "label": "Alban Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:anaba-wines",
+      "label": "Anaba Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:andrew-murray-vineyards",
+      "label": "Andrew Murray Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:badger-mountain-vineyard",
+      "label": "Badger Mountain Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:balic-winery",
+      "label": "Balic Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:bedrock-wine-co",
+      "label": "Bedrock Wine Co.",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:at:bioweingut-lenikus",
+      "label": "Bioweingut Lenikus",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:bodegas-dios-baco",
+      "label": "Bodegas Dios Baco",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:bodegas-malaga-virgen",
+      "label": "Bodegas Málaga Virgen",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:bodegas-protos",
+      "label": "Bodegas Protos",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:bryn-mawr-vineyards",
+      "label": "Bryn Mawr Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:campillo-winery",
+      "label": "Campillo winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:castello-di-volpaia",
+      "label": "Castello di Volpaia",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:cave-cooperative-de-tavel",
+      "label": "Cave coopérative de Tavel",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:caves-canals--munne",
+      "label": "Caves Canals & Munné",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:celler-malondro",
+      "label": "Celler Malondro",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:ca:chaberton-estate-winery",
+      "label": "Chaberton Estate Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:champagne-bricout",
+      "label": "Champagne Bricout",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:chateau-bouscaut",
+      "label": "Château Bouscaut",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:chateau-brillette",
+      "label": "Château Brillette",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:chateau-couhins-lurton",
+      "label": "Château Couhins-Lurton",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:chateau-dagassac",
+      "label": "Château d'Agassac",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:chateau-de-boursault",
+      "label": "Château de Boursault",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:chateau-haut-marbuzet",
+      "label": "Château Haut-Marbuzet",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:chateau-sainte-roseline",
+      "label": "Château Sainte-Roseline",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:au:chateau-tanunda-winery",
+      "label": "Château Tanunda Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:clos-saint-landelin",
+      "label": "Clos Saint Landelin",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:cooperative-wine-cellar-gandesa",
+      "label": "Cooperative Wine Cellar (Gandesa)",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:au:coorinja-vineyard",
+      "label": "Coorinja Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:corollary-wines",
+      "label": "Corollary Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:david-paige-wines",
+      "label": "David Paige Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:deutschherrenhof",
+      "label": "Deutschherrenhof",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:domaine-steugene",
+      "label": "Domaine St.Eugène",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:domaines-ott",
+      "label": "Domaines Ott",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:domhof",
+      "label": "Domhof",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:ca:flat-rock-cellars",
+      "label": "Flat Rock Cellars",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:g-h-von-mummsches-weingut",
+      "label": "G. H. von Mumm’sches Weingut",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:ca:gaspereau-vineyards",
+      "label": "Gaspereau Vineyards",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:hu:gere-and-schubert-csillagvolgy-pinceszet",
+      "label": "Gere & Schubert – Csillagvölgy Pincészet",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:hu:hilltop-neszmely",
+      "label": "Hilltop Neszmély",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:josef-hofstatter",
+      "label": "Josef Hofstätter",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:au:lindemans",
+      "label": "Lindeman's",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:fr:maison-joseph-drouhin",
+      "label": "Maison Joseph Drouhin",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:at:mayer-am-pfarrplatz",
+      "label": "Mayer am Pfarrplatz",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:au:mount-avoca-vineyard",
+      "label": "Mount Avoca Vineyard",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:cl:ochagavia-wines",
+      "label": "Ochagavia Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:es:pago-de-otazu",
+      "label": "Pago de Otazu",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:ca:painted-rock-estate-winery",
+      "label": "Painted Rock Estate Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:patricia-green-cellars",
+      "label": "Patricia Green Cellars",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:pt:quinta-do-junco",
+      "label": "Quinta do Junco",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:rocca-di-frassinello",
+      "label": "Rocca di Frassinello",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:hu:sabar-winery",
+      "label": "Sabar Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:salwey",
+      "label": "Salwey",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:small-vines-wines",
+      "label": "Small Vines Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:il:tabor",
+      "label": "Tabor",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:ca:tawse-winery",
+      "label": "Tawse Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:it:tenute-olbios",
+      "label": "Tenute Olbios",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:il:teperberg-1870",
+      "label": "Teperberg 1870",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:the-donum-estate",
+      "label": "The Donum Estate",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:three-sticks-wines",
+      "label": "Three Sticks Wines",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:hu:tiffan-ede-pinceszet",
+      "label": "Tiffán Ede Pincészet",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:hu:tokaj-hetszolo-wine-estate",
+      "label": "Tokaj-Hétszőlő wine estate",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:us:trisaetum-winery",
+      "label": "Trisaetum Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:ca:trius-winery",
+      "label": "Trius Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:il:tulip-winery",
+      "label": "Tulip Winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:vereinigte-weinguter-krebs-grode",
+      "label": "Vereinigte Weingüter Krebs-Grode",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:cl:vina-tipaume",
+      "label": "Viña Tipaume",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:at:weinbau-und-heuriger-weindorfer",
+      "label": "Weinbau und Heuriger Weindorfer",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:weingut-bergdolt",
+      "label": "Weingut Bergdolt",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:weingut-graf-von-kanitz",
+      "label": "Weingut Graf von Kanitz",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:weingut-josef-biffar",
+      "label": "Weingut Josef Biffar",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:weingut-kessler",
+      "label": "Weingut Kessler",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:at:weingut-und-heuriger-klager",
+      "label": "Weingut und Heuriger Klager",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:at:weingut-und-heuriger-wolfgang-hofer",
+      "label": "Weingut und Heuriger Wolfgang Hofer",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:de:weingut-von-othegraven",
+      "label": "Weingut von Othegraven",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "updated",
+      "id": "prod:at:winery-landauer-gisperg-winzerhof",
+      "label": "Winery Landauer-Gisperg \"Winzerhof\"",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ],
+      "fields": [
+        "summary"
+      ],
+      "otherFieldCount": 6
+    },
+    {
+      "category": "Producer knowledge",
+      "kind": "removed",
+      "id": "prod:au:stags-leap-winery",
+      "label": "prod:au:stags-leap-winery",
+      "datasets": [
+        "education/producer_education_v1.json"
+      ]
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:es:condado-de-huelva",
+      "label": "Condado de Huelva",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "keyGrapes"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:pt:lafoes",
+      "label": "Lafões",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "description",
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:pt:tras-os-montes",
+      "label": "Trás-os-Montes",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "description",
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:pt:tavora-varosa",
+      "label": "Távora-Varosa",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "description",
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Place and style education",
+      "kind": "updated",
+      "id": "geo:pt:obidos",
+      "label": "Óbidos",
+      "datasets": [
+        "education/wine_education.json"
+      ],
+      "fields": [
+        "description",
+        "name"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Lafões",
+      "label": "Lafões",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Trás-os-Montes",
+      "label": "Trás-os-Montes",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Távora-Varosa",
+      "label": "Távora-Varosa",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "added",
+      "id": "Óbidos",
+      "label": "Óbidos",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Anderson Valley",
+      "label": "Anderson Valley",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [
+        "typical_wine_type"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Carmignano",
+      "label": "Carmignano",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Chassagne-Montrachet",
+      "label": "Chassagne-Montrachet",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Côte de Nuits-Villages",
+      "label": "Côte de Nuits-Villages",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Edna Valley",
+      "label": "Edna Valley",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Fixin",
+      "label": "Fixin",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Greco di Tufo",
+      "label": "Greco di Tufo",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Green Valley of Russian River Valley",
+      "label": "Green Valley of Russian River Valley",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [
+        "typical_wine_type"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Jumilla",
+      "label": "Jumilla",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Lisboa",
+      "label": "Lisboa",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [
+        "typical_wine_type"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Loazzolo",
+      "label": "Loazzolo",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Luján de Cuyo",
+      "label": "Luján de Cuyo",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "McMinnville",
+      "label": "McMinnville",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Montecucco",
+      "label": "Montecucco",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Montepulciano d'Abruzzo Colline Teramane",
+      "label": "Montepulciano d'Abruzzo Colline Teramane",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Montsant",
+      "label": "Montsant",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Mornington Peninsula",
+      "label": "Mornington Peninsula",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [
+        "typical_wine_type"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Pernand-Vergelesses",
+      "label": "Pernand-Vergelesses",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [
+        "typical_wine_type"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Ribbon Ridge",
+      "label": "Ribbon Ridge",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Russian River Valley",
+      "label": "Russian River Valley",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [
+        "typical_wine_type"
+      ],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Sancerre",
+      "label": "Sancerre",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [
+        "typical_wine_type"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Trento",
+      "label": "Trento",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "updated",
+      "id": "Vermentino di Gallura",
+      "label": "Vermentino di Gallura",
+      "datasets": [
+        "atlas/appellations_v1_core.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 1
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Lafoes",
+      "label": "Lafoes",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Obidos",
+      "label": "Obidos",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Tavora-Varosa",
+      "label": "Tavora-Varosa",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Appellations",
+      "kind": "removed",
+      "id": "Tras-os-Montes",
+      "label": "Tras-os-Montes",
+      "datasets": [
+        "atlas/appellations_v1_extended.json"
+      ]
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Dão",
+      "label": "Dão",
+      "datasets": [
+        "atlas/regions_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Lisboa",
+      "label": "Lisboa",
+      "datasets": [
+        "atlas/regions_v1_extended.json"
+      ],
+      "fields": [
+        "typical_wine_type"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Regions",
+      "kind": "updated",
+      "id": "Setúbal",
+      "label": "Setúbal",
+      "datasets": [
+        "atlas/regions_v1_extended.json"
+      ],
+      "fields": [
+        "aliases",
+        "typical_wine_type"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Grapes",
+      "kind": "updated",
+      "id": "Palomino",
+      "label": "Palomino",
+      "datasets": [
+        "ocr/grapes_v1_core.json"
+      ],
+      "fields": [
+        "aliases"
+      ],
+      "otherFieldCount": 0
+    },
+    {
+      "category": "Producer registries",
+      "kind": "removed",
+      "id": "prod:au:stags-leap-winery",
+      "label": "Stags' Leap Winery",
+      "datasets": [
+        "ocr/producers_v1_wikidata.json"
+      ]
+    }
+  ]
+}
