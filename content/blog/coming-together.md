@@ -1,6 +1,6 @@
 ---
 title: Coming Together
-date: 2026-11-16
+date: 2026-11-15
 description: What becomes possible when your cellar, journal and atlas come together — a first look at excursions, coming soon to vynr.
 heroImage: /journal/excursion-flyin.gif
 heroAlt: Flying in to Bordeaux
@@ -71,4 +71,4 @@ Start with a place, a wine, a producer or even a grape. Each opens a different p
 
 There's still plenty to build. But this is what I've been working towards since the beginning: a wine collection that doesn't just record what you've discovered, but helps you discover what comes next.
 
-Excursions are coming soon. And this is just the beginning.
+Excursions are coming soon.
