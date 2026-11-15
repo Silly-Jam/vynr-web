@@ -21,7 +21,11 @@ But they were always meant to work together.
 
 Now that all three are live, I can start building the ideas that need them all at once.
 
-Here's the first one I want to show you. It's still in development, but it's working, and I'm excited about it.
+A wine you've enjoyed is more than a bottle in your cellar. It comes from somewhere. It has a producer, a landscape, a history, and connections to wines you may never have come across.
+
+What if you could start with that one bottle and follow those connections wherever they lead?
+
+Here's the first thing I've built to do that. It's still in development, but it's working, and I'm excited about it.
 
 ## It starts with your wine
 
@@ -31,15 +35,15 @@ You land on a real map of the place, not a list or a page.
 
 ## And opens up a world
 
-Around the place, vynr lays out what it knows, such as what the place is, the places within it, its typical grapes, what's in your cellar from there, your journal entries, Vynrpedia entries.
+Around Bordeaux, the connections begin to appear: the places within it, the grapes grown there, the wines you've collected from there, the notes you've written, and what Vynrpedia has to say. Explore them one at a time, following whatever catches your interest.
 
 ![Bordeaux, with your own wines marked in red near Graves and the Médoc](/journal/excursion-bordeaux-settled.png)
 
-Open one at a time. Here are your own Bordeaux wines:
+Here are your own Bordeaux wines:
 
 ![Eight Bordeaux wines from your cellar](/journal/excursion-in-your-cellar.png)
 
-Pan and zoom wherever you like. New places bring their own notes with them, and you stay on what you were exploring until you choose to follow something else. When you're done, one gesture takes you back to where you started.
+And you're not confined to where you began. Pan and zoom wherever your curiosity goes: new places bring their own notes with them, and you stay on what you were exploring until you choose to follow something else. When you're done, one gesture takes you back to where you started.
 
 ![Zooming out from Bordeaux and across to Sicily, where a Donnafugata from the cellar is marked in red](/journal/excursion-to-sicily.gif)
 
@@ -55,12 +59,16 @@ An excursion shows all three on one map. Your own records are in red. What vynr 
 
 You can follow connections, from a place to its grapes or from a grape to where it's grown, and vynr shows why each step is connected. It only shows real relationships: if vynr knows little about a place, you'll see less, not filler.
 
-It works in two directions. Inward, it explains your own wines and memories through their places, producers and history. Outward, it leads you into the parts of the wine world you haven't explored yet. That second part matters if you're learning about wine: it's a way to browse the atlas, shaped by what you've tasted and showing what you haven't.
+It works in two directions. Inward, it explains your own wines and memories through their places, producers and history. Outward, it leads you into the parts of the wine world you haven't explored yet.
+
+Say you wrote about a Saint-Émilion after a dinner last spring. Open Bordeaux and that note is there, in red. Follow Bordeaux's grapes to Cabernet Franc, then to where else it's grown, and the map carries you up to the Loire — somewhere you've never bought a bottle from.
+
+That's the part that matters most to me. It's a way to browse the atlas if you're learning about wine, shaped by what you've tasted and showing you what you haven't. It's a reason to open vynr when there's no new bottle to scan.
 
 ## Excursions, taking shape in vynr
 
-Places are one starting point. You can also start from a wine, a producer or a grape. A grape doesn't have one place on the map, so vynr won't invent one. It shows the grape around a place it's connected to, and tells you why. Starting from a journal entry comes later.
+Start with a place, a wine, a producer or even a grape. Each opens a different path through the atlas, and every connection comes with its reason. Starting from a journal entry comes later.
 
-There's plenty still to work out, but this is what becomes possible when your cellar, journal and atlas come together.
+There's still plenty to build. But this is what I've been working towards since the beginning: a wine collection that doesn't just record what you've discovered, but helps you discover what comes next.
 
-Excursions are coming soon. I'll share more as they take shape.
+Excursions are coming soon. And this is just the beginning.
