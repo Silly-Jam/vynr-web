@@ -450,6 +450,11 @@ button:focus-visible {
   display: block;
   object-fit: cover;
   object-position: center top;
+}
+
+/* Soft edges: inline memory shots, and a large hero so it matches them */
+.memory-shot img,
+.hero-float.hero-float-large img {
   opacity: 0.82;
   filter: saturate(0.88) contrast(0.96);
   border: none;
@@ -497,6 +502,17 @@ button:focus-visible {
   .hero-float {
     width: 140px;
     margin: 0.15rem 0 1rem 1.25rem;
+  }
+}
+
+/* An editorial hero that carries the post (a clip, not a label): opt-in via heroSize: large */
+.hero-float-large {
+  width: 300px;
+}
+
+@media (max-width: 480px) {
+  .hero-float-large {
+    width: 180px;
   }
 }
 
