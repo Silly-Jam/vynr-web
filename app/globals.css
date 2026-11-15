@@ -450,6 +450,11 @@ button:focus-visible {
   display: block;
   object-fit: cover;
   object-position: center top;
+}
+
+/* Soft edges: inline memory shots, and a large hero so it matches them */
+.memory-shot img,
+.hero-float.hero-float-large img {
   opacity: 0.82;
   filter: saturate(0.88) contrast(0.96);
   border: none;
