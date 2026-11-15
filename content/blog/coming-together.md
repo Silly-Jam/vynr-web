@@ -31,13 +31,13 @@ You land on a real map of the place, not a list or a page.
 
 ## And opens up a world
 
-Around the place, vynr lays out what it knows: what the place is, the places within it, its typical grapes, what's in your cellar from there, your journal entries, Vynrpedia entries.
+Around the place, vynr lays out what it knows, such as what the place is, the places within it, its typical grapes, what's in your cellar from there, your journal entries, Vynrpedia entries.
 
 ![Bordeaux, with your own wines marked in red near Graves and the Médoc](/journal/excursion-bordeaux-settled.png)
 
-Open one at a time. Here's *In your cellar* for Bordeaux:
+Open one at a time. Here are your own Bordeaux wines:
 
-![In your cellar — eight Bordeaux wines](/journal/excursion-in-your-cellar.png)
+![Eight Bordeaux wines from your cellar](/journal/excursion-in-your-cellar.png)
 
 Pan and zoom wherever you like. New places bring their own notes with them, and you stay on what you were exploring until you choose to follow something else. When you're done, one gesture takes you back to where you started.
 
@@ -59,7 +59,7 @@ It works in two directions. Inward, it explains your own wines and memories thro
 
 ## Excursions, taking shape in vynr
 
-Places are one starting point. You'll also be able to start from a wine, a producer or a grape. A grape doesn't have one place on the map, so vynr won't invent one. It shows the grape around a place it's connected to, and tells you why. Starting from a journal entry comes later.
+Places are one starting point. You can also start from a wine, a producer or a grape. A grape doesn't have one place on the map, so vynr won't invent one. It shows the grape around a place it's connected to, and tells you why. Starting from a journal entry comes later.
 
 There's plenty still to work out, but this is what becomes possible when your cellar, journal and atlas come together.
 
