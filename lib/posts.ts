@@ -29,6 +29,8 @@ export interface PostMeta {
   canonical?: string
   heroImage?: string
   heroAlt?: string
+  /** "large" floats an editorial hero at 300px instead of 200px. */
+  heroSize?: 'large'
   location?: string
   tags?: string[]
   wines?: WineData[]

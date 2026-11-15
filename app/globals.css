@@ -500,6 +500,17 @@ button:focus-visible {
   }
 }
 
+/* An editorial hero that carries the post (a clip, not a label): opt-in via heroSize: large */
+.hero-float-large {
+  width: 300px;
+}
+
+@media (max-width: 480px) {
+  .hero-float-large {
+    width: 180px;
+  }
+}
+
 .hero-float img {
   width: 100%;
   height: auto;

@@ -154,7 +154,8 @@ export default async function PostPage({
       }
     } else {
       // Editorial posts: floated right, text wraps around
-      const heroHtml = `<figure class="hero-float"><img src="${post.heroImage}" alt="${heroAlt.replace(/"/g, "&quot;")}" />${post.heroAlt ? `<figcaption class="journal-caption">${post.heroAlt}</figcaption>` : ""}</figure>`;
+      const heroClass = post.heroSize === "large" ? "hero-float hero-float-large" : "hero-float";
+      const heroHtml = `<figure class="${heroClass}"><img src="${post.heroImage}" alt="${heroAlt.replace(/"/g, "&quot;")}" />${post.heroAlt ? `<figcaption class="journal-caption">${post.heroAlt}</figcaption>` : ""}</figure>`;
       const first = processedSegments[0];
       if (first.type === "html") {
         processedSegments[0] = { type: "html", html: heroHtml + first.html };
