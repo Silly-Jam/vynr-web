@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-968",
+  "generatedAt": "2026-11-22T07:35:26Z",
+  "from": {
+    "epoch": 967,
+    "commit": "952627da1da8b1c1f3b49340f418008330233b1a",
+    "committedAt": "2026-11-22T09:38:07+08:00",
+    "registrySha256": "151b01661d8c348fccdd3e06ccfc9ad8fdca9ac4c7bd83f236cb3c9a62b8ecbe"
+  },
+  "to": {
+    "epoch": 968,
+    "commit": "a28b9d43fac96f9317f6087c263860d4e4aca7f1",
+    "committedAt": "2026-11-22T15:34:38+08:00",
+    "registrySha256": "28d7e92ee6dd21042fb5b4be41e53f1e778564b35d5c4cda4288a86cbb851ed6"
+  },
+  "changeCount": 0,
+  "categories": [],
+  "changes": []
+}
