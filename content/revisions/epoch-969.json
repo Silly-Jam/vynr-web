@@ -1,0 +1,952 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-969",
+  "generatedAt": "2026-11-22T11:59:27Z",
+  "from": {
+    "epoch": 968,
+    "commit": "a28b9d43fac96f9317f6087c263860d4e4aca7f1",
+    "committedAt": "2026-11-22T15:34:38+08:00",
+    "registrySha256": "28d7e92ee6dd21042fb5b4be41e53f1e778564b35d5c4cda4288a86cbb851ed6"
+  },
+  "to": {
+    "epoch": 969,
+    "commit": "1f69878db4e19c9500adb333a4c6556b0743d836",
+    "committedAt": "2026-11-22T19:58:44+08:00",
+    "registrySha256": "bf44129826e8d5a254f7fdafa3ab72d6fe0035ce72de4a48f991483197a009ce"
+  },
+  "changeCount": 102,
+  "categories": [
+    {
+      "category": "Media",
+      "added": 1,
+      "updated": 0,
+      "removed": 0
+    },
+    {
+      "category": "Map labels",
+      "added": 101,
+      "updated": 0,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Media",
+      "kind": "added",
+      "id": "trail-twelve-wines-audio-silent-night",
+      "label": "trail-twelve-wines-audio-silent-night",
+      "datasets": [
+        "registry.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Adriatic Sea",
+      "label": "Adriatic Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Aegean Sea",
+      "label": "Aegean Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Afghanistan",
+      "label": "Afghanistan",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Albania",
+      "label": "Albania",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Algeria",
+      "label": "Algeria",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Arabian Sea",
+      "label": "Arabian Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Argentina",
+      "label": "Argentina",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Armenia",
+      "label": "Armenia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Atlantic Ocean",
+      "label": "Atlantic Ocean",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Austria",
+      "label": "Austria",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Azerbaijan",
+      "label": "Azerbaijan",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Bass Strait",
+      "label": "Bass Strait",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Bay of Bengal",
+      "label": "Bay of Bengal",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Bay of Biscay",
+      "label": "Bay of Biscay",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Belgium",
+      "label": "Belgium",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Black Sea",
+      "label": "Black Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Bolivia",
+      "label": "Bolivia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Bosnia",
+      "label": "Bosnia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Botswana",
+      "label": "Botswana",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Brazil",
+      "label": "Brazil",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Bulgaria",
+      "label": "Bulgaria",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Canada",
+      "label": "Canada",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Caribbean Sea",
+      "label": "Caribbean Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Celtic Sea",
+      "label": "Celtic Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Chile",
+      "label": "Chile",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:China",
+      "label": "China",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Colombia",
+      "label": "Colombia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Croatia",
+      "label": "Croatia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Czechia",
+      "label": "Czechia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Denmark",
+      "label": "Denmark",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:East China Sea",
+      "label": "East China Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Egypt",
+      "label": "Egypt",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:English Channel",
+      "label": "English Channel",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:France",
+      "label": "France",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Germany",
+      "label": "Germany",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Greece",
+      "label": "Greece",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Greenland",
+      "label": "Greenland",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Gulf of Mexico",
+      "label": "Gulf of Mexico",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Hungary",
+      "label": "Hungary",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:India",
+      "label": "India",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Indonesia",
+      "label": "Indonesia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Ionian Sea",
+      "label": "Ionian Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Iran",
+      "label": "Iran",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Iraq",
+      "label": "Iraq",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Ireland",
+      "label": "Ireland",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Israel",
+      "label": "Israel",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Italy",
+      "label": "Italy",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Jordan",
+      "label": "Jordan",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Kazakhstan",
+      "label": "Kazakhstan",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Kosovo",
+      "label": "Kosovo",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Lebanon",
+      "label": "Lebanon",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Levantine Sea",
+      "label": "Levantine Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Libya",
+      "label": "Libya",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Ligurian Sea",
+      "label": "Ligurian Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Madagascar",
+      "label": "Madagascar",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Mediterranean Sea",
+      "label": "Mediterranean Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Mexico",
+      "label": "Mexico",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Moldova",
+      "label": "Moldova",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Mongolia",
+      "label": "Mongolia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Montenegro",
+      "label": "Montenegro",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Morocco",
+      "label": "Morocco",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Mozambique",
+      "label": "Mozambique",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Myanmar",
+      "label": "Myanmar",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:N. Cyprus",
+      "label": "N. Cyprus",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:N. Macedonia",
+      "label": "N. Macedonia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Namibia",
+      "label": "Namibia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:North Sea",
+      "label": "North Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Norway",
+      "label": "Norway",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Pacific Ocean",
+      "label": "Pacific Ocean",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Pakistan",
+      "label": "Pakistan",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Palestine",
+      "label": "Palestine",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Paraguay",
+      "label": "Paraguay",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Peru",
+      "label": "Peru",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Philippine Sea",
+      "label": "Philippine Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Poland",
+      "label": "Poland",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Portugal",
+      "label": "Portugal",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Romania",
+      "label": "Romania",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Russia",
+      "label": "Russia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Río de la Plata",
+      "label": "Río de la Plata",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Saudi Arabia",
+      "label": "Saudi Arabia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Sea of Japan",
+      "label": "Sea of Japan",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Sea of Marmara",
+      "label": "Sea of Marmara",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Serbia",
+      "label": "Serbia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Slovakia",
+      "label": "Slovakia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Slovenia",
+      "label": "Slovenia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:South China Sea",
+      "label": "South China Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Southern Ocean",
+      "label": "Southern Ocean",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Spain",
+      "label": "Spain",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Switzerland",
+      "label": "Switzerland",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Syria",
+      "label": "Syria",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Tasman Sea",
+      "label": "Tasman Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Thailand",
+      "label": "Thailand",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Tunisia",
+      "label": "Tunisia",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Turkey",
+      "label": "Turkey",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Tyrrhenian Sea",
+      "label": "Tyrrhenian Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Ukraine",
+      "label": "Ukraine",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:United Kingdom",
+      "label": "United Kingdom",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:United States",
+      "label": "United States",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Venezuela",
+      "label": "Venezuela",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "sea:Yellow Sea",
+      "label": "Yellow Sea",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    },
+    {
+      "category": "Map labels",
+      "kind": "added",
+      "id": "neighbour:Zimbabwe",
+      "label": "Zimbabwe",
+      "datasets": [
+        "atlas/atlas_excursion_geography.json"
+      ]
+    }
+  ]
+}
