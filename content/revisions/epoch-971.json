@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "editionId": "epoch-971",
+  "generatedAt": "2026-11-28T10:24:42Z",
+  "from": {
+    "epoch": 970,
+    "commit": "1fa0602b3709ef15fa7401b5b5ffe79581281dc6",
+    "committedAt": "2026-11-28T16:24:38+08:00",
+    "registrySha256": "4a26bdeb9a4bb1a91bb81d47114b619901121a3225f700d67e920c36d6ee17b6"
+  },
+  "to": {
+    "epoch": 971,
+    "commit": "bc95c98880501a787b108b6b75d2e6926af0ff30",
+    "committedAt": "2026-11-28T18:24:17+08:00",
+    "registrySha256": "b350054d27d35a5c8b27dad8561800d99189a53c8257f94f59c7540f494df980"
+  },
+  "changeCount": 1,
+  "categories": [
+    {
+      "category": "Media",
+      "added": 0,
+      "updated": 1,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "category": "Media",
+      "kind": "updated",
+      "id": "trail-twelve-wines-audio-cork-pop",
+      "label": "trail-twelve-wines-audio-cork-pop",
+      "datasets": [
+        "registry.json"
+      ],
+      "fields": [],
+      "otherFieldCount": 2
+    }
+  ]
+}
